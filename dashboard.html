@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Market Intelligence</title>
+<style>
+  :root { --bg:#0d1117; --card:#161b22; --txt:#e6edf3; --muted:#8b949e;
+          --green:#3fb950; --red:#f85149; --accent:#58a6ff; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,Segoe UI,Roboto,sans-serif;
+         background:var(--bg); color:var(--txt); }
+  header { padding:20px 24px; border-bottom:1px solid #21262d;
+           display:flex; justify-content:space-between; align-items:center; }
+  h1 { font-size:20px; margin:0; }
+  .updated { color:var(--muted); font-size:13px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(340px,1fr));
+          gap:16px; padding:24px; }
+  .card { background:var(--card); border:1px solid #21262d; border-radius:12px;
+          padding:18px; }
+  .card h2 { font-size:15px; margin:0 0 12px; color:var(--accent);
+             text-transform:uppercase; letter-spacing:.5px; }
+  .row { display:flex; justify-content:space-between; padding:7px 0;
+         border-bottom:1px solid #21262d; font-size:14px; }
+  .row:last-child { border-bottom:none; }
+  .up { color:var(--green); } .down { color:var(--red); }
+  .flag { font-size:11px; padding:2px 7px; border-radius:20px; margin-left:6px; }
+  .flag.keep { background:rgba(63,185,80,.15); color:var(--green); }
+  .flag.dip  { background:rgba(248,81,73,.15); color:var(--red); }
+  .flag.watch{ background:rgba(88,166,255,.15); color:var(--accent); }
+  .muted { color:var(--muted); font-size:13px; }
+  .brief { line-height:1.6; font-size:14px; }
+  .disclaimer { padding:0 24px 24px; color:var(--muted); font-size:12px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>📈 Daily Market Intelligence</h1>
+  <span class="updated" id="updated">Loading…</span>
+</header>
+
+<div class="grid">
+  <div class="card">
+    <h2>🗞️ Daily Brief</h2>
+    <div class="brief" id="brief">Loading market brief…</div>
+  </div>
+
+  <div class="card">
+    <h2>👀 Watchlist Quotes</h2>
+    <div id="quotes"><div class="muted">Loading…</div></div>
+  </div>
+
+  <div class="card">
+    <h2>🧮 Screen: Keeper vs Dip (signals)</h2>
+    <div id="screen"><div class="muted">Loading…</div></div>
+  </div>
+
+  <div class="card">
+    <h2>📰 News & Leadership (8-K)</h2>
+    <div id="news"><div class="muted">Loading…</div></div>
+  </div>
+
+  <div class="card">
+    <h2>📅 Earnings & Catalysts</h2>
+    <div id="earnings"><div class="muted">Loading…</div></div>
+  </div>
+</div>
+
+<div class="disclaimer">
+  ⚠️ Informational only. Not financial advice. Signals are heuristics, not predictions.
+</div>
+
+<script>
+// Reads the data.json that the scheduler refreshes daily.
+async function load() {
+  try {
+    const res = await fetch('data.json?_=' + Date.now()); // cache-bust
+    const d = await res.json();
+
+    document.getElementById('updated').textContent =
+      'Updated: ' + (d.generated_at || 'n/a');
+
+    // --- Daily brief ---
+    document.getElementById('brief').textContent =
+      d.brief || 'No brief available.';
+
+    // --- Quotes ---
+    document.getElementById('quotes').innerHTML =
+      (d.quotes || []).map(q => {
+        const cls = q.change_pct >= 0 ? 'up' : 'down';
+        const sign = q.change_pct >= 0 ? '▲' : '▼';
+        return `<div class="row"><span>${q.ticker}</span>
+          <span class="${cls}">$${q.price} ${sign} ${q.change_pct}%</span></div>`;
+      }).join('') || '<div class="muted">No data.</div>';
+
+    // --- Screen (keeper vs dip flags) ---
+    document.getElementById('screen').innerHTML =
+      (d.screen || []).map(s => {
+        const flag = s.signal === 'keeper' ? 'keep'
+                   : s.signal === 'dip-risk' ? 'dip' : 'watch';
+        return `<div class="row"><span>${s.ticker}
+          <span class="flag ${flag}">${s.signal}</span></span>
+          <span class="muted">RSI ${s.rsi} · ${s.vs_200ma}</span></div>`;
+      }).join('') || '<div class="muted">No data.</div>';
+
+    // --- News / leadership ---
+    document.getElementById('news').innerHTML =
+      (d.news || []).map(n =>
+        `<div class="row"><a href="${n.url}" target="_blank"
+          style="color:var(--txt);text-decoration:none">${n.headline}</a></div>`
+      ).join('') || '<div class="muted">No headlines.</div>';
+
+    // --- Earnings ---
+    document.getElementById('earnings').innerHTML =
+      (d.earnings || []).map(e =>
+        `<div class="row"><span>${e.ticker}</span>
+          <span class="muted">${e.date}</span></div>`
+      ).join('') || '<div class="muted">No upcoming earnings.</div>';
+
+  } catch (e) {
+    document.getElementById('brief').textContent =
+      'Could not load data.json — has the fetcher run yet?';
+  }
+}
+load();
+// Light auto-refresh while the page is open (every 5 min)
+setInterval(load, 5 * 60 * 1000);
+</script>
+</body>
+</html>
