@@ -10,8 +10,32 @@ import pandas as pd
 import requests
 
 # ---- CONFIG (you will edit these in Phase 6) ----
-WATCHLIST = ["AAPL", "MSFT", "NVDA", "AMZN", "GOOGL"]   # <-- your tickers
-SEC_UA = "your-name your-email@example.com"             # SEC requires a real UA
+WATCHLIST = [
+    "AAPL", "MSFT", "NVDA", "AMZN", "GOOGL",
+    "GOOG", "META", "TSLA", "AVGO", "BRK.B",
+    "LLY", "JPM", "V", "MA", "WMT",
+    "XOM", "ORCL", "NFLX", "COST", "JNJ",
+    "PG", "HD", "ABBV", "BAC", "KO",
+
+    "CRM", "ADBE", "AMD", "QCOM", "TXN",
+    "AMGN", "INTU", "LOW", "SPGI", "CAT",
+    "GE", "BKNG", "TMO", "SCHW", "PGR",
+    "GILD", "VRTX", "HON", "DE", "SYK",
+    "PANW", "ANET", "LRCX", "MU", "ADP",
+
+    "DKNG", "RDDT", "CELH", "ARM", "APP",
+    "SOFI", "HOOD", "CAVA", "RKLB", "PLTR",
+    "UBER", "LYFT", "FSLR", "WING", "EME",
+    "DUOL", "PINS", "BROS", "ELF", "FTAI",
+    "ONON", "HIMS", "CRDO", "ASTS", "NXT",
+
+    "IONQ", "RGTI", "QBTS", "SOUN", "ACHR",
+    "JOBY", "LUNR", "RDW", "SATS", "BKSY",
+    "AUR", "LAZR", "AEHR", "BTDR", "CLSK",
+    "RIOT", "MARA", "UPWK", "FVRR", "COUR",
+    "DNA", "OUST", "BLZE", "AMPL", "CRNC"
+]  # <-- your tickers
+SEC_UA = "Srihari D devshari.business@gmail.com"             # SEC requires a real UA
 FINNHUB_KEY = os.getenv("FINNHUB_KEY", "")              # optional
 NEWSAPI_KEY = os.getenv("NEWSAPI_KEY", "")              # optional
 # -------------------------------------------------
