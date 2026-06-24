@@ -168,7 +168,6 @@ def fetch_earnings(ticker):
     except Exception:
         pass
     return None
-
 # ---------- 3) engaging daily brief ----------
 def build_brief(quotes, screen):
     if not quotes:
@@ -191,8 +190,8 @@ def build_brief(quotes, screen):
     if keepers: lines.append(f"💚 Strength (oversold-in-uptrend): {', '.join(keepers)}.")
     if dips:    lines.append(f"⚠️ Pullback risk (overbought): {', '.join(dips)}.")
     lines.append("🔎 Tip: check the 8-K feed for leadership or material events. Signals are heuristics, not advice.")
-    return "  
-".join(lines)
+    sep = "  " + chr(10)   # two spaces + newline, built safely so paste can't break it
+    return sep.join(lines)
 
 # ---------- main ----------
 def main():
