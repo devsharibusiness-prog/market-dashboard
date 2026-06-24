@@ -22,10 +22,11 @@ jobs:
         env:
           FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+      - run: python suggest.py
       - name: Commit refreshed data.json
         run: |
           git config user.name "market-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add data.json
+          git add data.json suggestions.json
           git commit -m "Daily data refresh $(date -u)" || echo "no changes"
           git push
