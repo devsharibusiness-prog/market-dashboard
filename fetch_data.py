@@ -196,7 +196,7 @@ def build_brief(quotes, screen):
 # ---------- main ----------
 def main():
     quotes, screen, trades, news, earnings = [], [], [], [], []
-    print(f"Fetching {len(WATCHLIST)} tickers…")
+    print(f"Fetching {len(WATCHLIST)} tickers...")
     for tk in WATCHLIST:
         q, s, tr = build_ticker(tk)
         if q: quotes.append(q)
@@ -215,8 +215,10 @@ def main():
     }
     with open("data.json", "w") as f:
         json.dump(data, f, indent=2)
-    print(f"
-✅ Wrote data.json with {len(quotes)} of {len(WATCHLIST)} tickers.")
+    print("")
+    print(f"Wrote data.json with {len(quotes)} of {len(WATCHLIST)} tickers.")
 
 if __name__ == "__main__":
+    main()
+= "__main__":
     main()
