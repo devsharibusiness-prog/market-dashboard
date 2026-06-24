@@ -1,18 +1,42 @@
 #!/usr/bin/env python3
 """
-Daily market data fetcher (HARDENED). Writes data.json for the dashboard.
-A failure on ONE ticker no longer crashes the whole run.
+Daily market data fetcher (HARDENED, escape-free).
+Writes data.json for the dashboard. One bad ticker won't crash the run.
 Features: market-cap classification, swing/intraday/long-term trade levels,
 engaging daily brief. Uses yfinance + SEC EDGAR (free).
 """
-import json, datetime, os, traceback
+import json, datetime, traceback
 import yfinance as yf
 import pandas as pd
 import requests
 
 # ---- CONFIG (edit these) ----
-WATCHLIST = ["AAPL", "MSFT", "NVDA", "AMZN", "GOOGL"]   # <-- your tickers
-SEC_UA = "your-name your-email@example.com"             # SEC requires a real UA
+WATCHLIST = [
+    "AAPL", "MSFT", "NVDA", "AMZN", "GOOGL",
+    "GOOG", "META", "TSLA", "AVGO", "BRK.B",
+    "LLY", "JPM", "V", "MA", "WMT",
+    "XOM", "ORCL", "NFLX", "COST", "JNJ",
+    "PG", "HD", "ABBV", "BAC", "KO",
+
+    "CRM", "ADBE", "AMD", "QCOM", "TXN",
+    "AMGN", "INTU", "LOW", "SPGI", "CAT",
+    "GE", "BKNG", "TMO", "SCHW", "PGR",
+    "GILD", "VRTX", "HON", "DE", "SYK",
+    "PANW", "ANET", "LRCX", "MU", "ADP",
+
+    "DKNG", "RDDT", "CELH", "ARM", "APP",
+    "SOFI", "HOOD", "CAVA", "RKLB", "PLTR",
+    "UBER", "LYFT", "FSLR", "WING", "EME",
+    "DUOL", "PINS", "BROS", "ELF", "FTAI",
+    "ONON", "HIMS", "CRDO", "ASTS", "NXT",
+
+    "IONQ", "RGTI", "QBTS", "SOUN", "ACHR",
+    "JOBY", "LUNR", "RDW", "SATS", "BKSY",
+    "AUR", "LAZR", "AEHR", "BTDR", "CLSK",
+    "RIOT", "MARA", "UPWK", "FVRR", "COUR",
+    "DNA", "OUST", "BLZE", "AMPL", "CRNC"
+]  # <-- your tickers
+SEC_UA = "Srihari D devshari.business@gmail.com"             # SEC requires a real UA
 # -----------------------------
 
 # ---------- indicators ----------
@@ -33,7 +57,7 @@ def atr(hist, period=14):
     val = tr.rolling(period).mean().iloc[-1]
     return round(float(val), 2) if pd.notna(val) else None
 
-# ---------- 1) market-cap classification ----------
+# ---------- market-cap classification ----------
 def classify_cap(market_cap):
     if not market_cap or market_cap <= 0:
         return "Unknown", None
@@ -48,8 +72,6 @@ def classify_cap(market_cap):
     return tier, s
 
 def get_market_cap(t):
-    """Try several ways to get market cap; never raise."""
-    # try fast_info first
     try:
         fi = t.fast_info
         mc = None
@@ -58,7 +80,6 @@ def get_market_cap(t):
         if mc: return mc
     except Exception:
         pass
-    # fall back to .info (slower, sometimes flaky)
     try:
         info = t.info
         mc = info.get("marketCap")
@@ -67,7 +88,7 @@ def get_market_cap(t):
         pass
     return None
 
-# ---------- 2) trade-bucket levels ----------
+# ---------- trade-bucket levels ----------
 def round2(x): return round(float(x), 2)
 
 def build_trade_buckets(price, atr_val):
@@ -88,7 +109,7 @@ def build_trade_buckets(price, atr_val):
         "long_term": setup(3.0, 8.0),
     }
 
-# ---------- per-ticker build (wrapped, never crashes the run) ----------
+# ---------- per-ticker build (never crashes the run) ----------
 def build_ticker(ticker):
     try:
         t = yf.Ticker(ticker)
@@ -115,7 +136,6 @@ def build_ticker(ticker):
         hi52 = float(hist["Close"].max()); lo52 = float(hist["Close"].min())
         pos52 = round((price - lo52) / (hi52 - lo52) * 100, 0) if hi52 != lo52 else 50
 
-        # signal heuristic
         if r is not None and ma200 and r < 35 and price > ma200:
             signal = "keeper"
         elif r is not None and r > 70:
@@ -144,15 +164,18 @@ def fetch_sec_8k(ticker):
                          headers={"User-Agent": SEC_UA}, timeout=15).json()
         cik = next((str(v["cik_str"]).zfill(10) for v in m.values()
                     if v["ticker"] == ticker), None)
-        if not cik: return []
+        if not cik:
+            return []
         sub = requests.get(f"https://data.sec.gov/submissions/CIK{cik}.json",
                            headers={"User-Agent": SEC_UA}, timeout=15).json()
-        recent = sub["filings"]["recent"]; out = []
+        recent = sub["filings"]["recent"]
+        out = []
         for form, date in zip(recent["form"], recent["filingDate"]):
             if form == "8-K":
                 out.append({"headline": f"{ticker} 8-K filed {date} (material event)",
                             "url": f"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK={cik}&type=8-K"})
-            if len(out) >= 3: break
+            if len(out) >= 3:
+                break
         return out
     except Exception as e:
         print(f"  [news skip] {ticker}: {e}")
@@ -163,34 +186,40 @@ def fetch_earnings(ticker):
     try:
         cal = yf.Ticker(ticker).calendar
         if isinstance(cal, dict) and cal.get("Earnings Date"):
-            d = cal["Earnings Date"]; d = d[0] if isinstance(d, list) else d
+            d = cal["Earnings Date"]
+            d = d[0] if isinstance(d, list) else d
             return {"ticker": ticker, "date": str(d)}
     except Exception:
         pass
     return None
-# ---------- 3) engaging daily brief ----------
+
+# ---------- engaging daily brief ----------
 def build_brief(quotes, screen):
     if not quotes:
-        return "🧭 No data could be loaded today — check the workflow logs for ticker errors."
+        return "No data could be loaded today - check the workflow logs for ticker errors."
     movers = sorted(quotes, key=lambda x: abs(x["change_pct"]), reverse=True)
     top = movers[0]
     gainers = [q for q in quotes if q["change_pct"] > 0]
     losers  = [q for q in quotes if q["change_pct"] < 0]
     keepers = [s["ticker"] for s in screen if s["signal"] == "keeper"]
     dips    = [s["ticker"] for s in screen if s["signal"] == "dip-risk"]
-    if len(keepers) >= len(dips): mood = "🟢"
-    elif len(dips) > len(keepers): mood = "🔴"
-    else: mood = "🟡"
+    if len(keepers) >= len(dips):
+        mood = "🟢"
+    elif len(dips) > len(keepers):
+        mood = "🔴"
+    else:
+        mood = "🟡"
     arrow = "🚀" if top["change_pct"] > 0 else "📉"
-    lines = [
-        f"{mood} Good day, SRIHARI! Here's your market pulse.",
-        f"{arrow} Today's headline mover is {top['ticker']} at {top['change_pct']:+.2f}% ({top['cap_tier']} cap).",
-        f"📊 Breadth: {len(gainers)} up vs {len(losers)} down on your watchlist.",
-    ]
-    if keepers: lines.append(f"💚 Strength (oversold-in-uptrend): {', '.join(keepers)}.")
-    if dips:    lines.append(f"⚠️ Pullback risk (overbought): {', '.join(dips)}.")
+    lines = []
+    lines.append(f"{mood} Good day, SRIHARI! Here's your market pulse.")
+    lines.append(f"{arrow} Today's headline mover is {top['ticker']} at {top['change_pct']:+.2f}% ({top['cap_tier']} cap).")
+    lines.append(f"📊 Breadth: {len(gainers)} up vs {len(losers)} down on your watchlist.")
+    if keepers:
+        lines.append(f"💚 Strength (oversold-in-uptrend): {', '.join(keepers)}.")
+    if dips:
+        lines.append(f"⚠️ Pullback risk (overbought): {', '.join(dips)}.")
     lines.append("🔎 Tip: check the 8-K feed for leadership or material events. Signals are heuristics, not advice.")
-    sep = "  " + chr(10)   # two spaces + newline, built safely so paste can't break it
+    sep = "  " + chr(10)
     return sep.join(lines)
 
 # ---------- main ----------
@@ -207,11 +236,13 @@ def main():
         if e: earnings.append(e)
 
     data = {
-        "generated_at": datetime.datetime.now(datetime.timezone.utc)
-                          .strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "generated_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "brief": build_brief(quotes, screen),
-        "quotes": quotes, "screen": screen, "trades": trades,
-        "news": news, "earnings": earnings,
+        "quotes": quotes,
+        "screen": screen,
+        "trades": trades,
+        "news": news,
+        "earnings": earnings,
     }
     with open("data.json", "w") as f:
         json.dump(data, f, indent=2)
@@ -219,6 +250,4 @@ def main():
     print(f"Wrote data.json with {len(quotes)} of {len(WATCHLIST)} tickers.")
 
 if __name__ == "__main__":
-    main()
-= "__main__":
     main()
