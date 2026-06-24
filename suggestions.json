@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-24T18:18:33Z",
+  "generated_at": "2026-06-24T18:25:31Z",
   "suggestions": [
     {
       "ticker": "GOOGL",
@@ -12,10 +12,10 @@
       "conviction": "Strong",
       "conviction_emoji": "\ud83d\udfe2",
       "tech_notes": [
-        "RSI 41 healthy",
+        "RSI 42 healthy",
         "Above 200MA",
-        "3M +18.6%",
-        "Near 52w high (75%)"
+        "3M +19.3%",
+        "Near 52w high (76%)"
       ],
       "fund_notes": [
         "P/E 26 (rich)",
@@ -24,17 +24,17 @@
         "ROE 39%"
       ],
       "technicals": {
-        "rsi": 41.49,
-        "ma50": 368.87,
-        "ma200": 312.45,
-        "mom_1m": -10.04,
-        "mom_3m": 18.62,
-        "pos_52w": 75.41,
-        "volatility": 2.05,
-        "price": 344.32
+        "rsi": 42.47,
+        "ma50": 368.91,
+        "ma200": 312.46,
+        "mom_1m": -9.54,
+        "mom_3m": 19.28,
+        "pos_52w": 76.22,
+        "volatility": 2.06,
+        "price": 346.24
       },
       "fundamentals": {
-        "pe": 26.24,
+        "pe": 26.39,
         "rev_growth": 21.8,
         "margin": 37.92,
         "roe": 38.88,
@@ -54,8 +54,8 @@
       "tech_notes": [
         "RSI 38 recovering",
         "Above 200MA",
-        "3M +13.2%",
-        "57% of 52w range"
+        "3M +13.5%",
+        "58% of 52w range"
       ],
       "fund_notes": [
         "P/E 30 (rich)",
@@ -64,17 +64,17 @@
         "ROE 114%"
       ],
       "technicals": {
-        "rsi": 37.94,
-        "ma50": 210.03,
+        "rsi": 38.2,
+        "ma50": 210.04,
         "ma200": 190.18,
-        "mom_1m": -7.89,
-        "mom_3m": 13.21,
-        "pos_52w": 57.44,
+        "mom_1m": -7.67,
+        "mom_3m": 13.48,
+        "pos_52w": 57.97,
         "volatility": 2.95,
-        "price": 198.11
+        "price": 198.58
       },
       "fundamentals": {
-        "pe": 30.38,
+        "pe": 30.46,
         "rev_growth": 85.2,
         "margin": 62.97,
         "roe": 114.29,
@@ -94,8 +94,8 @@
       "tech_notes": [
         "RSI 36 recovering",
         "Strong uptrend (>50>200MA)",
-        "3M +17.7%",
-        "Near 52w high (83%)"
+        "3M +17.8%",
+        "Near 52w high (84%)"
       ],
       "fund_notes": [
         "P/E 36 (rich)",
@@ -104,17 +104,17 @@
         "ROE 141%"
       ],
       "technicals": {
-        "rsi": 35.54,
-        "ma50": 290.78,
+        "rsi": 35.99,
+        "ma50": 290.79,
         "ma200": 268.65,
-        "mom_1m": -4.21,
-        "mom_3m": 17.67,
-        "pos_52w": 83.25,
+        "mom_1m": -4.1,
+        "mom_3m": 17.8,
+        "pos_52w": 83.55,
         "volatility": 1.53,
-        "price": 295.82
+        "price": 296.17
       },
       "fundamentals": {
-        "pe": 35.77,
+        "pe": 35.81,
         "rev_growth": 16.6,
         "margin": 27.15,
         "roe": 141.47,
@@ -143,17 +143,17 @@
         "ROE 24%"
       ],
       "technicals": {
-        "rsi": 41.16,
+        "rsi": 41.17,
         "ma50": 256.97,
         "ma200": 232.86,
-        "mom_1m": -10.51,
+        "mom_1m": -10.5,
         "mom_3m": 15.01,
-        "pos_52w": 51.9,
+        "pos_52w": 51.92,
         "volatility": 2.33,
-        "price": 238.34
+        "price": 238.35
       },
       "fundamentals": {
-        "pe": 32.21,
+        "pe": 32.22,
         "rev_growth": 16.6,
         "margin": 12.22,
         "roe": 24.29,
@@ -162,8 +162,8 @@
     },
     {
       "ticker": "MSFT",
-      "total_score": 60.0,
-      "technical_score": 15.0,
+      "total_score": 64.0,
+      "technical_score": 19.0,
       "fundamental_score": 45.0,
       "horizon": "swing",
       "expected_window": "1-6 weeks",
@@ -182,17 +182,17 @@
         "ROE 34%"
       ],
       "technicals": {
-        "rsi": 19.16,
+        "rsi": 19.19,
         "ma50": 412.19,
         "ma200": 447.63,
-        "mom_1m": -11.15,
-        "mom_3m": -0.0,
-        "pos_52w": 8.72,
+        "mom_1m": -11.12,
+        "mom_3m": 0.03,
+        "pos_52w": 8.78,
         "volatility": 2.54,
-        "price": 371.92
+        "price": 372.03
       },
       "fundamentals": {
-        "pe": 22.15,
+        "pe": 22.16,
         "rev_growth": 18.3,
         "margin": 39.34,
         "roe": 34.01,
@@ -205,8 +205,8 @@
     "swing": [
       {
         "ticker": "MSFT",
-        "total_score": 60.0,
-        "technical_score": 15.0,
+        "total_score": 64.0,
+        "technical_score": 19.0,
         "fundamental_score": 45.0,
         "horizon": "swing",
         "expected_window": "1-6 weeks",
@@ -225,17 +225,17 @@
           "ROE 34%"
         ],
         "technicals": {
-          "rsi": 19.16,
+          "rsi": 19.19,
           "ma50": 412.19,
           "ma200": 447.63,
-          "mom_1m": -11.15,
-          "mom_3m": -0.0,
-          "pos_52w": 8.72,
+          "mom_1m": -11.12,
+          "mom_3m": 0.03,
+          "pos_52w": 8.78,
           "volatility": 2.54,
-          "price": 371.92
+          "price": 372.03
         },
         "fundamentals": {
-          "pe": 22.15,
+          "pe": 22.16,
           "rev_growth": 18.3,
           "margin": 39.34,
           "roe": 34.01,
@@ -255,10 +255,10 @@
         "conviction": "Strong",
         "conviction_emoji": "\ud83d\udfe2",
         "tech_notes": [
-          "RSI 41 healthy",
+          "RSI 42 healthy",
           "Above 200MA",
-          "3M +18.6%",
-          "Near 52w high (75%)"
+          "3M +19.3%",
+          "Near 52w high (76%)"
         ],
         "fund_notes": [
           "P/E 26 (rich)",
@@ -267,17 +267,17 @@
           "ROE 39%"
         ],
         "technicals": {
-          "rsi": 41.49,
-          "ma50": 368.87,
-          "ma200": 312.45,
-          "mom_1m": -10.04,
-          "mom_3m": 18.62,
-          "pos_52w": 75.41,
-          "volatility": 2.05,
-          "price": 344.32
+          "rsi": 42.47,
+          "ma50": 368.91,
+          "ma200": 312.46,
+          "mom_1m": -9.54,
+          "mom_3m": 19.28,
+          "pos_52w": 76.22,
+          "volatility": 2.06,
+          "price": 346.24
         },
         "fundamentals": {
-          "pe": 26.24,
+          "pe": 26.39,
           "rev_growth": 21.8,
           "margin": 37.92,
           "roe": 38.88,
@@ -297,8 +297,8 @@
         "tech_notes": [
           "RSI 38 recovering",
           "Above 200MA",
-          "3M +13.2%",
-          "57% of 52w range"
+          "3M +13.5%",
+          "58% of 52w range"
         ],
         "fund_notes": [
           "P/E 30 (rich)",
@@ -307,17 +307,17 @@
           "ROE 114%"
         ],
         "technicals": {
-          "rsi": 37.94,
-          "ma50": 210.03,
+          "rsi": 38.2,
+          "ma50": 210.04,
           "ma200": 190.18,
-          "mom_1m": -7.89,
-          "mom_3m": 13.21,
-          "pos_52w": 57.44,
+          "mom_1m": -7.67,
+          "mom_3m": 13.48,
+          "pos_52w": 57.97,
           "volatility": 2.95,
-          "price": 198.11
+          "price": 198.58
         },
         "fundamentals": {
-          "pe": 30.38,
+          "pe": 30.46,
           "rev_growth": 85.2,
           "margin": 62.97,
           "roe": 114.29,
@@ -337,8 +337,8 @@
         "tech_notes": [
           "RSI 36 recovering",
           "Strong uptrend (>50>200MA)",
-          "3M +17.7%",
-          "Near 52w high (83%)"
+          "3M +17.8%",
+          "Near 52w high (84%)"
         ],
         "fund_notes": [
           "P/E 36 (rich)",
@@ -347,17 +347,17 @@
           "ROE 141%"
         ],
         "technicals": {
-          "rsi": 35.54,
-          "ma50": 290.78,
+          "rsi": 35.99,
+          "ma50": 290.79,
           "ma200": 268.65,
-          "mom_1m": -4.21,
-          "mom_3m": 17.67,
-          "pos_52w": 83.25,
+          "mom_1m": -4.1,
+          "mom_3m": 17.8,
+          "pos_52w": 83.55,
           "volatility": 1.53,
-          "price": 295.82
+          "price": 296.17
         },
         "fundamentals": {
-          "pe": 35.77,
+          "pe": 35.81,
           "rev_growth": 16.6,
           "margin": 27.15,
           "roe": 141.47,
@@ -386,17 +386,17 @@
           "ROE 24%"
         ],
         "technicals": {
-          "rsi": 41.16,
+          "rsi": 41.17,
           "ma50": 256.97,
           "ma200": 232.86,
-          "mom_1m": -10.51,
+          "mom_1m": -10.5,
           "mom_3m": 15.01,
-          "pos_52w": 51.9,
+          "pos_52w": 51.92,
           "volatility": 2.33,
-          "price": 238.34
+          "price": 238.35
         },
         "fundamentals": {
-          "pe": 32.21,
+          "pe": 32.22,
           "rev_growth": 16.6,
           "margin": 12.22,
           "roe": 24.29,
@@ -417,10 +417,10 @@
       "conviction": "Strong",
       "conviction_emoji": "\ud83d\udfe2",
       "tech_notes": [
-        "RSI 41 healthy",
+        "RSI 42 healthy",
         "Above 200MA",
-        "3M +18.6%",
-        "Near 52w high (75%)"
+        "3M +19.3%",
+        "Near 52w high (76%)"
       ],
       "fund_notes": [
         "P/E 26 (rich)",
@@ -429,17 +429,17 @@
         "ROE 39%"
       ],
       "technicals": {
-        "rsi": 41.49,
-        "ma50": 368.87,
-        "ma200": 312.45,
-        "mom_1m": -10.04,
-        "mom_3m": 18.62,
-        "pos_52w": 75.41,
-        "volatility": 2.05,
-        "price": 344.32
+        "rsi": 42.47,
+        "ma50": 368.91,
+        "ma200": 312.46,
+        "mom_1m": -9.54,
+        "mom_3m": 19.28,
+        "pos_52w": 76.22,
+        "volatility": 2.06,
+        "price": 346.24
       },
       "fundamentals": {
-        "pe": 26.24,
+        "pe": 26.39,
         "rev_growth": 21.8,
         "margin": 37.92,
         "roe": 38.88,
@@ -459,8 +459,8 @@
       "tech_notes": [
         "RSI 38 recovering",
         "Above 200MA",
-        "3M +13.2%",
-        "57% of 52w range"
+        "3M +13.5%",
+        "58% of 52w range"
       ],
       "fund_notes": [
         "P/E 30 (rich)",
@@ -469,17 +469,17 @@
         "ROE 114%"
       ],
       "technicals": {
-        "rsi": 37.94,
-        "ma50": 210.03,
+        "rsi": 38.2,
+        "ma50": 210.04,
         "ma200": 190.18,
-        "mom_1m": -7.89,
-        "mom_3m": 13.21,
-        "pos_52w": 57.44,
+        "mom_1m": -7.67,
+        "mom_3m": 13.48,
+        "pos_52w": 57.97,
         "volatility": 2.95,
-        "price": 198.11
+        "price": 198.58
       },
       "fundamentals": {
-        "pe": 30.38,
+        "pe": 30.46,
         "rev_growth": 85.2,
         "margin": 62.97,
         "roe": 114.29,
@@ -499,8 +499,8 @@
       "tech_notes": [
         "RSI 36 recovering",
         "Strong uptrend (>50>200MA)",
-        "3M +17.7%",
-        "Near 52w high (83%)"
+        "3M +17.8%",
+        "Near 52w high (84%)"
       ],
       "fund_notes": [
         "P/E 36 (rich)",
@@ -509,17 +509,17 @@
         "ROE 141%"
       ],
       "technicals": {
-        "rsi": 35.54,
-        "ma50": 290.78,
+        "rsi": 35.99,
+        "ma50": 290.79,
         "ma200": 268.65,
-        "mom_1m": -4.21,
-        "mom_3m": 17.67,
-        "pos_52w": 83.25,
+        "mom_1m": -4.1,
+        "mom_3m": 17.8,
+        "pos_52w": 83.55,
         "volatility": 1.53,
-        "price": 295.82
+        "price": 296.17
       },
       "fundamentals": {
-        "pe": 35.77,
+        "pe": 35.81,
         "rev_growth": 16.6,
         "margin": 27.15,
         "roe": 141.47,
@@ -548,17 +548,17 @@
         "ROE 24%"
       ],
       "technicals": {
-        "rsi": 41.16,
+        "rsi": 41.17,
         "ma50": 256.97,
         "ma200": 232.86,
-        "mom_1m": -10.51,
+        "mom_1m": -10.5,
         "mom_3m": 15.01,
-        "pos_52w": 51.9,
+        "pos_52w": 51.92,
         "volatility": 2.33,
-        "price": 238.34
+        "price": 238.35
       },
       "fundamentals": {
-        "pe": 32.21,
+        "pe": 32.22,
         "rev_growth": 16.6,
         "margin": 12.22,
         "roe": 24.29,
@@ -567,8 +567,8 @@
     },
     {
       "ticker": "MSFT",
-      "total_score": 60.0,
-      "technical_score": 15.0,
+      "total_score": 64.0,
+      "technical_score": 19.0,
       "fundamental_score": 45.0,
       "horizon": "swing",
       "expected_window": "1-6 weeks",
@@ -587,17 +587,17 @@
         "ROE 34%"
       ],
       "technicals": {
-        "rsi": 19.16,
+        "rsi": 19.19,
         "ma50": 412.19,
         "ma200": 447.63,
-        "mom_1m": -11.15,
-        "mom_3m": -0.0,
-        "pos_52w": 8.72,
+        "mom_1m": -11.12,
+        "mom_3m": 0.03,
+        "pos_52w": 8.78,
         "volatility": 2.54,
-        "price": 371.92
+        "price": 372.03
       },
       "fundamentals": {
-        "pe": 22.15,
+        "pe": 22.16,
         "rev_growth": 18.3,
         "margin": 39.34,
         "roe": 34.01,

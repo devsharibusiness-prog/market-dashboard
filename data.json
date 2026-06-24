@@ -1,167 +1,167 @@
 {
-  "generated_at": "2026-06-24T18:18:31Z",
-  "brief": "\ud83d\udd34 Good day, SRIHARI! Here's your market pulse.  \n\ud83d\udcc9 Today's headline mover is OUST at -11.01% (Mid cap).  \n\ud83d\udcca Breadth: 50 up vs 48 down on your watchlist.  \n\ud83d\udc9a Strength (oversold-in-uptrend): AVGO, XOM, QCOM, RKLB, FSLR, NXT, IONQ, LUNR, RDW, BTDR.  \n\u26a0\ufe0f Pullback risk (overbought): JPM, PG, BAC, GE, PGR, VRTX, DUOL, BROS, ELF, COUR, BLZE.  \n\ud83d\udd0e Tip: check the 8-K feed for leadership or material events. Signals are heuristics, not advice.",
+  "generated_at": "2026-06-24T18:25:29Z",
+  "brief": "\ud83d\udd34 Good day, SRIHARI! Here's your market pulse.  \n\ud83d\ude80 Today's headline mover is COUR at +9.61% (Small cap).  \n\ud83d\udcca Breadth: 49 up vs 48 down on your watchlist.  \n\ud83d\udc9a Strength (oversold-in-uptrend): AVGO, XOM, QCOM, RKLB, FSLR, NXT, IONQ, LUNR, RDW, BTDR.  \n\u26a0\ufe0f Pullback risk (overbought): JPM, PG, BAC, GE, PGR, VRTX, DUOL, BROS, ELF, COUR, BLZE.  \n\ud83d\udd0e Tip: check the 8-K feed for leadership or material events. Signals are heuristics, not advice.",
   "quotes": [
     {
       "ticker": "AAPL",
-      "price": 295.68,
-      "change_pct": 0.47,
+      "price": 296.02,
+      "change_pct": 0.58,
       "cap_tier": "Mega",
-      "market_cap_str": "$4.34T"
+      "market_cap_str": "$4.35T"
     },
     {
       "ticker": "MSFT",
-      "price": 371.89,
-      "change_pct": -0.55,
+      "price": 371.96,
+      "change_pct": -0.53,
       "cap_tier": "Mega",
       "market_cap_str": "$2.76T"
     },
     {
       "ticker": "NVDA",
-      "price": 198.11,
-      "change_pct": -0.96,
+      "price": 198.37,
+      "change_pct": -0.83,
       "cap_tier": "Mega",
       "market_cap_str": "$4.80T"
     },
     {
       "ticker": "AMZN",
-      "price": 238.71,
-      "change_pct": 1.96,
+      "price": 238.44,
+      "change_pct": 1.85,
       "cap_tier": "Mega",
-      "market_cap_str": "$2.57T"
+      "market_cap_str": "$2.56T"
     },
     {
       "ticker": "GOOGL",
-      "price": 348.58,
-      "change_pct": 0.71,
+      "price": 346.12,
+      "change_pct": -0.0,
       "cap_tier": "Mega",
-      "market_cap_str": "$4.25T"
+      "market_cap_str": "$4.22T"
     },
     {
       "ticker": "GOOG",
-      "price": 348.01,
-      "change_pct": 0.56,
+      "price": 345.6,
+      "change_pct": -0.14,
       "cap_tier": "Mega",
-      "market_cap_str": "$4.25T"
+      "market_cap_str": "$4.22T"
     },
     {
       "ticker": "META",
-      "price": 558.96,
-      "change_pct": -0.58,
+      "price": 559.85,
+      "change_pct": -0.42,
       "cap_tier": "Mega",
       "market_cap_str": "$1.42T"
     },
     {
       "ticker": "TSLA",
-      "price": 376.25,
-      "change_pct": -1.4,
+      "price": 376.93,
+      "change_pct": -1.23,
       "cap_tier": "Mega",
-      "market_cap_str": "$1.41T"
+      "market_cap_str": "$1.42T"
     },
     {
       "ticker": "AVGO",
-      "price": 381.24,
-      "change_pct": 0.29,
+      "price": 381.48,
+      "change_pct": 0.35,
       "cap_tier": "Mega",
       "market_cap_str": "$1.81T"
     },
     {
       "ticker": "LLY",
-      "price": 1108.2,
-      "change_pct": 0.1,
+      "price": 1109.79,
+      "change_pct": 0.24,
       "cap_tier": "Mega",
-      "market_cap_str": "$988.5B"
+      "market_cap_str": "$989.6B"
     },
     {
       "ticker": "JPM",
-      "price": 332.65,
+      "price": 332.64,
       "change_pct": -0.45,
       "cap_tier": "Mega",
-      "market_cap_str": "$891.4B"
+      "market_cap_str": "$891.3B"
     },
     {
       "ticker": "V",
-      "price": 332.58,
-      "change_pct": 1.25,
+      "price": 332.7,
+      "change_pct": 1.28,
       "cap_tier": "Mega",
-      "market_cap_str": "$632.5B"
+      "market_cap_str": "$632.7B"
     },
     {
       "ticker": "MA",
-      "price": 495.1,
-      "change_pct": 1.44,
+      "price": 495.4,
+      "change_pct": 1.5,
       "cap_tier": "Mega",
-      "market_cap_str": "$437.5B"
+      "market_cap_str": "$437.7B"
     },
     {
       "ticker": "WMT",
-      "price": 119.36,
-      "change_pct": -0.05,
+      "price": 119.46,
+      "change_pct": 0.03,
       "cap_tier": "Mega",
-      "market_cap_str": "$949.9B"
+      "market_cap_str": "$950.7B"
     },
     {
       "ticker": "XOM",
-      "price": 136.26,
-      "change_pct": -2.48,
+      "price": 136.33,
+      "change_pct": -2.43,
       "cap_tier": "Mega",
-      "market_cap_str": "$564.8B"
+      "market_cap_str": "$565.2B"
     },
     {
       "ticker": "ORCL",
-      "price": 157.27,
-      "change_pct": -4.78,
+      "price": 157.72,
+      "change_pct": -4.5,
       "cap_tier": "Mega",
-      "market_cap_str": "$453.0B"
+      "market_cap_str": "$454.3B"
     },
     {
       "ticker": "NFLX",
-      "price": 72.61,
-      "change_pct": -0.29,
+      "price": 72.77,
+      "change_pct": -0.07,
       "cap_tier": "Mega",
-      "market_cap_str": "$305.7B"
+      "market_cap_str": "$306.4B"
     },
     {
       "ticker": "COST",
-      "price": 961.28,
-      "change_pct": 0.38,
+      "price": 962.3,
+      "change_pct": 0.48,
       "cap_tier": "Mega",
-      "market_cap_str": "$426.3B"
+      "market_cap_str": "$426.8B"
     },
     {
       "ticker": "JNJ",
-      "price": 239.22,
-      "change_pct": 0.06,
+      "price": 239.59,
+      "change_pct": 0.21,
       "cap_tier": "Mega",
-      "market_cap_str": "$575.9B"
+      "market_cap_str": "$576.7B"
     },
     {
       "ticker": "PG",
-      "price": 152.24,
-      "change_pct": 0.91,
+      "price": 152.32,
+      "change_pct": 0.97,
       "cap_tier": "Mega",
-      "market_cap_str": "$354.5B"
+      "market_cap_str": "$354.7B"
     },
     {
       "ticker": "HD",
-      "price": 340.18,
-      "change_pct": 4.85,
+      "price": 340.59,
+      "change_pct": 4.97,
       "cap_tier": "Mega",
-      "market_cap_str": "$339.2B"
+      "market_cap_str": "$339.6B"
     },
     {
       "ticker": "ABBV",
-      "price": 233.11,
-      "change_pct": -0.7,
+      "price": 233.36,
+      "change_pct": -0.6,
       "cap_tier": "Mega",
-      "market_cap_str": "$411.9B"
+      "market_cap_str": "$412.3B"
     },
     {
       "ticker": "BAC",
-      "price": 57.62,
-      "change_pct": -0.5,
+      "price": 57.64,
+      "change_pct": -0.47,
       "cap_tier": "Mega",
-      "market_cap_str": "$408.9B"
+      "market_cap_str": "$409.1B"
     },
     {
       "ticker": "KO",
@@ -172,407 +172,407 @@
     },
     {
       "ticker": "CRM",
-      "price": 153.71,
-      "change_pct": 0.19,
+      "price": 153.9,
+      "change_pct": 0.31,
       "cap_tier": "Large",
-      "market_cap_str": "$125.9B"
+      "market_cap_str": "$126.0B"
     },
     {
       "ticker": "ADBE",
-      "price": 198.28,
-      "change_pct": 0.43,
+      "price": 198.59,
+      "change_pct": 0.59,
       "cap_tier": "Large",
-      "market_cap_str": "$78.8B"
+      "market_cap_str": "$78.9B"
     },
     {
       "ticker": "AMD",
-      "price": 512.84,
-      "change_pct": -1.35,
+      "price": 513.89,
+      "change_pct": -1.15,
       "cap_tier": "Mega",
-      "market_cap_str": "$836.2B"
+      "market_cap_str": "$837.9B"
     },
     {
       "ticker": "QCOM",
-      "price": 195.75,
-      "change_pct": -4.11,
+      "price": 196.63,
+      "change_pct": -3.67,
       "cap_tier": "Mega",
-      "market_cap_str": "$206.3B"
+      "market_cap_str": "$207.2B"
     },
     {
       "ticker": "TXN",
-      "price": 303.2,
-      "change_pct": -0.38,
+      "price": 303.87,
+      "change_pct": -0.16,
       "cap_tier": "Mega",
-      "market_cap_str": "$275.9B"
+      "market_cap_str": "$276.5B"
     },
     {
       "ticker": "AMGN",
-      "price": 351.17,
-      "change_pct": 1.2,
+      "price": 351.66,
+      "change_pct": 1.34,
       "cap_tier": "Large",
-      "market_cap_str": "$189.5B"
+      "market_cap_str": "$189.8B"
     },
     {
       "ticker": "INTU",
-      "price": 267.52,
-      "change_pct": 3.67,
+      "price": 267.85,
+      "change_pct": 3.8,
       "cap_tier": "Large",
-      "market_cap_str": "$73.2B"
+      "market_cap_str": "$73.3B"
     },
     {
       "ticker": "LOW",
-      "price": 220.69,
-      "change_pct": 3.35,
+      "price": 220.83,
+      "change_pct": 3.41,
       "cap_tier": "Large",
-      "market_cap_str": "$123.8B"
+      "market_cap_str": "$123.9B"
     },
     {
       "ticker": "SPGI",
-      "price": 403.89,
-      "change_pct": 0.93,
+      "price": 404.43,
+      "change_pct": 1.07,
       "cap_tier": "Large",
-      "market_cap_str": "$119.6B"
+      "market_cap_str": "$119.7B"
     },
     {
       "ticker": "CAT",
-      "price": 981.65,
-      "change_pct": -0.26,
+      "price": 983.24,
+      "change_pct": -0.1,
       "cap_tier": "Mega",
-      "market_cap_str": "$452.1B"
+      "market_cap_str": "$452.9B"
     },
     {
       "ticker": "GE",
-      "price": 366.61,
-      "change_pct": 2.84,
+      "price": 366.65,
+      "change_pct": 2.86,
       "cap_tier": "Mega",
-      "market_cap_str": "$383.0B"
+      "market_cap_str": "$383.1B"
     },
     {
       "ticker": "BKNG",
-      "price": 184.15,
-      "change_pct": 9.0,
+      "price": 184.35,
+      "change_pct": 9.12,
       "cap_tier": "Large",
-      "market_cap_str": "$142.7B"
+      "market_cap_str": "$142.9B"
     },
     {
       "ticker": "TMO",
-      "price": 490.62,
-      "change_pct": 4.53,
+      "price": 490.37,
+      "change_pct": 4.48,
       "cap_tier": "Large",
-      "market_cap_str": "$182.3B"
+      "market_cap_str": "$182.2B"
     },
     {
       "ticker": "SCHW",
-      "price": 91.82,
-      "change_pct": -1.45,
+      "price": 91.79,
+      "change_pct": -1.48,
       "cap_tier": "Large",
-      "market_cap_str": "$159.7B"
+      "market_cap_str": "$159.6B"
     },
     {
       "ticker": "PGR",
-      "price": 219.47,
-      "change_pct": 1.75,
+      "price": 219.34,
+      "change_pct": 1.69,
       "cap_tier": "Large",
-      "market_cap_str": "$127.8B"
+      "market_cap_str": "$127.7B"
     },
     {
       "ticker": "GILD",
-      "price": 125.49,
-      "change_pct": 0.35,
+      "price": 125.62,
+      "change_pct": 0.46,
       "cap_tier": "Large",
-      "market_cap_str": "$155.8B"
+      "market_cap_str": "$156.0B"
     },
     {
       "ticker": "VRTX",
-      "price": 477.65,
-      "change_pct": 1.97,
+      "price": 477.52,
+      "change_pct": 1.94,
       "cap_tier": "Large",
       "market_cap_str": "$121.2B"
     },
     {
       "ticker": "HON",
-      "price": 227.56,
-      "change_pct": 2.33,
+      "price": 227.87,
+      "change_pct": 2.47,
       "cap_tier": "Large",
-      "market_cap_str": "$144.2B"
+      "market_cap_str": "$144.4B"
     },
     {
       "ticker": "DE",
-      "price": 606.32,
-      "change_pct": 2.43,
+      "price": 607.3,
+      "change_pct": 2.59,
       "cap_tier": "Large",
-      "market_cap_str": "$163.8B"
+      "market_cap_str": "$164.0B"
     },
     {
       "ticker": "SYK",
-      "price": 315.86,
-      "change_pct": 1.89,
+      "price": 316.16,
+      "change_pct": 1.99,
       "cap_tier": "Large",
-      "market_cap_str": "$121.1B"
+      "market_cap_str": "$121.2B"
     },
     {
       "ticker": "PANW",
-      "price": 286.96,
-      "change_pct": -1.36,
+      "price": 287.69,
+      "change_pct": -1.11,
       "cap_tier": "Mega",
-      "market_cap_str": "$233.9B"
+      "market_cap_str": "$234.5B"
     },
     {
       "ticker": "ANET",
-      "price": 163.35,
-      "change_pct": 0.71,
+      "price": 163.63,
+      "change_pct": 0.88,
       "cap_tier": "Mega",
-      "market_cap_str": "$205.7B"
+      "market_cap_str": "$206.0B"
     },
     {
       "ticker": "LRCX",
-      "price": 365.26,
-      "change_pct": -1.63,
+      "price": 367.0,
+      "change_pct": -1.17,
       "cap_tier": "Mega",
-      "market_cap_str": "$456.8B"
+      "market_cap_str": "$459.0B"
     },
     {
       "ticker": "MU",
-      "price": 1026.78,
-      "change_pct": -2.38,
+      "price": 1027.8,
+      "change_pct": -2.28,
       "cap_tier": "Mega",
       "market_cap_str": "$1.16T"
     },
     {
       "ticker": "ADP",
-      "price": 220.87,
-      "change_pct": 0.17,
+      "price": 221.22,
+      "change_pct": 0.33,
       "cap_tier": "Large",
-      "market_cap_str": "$88.3B"
+      "market_cap_str": "$88.4B"
     },
     {
       "ticker": "DKNG",
-      "price": 24.85,
-      "change_pct": -1.19,
+      "price": 24.82,
+      "change_pct": -1.31,
       "cap_tier": "Large",
       "market_cap_str": "$12.3B"
     },
     {
       "ticker": "RDDT",
-      "price": 160.07,
-      "change_pct": -3.36,
+      "price": 159.85,
+      "change_pct": -3.49,
       "cap_tier": "Large",
       "market_cap_str": "$30.8B"
     },
     {
       "ticker": "CELH",
-      "price": 28.37,
-      "change_pct": 0.75,
+      "price": 28.36,
+      "change_pct": 0.71,
       "cap_tier": "Mid",
       "market_cap_str": "$7.3B"
     },
     {
       "ticker": "ARM",
-      "price": 351.77,
-      "change_pct": -3.99,
+      "price": 352.82,
+      "change_pct": -3.7,
       "cap_tier": "Mega",
-      "market_cap_str": "$375.7B"
+      "market_cap_str": "$376.8B"
     },
     {
       "ticker": "APP",
-      "price": 472.08,
-      "change_pct": 1.08,
+      "price": 473.88,
+      "change_pct": 1.47,
       "cap_tier": "Large",
-      "market_cap_str": "$158.6B"
+      "market_cap_str": "$159.2B"
     },
     {
       "ticker": "SOFI",
-      "price": 17.52,
-      "change_pct": 1.33,
+      "price": 17.6,
+      "change_pct": 1.79,
       "cap_tier": "Large",
-      "market_cap_str": "$22.5B"
+      "market_cap_str": "$22.6B"
     },
     {
       "ticker": "HOOD",
-      "price": 97.57,
-      "change_pct": -5.5,
+      "price": 98.06,
+      "change_pct": -5.03,
       "cap_tier": "Large",
-      "market_cap_str": "$87.9B"
+      "market_cap_str": "$88.3B"
     },
     {
       "ticker": "CAVA",
-      "price": 79.44,
-      "change_pct": 2.41,
+      "price": 79.62,
+      "change_pct": 2.64,
       "cap_tier": "Mid",
       "market_cap_str": "$9.3B"
     },
     {
       "ticker": "RKLB",
-      "price": 86.12,
-      "change_pct": -9.46,
+      "price": 87.57,
+      "change_pct": -7.94,
       "cap_tier": "Large",
-      "market_cap_str": "$53.8B"
+      "market_cap_str": "$54.7B"
     },
     {
       "ticker": "PLTR",
-      "price": 113.83,
-      "change_pct": -2.46,
+      "price": 114.3,
+      "change_pct": -2.06,
       "cap_tier": "Mega",
-      "market_cap_str": "$272.8B"
+      "market_cap_str": "$274.0B"
     },
     {
       "ticker": "UBER",
-      "price": 73.73,
-      "change_pct": 5.83,
+      "price": 74.02,
+      "change_pct": 6.24,
       "cap_tier": "Large",
-      "market_cap_str": "$150.1B"
+      "market_cap_str": "$150.7B"
     },
     {
       "ticker": "LYFT",
-      "price": 14.56,
-      "change_pct": 5.35,
+      "price": 14.61,
+      "change_pct": 5.72,
       "cap_tier": "Mid",
       "market_cap_str": "$5.5B"
     },
     {
       "ticker": "FSLR",
-      "price": 248.77,
-      "change_pct": -0.19,
+      "price": 248.94,
+      "change_pct": -0.12,
       "cap_tier": "Large",
       "market_cap_str": "$26.7B"
     },
     {
       "ticker": "WING",
-      "price": 155.4,
-      "change_pct": 3.32,
+      "price": 155.59,
+      "change_pct": 3.44,
       "cap_tier": "Mid",
       "market_cap_str": "$4.2B"
     },
     {
       "ticker": "EME",
-      "price": 846.13,
-      "change_pct": 0.9,
+      "price": 849.5,
+      "change_pct": 1.3,
       "cap_tier": "Large",
-      "market_cap_str": "$37.7B"
+      "market_cap_str": "$37.8B"
     },
     {
       "ticker": "DUOL",
-      "price": 134.95,
-      "change_pct": 2.1,
+      "price": 135.08,
+      "change_pct": 2.19,
       "cap_tier": "Mid",
       "market_cap_str": "$6.3B"
     },
     {
       "ticker": "PINS",
-      "price": 19.96,
-      "change_pct": 2.2,
+      "price": 20.04,
+      "change_pct": 2.61,
       "cap_tier": "Large",
       "market_cap_str": "$11.2B"
     },
     {
       "ticker": "BROS",
-      "price": 67.77,
-      "change_pct": 0.49,
+      "price": 67.86,
+      "change_pct": 0.62,
       "cap_tier": "Large",
-      "market_cap_str": "$11.8B"
+      "market_cap_str": "$11.9B"
     },
     {
       "ticker": "ELF",
-      "price": 64.07,
-      "change_pct": 0.91,
+      "price": 64.11,
+      "change_pct": 0.98,
       "cap_tier": "Mid",
       "market_cap_str": "$3.8B"
     },
     {
       "ticker": "FTAI",
-      "price": 273.4,
-      "change_pct": 4.32,
+      "price": 272.96,
+      "change_pct": 4.15,
       "cap_tier": "Large",
       "market_cap_str": "$28.0B"
     },
     {
       "ticker": "ONON",
-      "price": 36.52,
-      "change_pct": 3.93,
+      "price": 36.61,
+      "change_pct": 4.18,
       "cap_tier": "Large",
       "market_cap_str": "$12.2B"
     },
     {
       "ticker": "HIMS",
-      "price": 32.73,
-      "change_pct": -0.7,
+      "price": 32.94,
+      "change_pct": -0.06,
       "cap_tier": "Mid",
       "market_cap_str": "$7.6B"
     },
     {
       "ticker": "CRDO",
-      "price": 265.49,
-      "change_pct": -2.4,
+      "price": 267.35,
+      "change_pct": -1.71,
       "cap_tier": "Large",
-      "market_cap_str": "$49.5B"
+      "market_cap_str": "$49.9B"
     },
     {
       "ticker": "ASTS",
-      "price": 68.03,
-      "change_pct": -6.64,
+      "price": 68.79,
+      "change_pct": -5.6,
       "cap_tier": "Large",
-      "market_cap_str": "$26.4B"
+      "market_cap_str": "$26.7B"
     },
     {
       "ticker": "NXT",
-      "price": 118.25,
-      "change_pct": -1.98,
+      "price": 118.33,
+      "change_pct": -1.91,
       "cap_tier": "Large",
       "market_cap_str": "$18.0B"
     },
     {
       "ticker": "IONQ",
-      "price": 53.56,
-      "change_pct": -7.42,
+      "price": 54.08,
+      "change_pct": -6.52,
       "cap_tier": "Large",
-      "market_cap_str": "$20.0B"
+      "market_cap_str": "$20.2B"
     },
     {
       "ticker": "RGTI",
-      "price": 19.47,
-      "change_pct": -8.51,
+      "price": 19.62,
+      "change_pct": -7.8,
       "cap_tier": "Mid",
       "market_cap_str": "$6.5B"
     },
     {
       "ticker": "QBTS",
-      "price": 22.86,
-      "change_pct": -8.67,
+      "price": 23.09,
+      "change_pct": -7.75,
       "cap_tier": "Mid",
-      "market_cap_str": "$8.5B"
+      "market_cap_str": "$8.6B"
     },
     {
       "ticker": "SOUN",
-      "price": 6.34,
-      "change_pct": -1.55,
+      "price": 6.36,
+      "change_pct": -1.24,
       "cap_tier": "Mid",
-      "market_cap_str": "$2.7B"
+      "market_cap_str": "$2.8B"
     },
     {
       "ticker": "ACHR",
-      "price": 5.16,
-      "change_pct": -1.71,
+      "price": 5.2,
+      "change_pct": -0.95,
       "cap_tier": "Mid",
-      "market_cap_str": "$3.9B"
+      "market_cap_str": "$4.0B"
     },
     {
       "ticker": "JOBY",
-      "price": 9.34,
-      "change_pct": -2.2,
+      "price": 9.4,
+      "change_pct": -1.57,
       "cap_tier": "Mid",
       "market_cap_str": "$9.2B"
     },
     {
       "ticker": "LUNR",
-      "price": 19.16,
-      "change_pct": -8.54,
+      "price": 19.38,
+      "change_pct": -7.49,
       "cap_tier": "Mid",
       "market_cap_str": "$3.1B"
     },
     {
       "ticker": "RDW",
-      "price": 11.53,
-      "change_pct": -5.65,
+      "price": 11.65,
+      "change_pct": -4.66,
       "cap_tier": "Mid",
       "market_cap_str": "$2.3B"
     },
@@ -585,119 +585,119 @@
     },
     {
       "ticker": "BKSY",
-      "price": 25.53,
-      "change_pct": -5.09,
+      "price": 25.66,
+      "change_pct": -4.61,
       "cap_tier": "Small",
-      "market_cap_str": "$947M"
+      "market_cap_str": "$952M"
     },
     {
       "ticker": "AUR",
-      "price": 6.34,
-      "change_pct": -1.25,
+      "price": 6.36,
+      "change_pct": -0.93,
       "cap_tier": "Large",
-      "market_cap_str": "$12.4B"
+      "market_cap_str": "$12.5B"
     },
     {
       "ticker": "AEHR",
-      "price": 93.37,
-      "change_pct": -8.81,
+      "price": 94.11,
+      "change_pct": -8.09,
       "cap_tier": "Mid",
-      "market_cap_str": "$2.9B"
+      "market_cap_str": "$3.0B"
     },
     {
       "ticker": "BTDR",
-      "price": 16.55,
-      "change_pct": -3.95,
+      "price": 16.62,
+      "change_pct": -3.54,
       "cap_tier": "Mid",
       "market_cap_str": "$4.0B"
     },
     {
       "ticker": "CLSK",
-      "price": 16.02,
-      "change_pct": -6.81,
+      "price": 16.23,
+      "change_pct": -5.58,
       "cap_tier": "Mid",
-      "market_cap_str": "$4.1B"
+      "market_cap_str": "$4.2B"
     },
     {
       "ticker": "RIOT",
-      "price": 27.22,
-      "change_pct": -5.12,
+      "price": 27.58,
+      "change_pct": -3.87,
       "cap_tier": "Large",
-      "market_cap_str": "$10.3B"
+      "market_cap_str": "$10.4B"
     },
     {
       "ticker": "MARA",
-      "price": 13.64,
-      "change_pct": -7.21,
+      "price": 13.95,
+      "change_pct": -5.1,
       "cap_tier": "Mid",
-      "market_cap_str": "$5.2B"
+      "market_cap_str": "$5.3B"
     },
     {
       "ticker": "UPWK",
-      "price": 8.34,
-      "change_pct": 1.58,
+      "price": 8.35,
+      "change_pct": 1.71,
       "cap_tier": "Small",
       "market_cap_str": "$1.0B"
     },
     {
       "ticker": "FVRR",
-      "price": 10.56,
-      "change_pct": 4.04,
+      "price": 10.63,
+      "change_pct": 4.73,
       "cap_tier": "Small",
-      "market_cap_str": "$379M"
+      "market_cap_str": "$382M"
     },
     {
       "ticker": "COUR",
-      "price": 5.92,
-      "change_pct": 9.43,
+      "price": 5.93,
+      "change_pct": 9.61,
       "cap_tier": "Small",
       "market_cap_str": "$1.7B"
     },
     {
       "ticker": "DNA",
-      "price": 9.44,
-      "change_pct": 6.55,
+      "price": 9.49,
+      "change_pct": 7.11,
       "cap_tier": "Small",
-      "market_cap_str": "$617M"
+      "market_cap_str": "$620M"
     },
     {
       "ticker": "OUST",
-      "price": 40.19,
-      "change_pct": -11.01,
+      "price": 41.01,
+      "change_pct": -9.19,
       "cap_tier": "Mid",
       "market_cap_str": "$2.6B"
     },
     {
       "ticker": "BLZE",
-      "price": 11.98,
-      "change_pct": 2.74,
+      "price": 12.01,
+      "change_pct": 3.0,
       "cap_tier": "Small",
-      "market_cap_str": "$719M"
+      "market_cap_str": "$721M"
     },
     {
       "ticker": "AMPL",
-      "price": 6.88,
-      "change_pct": 3.3,
+      "price": 6.89,
+      "change_pct": 3.45,
       "cap_tier": "Small",
-      "market_cap_str": "$912M"
+      "market_cap_str": "$914M"
     },
     {
       "ticker": "CRNC",
-      "price": 9.92,
-      "change_pct": -1.59,
+      "price": 9.96,
+      "change_pct": -1.19,
       "cap_tier": "Small",
-      "market_cap_str": "$448M"
+      "market_cap_str": "$450M"
     }
   ],
   "screen": [
     {
       "ticker": "AAPL",
-      "rsi": 35.4,
-      "vs_200ma": 10.1,
+      "rsi": 35.8,
+      "vs_200ma": 10.2,
       "pos_52w_pct": 83.0,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$4.34T"
+      "market_cap_str": "$4.35T"
     },
     {
       "ticker": "MSFT",
@@ -710,44 +710,44 @@
     },
     {
       "ticker": "NVDA",
-      "rsi": 37.9,
-      "vs_200ma": 4.2,
-      "pos_52w_pct": 57.0,
+      "rsi": 38.1,
+      "vs_200ma": 4.3,
+      "pos_52w_pct": 58.0,
       "signal": "watch",
       "cap_tier": "Mega",
       "market_cap_str": "$4.80T"
     },
     {
       "ticker": "AMZN",
-      "rsi": 41.5,
-      "vs_200ma": 2.5,
+      "rsi": 41.2,
+      "vs_200ma": 2.4,
       "pos_52w_pct": 52.0,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$2.57T"
+      "market_cap_str": "$2.56T"
     },
     {
       "ticker": "GOOGL",
-      "rsi": 44.0,
-      "vs_200ma": 11.6,
-      "pos_52w_pct": 77.0,
+      "rsi": 42.4,
+      "vs_200ma": 10.8,
+      "pos_52w_pct": 76.0,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$4.25T"
+      "market_cap_str": "$4.22T"
     },
     {
       "ticker": "GOOG",
-      "rsi": 45.7,
-      "vs_200ma": 11.5,
-      "pos_52w_pct": 78.0,
+      "rsi": 44.2,
+      "vs_200ma": 10.8,
+      "pos_52w_pct": 77.0,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$4.25T"
+      "market_cap_str": "$4.22T"
     },
     {
       "ticker": "META",
-      "rsi": 30.1,
-      "vs_200ma": -14.1,
+      "rsi": 30.3,
+      "vs_200ma": -14.0,
       "pos_52w_pct": 13.0,
       "signal": "watch",
       "cap_tier": "Mega",
@@ -755,17 +755,17 @@
     },
     {
       "ticker": "TSLA",
-      "rsi": 35.2,
-      "vs_200ma": -9.9,
+      "rsi": 35.3,
+      "vs_200ma": -9.8,
       "pos_52w_pct": 42.0,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$1.41T"
+      "market_cap_str": "$1.42T"
     },
     {
       "ticker": "AVGO",
-      "rsi": 29.8,
-      "vs_200ma": 6.0,
+      "rsi": 29.9,
+      "vs_200ma": 6.1,
       "pos_52w_pct": 55.0,
       "signal": "keeper",
       "cap_tier": "Mega",
@@ -773,12 +773,12 @@
     },
     {
       "ticker": "LLY",
-      "rsi": 58.2,
-      "vs_200ma": 14.4,
-      "pos_52w_pct": 90.0,
+      "rsi": 58.5,
+      "vs_200ma": 14.5,
+      "pos_52w_pct": 91.0,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$988.5B"
+      "market_cap_str": "$989.6B"
     },
     {
       "ticker": "JPM",
@@ -787,34 +787,34 @@
       "pos_52w_pct": 97.0,
       "signal": "dip-risk",
       "cap_tier": "Mega",
-      "market_cap_str": "$891.4B"
+      "market_cap_str": "$891.3B"
     },
     {
       "ticker": "V",
-      "rsi": 69.0,
+      "rsi": 69.1,
       "vs_200ma": 1.5,
       "pos_52w_pct": 62.0,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$632.5B"
+      "market_cap_str": "$632.7B"
     },
     {
       "ticker": "MA",
-      "rsi": 63.6,
-      "vs_200ma": -7.0,
+      "rsi": 63.8,
+      "vs_200ma": -6.9,
       "pos_52w_pct": 19.0,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$437.5B"
+      "market_cap_str": "$437.7B"
     },
     {
       "ticker": "WMT",
-      "rsi": 59.6,
-      "vs_200ma": 2.6,
-      "pos_52w_pct": 63.0,
+      "rsi": 60.0,
+      "vs_200ma": 2.7,
+      "pos_52w_pct": 64.0,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$949.9B"
+      "market_cap_str": "$950.7B"
     },
     {
       "ticker": "XOM",
@@ -823,79 +823,79 @@
       "pos_52w_pct": 50.0,
       "signal": "keeper",
       "cap_tier": "Mega",
-      "market_cap_str": "$564.8B"
+      "market_cap_str": "$565.2B"
     },
     {
       "ticker": "ORCL",
       "rsi": 14.8,
-      "vs_200ma": -22.6,
+      "vs_200ma": -22.4,
       "pos_52w_pct": 11.0,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$453.0B"
+      "market_cap_str": "$454.3B"
     },
     {
       "ticker": "NFLX",
-      "rsi": 21.9,
-      "vs_200ma": -25.6,
+      "rsi": 22.1,
+      "vs_200ma": -25.4,
       "pos_52w_pct": -0.0,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$305.7B"
+      "market_cap_str": "$306.4B"
     },
     {
       "ticker": "COST",
-      "rsi": 49.7,
-      "vs_200ma": 0.6,
+      "rsi": 50.2,
+      "vs_200ma": 0.7,
       "pos_52w_pct": 46.0,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$426.3B"
+      "market_cap_str": "$426.8B"
     },
     {
       "ticker": "JNJ",
-      "rsi": 68.8,
-      "vs_200ma": 11.5,
+      "rsi": 69.1,
+      "vs_200ma": 11.7,
       "pos_52w_pct": 92.0,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$575.9B"
+      "market_cap_str": "$576.7B"
     },
     {
       "ticker": "PG",
-      "rsi": 73.2,
+      "rsi": 73.3,
       "vs_200ma": 3.4,
       "pos_52w_pct": 54.0,
       "signal": "dip-risk",
       "cap_tier": "Mega",
-      "market_cap_str": "$354.5B"
+      "market_cap_str": "$354.7B"
     },
     {
       "ticker": "HD",
-      "rsi": 69.2,
-      "vs_200ma": -3.5,
+      "rsi": 69.4,
+      "vs_200ma": -3.4,
       "pos_52w_pct": 38.0,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$339.2B"
+      "market_cap_str": "$339.6B"
     },
     {
       "ticker": "ABBV",
-      "rsi": 65.0,
-      "vs_200ma": 6.7,
+      "rsi": 65.3,
+      "vs_200ma": 6.8,
       "pos_52w_pct": 91.0,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$411.9B"
+      "market_cap_str": "$412.3B"
     },
     {
       "ticker": "BAC",
-      "rsi": 83.5,
+      "rsi": 83.8,
       "vs_200ma": 11.2,
       "pos_52w_pct": 98.0,
       "signal": "dip-risk",
       "cap_tier": "Mega",
-      "market_cap_str": "$408.9B"
+      "market_cap_str": "$409.1B"
     },
     {
       "ticker": "KO",
@@ -908,93 +908,93 @@
     },
     {
       "ticker": "CRM",
-      "rsi": 8.2,
-      "vs_200ma": -28.1,
+      "rsi": 8.6,
+      "vs_200ma": -28.0,
       "pos_52w_pct": 3.0,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$125.9B"
+      "market_cap_str": "$126.0B"
     },
     {
       "ticker": "ADBE",
-      "rsi": 11.7,
-      "vs_200ma": -32.3,
+      "rsi": 12.1,
+      "vs_200ma": -32.2,
       "pos_52w_pct": 2.0,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$78.8B"
+      "market_cap_str": "$78.9B"
     },
     {
       "ticker": "AMD",
-      "rsi": 45.8,
-      "vs_200ma": 92.3,
+      "rsi": 46.0,
+      "vs_200ma": 92.7,
       "pos_52w_pct": 91.0,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$836.2B"
+      "market_cap_str": "$837.9B"
     },
     {
       "ticker": "QCOM",
-      "rsi": 31.3,
-      "vs_200ma": 17.9,
-      "pos_52w_pct": 57.0,
+      "rsi": 31.5,
+      "vs_200ma": 18.4,
+      "pos_52w_pct": 58.0,
       "signal": "keeper",
       "cap_tier": "Mega",
-      "market_cap_str": "$206.3B"
+      "market_cap_str": "$207.2B"
     },
     {
       "ticker": "TXN",
-      "rsi": 48.1,
-      "vs_200ma": 44.1,
+      "rsi": 48.3,
+      "vs_200ma": 44.4,
       "pos_52w_pct": 84.0,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$275.9B"
+      "market_cap_str": "$276.5B"
     },
     {
       "ticker": "AMGN",
-      "rsi": 59.0,
-      "vs_200ma": 6.8,
+      "rsi": 59.3,
+      "vs_200ma": 6.9,
       "pos_52w_pct": 72.0,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$189.5B"
+      "market_cap_str": "$189.8B"
     },
     {
       "ticker": "INTU",
-      "rsi": 25.9,
-      "vs_200ma": -48.1,
+      "rsi": 26.1,
+      "vs_200ma": -48.0,
       "pos_52w_pct": 2.0,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$73.2B"
+      "market_cap_str": "$73.3B"
     },
     {
       "ticker": "LOW",
-      "rsi": 62.1,
+      "rsi": 62.2,
       "vs_200ma": -9.2,
       "pos_52w_pct": 18.0,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$123.8B"
+      "market_cap_str": "$123.9B"
     },
     {
       "ticker": "SPGI",
-      "rsi": 45.7,
-      "vs_200ma": -13.1,
+      "rsi": 46.0,
+      "vs_200ma": -13.0,
       "pos_52w_pct": 9.0,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$119.6B"
+      "market_cap_str": "$119.7B"
     },
     {
       "ticker": "CAT",
-      "rsi": 58.5,
-      "vs_200ma": 44.9,
+      "rsi": 58.7,
+      "vs_200ma": 45.2,
       "pos_52w_pct": 94.0,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$452.1B"
+      "market_cap_str": "$452.9B"
     },
     {
       "ticker": "GE",
@@ -1003,57 +1003,57 @@
       "pos_52w_pct": 100.0,
       "signal": "dip-risk",
       "cap_tier": "Mega",
-      "market_cap_str": "$383.0B"
+      "market_cap_str": "$383.1B"
     },
     {
       "ticker": "BKNG",
-      "rsi": 68.9,
-      "vs_200ma": -2.6,
+      "rsi": 69.1,
+      "vs_200ma": -2.5,
       "pos_52w_pct": 40.0,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$142.7B"
+      "market_cap_str": "$142.9B"
     },
     {
       "ticker": "TMO",
-      "rsi": 57.4,
+      "rsi": 57.3,
       "vs_200ma": -6.5,
       "pos_52w_pct": 37.0,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$182.3B"
+      "market_cap_str": "$182.2B"
     },
     {
       "ticker": "SCHW",
-      "rsi": 65.8,
+      "rsi": 65.7,
       "vs_200ma": -2.5,
-      "pos_52w_pct": 31.0,
+      "pos_52w_pct": 30.0,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$159.7B"
+      "market_cap_str": "$159.6B"
     },
     {
       "ticker": "PGR",
-      "rsi": 84.1,
+      "rsi": 84.0,
       "vs_200ma": 5.3,
       "pos_52w_pct": 48.0,
       "signal": "dip-risk",
       "cap_tier": "Large",
-      "market_cap_str": "$127.8B"
+      "market_cap_str": "$127.7B"
     },
     {
       "ticker": "GILD",
-      "rsi": 43.7,
-      "vs_200ma": -2.0,
+      "rsi": 44.0,
+      "vs_200ma": -1.9,
       "pos_52w_pct": 44.0,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$155.8B"
+      "market_cap_str": "$156.0B"
     },
     {
       "ticker": "VRTX",
-      "rsi": 76.8,
-      "vs_200ma": 8.4,
+      "rsi": 76.7,
+      "vs_200ma": 8.3,
       "pos_52w_pct": 84.0,
       "signal": "dip-risk",
       "cap_tier": "Large",
@@ -1061,62 +1061,62 @@
     },
     {
       "ticker": "HON",
-      "rsi": 53.5,
-      "vs_200ma": 7.4,
-      "pos_52w_pct": 68.0,
+      "rsi": 53.7,
+      "vs_200ma": 7.5,
+      "pos_52w_pct": 69.0,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$144.2B"
+      "market_cap_str": "$144.4B"
     },
     {
       "ticker": "DE",
-      "rsi": 58.5,
-      "vs_200ma": 15.0,
+      "rsi": 58.9,
+      "vs_200ma": 15.1,
       "pos_52w_pct": 76.0,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$163.8B"
+      "market_cap_str": "$164.0B"
     },
     {
       "ticker": "SYK",
-      "rsi": 63.1,
-      "vs_200ma": -9.3,
+      "rsi": 63.3,
+      "vs_200ma": -9.2,
       "pos_52w_pct": 28.0,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$121.1B"
+      "market_cap_str": "$121.2B"
     },
     {
       "ticker": "PANW",
-      "rsi": 54.9,
-      "vs_200ma": 45.2,
-      "pos_52w_pct": 91.0,
+      "rsi": 55.5,
+      "vs_200ma": 45.6,
+      "pos_52w_pct": 92.0,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$233.9B"
+      "market_cap_str": "$234.5B"
     },
     {
       "ticker": "ANET",
-      "rsi": 42.3,
-      "vs_200ma": 14.6,
+      "rsi": 42.5,
+      "vs_200ma": 14.8,
       "pos_52w_pct": 83.0,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$205.7B"
+      "market_cap_str": "$206.0B"
     },
     {
       "ticker": "LRCX",
-      "rsi": 54.5,
-      "vs_200ma": 70.7,
-      "pos_52w_pct": 86.0,
+      "rsi": 54.9,
+      "vs_200ma": 71.5,
+      "pos_52w_pct": 87.0,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$456.8B"
+      "market_cap_str": "$459.0B"
     },
     {
       "ticker": "MU",
-      "rsi": 47.4,
-      "vs_200ma": 147.3,
+      "rsi": 47.5,
+      "vs_200ma": 147.5,
       "pos_52w_pct": 83.0,
       "signal": "watch",
       "cap_tier": "Mega",
@@ -1124,17 +1124,17 @@
     },
     {
       "ticker": "ADP",
-      "rsi": 42.5,
-      "vs_200ma": -7.2,
+      "rsi": 43.1,
+      "vs_200ma": -7.1,
       "pos_52w_pct": 29.0,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$88.3B"
+      "market_cap_str": "$88.4B"
     },
     {
       "ticker": "DKNG",
-      "rsi": 48.9,
-      "vs_200ma": -16.1,
+      "rsi": 48.7,
+      "vs_200ma": -16.2,
       "pos_52w_pct": 15.0,
       "signal": "watch",
       "cap_tier": "Large",
@@ -1142,8 +1142,8 @@
     },
     {
       "ticker": "RDDT",
-      "rsi": 45.8,
-      "vs_200ma": -14.3,
+      "rsi": 45.7,
+      "vs_200ma": -14.4,
       "pos_52w_pct": 26.0,
       "signal": "watch",
       "cap_tier": "Large",
@@ -1160,44 +1160,44 @@
     },
     {
       "ticker": "ARM",
-      "rsi": 41.7,
-      "vs_200ma": 105.2,
+      "rsi": 41.9,
+      "vs_200ma": 105.8,
       "pos_52w_pct": 74.0,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$375.7B"
+      "market_cap_str": "$376.8B"
     },
     {
       "ticker": "APP",
-      "rsi": 26.1,
-      "vs_200ma": -12.9,
+      "rsi": 26.7,
+      "vs_200ma": -12.6,
       "pos_52w_pct": 35.0,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$158.6B"
+      "market_cap_str": "$159.2B"
     },
     {
       "ticker": "SOFI",
-      "rsi": 56.3,
-      "vs_200ma": -22.4,
+      "rsi": 56.7,
+      "vs_200ma": -22.1,
       "pos_52w_pct": 14.0,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$22.5B"
+      "market_cap_str": "$22.6B"
     },
     {
       "ticker": "HOOD",
-      "rsi": 63.9,
-      "vs_200ma": -5.1,
-      "pos_52w_pct": 37.0,
+      "rsi": 64.5,
+      "vs_200ma": -4.6,
+      "pos_52w_pct": 38.0,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$87.9B"
+      "market_cap_str": "$88.3B"
     },
     {
       "ticker": "CAVA",
-      "rsi": 60.5,
-      "vs_200ma": 13.8,
+      "rsi": 60.7,
+      "vs_200ma": 14.0,
       "pos_52w_pct": 67.0,
       "signal": "watch",
       "cap_tier": "Mid",
@@ -1205,35 +1205,35 @@
     },
     {
       "ticker": "RKLB",
-      "rsi": 33.4,
-      "vs_200ma": 15.5,
-      "pos_52w_pct": 46.0,
+      "rsi": 34.0,
+      "vs_200ma": 17.5,
+      "pos_52w_pct": 47.0,
       "signal": "keeper",
       "cap_tier": "Large",
-      "market_cap_str": "$53.8B"
+      "market_cap_str": "$54.7B"
     },
     {
       "ticker": "PLTR",
-      "rsi": 18.8,
-      "vs_200ma": -28.6,
+      "rsi": 19.0,
+      "vs_200ma": -28.3,
       "pos_52w_pct": -0.0,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$272.8B"
+      "market_cap_str": "$274.0B"
     },
     {
       "ticker": "UBER",
-      "rsi": 55.1,
-      "vs_200ma": -9.8,
-      "pos_52w_pct": 16.0,
+      "rsi": 55.8,
+      "vs_200ma": -9.5,
+      "pos_52w_pct": 17.0,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$150.1B"
+      "market_cap_str": "$150.7B"
     },
     {
       "ticker": "LYFT",
-      "rsi": 55.6,
-      "vs_200ma": -15.3,
+      "rsi": 56.1,
+      "vs_200ma": -15.0,
       "pos_52w_pct": 16.0,
       "signal": "watch",
       "cap_tier": "Mid",
@@ -1242,15 +1242,15 @@
     {
       "ticker": "FSLR",
       "rsi": 25.6,
-      "vs_200ma": 6.3,
-      "pos_52w_pct": 58.0,
+      "vs_200ma": 6.4,
+      "pos_52w_pct": 59.0,
       "signal": "keeper",
       "cap_tier": "Large",
       "market_cap_str": "$26.7B"
     },
     {
       "ticker": "WING",
-      "rsi": 58.0,
+      "rsi": 58.1,
       "vs_200ma": -29.2,
       "pos_52w_pct": 14.0,
       "signal": "watch",
@@ -1259,26 +1259,26 @@
     },
     {
       "ticker": "EME",
-      "rsi": 51.3,
-      "vs_200ma": 16.2,
-      "pos_52w_pct": 78.0,
+      "rsi": 51.9,
+      "vs_200ma": 16.6,
+      "pos_52w_pct": 79.0,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$37.7B"
+      "market_cap_str": "$37.8B"
     },
     {
       "ticker": "DUOL",
-      "rsi": 84.6,
-      "vs_200ma": -20.6,
-      "pos_52w_pct": 13.0,
+      "rsi": 84.7,
+      "vs_200ma": -20.5,
+      "pos_52w_pct": 14.0,
       "signal": "dip-risk",
       "cap_tier": "Mid",
       "market_cap_str": "$6.3B"
     },
     {
       "ticker": "PINS",
-      "rsi": 44.8,
-      "vs_200ma": -18.1,
+      "rsi": 45.5,
+      "vs_200ma": -17.8,
       "pos_52w_pct": 19.0,
       "signal": "watch",
       "cap_tier": "Large",
@@ -1286,17 +1286,17 @@
     },
     {
       "ticker": "BROS",
-      "rsi": 75.1,
-      "vs_200ma": 20.5,
+      "rsi": 75.2,
+      "vs_200ma": 20.7,
       "pos_52w_pct": 77.0,
       "signal": "dip-risk",
       "cap_tier": "Large",
-      "market_cap_str": "$11.8B"
+      "market_cap_str": "$11.9B"
     },
     {
       "ticker": "ELF",
       "rsi": 71.4,
-      "vs_200ma": -25.0,
+      "vs_200ma": -24.9,
       "pos_52w_pct": 15.0,
       "signal": "dip-risk",
       "cap_tier": "Mid",
@@ -1304,8 +1304,8 @@
     },
     {
       "ticker": "FTAI",
-      "rsi": 61.8,
-      "vs_200ma": 23.2,
+      "rsi": 61.6,
+      "vs_200ma": 23.0,
       "pos_52w_pct": 82.0,
       "signal": "watch",
       "cap_tier": "Large",
@@ -1313,8 +1313,8 @@
     },
     {
       "ticker": "ONON",
-      "rsi": 45.5,
-      "vs_200ma": -11.9,
+      "rsi": 45.9,
+      "vs_200ma": -11.7,
       "pos_52w_pct": 21.0,
       "signal": "watch",
       "cap_tier": "Large",
@@ -1322,35 +1322,35 @@
     },
     {
       "ticker": "HIMS",
-      "rsi": 62.5,
-      "vs_200ma": -1.3,
-      "pos_52w_pct": 35.0,
+      "rsi": 63.2,
+      "vs_200ma": -0.6,
+      "pos_52w_pct": 36.0,
       "signal": "watch",
       "cap_tier": "Mid",
       "market_cap_str": "$7.6B"
     },
     {
       "ticker": "CRDO",
-      "rsi": 61.9,
-      "vs_200ma": 70.4,
-      "pos_52w_pct": 83.0,
+      "rsi": 62.4,
+      "vs_200ma": 71.6,
+      "pos_52w_pct": 84.0,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$49.5B"
+      "market_cap_str": "$49.9B"
     },
     {
       "ticker": "ASTS",
-      "rsi": 24.2,
-      "vs_200ma": -15.9,
-      "pos_52w_pct": 32.0,
+      "rsi": 24.4,
+      "vs_200ma": -15.0,
+      "pos_52w_pct": 33.0,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$26.4B"
+      "market_cap_str": "$26.7B"
     },
     {
       "ticker": "NXT",
-      "rsi": 31.2,
-      "vs_200ma": 12.8,
+      "rsi": 31.3,
+      "vs_200ma": 12.9,
       "pos_52w_pct": 63.0,
       "signal": "keeper",
       "cap_tier": "Large",
@@ -1358,17 +1358,17 @@
     },
     {
       "ticker": "IONQ",
-      "rsi": 33.1,
-      "vs_200ma": 8.2,
-      "pos_52w_pct": 49.0,
+      "rsi": 33.5,
+      "vs_200ma": 9.2,
+      "pos_52w_pct": 50.0,
       "signal": "keeper",
       "cap_tier": "Large",
-      "market_cap_str": "$20.0B"
+      "market_cap_str": "$20.2B"
     },
     {
       "ticker": "RGTI",
-      "rsi": 35.3,
-      "vs_200ma": -18.3,
+      "rsi": 35.6,
+      "vs_200ma": -17.7,
       "pos_52w_pct": 19.0,
       "signal": "watch",
       "cap_tier": "Mid",
@@ -1376,44 +1376,44 @@
     },
     {
       "ticker": "QBTS",
-      "rsi": 38.5,
-      "vs_200ma": -4.7,
-      "pos_52w_pct": 31.0,
+      "rsi": 39.0,
+      "vs_200ma": -3.8,
+      "pos_52w_pct": 32.0,
       "signal": "watch",
       "cap_tier": "Mid",
-      "market_cap_str": "$8.5B"
+      "market_cap_str": "$8.6B"
     },
     {
       "ticker": "SOUN",
-      "rsi": 26.0,
-      "vs_200ma": -41.5,
+      "rsi": 26.1,
+      "vs_200ma": -41.3,
       "pos_52w_pct": 3.0,
       "signal": "watch",
       "cap_tier": "Mid",
-      "market_cap_str": "$2.7B"
+      "market_cap_str": "$2.8B"
     },
     {
       "ticker": "ACHR",
-      "rsi": 31.0,
-      "vs_200ma": -32.8,
+      "rsi": 31.4,
+      "vs_200ma": -32.2,
       "pos_52w_pct": 3.0,
       "signal": "watch",
       "cap_tier": "Mid",
-      "market_cap_str": "$3.9B"
+      "market_cap_str": "$4.0B"
     },
     {
       "ticker": "JOBY",
-      "rsi": 31.8,
-      "vs_200ma": -24.9,
-      "pos_52w_pct": 11.0,
+      "rsi": 32.2,
+      "vs_200ma": -24.4,
+      "pos_52w_pct": 12.0,
       "signal": "watch",
       "cap_tier": "Mid",
       "market_cap_str": "$9.2B"
     },
     {
       "ticker": "LUNR",
-      "rsi": 19.3,
-      "vs_200ma": 4.0,
+      "rsi": 19.5,
+      "vs_200ma": 5.1,
       "pos_52w_pct": 30.0,
       "signal": "keeper",
       "cap_tier": "Mid",
@@ -1421,9 +1421,9 @@
     },
     {
       "ticker": "RDW",
-      "rsi": 31.4,
-      "vs_200ma": 16.1,
-      "pos_52w_pct": 31.0,
+      "rsi": 31.7,
+      "vs_200ma": 17.3,
+      "pos_52w_pct": 32.0,
       "signal": "keeper",
       "cap_tier": "Mid",
       "market_cap_str": "$2.3B"
@@ -1439,35 +1439,35 @@
     },
     {
       "ticker": "BKSY",
-      "rsi": 27.4,
-      "vs_200ma": -2.3,
-      "pos_52w_pct": 32.0,
+      "rsi": 27.5,
+      "vs_200ma": -1.8,
+      "pos_52w_pct": 33.0,
       "signal": "watch",
       "cap_tier": "Small",
-      "market_cap_str": "$947M"
+      "market_cap_str": "$952M"
     },
     {
       "ticker": "AUR",
-      "rsi": 37.6,
-      "vs_200ma": 25.0,
+      "rsi": 37.9,
+      "vs_200ma": 25.4,
       "pos_52w_pct": 56.0,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$12.4B"
+      "market_cap_str": "$12.5B"
     },
     {
       "ticker": "AEHR",
-      "rsi": 38.4,
-      "vs_200ma": 101.2,
-      "pos_52w_pct": 78.0,
+      "rsi": 38.7,
+      "vs_200ma": 102.8,
+      "pos_52w_pct": 79.0,
       "signal": "watch",
       "cap_tier": "Mid",
-      "market_cap_str": "$2.9B"
+      "market_cap_str": "$3.0B"
     },
     {
       "ticker": "BTDR",
-      "rsi": 33.6,
-      "vs_200ma": 19.6,
+      "rsi": 33.9,
+      "vs_200ma": 20.1,
       "pos_52w_pct": 50.0,
       "signal": "keeper",
       "cap_tier": "Mid",
@@ -1475,34 +1475,34 @@
     },
     {
       "ticker": "CLSK",
-      "rsi": 41.6,
-      "vs_200ma": 21.7,
-      "pos_52w_pct": 52.0,
+      "rsi": 42.6,
+      "vs_200ma": 23.3,
+      "pos_52w_pct": 54.0,
       "signal": "watch",
       "cap_tier": "Mid",
-      "market_cap_str": "$4.1B"
+      "market_cap_str": "$4.2B"
     },
     {
       "ticker": "RIOT",
-      "rsi": 48.2,
-      "vs_200ma": 51.0,
-      "pos_52w_pct": 92.0,
+      "rsi": 49.7,
+      "vs_200ma": 53.0,
+      "pos_52w_pct": 94.0,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$10.3B"
+      "market_cap_str": "$10.4B"
     },
     {
       "ticker": "MARA",
-      "rsi": 48.2,
-      "vs_200ma": 8.9,
-      "pos_52w_pct": 43.0,
+      "rsi": 50.0,
+      "vs_200ma": 11.4,
+      "pos_52w_pct": 45.0,
       "signal": "watch",
       "cap_tier": "Mid",
-      "market_cap_str": "$5.2B"
+      "market_cap_str": "$5.3B"
     },
     {
       "ticker": "UPWK",
-      "rsi": 44.1,
+      "rsi": 44.4,
       "vs_200ma": -44.3,
       "pos_52w_pct": 4.0,
       "signal": "watch",
@@ -1511,17 +1511,17 @@
     },
     {
       "ticker": "FVRR",
-      "rsi": 58.0,
-      "vs_200ma": -35.0,
+      "rsi": 59.0,
+      "vs_200ma": -34.6,
       "pos_52w_pct": 5.0,
       "signal": "watch",
       "cap_tier": "Small",
-      "market_cap_str": "$379M"
+      "market_cap_str": "$382M"
     },
     {
       "ticker": "COUR",
-      "rsi": 71.2,
-      "vs_200ma": -19.0,
+      "rsi": 71.3,
+      "vs_200ma": -18.9,
       "pos_52w_pct": 11.0,
       "signal": "dip-risk",
       "cap_tier": "Small",
@@ -1529,48 +1529,48 @@
     },
     {
       "ticker": "DNA",
-      "rsi": 58.6,
-      "vs_200ma": 1.0,
-      "pos_52w_pct": 37.0,
+      "rsi": 59.1,
+      "vs_200ma": 1.6,
+      "pos_52w_pct": 38.0,
       "signal": "watch",
       "cap_tier": "Small",
-      "market_cap_str": "$617M"
+      "market_cap_str": "$620M"
     },
     {
       "ticker": "OUST",
-      "rsi": 45.3,
-      "vs_200ma": 48.4,
-      "pos_52w_pct": 76.0,
+      "rsi": 46.2,
+      "vs_200ma": 51.4,
+      "pos_52w_pct": 79.0,
       "signal": "watch",
       "cap_tier": "Mid",
       "market_cap_str": "$2.6B"
     },
     {
       "ticker": "BLZE",
-      "rsi": 81.6,
-      "vs_200ma": 94.6,
+      "rsi": 81.7,
+      "vs_200ma": 95.1,
       "pos_52w_pct": 100.0,
       "signal": "dip-risk",
       "cap_tier": "Small",
-      "market_cap_str": "$719M"
+      "market_cap_str": "$721M"
     },
     {
       "ticker": "AMPL",
-      "rsi": 20.4,
-      "vs_200ma": -22.2,
+      "rsi": 21.0,
+      "vs_200ma": -22.1,
       "pos_52w_pct": 17.0,
       "signal": "watch",
       "cap_tier": "Small",
-      "market_cap_str": "$912M"
+      "market_cap_str": "$914M"
     },
     {
       "ticker": "CRNC",
-      "rsi": 33.5,
-      "vs_200ma": -1.2,
-      "pos_52w_pct": 52.0,
+      "rsi": 33.7,
+      "vs_200ma": -0.8,
+      "pos_52w_pct": 53.0,
       "signal": "watch",
       "cap_tier": "Small",
-      "market_cap_str": "$448M"
+      "market_cap_str": "$450M"
     }
   ],
   "trades": [
@@ -1579,21 +1579,21 @@
       "atr": 7.83,
       "buckets": {
         "intraday": {
-          "entry": 295.68,
-          "stop": 287.85,
-          "target": 307.43,
+          "entry": 296.02,
+          "stop": 288.19,
+          "target": 307.76,
           "rr": 1.5
         },
         "swing": {
-          "entry": 295.68,
-          "stop": 283.94,
-          "target": 319.17,
+          "entry": 296.02,
+          "stop": 284.27,
+          "target": 319.51,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 295.68,
-          "stop": 272.19,
-          "target": 358.32,
+          "entry": 296.02,
+          "stop": 272.53,
+          "target": 358.66,
           "rr": 2.7
         }
       }
@@ -1603,21 +1603,21 @@
       "atr": 11.09,
       "buckets": {
         "intraday": {
-          "entry": 371.89,
-          "stop": 360.8,
-          "target": 388.52,
+          "entry": 371.96,
+          "stop": 360.87,
+          "target": 388.59,
           "rr": 1.5
         },
         "swing": {
-          "entry": 371.89,
-          "stop": 355.25,
-          "target": 405.16,
+          "entry": 371.96,
+          "stop": 355.32,
+          "target": 405.23,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 371.89,
-          "stop": 338.62,
-          "target": 460.61,
+          "entry": 371.96,
+          "stop": 338.69,
+          "target": 460.68,
           "rr": 2.7
         }
       }
@@ -1627,21 +1627,21 @@
       "atr": 7.51,
       "buckets": {
         "intraday": {
-          "entry": 198.11,
-          "stop": 190.6,
-          "target": 209.38,
+          "entry": 198.37,
+          "stop": 190.86,
+          "target": 209.63,
           "rr": 1.5
         },
         "swing": {
-          "entry": 198.11,
-          "stop": 186.85,
-          "target": 220.64,
+          "entry": 198.37,
+          "stop": 187.11,
+          "target": 220.9,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 198.11,
-          "stop": 175.58,
-          "target": 258.19,
+          "entry": 198.37,
+          "stop": 175.84,
+          "target": 258.45,
           "rr": 2.7
         }
       }
@@ -1651,69 +1651,69 @@
       "atr": 8.25,
       "buckets": {
         "intraday": {
-          "entry": 238.71,
-          "stop": 230.46,
-          "target": 251.09,
+          "entry": 238.44,
+          "stop": 230.19,
+          "target": 250.81,
           "rr": 1.5
         },
         "swing": {
-          "entry": 238.71,
-          "stop": 226.34,
-          "target": 263.46,
+          "entry": 238.44,
+          "stop": 226.06,
+          "target": 263.19,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 238.71,
-          "stop": 213.96,
-          "target": 304.71,
+          "entry": 238.44,
+          "stop": 213.69,
+          "target": 304.44,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "GOOGL",
-      "atr": 12.18,
+      "atr": 12.34,
       "buckets": {
         "intraday": {
-          "entry": 348.58,
-          "stop": 336.4,
-          "target": 366.85,
+          "entry": 346.12,
+          "stop": 333.78,
+          "target": 364.63,
           "rr": 1.5
         },
         "swing": {
-          "entry": 348.58,
-          "stop": 330.31,
-          "target": 385.12,
+          "entry": 346.12,
+          "stop": 327.61,
+          "target": 383.14,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 348.58,
-          "stop": 312.04,
-          "target": 446.02,
+          "entry": 346.12,
+          "stop": 309.1,
+          "target": 444.84,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "GOOG",
-      "atr": 12.21,
+      "atr": 12.39,
       "buckets": {
         "intraday": {
-          "entry": 348.01,
-          "stop": 335.8,
-          "target": 366.32,
+          "entry": 345.6,
+          "stop": 333.21,
+          "target": 364.19,
           "rr": 1.5
         },
         "swing": {
-          "entry": 348.01,
-          "stop": 329.69,
-          "target": 384.64,
+          "entry": 345.6,
+          "stop": 327.02,
+          "target": 382.77,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 348.01,
-          "stop": 311.38,
-          "target": 445.69,
+          "entry": 345.6,
+          "stop": 308.43,
+          "target": 444.72,
           "rr": 2.7
         }
       }
@@ -1723,21 +1723,21 @@
       "atr": 20.67,
       "buckets": {
         "intraday": {
-          "entry": 558.96,
-          "stop": 538.29,
-          "target": 589.97,
+          "entry": 559.85,
+          "stop": 539.18,
+          "target": 590.86,
           "rr": 1.5
         },
         "swing": {
-          "entry": 558.96,
-          "stop": 527.96,
-          "target": 620.97,
+          "entry": 559.85,
+          "stop": 528.85,
+          "target": 621.86,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 558.96,
-          "stop": 496.95,
-          "target": 724.32,
+          "entry": 559.85,
+          "stop": 497.84,
+          "target": 725.21,
           "rr": 2.7
         }
       }
@@ -1747,21 +1747,21 @@
       "atr": 18.99,
       "buckets": {
         "intraday": {
-          "entry": 376.25,
-          "stop": 357.26,
-          "target": 404.74,
+          "entry": 376.93,
+          "stop": 357.94,
+          "target": 405.42,
           "rr": 1.5
         },
         "swing": {
-          "entry": 376.25,
-          "stop": 347.76,
-          "target": 433.22,
+          "entry": 376.93,
+          "stop": 348.44,
+          "target": 433.9,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 376.25,
-          "stop": 319.28,
-          "target": 528.17,
+          "entry": 376.93,
+          "stop": 319.96,
+          "target": 528.85,
           "rr": 2.7
         }
       }
@@ -1771,21 +1771,21 @@
       "atr": 23.95,
       "buckets": {
         "intraday": {
-          "entry": 381.24,
-          "stop": 357.29,
-          "target": 417.17,
+          "entry": 381.48,
+          "stop": 357.53,
+          "target": 417.41,
           "rr": 1.5
         },
         "swing": {
-          "entry": 381.24,
-          "stop": 345.31,
-          "target": 453.09,
+          "entry": 381.48,
+          "stop": 345.56,
+          "target": 453.33,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 381.24,
-          "stop": 309.39,
-          "target": 572.84,
+          "entry": 381.48,
+          "stop": 309.63,
+          "target": 573.08,
           "rr": 2.7
         }
       }
@@ -1795,21 +1795,21 @@
       "atr": 36.89,
       "buckets": {
         "intraday": {
-          "entry": 1108.2,
-          "stop": 1071.31,
-          "target": 1163.54,
+          "entry": 1109.79,
+          "stop": 1072.9,
+          "target": 1165.12,
           "rr": 1.5
         },
         "swing": {
-          "entry": 1108.2,
-          "stop": 1052.87,
-          "target": 1218.87,
+          "entry": 1109.79,
+          "stop": 1054.45,
+          "target": 1220.46,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 1108.2,
-          "stop": 997.53,
-          "target": 1403.32,
+          "entry": 1109.79,
+          "stop": 999.12,
+          "target": 1404.91,
           "rr": 2.7
         }
       }
@@ -1819,21 +1819,21 @@
       "atr": 7.85,
       "buckets": {
         "intraday": {
-          "entry": 332.65,
-          "stop": 324.8,
-          "target": 344.42,
+          "entry": 332.64,
+          "stop": 324.79,
+          "target": 344.41,
           "rr": 1.5
         },
         "swing": {
-          "entry": 332.65,
-          "stop": 320.88,
-          "target": 356.2,
+          "entry": 332.64,
+          "stop": 320.87,
+          "target": 356.19,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 332.65,
-          "stop": 309.1,
-          "target": 395.45,
+          "entry": 332.64,
+          "stop": 309.09,
+          "target": 395.44,
           "rr": 2.7
         }
       }
@@ -1843,21 +1843,21 @@
       "atr": 6.9,
       "buckets": {
         "intraday": {
-          "entry": 332.58,
-          "stop": 325.68,
-          "target": 342.93,
+          "entry": 332.7,
+          "stop": 325.8,
+          "target": 343.05,
           "rr": 1.5
         },
         "swing": {
-          "entry": 332.58,
-          "stop": 322.23,
-          "target": 353.28,
+          "entry": 332.7,
+          "stop": 322.35,
+          "target": 353.4,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 332.58,
-          "stop": 311.88,
-          "target": 387.78,
+          "entry": 332.7,
+          "stop": 312.0,
+          "target": 387.9,
           "rr": 2.7
         }
       }
@@ -1867,21 +1867,21 @@
       "atr": 10.55,
       "buckets": {
         "intraday": {
-          "entry": 495.1,
-          "stop": 484.55,
-          "target": 510.93,
+          "entry": 495.4,
+          "stop": 484.85,
+          "target": 511.22,
           "rr": 1.5
         },
         "swing": {
-          "entry": 495.1,
-          "stop": 479.28,
-          "target": 526.75,
+          "entry": 495.4,
+          "stop": 479.57,
+          "target": 527.05,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 495.1,
-          "stop": 463.45,
-          "target": 579.5,
+          "entry": 495.4,
+          "stop": 463.75,
+          "target": 579.8,
           "rr": 2.7
         }
       }
@@ -1891,21 +1891,21 @@
       "atr": 2.61,
       "buckets": {
         "intraday": {
-          "entry": 119.36,
-          "stop": 116.75,
-          "target": 123.28,
+          "entry": 119.46,
+          "stop": 116.85,
+          "target": 123.38,
           "rr": 1.5
         },
         "swing": {
-          "entry": 119.36,
-          "stop": 115.44,
-          "target": 127.19,
+          "entry": 119.46,
+          "stop": 115.54,
+          "target": 127.29,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 119.36,
-          "stop": 111.53,
-          "target": 140.24,
+          "entry": 119.46,
+          "stop": 111.63,
+          "target": 140.34,
           "rr": 2.7
         }
       }
@@ -1915,21 +1915,21 @@
       "atr": 3.78,
       "buckets": {
         "intraday": {
-          "entry": 136.26,
-          "stop": 132.48,
-          "target": 141.93,
+          "entry": 136.33,
+          "stop": 132.55,
+          "target": 142.0,
           "rr": 1.5
         },
         "swing": {
-          "entry": 136.26,
-          "stop": 130.59,
-          "target": 147.6,
+          "entry": 136.33,
+          "stop": 130.66,
+          "target": 147.67,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 136.26,
-          "stop": 124.92,
-          "target": 166.5,
+          "entry": 136.33,
+          "stop": 124.99,
+          "target": 166.57,
           "rr": 2.7
         }
       }
@@ -1939,21 +1939,21 @@
       "atr": 13.48,
       "buckets": {
         "intraday": {
-          "entry": 157.27,
-          "stop": 143.79,
-          "target": 177.49,
+          "entry": 157.72,
+          "stop": 144.24,
+          "target": 177.94,
           "rr": 1.5
         },
         "swing": {
-          "entry": 157.27,
-          "stop": 137.05,
-          "target": 197.71,
+          "entry": 157.72,
+          "stop": 137.5,
+          "target": 198.16,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 157.27,
-          "stop": 116.83,
-          "target": 265.11,
+          "entry": 157.72,
+          "stop": 117.28,
+          "target": 265.56,
           "rr": 2.7
         }
       }
@@ -1963,21 +1963,21 @@
       "atr": 2.29,
       "buckets": {
         "intraday": {
-          "entry": 72.61,
-          "stop": 70.32,
-          "target": 76.05,
+          "entry": 72.77,
+          "stop": 70.48,
+          "target": 76.2,
           "rr": 1.5
         },
         "swing": {
-          "entry": 72.61,
-          "stop": 69.17,
-          "target": 79.48,
+          "entry": 72.77,
+          "stop": 69.33,
+          "target": 79.64,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 72.61,
-          "stop": 65.74,
-          "target": 90.93,
+          "entry": 72.77,
+          "stop": 65.9,
+          "target": 91.09,
           "rr": 2.7
         }
       }
@@ -1987,21 +1987,21 @@
       "atr": 18.82,
       "buckets": {
         "intraday": {
-          "entry": 961.28,
-          "stop": 942.46,
-          "target": 989.51,
+          "entry": 962.3,
+          "stop": 943.48,
+          "target": 990.53,
           "rr": 1.5
         },
         "swing": {
-          "entry": 961.28,
-          "stop": 933.05,
-          "target": 1017.74,
+          "entry": 962.3,
+          "stop": 934.07,
+          "target": 1018.76,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 961.28,
-          "stop": 904.82,
-          "target": 1111.84,
+          "entry": 962.3,
+          "stop": 905.84,
+          "target": 1112.86,
           "rr": 2.7
         }
       }
@@ -2011,21 +2011,21 @@
       "atr": 5.4,
       "buckets": {
         "intraday": {
-          "entry": 239.22,
-          "stop": 233.82,
-          "target": 247.32,
+          "entry": 239.59,
+          "stop": 234.19,
+          "target": 247.69,
           "rr": 1.5
         },
         "swing": {
-          "entry": 239.22,
-          "stop": 231.12,
-          "target": 255.42,
+          "entry": 239.59,
+          "stop": 231.49,
+          "target": 255.79,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 239.22,
-          "stop": 223.02,
-          "target": 282.42,
+          "entry": 239.59,
+          "stop": 223.39,
+          "target": 282.79,
           "rr": 2.7
         }
       }
@@ -2035,21 +2035,21 @@
       "atr": 3.08,
       "buckets": {
         "intraday": {
-          "entry": 152.24,
-          "stop": 149.16,
-          "target": 156.86,
+          "entry": 152.32,
+          "stop": 149.24,
+          "target": 156.94,
           "rr": 1.5
         },
         "swing": {
-          "entry": 152.24,
-          "stop": 147.62,
-          "target": 161.48,
+          "entry": 152.32,
+          "stop": 147.7,
+          "target": 161.56,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 152.24,
-          "stop": 143.0,
-          "target": 176.88,
+          "entry": 152.32,
+          "stop": 143.08,
+          "target": 176.96,
           "rr": 2.7
         }
       }
@@ -2059,21 +2059,21 @@
       "atr": 9.57,
       "buckets": {
         "intraday": {
-          "entry": 340.18,
-          "stop": 330.61,
-          "target": 354.54,
+          "entry": 340.59,
+          "stop": 331.02,
+          "target": 354.94,
           "rr": 1.5
         },
         "swing": {
-          "entry": 340.18,
-          "stop": 325.82,
-          "target": 368.89,
+          "entry": 340.59,
+          "stop": 326.23,
+          "target": 369.3,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 340.18,
-          "stop": 311.47,
-          "target": 416.74,
+          "entry": 340.59,
+          "stop": 311.88,
+          "target": 417.15,
           "rr": 2.7
         }
       }
@@ -2083,21 +2083,21 @@
       "atr": 6.11,
       "buckets": {
         "intraday": {
-          "entry": 233.11,
-          "stop": 227.0,
-          "target": 242.28,
+          "entry": 233.36,
+          "stop": 227.25,
+          "target": 242.53,
           "rr": 1.5
         },
         "swing": {
-          "entry": 233.11,
-          "stop": 223.95,
-          "target": 251.44,
+          "entry": 233.36,
+          "stop": 224.2,
+          "target": 251.69,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 233.11,
-          "stop": 214.78,
-          "target": 281.99,
+          "entry": 233.36,
+          "stop": 215.03,
+          "target": 282.24,
           "rr": 2.7
         }
       }
@@ -2107,21 +2107,21 @@
       "atr": 1.19,
       "buckets": {
         "intraday": {
-          "entry": 57.62,
-          "stop": 56.43,
-          "target": 59.4,
+          "entry": 57.64,
+          "stop": 56.45,
+          "target": 59.42,
           "rr": 1.5
         },
         "swing": {
-          "entry": 57.62,
-          "stop": 55.84,
-          "target": 61.19,
+          "entry": 57.64,
+          "stop": 55.86,
+          "target": 61.21,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 57.62,
-          "stop": 54.05,
-          "target": 67.14,
+          "entry": 57.64,
+          "stop": 54.07,
+          "target": 67.16,
           "rr": 2.7
         }
       }
@@ -2155,21 +2155,21 @@
       "atr": 6.85,
       "buckets": {
         "intraday": {
-          "entry": 153.71,
-          "stop": 146.86,
-          "target": 163.99,
+          "entry": 153.9,
+          "stop": 147.05,
+          "target": 164.18,
           "rr": 1.5
         },
         "swing": {
-          "entry": 153.71,
-          "stop": 143.44,
-          "target": 174.26,
+          "entry": 153.9,
+          "stop": 143.62,
+          "target": 174.45,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 153.71,
-          "stop": 133.16,
-          "target": 208.51,
+          "entry": 153.9,
+          "stop": 133.35,
+          "target": 208.7,
           "rr": 2.7
         }
       }
@@ -2179,21 +2179,21 @@
       "atr": 10.08,
       "buckets": {
         "intraday": {
-          "entry": 198.28,
-          "stop": 188.2,
-          "target": 213.4,
+          "entry": 198.59,
+          "stop": 188.51,
+          "target": 213.71,
           "rr": 1.5
         },
         "swing": {
-          "entry": 198.28,
-          "stop": 183.16,
-          "target": 228.52,
+          "entry": 198.59,
+          "stop": 183.47,
+          "target": 228.83,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 198.28,
-          "stop": 168.04,
-          "target": 278.92,
+          "entry": 198.59,
+          "stop": 168.35,
+          "target": 279.23,
           "rr": 2.7
         }
       }
@@ -2203,21 +2203,21 @@
       "atr": 37.81,
       "buckets": {
         "intraday": {
-          "entry": 512.84,
-          "stop": 475.03,
-          "target": 569.56,
+          "entry": 513.89,
+          "stop": 476.08,
+          "target": 570.61,
           "rr": 1.5
         },
         "swing": {
-          "entry": 512.84,
-          "stop": 456.12,
-          "target": 626.27,
+          "entry": 513.89,
+          "stop": 457.17,
+          "target": 627.32,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 512.84,
-          "stop": 399.41,
-          "target": 815.32,
+          "entry": 513.89,
+          "stop": 400.46,
+          "target": 816.37,
           "rr": 2.7
         }
       }
@@ -2227,21 +2227,21 @@
       "atr": 16.28,
       "buckets": {
         "intraday": {
-          "entry": 195.75,
-          "stop": 179.47,
-          "target": 220.17,
+          "entry": 196.63,
+          "stop": 180.35,
+          "target": 221.05,
           "rr": 1.5
         },
         "swing": {
-          "entry": 195.75,
-          "stop": 171.33,
-          "target": 244.59,
+          "entry": 196.63,
+          "stop": 172.21,
+          "target": 245.47,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 195.75,
-          "stop": 146.91,
-          "target": 325.99,
+          "entry": 196.63,
+          "stop": 147.79,
+          "target": 326.87,
           "rr": 2.7
         }
       }
@@ -2251,21 +2251,21 @@
       "atr": 15.05,
       "buckets": {
         "intraday": {
-          "entry": 303.2,
-          "stop": 288.15,
-          "target": 325.77,
+          "entry": 303.87,
+          "stop": 288.82,
+          "target": 326.44,
           "rr": 1.5
         },
         "swing": {
-          "entry": 303.2,
-          "stop": 280.62,
-          "target": 348.35,
+          "entry": 303.87,
+          "stop": 281.3,
+          "target": 349.02,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 303.2,
-          "stop": 258.05,
-          "target": 423.6,
+          "entry": 303.87,
+          "stop": 258.72,
+          "target": 424.27,
           "rr": 2.7
         }
       }
@@ -2275,21 +2275,21 @@
       "atr": 9.44,
       "buckets": {
         "intraday": {
-          "entry": 351.17,
-          "stop": 341.73,
-          "target": 365.33,
+          "entry": 351.66,
+          "stop": 342.22,
+          "target": 365.82,
           "rr": 1.5
         },
         "swing": {
-          "entry": 351.17,
-          "stop": 337.01,
-          "target": 379.49,
+          "entry": 351.66,
+          "stop": 337.5,
+          "target": 379.98,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 351.17,
-          "stop": 322.85,
-          "target": 426.69,
+          "entry": 351.66,
+          "stop": 323.34,
+          "target": 427.18,
           "rr": 2.7
         }
       }
@@ -2299,21 +2299,21 @@
       "atr": 13.09,
       "buckets": {
         "intraday": {
-          "entry": 267.52,
-          "stop": 254.43,
-          "target": 287.15,
+          "entry": 267.85,
+          "stop": 254.76,
+          "target": 287.49,
           "rr": 1.5
         },
         "swing": {
-          "entry": 267.52,
-          "stop": 247.88,
-          "target": 306.79,
+          "entry": 267.85,
+          "stop": 248.22,
+          "target": 307.12,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 267.52,
-          "stop": 228.25,
-          "target": 372.24,
+          "entry": 267.85,
+          "stop": 228.58,
+          "target": 372.57,
           "rr": 2.7
         }
       }
@@ -2323,21 +2323,21 @@
       "atr": 6.46,
       "buckets": {
         "intraday": {
-          "entry": 220.69,
-          "stop": 214.23,
-          "target": 230.38,
+          "entry": 220.83,
+          "stop": 214.37,
+          "target": 230.52,
           "rr": 1.5
         },
         "swing": {
-          "entry": 220.69,
-          "stop": 211.0,
-          "target": 240.07,
+          "entry": 220.83,
+          "stop": 211.14,
+          "target": 240.21,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 220.69,
-          "stop": 201.31,
-          "target": 272.37,
+          "entry": 220.83,
+          "stop": 201.45,
+          "target": 272.51,
           "rr": 2.7
         }
       }
@@ -2347,21 +2347,21 @@
       "atr": 11.52,
       "buckets": {
         "intraday": {
-          "entry": 403.89,
-          "stop": 392.37,
-          "target": 421.17,
+          "entry": 404.43,
+          "stop": 392.91,
+          "target": 421.71,
           "rr": 1.5
         },
         "swing": {
-          "entry": 403.89,
-          "stop": 386.61,
-          "target": 438.45,
+          "entry": 404.43,
+          "stop": 387.15,
+          "target": 438.99,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 403.89,
-          "stop": 369.33,
-          "target": 496.05,
+          "entry": 404.43,
+          "stop": 369.87,
+          "target": 496.59,
           "rr": 2.7
         }
       }
@@ -2371,21 +2371,21 @@
       "atr": 39.14,
       "buckets": {
         "intraday": {
-          "entry": 981.65,
-          "stop": 942.51,
-          "target": 1040.36,
+          "entry": 983.24,
+          "stop": 944.1,
+          "target": 1041.95,
           "rr": 1.5
         },
         "swing": {
-          "entry": 981.65,
-          "stop": 922.94,
-          "target": 1099.07,
+          "entry": 983.24,
+          "stop": 924.53,
+          "target": 1100.66,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 981.65,
-          "stop": 864.23,
-          "target": 1294.77,
+          "entry": 983.24,
+          "stop": 865.82,
+          "target": 1296.36,
           "rr": 2.7
         }
       }
@@ -2395,21 +2395,21 @@
       "atr": 11.33,
       "buckets": {
         "intraday": {
-          "entry": 366.61,
-          "stop": 355.28,
-          "target": 383.61,
+          "entry": 366.65,
+          "stop": 355.32,
+          "target": 383.64,
           "rr": 1.5
         },
         "swing": {
-          "entry": 366.61,
-          "stop": 349.62,
-          "target": 400.6,
+          "entry": 366.65,
+          "stop": 349.65,
+          "target": 400.64,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 366.61,
-          "stop": 332.62,
-          "target": 457.25,
+          "entry": 366.65,
+          "stop": 332.66,
+          "target": 457.29,
           "rr": 2.7
         }
       }
@@ -2419,21 +2419,21 @@
       "atr": 6.86,
       "buckets": {
         "intraday": {
-          "entry": 184.15,
-          "stop": 177.29,
-          "target": 194.44,
+          "entry": 184.35,
+          "stop": 177.49,
+          "target": 194.64,
           "rr": 1.5
         },
         "swing": {
-          "entry": 184.15,
-          "stop": 173.86,
-          "target": 204.73,
+          "entry": 184.35,
+          "stop": 174.06,
+          "target": 204.93,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 184.15,
-          "stop": 163.57,
-          "target": 239.03,
+          "entry": 184.35,
+          "stop": 163.77,
+          "target": 239.23,
           "rr": 2.7
         }
       }
@@ -2443,21 +2443,21 @@
       "atr": 13.61,
       "buckets": {
         "intraday": {
-          "entry": 490.62,
-          "stop": 477.01,
-          "target": 511.04,
+          "entry": 490.37,
+          "stop": 476.76,
+          "target": 510.79,
           "rr": 1.5
         },
         "swing": {
-          "entry": 490.62,
-          "stop": 470.2,
-          "target": 531.45,
+          "entry": 490.37,
+          "stop": 469.95,
+          "target": 531.2,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 490.62,
-          "stop": 449.79,
-          "target": 599.5,
+          "entry": 490.37,
+          "stop": 449.54,
+          "target": 599.25,
           "rr": 2.7
         }
       }
@@ -2467,21 +2467,21 @@
       "atr": 2.06,
       "buckets": {
         "intraday": {
-          "entry": 91.82,
-          "stop": 89.76,
-          "target": 94.91,
+          "entry": 91.79,
+          "stop": 89.73,
+          "target": 94.88,
           "rr": 1.5
         },
         "swing": {
-          "entry": 91.82,
-          "stop": 88.73,
-          "target": 98.0,
+          "entry": 91.79,
+          "stop": 88.7,
+          "target": 97.97,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 91.82,
-          "stop": 85.64,
-          "target": 108.3,
+          "entry": 91.79,
+          "stop": 85.61,
+          "target": 108.27,
           "rr": 2.7
         }
       }
@@ -2491,21 +2491,21 @@
       "atr": 5.45,
       "buckets": {
         "intraday": {
-          "entry": 219.47,
-          "stop": 214.02,
-          "target": 227.65,
+          "entry": 219.34,
+          "stop": 213.89,
+          "target": 227.52,
           "rr": 1.5
         },
         "swing": {
-          "entry": 219.47,
-          "stop": 211.29,
-          "target": 235.82,
+          "entry": 219.34,
+          "stop": 211.16,
+          "target": 235.69,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 219.47,
-          "stop": 203.12,
-          "target": 263.07,
+          "entry": 219.34,
+          "stop": 202.99,
+          "target": 262.94,
           "rr": 2.7
         }
       }
@@ -2515,21 +2515,21 @@
       "atr": 3.49,
       "buckets": {
         "intraday": {
-          "entry": 125.49,
-          "stop": 122.0,
-          "target": 130.72,
+          "entry": 125.62,
+          "stop": 122.13,
+          "target": 130.86,
           "rr": 1.5
         },
         "swing": {
-          "entry": 125.49,
-          "stop": 120.25,
-          "target": 135.96,
+          "entry": 125.62,
+          "stop": 120.39,
+          "target": 136.09,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 125.49,
-          "stop": 115.02,
-          "target": 153.41,
+          "entry": 125.62,
+          "stop": 115.15,
+          "target": 153.54,
           "rr": 2.7
         }
       }
@@ -2539,21 +2539,21 @@
       "atr": 12.19,
       "buckets": {
         "intraday": {
-          "entry": 477.65,
-          "stop": 465.46,
-          "target": 495.94,
+          "entry": 477.52,
+          "stop": 465.33,
+          "target": 495.81,
           "rr": 1.5
         },
         "swing": {
-          "entry": 477.65,
-          "stop": 459.36,
-          "target": 514.22,
+          "entry": 477.52,
+          "stop": 459.23,
+          "target": 514.09,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 477.65,
-          "stop": 441.08,
-          "target": 575.17,
+          "entry": 477.52,
+          "stop": 440.95,
+          "target": 575.04,
           "rr": 2.7
         }
       }
@@ -2563,21 +2563,21 @@
       "atr": 7.25,
       "buckets": {
         "intraday": {
-          "entry": 227.56,
-          "stop": 220.31,
-          "target": 238.44,
+          "entry": 227.87,
+          "stop": 220.62,
+          "target": 238.75,
           "rr": 1.5
         },
         "swing": {
-          "entry": 227.56,
-          "stop": 216.69,
-          "target": 249.31,
+          "entry": 227.87,
+          "stop": 217.0,
+          "target": 249.62,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 227.56,
-          "stop": 205.81,
-          "target": 285.56,
+          "entry": 227.87,
+          "stop": 206.12,
+          "target": 285.87,
           "rr": 2.7
         }
       }
@@ -2587,21 +2587,21 @@
       "atr": 16.86,
       "buckets": {
         "intraday": {
-          "entry": 606.32,
-          "stop": 589.46,
-          "target": 631.61,
+          "entry": 607.3,
+          "stop": 590.44,
+          "target": 632.59,
           "rr": 1.5
         },
         "swing": {
-          "entry": 606.32,
-          "stop": 581.03,
-          "target": 656.9,
+          "entry": 607.3,
+          "stop": 582.01,
+          "target": 657.88,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 606.32,
-          "stop": 555.74,
-          "target": 741.2,
+          "entry": 607.3,
+          "stop": 556.72,
+          "target": 742.18,
           "rr": 2.7
         }
       }
@@ -2611,21 +2611,21 @@
       "atr": 8.86,
       "buckets": {
         "intraday": {
-          "entry": 315.86,
-          "stop": 307.0,
-          "target": 329.15,
+          "entry": 316.16,
+          "stop": 307.3,
+          "target": 329.45,
           "rr": 1.5
         },
         "swing": {
-          "entry": 315.86,
-          "stop": 302.57,
-          "target": 342.44,
+          "entry": 316.16,
+          "stop": 302.87,
+          "target": 342.74,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 315.86,
-          "stop": 289.28,
-          "target": 386.74,
+          "entry": 316.16,
+          "stop": 289.58,
+          "target": 387.04,
           "rr": 2.7
         }
       }
@@ -2635,21 +2635,21 @@
       "atr": 11.4,
       "buckets": {
         "intraday": {
-          "entry": 286.96,
-          "stop": 275.56,
-          "target": 304.06,
+          "entry": 287.69,
+          "stop": 276.29,
+          "target": 304.79,
           "rr": 1.5
         },
         "swing": {
-          "entry": 286.96,
-          "stop": 269.86,
-          "target": 321.16,
+          "entry": 287.69,
+          "stop": 270.59,
+          "target": 321.89,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 286.96,
-          "stop": 252.76,
-          "target": 378.16,
+          "entry": 287.69,
+          "stop": 253.49,
+          "target": 378.89,
           "rr": 2.7
         }
       }
@@ -2659,21 +2659,21 @@
       "atr": 8.99,
       "buckets": {
         "intraday": {
-          "entry": 163.35,
-          "stop": 154.36,
-          "target": 176.83,
+          "entry": 163.63,
+          "stop": 154.64,
+          "target": 177.12,
           "rr": 1.5
         },
         "swing": {
-          "entry": 163.35,
-          "stop": 149.87,
-          "target": 190.32,
+          "entry": 163.63,
+          "stop": 150.14,
+          "target": 190.6,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 163.35,
-          "stop": 136.38,
-          "target": 235.27,
+          "entry": 163.63,
+          "stop": 136.66,
+          "target": 235.55,
           "rr": 2.7
         }
       }
@@ -2683,21 +2683,21 @@
       "atr": 28.6,
       "buckets": {
         "intraday": {
-          "entry": 365.26,
-          "stop": 336.66,
-          "target": 408.16,
+          "entry": 367.0,
+          "stop": 338.4,
+          "target": 409.9,
           "rr": 1.5
         },
         "swing": {
-          "entry": 365.26,
-          "stop": 322.36,
-          "target": 451.06,
+          "entry": 367.0,
+          "stop": 324.1,
+          "target": 452.8,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 365.26,
-          "stop": 279.46,
-          "target": 594.06,
+          "entry": 367.0,
+          "stop": 281.2,
+          "target": 595.8,
           "rr": 2.7
         }
       }
@@ -2707,21 +2707,21 @@
       "atr": 101.53,
       "buckets": {
         "intraday": {
-          "entry": 1026.78,
-          "stop": 925.25,
-          "target": 1179.08,
+          "entry": 1027.8,
+          "stop": 926.27,
+          "target": 1180.1,
           "rr": 1.5
         },
         "swing": {
-          "entry": 1026.78,
-          "stop": 874.48,
-          "target": 1331.37,
+          "entry": 1027.8,
+          "stop": 875.5,
+          "target": 1332.39,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 1026.78,
-          "stop": 722.19,
-          "target": 1839.02,
+          "entry": 1027.8,
+          "stop": 723.21,
+          "target": 1840.04,
           "rr": 2.7
         }
       }
@@ -2731,21 +2731,21 @@
       "atr": 5.39,
       "buckets": {
         "intraday": {
-          "entry": 220.87,
-          "stop": 215.48,
-          "target": 228.96,
+          "entry": 221.22,
+          "stop": 215.83,
+          "target": 229.31,
           "rr": 1.5
         },
         "swing": {
-          "entry": 220.87,
-          "stop": 212.78,
-          "target": 237.04,
+          "entry": 221.22,
+          "stop": 213.13,
+          "target": 237.39,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 220.87,
-          "stop": 204.7,
-          "target": 263.99,
+          "entry": 221.22,
+          "stop": 205.05,
+          "target": 264.34,
           "rr": 2.7
         }
       }
@@ -2755,21 +2755,21 @@
       "atr": 1.43,
       "buckets": {
         "intraday": {
-          "entry": 24.85,
-          "stop": 23.42,
-          "target": 27.0,
+          "entry": 24.82,
+          "stop": 23.39,
+          "target": 26.96,
           "rr": 1.5
         },
         "swing": {
-          "entry": 24.85,
-          "stop": 22.71,
-          "target": 29.14,
+          "entry": 24.82,
+          "stop": 22.68,
+          "target": 29.11,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 24.85,
-          "stop": 20.56,
-          "target": 36.29,
+          "entry": 24.82,
+          "stop": 20.53,
+          "target": 36.26,
           "rr": 2.7
         }
       }
@@ -2779,21 +2779,21 @@
       "atr": 12.56,
       "buckets": {
         "intraday": {
-          "entry": 160.07,
-          "stop": 147.51,
-          "target": 178.91,
+          "entry": 159.85,
+          "stop": 147.29,
+          "target": 178.69,
           "rr": 1.5
         },
         "swing": {
-          "entry": 160.07,
-          "stop": 141.23,
-          "target": 197.75,
+          "entry": 159.85,
+          "stop": 141.01,
+          "target": 197.53,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 160.07,
-          "stop": 122.39,
-          "target": 260.55,
+          "entry": 159.85,
+          "stop": 122.17,
+          "target": 260.33,
           "rr": 2.7
         }
       }
@@ -2803,21 +2803,21 @@
       "atr": 1.59,
       "buckets": {
         "intraday": {
-          "entry": 28.37,
-          "stop": 26.78,
-          "target": 30.76,
+          "entry": 28.36,
+          "stop": 26.77,
+          "target": 30.75,
           "rr": 1.5
         },
         "swing": {
-          "entry": 28.37,
-          "stop": 25.98,
-          "target": 33.14,
+          "entry": 28.36,
+          "stop": 25.97,
+          "target": 33.13,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 28.37,
-          "stop": 23.6,
-          "target": 41.09,
+          "entry": 28.36,
+          "stop": 23.59,
+          "target": 41.08,
           "rr": 2.7
         }
       }
@@ -2827,45 +2827,45 @@
       "atr": 41.18,
       "buckets": {
         "intraday": {
-          "entry": 351.77,
-          "stop": 310.59,
-          "target": 413.54,
+          "entry": 352.82,
+          "stop": 311.64,
+          "target": 414.59,
           "rr": 1.5
         },
         "swing": {
-          "entry": 351.77,
-          "stop": 290.0,
-          "target": 475.31,
+          "entry": 352.82,
+          "stop": 291.05,
+          "target": 476.36,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 351.77,
-          "stop": 228.23,
-          "target": 681.21,
+          "entry": 352.82,
+          "stop": 229.28,
+          "target": 682.26,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "APP",
-      "atr": 30.88,
+      "atr": 30.98,
       "buckets": {
         "intraday": {
-          "entry": 472.08,
-          "stop": 441.2,
-          "target": 518.4,
+          "entry": 473.88,
+          "stop": 442.9,
+          "target": 520.35,
           "rr": 1.5
         },
         "swing": {
-          "entry": 472.08,
-          "stop": 425.76,
-          "target": 564.72,
+          "entry": 473.88,
+          "stop": 427.41,
+          "target": 566.82,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 472.08,
-          "stop": 379.44,
-          "target": 719.12,
+          "entry": 473.88,
+          "stop": 380.94,
+          "target": 721.72,
           "rr": 2.7
         }
       }
@@ -2875,21 +2875,21 @@
       "atr": 1.0,
       "buckets": {
         "intraday": {
-          "entry": 17.52,
-          "stop": 16.52,
-          "target": 19.02,
+          "entry": 17.6,
+          "stop": 16.6,
+          "target": 19.1,
           "rr": 1.5
         },
         "swing": {
-          "entry": 17.52,
-          "stop": 16.02,
-          "target": 20.52,
+          "entry": 17.6,
+          "stop": 16.1,
+          "target": 20.6,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 17.52,
-          "stop": 14.52,
-          "target": 25.52,
+          "entry": 17.6,
+          "stop": 14.6,
+          "target": 25.6,
           "rr": 2.7
         }
       }
@@ -2899,45 +2899,45 @@
       "atr": 7.44,
       "buckets": {
         "intraday": {
-          "entry": 97.57,
-          "stop": 90.13,
-          "target": 108.73,
+          "entry": 98.06,
+          "stop": 90.62,
+          "target": 109.22,
           "rr": 1.5
         },
         "swing": {
-          "entry": 97.57,
-          "stop": 86.41,
-          "target": 119.89,
+          "entry": 98.06,
+          "stop": 86.9,
+          "target": 120.38,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 97.57,
-          "stop": 75.25,
-          "target": 157.09,
+          "entry": 98.06,
+          "stop": 75.74,
+          "target": 157.58,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "CAVA",
-      "atr": 4.28,
+      "atr": 4.29,
       "buckets": {
         "intraday": {
-          "entry": 79.44,
-          "stop": 75.16,
-          "target": 85.86,
+          "entry": 79.62,
+          "stop": 75.33,
+          "target": 86.06,
           "rr": 1.5
         },
         "swing": {
-          "entry": 79.44,
-          "stop": 73.02,
-          "target": 92.28,
+          "entry": 79.62,
+          "stop": 73.19,
+          "target": 92.49,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 79.44,
-          "stop": 66.6,
-          "target": 113.68,
+          "entry": 79.62,
+          "stop": 66.75,
+          "target": 113.94,
           "rr": 2.7
         }
       }
@@ -2947,21 +2947,21 @@
       "atr": 10.36,
       "buckets": {
         "intraday": {
-          "entry": 86.12,
-          "stop": 75.76,
-          "target": 101.66,
+          "entry": 87.57,
+          "stop": 77.21,
+          "target": 103.11,
           "rr": 1.5
         },
         "swing": {
-          "entry": 86.12,
-          "stop": 70.58,
-          "target": 117.2,
+          "entry": 87.57,
+          "stop": 72.03,
+          "target": 118.65,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 86.12,
-          "stop": 55.04,
-          "target": 169.0,
+          "entry": 87.57,
+          "stop": 56.49,
+          "target": 170.45,
           "rr": 2.7
         }
       }
@@ -2971,21 +2971,21 @@
       "atr": 6.01,
       "buckets": {
         "intraday": {
-          "entry": 113.83,
-          "stop": 107.82,
-          "target": 122.84,
+          "entry": 114.3,
+          "stop": 108.29,
+          "target": 123.31,
           "rr": 1.5
         },
         "swing": {
-          "entry": 113.83,
-          "stop": 104.81,
-          "target": 131.86,
+          "entry": 114.3,
+          "stop": 105.28,
+          "target": 132.33,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 113.83,
-          "stop": 95.8,
-          "target": 161.91,
+          "entry": 114.3,
+          "stop": 96.27,
+          "target": 162.38,
           "rr": 2.7
         }
       }
@@ -2995,21 +2995,21 @@
       "atr": 2.42,
       "buckets": {
         "intraday": {
-          "entry": 73.73,
-          "stop": 71.31,
-          "target": 77.36,
+          "entry": 74.02,
+          "stop": 71.6,
+          "target": 77.65,
           "rr": 1.5
         },
         "swing": {
-          "entry": 73.73,
-          "stop": 70.1,
-          "target": 80.99,
+          "entry": 74.02,
+          "stop": 70.39,
+          "target": 81.28,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 73.73,
-          "stop": 66.47,
-          "target": 93.09,
+          "entry": 74.02,
+          "stop": 66.76,
+          "target": 93.38,
           "rr": 2.7
         }
       }
@@ -3019,21 +3019,21 @@
       "atr": 0.6,
       "buckets": {
         "intraday": {
-          "entry": 14.56,
-          "stop": 13.96,
-          "target": 15.46,
+          "entry": 14.61,
+          "stop": 14.01,
+          "target": 15.51,
           "rr": 1.5
         },
         "swing": {
-          "entry": 14.56,
-          "stop": 13.66,
-          "target": 16.36,
+          "entry": 14.61,
+          "stop": 13.71,
+          "target": 16.41,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 14.56,
-          "stop": 12.76,
-          "target": 19.36,
+          "entry": 14.61,
+          "stop": 12.81,
+          "target": 19.41,
           "rr": 2.7
         }
       }
@@ -3043,21 +3043,21 @@
       "atr": 17.35,
       "buckets": {
         "intraday": {
-          "entry": 248.77,
-          "stop": 231.42,
-          "target": 274.8,
+          "entry": 248.94,
+          "stop": 231.59,
+          "target": 274.96,
           "rr": 1.5
         },
         "swing": {
-          "entry": 248.77,
-          "stop": 222.75,
-          "target": 300.82,
+          "entry": 248.94,
+          "stop": 222.91,
+          "target": 300.99,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 248.77,
-          "stop": 196.72,
-          "target": 387.57,
+          "entry": 248.94,
+          "stop": 196.89,
+          "target": 387.74,
           "rr": 2.7
         }
       }
@@ -3067,21 +3067,21 @@
       "atr": 9.87,
       "buckets": {
         "intraday": {
-          "entry": 155.4,
-          "stop": 145.53,
-          "target": 170.21,
+          "entry": 155.59,
+          "stop": 145.72,
+          "target": 170.4,
           "rr": 1.5
         },
         "swing": {
-          "entry": 155.4,
-          "stop": 140.59,
-          "target": 185.01,
+          "entry": 155.59,
+          "stop": 140.78,
+          "target": 185.2,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 155.4,
-          "stop": 125.79,
-          "target": 234.36,
+          "entry": 155.59,
+          "stop": 125.98,
+          "target": 234.55,
           "rr": 2.7
         }
       }
@@ -3091,21 +3091,21 @@
       "atr": 31.62,
       "buckets": {
         "intraday": {
-          "entry": 846.13,
-          "stop": 814.51,
-          "target": 893.56,
+          "entry": 849.5,
+          "stop": 817.88,
+          "target": 896.93,
           "rr": 1.5
         },
         "swing": {
-          "entry": 846.13,
-          "stop": 798.7,
-          "target": 940.99,
+          "entry": 849.5,
+          "stop": 802.07,
+          "target": 944.36,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 846.13,
-          "stop": 751.27,
-          "target": 1099.09,
+          "entry": 849.5,
+          "stop": 754.64,
+          "target": 1102.46,
           "rr": 2.7
         }
       }
@@ -3115,21 +3115,21 @@
       "atr": 8.47,
       "buckets": {
         "intraday": {
-          "entry": 134.95,
-          "stop": 126.48,
-          "target": 147.66,
+          "entry": 135.08,
+          "stop": 126.61,
+          "target": 147.79,
           "rr": 1.5
         },
         "swing": {
-          "entry": 134.95,
-          "stop": 122.24,
-          "target": 160.36,
+          "entry": 135.08,
+          "stop": 122.38,
+          "target": 160.49,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 134.95,
-          "stop": 109.54,
-          "target": 202.71,
+          "entry": 135.08,
+          "stop": 109.67,
+          "target": 202.84,
           "rr": 2.7
         }
       }
@@ -3139,21 +3139,21 @@
       "atr": 1.2,
       "buckets": {
         "intraday": {
-          "entry": 19.96,
-          "stop": 18.76,
-          "target": 21.76,
+          "entry": 20.04,
+          "stop": 18.84,
+          "target": 21.84,
           "rr": 1.5
         },
         "swing": {
-          "entry": 19.96,
-          "stop": 18.16,
-          "target": 23.56,
+          "entry": 20.04,
+          "stop": 18.24,
+          "target": 23.64,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 19.96,
-          "stop": 16.36,
-          "target": 29.56,
+          "entry": 20.04,
+          "stop": 16.44,
+          "target": 29.64,
           "rr": 2.7
         }
       }
@@ -3163,21 +3163,21 @@
       "atr": 3.41,
       "buckets": {
         "intraday": {
-          "entry": 67.77,
-          "stop": 64.36,
-          "target": 72.88,
+          "entry": 67.86,
+          "stop": 64.45,
+          "target": 72.97,
           "rr": 1.5
         },
         "swing": {
-          "entry": 67.77,
-          "stop": 62.65,
-          "target": 78.0,
+          "entry": 67.86,
+          "stop": 62.74,
+          "target": 78.09,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 67.77,
-          "stop": 57.54,
-          "target": 95.05,
+          "entry": 67.86,
+          "stop": 57.63,
+          "target": 95.14,
           "rr": 2.7
         }
       }
@@ -3187,21 +3187,21 @@
       "atr": 4.07,
       "buckets": {
         "intraday": {
-          "entry": 64.07,
-          "stop": 60.0,
-          "target": 70.17,
+          "entry": 64.11,
+          "stop": 60.04,
+          "target": 70.22,
           "rr": 1.5
         },
         "swing": {
-          "entry": 64.07,
-          "stop": 57.96,
-          "target": 76.28,
+          "entry": 64.11,
+          "stop": 58.0,
+          "target": 76.32,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 64.07,
-          "stop": 51.86,
-          "target": 96.63,
+          "entry": 64.11,
+          "stop": 51.9,
+          "target": 96.67,
           "rr": 2.7
         }
       }
@@ -3211,21 +3211,21 @@
       "atr": 16.9,
       "buckets": {
         "intraday": {
-          "entry": 273.4,
-          "stop": 256.5,
-          "target": 298.75,
+          "entry": 272.96,
+          "stop": 256.06,
+          "target": 298.31,
           "rr": 1.5
         },
         "swing": {
-          "entry": 273.4,
-          "stop": 248.05,
-          "target": 324.1,
+          "entry": 272.96,
+          "stop": 247.61,
+          "target": 323.66,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 273.4,
-          "stop": 222.7,
-          "target": 408.6,
+          "entry": 272.96,
+          "stop": 222.26,
+          "target": 408.16,
           "rr": 2.7
         }
       }
@@ -3235,21 +3235,21 @@
       "atr": 1.53,
       "buckets": {
         "intraday": {
-          "entry": 36.52,
-          "stop": 34.99,
-          "target": 38.82,
+          "entry": 36.61,
+          "stop": 35.08,
+          "target": 38.91,
           "rr": 1.5
         },
         "swing": {
-          "entry": 36.52,
-          "stop": 34.23,
-          "target": 41.11,
+          "entry": 36.61,
+          "stop": 34.31,
+          "target": 41.2,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 36.52,
-          "stop": 31.93,
-          "target": 48.76,
+          "entry": 36.61,
+          "stop": 32.02,
+          "target": 48.85,
           "rr": 2.7
         }
       }
@@ -3259,21 +3259,21 @@
       "atr": 2.54,
       "buckets": {
         "intraday": {
-          "entry": 32.73,
-          "stop": 30.19,
-          "target": 36.54,
+          "entry": 32.94,
+          "stop": 30.4,
+          "target": 36.75,
           "rr": 1.5
         },
         "swing": {
-          "entry": 32.73,
-          "stop": 28.92,
-          "target": 40.35,
+          "entry": 32.94,
+          "stop": 29.13,
+          "target": 40.56,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 32.73,
-          "stop": 25.11,
-          "target": 53.05,
+          "entry": 32.94,
+          "stop": 25.32,
+          "target": 53.26,
           "rr": 2.7
         }
       }
@@ -3283,21 +3283,21 @@
       "atr": 28.86,
       "buckets": {
         "intraday": {
-          "entry": 265.49,
-          "stop": 236.63,
-          "target": 308.78,
+          "entry": 267.35,
+          "stop": 238.49,
+          "target": 310.64,
           "rr": 1.5
         },
         "swing": {
-          "entry": 265.49,
-          "stop": 222.2,
-          "target": 352.07,
+          "entry": 267.35,
+          "stop": 224.06,
+          "target": 353.93,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 265.49,
-          "stop": 178.91,
-          "target": 496.37,
+          "entry": 267.35,
+          "stop": 180.77,
+          "target": 498.23,
           "rr": 2.7
         }
       }
@@ -3307,21 +3307,21 @@
       "atr": 9.44,
       "buckets": {
         "intraday": {
-          "entry": 68.03,
-          "stop": 58.59,
-          "target": 82.19,
+          "entry": 68.79,
+          "stop": 59.35,
+          "target": 82.95,
           "rr": 1.5
         },
         "swing": {
-          "entry": 68.03,
-          "stop": 53.87,
-          "target": 96.35,
+          "entry": 68.79,
+          "stop": 54.63,
+          "target": 97.11,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 68.03,
-          "stop": 39.71,
-          "target": 143.55,
+          "entry": 68.79,
+          "stop": 40.47,
+          "target": 144.31,
           "rr": 2.7
         }
       }
@@ -3331,21 +3331,21 @@
       "atr": 9.61,
       "buckets": {
         "intraday": {
-          "entry": 118.25,
-          "stop": 108.64,
-          "target": 132.66,
+          "entry": 118.33,
+          "stop": 108.72,
+          "target": 132.75,
           "rr": 1.5
         },
         "swing": {
-          "entry": 118.25,
-          "stop": 103.84,
-          "target": 147.08,
+          "entry": 118.33,
+          "stop": 103.91,
+          "target": 147.16,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 118.25,
-          "stop": 89.42,
-          "target": 195.13,
+          "entry": 118.33,
+          "stop": 89.5,
+          "target": 195.21,
           "rr": 2.7
         }
       }
@@ -3355,21 +3355,21 @@
       "atr": 5.86,
       "buckets": {
         "intraday": {
-          "entry": 53.56,
-          "stop": 47.7,
-          "target": 62.35,
+          "entry": 54.08,
+          "stop": 48.22,
+          "target": 62.87,
           "rr": 1.5
         },
         "swing": {
-          "entry": 53.56,
-          "stop": 44.77,
-          "target": 71.14,
+          "entry": 54.08,
+          "stop": 45.29,
+          "target": 71.66,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 53.56,
-          "stop": 35.98,
-          "target": 100.44,
+          "entry": 54.08,
+          "stop": 36.5,
+          "target": 100.96,
           "rr": 2.7
         }
       }
@@ -3379,21 +3379,21 @@
       "atr": 2.3,
       "buckets": {
         "intraday": {
-          "entry": 19.47,
-          "stop": 17.17,
-          "target": 22.92,
+          "entry": 19.62,
+          "stop": 17.32,
+          "target": 23.07,
           "rr": 1.5
         },
         "swing": {
-          "entry": 19.47,
-          "stop": 16.02,
-          "target": 26.37,
+          "entry": 19.62,
+          "stop": 16.17,
+          "target": 26.52,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 19.47,
-          "stop": 12.57,
-          "target": 37.87,
+          "entry": 19.62,
+          "stop": 12.72,
+          "target": 38.02,
           "rr": 2.7
         }
       }
@@ -3403,21 +3403,21 @@
       "atr": 2.6,
       "buckets": {
         "intraday": {
-          "entry": 22.86,
-          "stop": 20.26,
-          "target": 26.76,
+          "entry": 23.09,
+          "stop": 20.49,
+          "target": 26.99,
           "rr": 1.5
         },
         "swing": {
-          "entry": 22.86,
-          "stop": 18.96,
-          "target": 30.66,
+          "entry": 23.09,
+          "stop": 19.19,
+          "target": 30.89,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 22.86,
-          "stop": 15.06,
-          "target": 43.66,
+          "entry": 23.09,
+          "stop": 15.29,
+          "target": 43.89,
           "rr": 2.7
         }
       }
@@ -3427,21 +3427,21 @@
       "atr": 0.46,
       "buckets": {
         "intraday": {
-          "entry": 6.34,
-          "stop": 5.88,
-          "target": 7.03,
+          "entry": 6.36,
+          "stop": 5.9,
+          "target": 7.05,
           "rr": 1.5
         },
         "swing": {
-          "entry": 6.34,
-          "stop": 5.65,
-          "target": 7.72,
+          "entry": 6.36,
+          "stop": 5.67,
+          "target": 7.74,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 6.34,
-          "stop": 4.96,
-          "target": 10.02,
+          "entry": 6.36,
+          "stop": 4.98,
+          "target": 10.04,
           "rr": 2.7
         }
       }
@@ -3451,21 +3451,21 @@
       "atr": 0.41,
       "buckets": {
         "intraday": {
-          "entry": 5.16,
-          "stop": 4.75,
-          "target": 5.78,
+          "entry": 5.2,
+          "stop": 4.79,
+          "target": 5.82,
           "rr": 1.5
         },
         "swing": {
-          "entry": 5.16,
-          "stop": 4.54,
-          "target": 6.39,
+          "entry": 5.2,
+          "stop": 4.58,
+          "target": 6.43,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 5.16,
-          "stop": 3.93,
-          "target": 8.44,
+          "entry": 5.2,
+          "stop": 3.97,
+          "target": 8.48,
           "rr": 2.7
         }
       }
@@ -3475,21 +3475,21 @@
       "atr": 0.7,
       "buckets": {
         "intraday": {
-          "entry": 9.34,
-          "stop": 8.64,
-          "target": 10.39,
+          "entry": 9.4,
+          "stop": 8.7,
+          "target": 10.45,
           "rr": 1.5
         },
         "swing": {
-          "entry": 9.34,
-          "stop": 8.29,
-          "target": 11.44,
+          "entry": 9.4,
+          "stop": 8.35,
+          "target": 11.5,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 9.34,
-          "stop": 7.24,
-          "target": 14.94,
+          "entry": 9.4,
+          "stop": 7.3,
+          "target": 15.0,
           "rr": 2.7
         }
       }
@@ -3499,21 +3499,21 @@
       "atr": 2.85,
       "buckets": {
         "intraday": {
-          "entry": 19.16,
-          "stop": 16.31,
-          "target": 23.44,
+          "entry": 19.38,
+          "stop": 16.53,
+          "target": 23.66,
           "rr": 1.5
         },
         "swing": {
-          "entry": 19.16,
-          "stop": 14.88,
-          "target": 27.71,
+          "entry": 19.38,
+          "stop": 15.1,
+          "target": 27.93,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 19.16,
-          "stop": 10.61,
-          "target": 41.96,
+          "entry": 19.38,
+          "stop": 10.83,
+          "target": 42.18,
           "rr": 2.7
         }
       }
@@ -3523,21 +3523,21 @@
       "atr": 2.04,
       "buckets": {
         "intraday": {
-          "entry": 11.53,
-          "stop": 9.49,
-          "target": 14.59,
+          "entry": 11.65,
+          "stop": 9.61,
+          "target": 14.71,
           "rr": 1.5
         },
         "swing": {
-          "entry": 11.53,
-          "stop": 8.47,
-          "target": 17.65,
+          "entry": 11.65,
+          "stop": 8.59,
+          "target": 17.77,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 11.53,
-          "stop": 5.41,
-          "target": 27.85,
+          "entry": 11.65,
+          "stop": 5.53,
+          "target": 27.97,
           "rr": 2.7
         }
       }
@@ -3571,21 +3571,21 @@
       "atr": 3.48,
       "buckets": {
         "intraday": {
-          "entry": 25.53,
-          "stop": 22.05,
-          "target": 30.75,
+          "entry": 25.66,
+          "stop": 22.18,
+          "target": 30.88,
           "rr": 1.5
         },
         "swing": {
-          "entry": 25.53,
-          "stop": 20.31,
-          "target": 35.97,
+          "entry": 25.66,
+          "stop": 20.44,
+          "target": 36.1,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 25.53,
-          "stop": 15.09,
-          "target": 53.37,
+          "entry": 25.66,
+          "stop": 15.22,
+          "target": 53.5,
           "rr": 2.7
         }
       }
@@ -3595,21 +3595,21 @@
       "atr": 0.35,
       "buckets": {
         "intraday": {
-          "entry": 6.34,
-          "stop": 5.99,
-          "target": 6.87,
+          "entry": 6.36,
+          "stop": 6.01,
+          "target": 6.88,
           "rr": 1.5
         },
         "swing": {
-          "entry": 6.34,
-          "stop": 5.81,
-          "target": 7.39,
+          "entry": 6.36,
+          "stop": 5.84,
+          "target": 7.41,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 6.34,
-          "stop": 5.29,
-          "target": 9.14,
+          "entry": 6.36,
+          "stop": 5.31,
+          "target": 9.16,
           "rr": 2.7
         }
       }
@@ -3619,21 +3619,21 @@
       "atr": 14.04,
       "buckets": {
         "intraday": {
-          "entry": 93.37,
-          "stop": 79.33,
-          "target": 114.43,
+          "entry": 94.11,
+          "stop": 80.07,
+          "target": 115.17,
           "rr": 1.5
         },
         "swing": {
-          "entry": 93.37,
-          "stop": 72.31,
-          "target": 135.49,
+          "entry": 94.11,
+          "stop": 73.05,
+          "target": 136.23,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 93.37,
-          "stop": 51.25,
-          "target": 205.69,
+          "entry": 94.11,
+          "stop": 51.99,
+          "target": 206.43,
           "rr": 2.7
         }
       }
@@ -3643,21 +3643,21 @@
       "atr": 1.75,
       "buckets": {
         "intraday": {
-          "entry": 16.55,
-          "stop": 14.8,
-          "target": 19.18,
+          "entry": 16.62,
+          "stop": 14.87,
+          "target": 19.25,
           "rr": 1.5
         },
         "swing": {
-          "entry": 16.55,
-          "stop": 13.93,
-          "target": 21.8,
+          "entry": 16.62,
+          "stop": 14.0,
+          "target": 21.87,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 16.55,
-          "stop": 11.3,
-          "target": 30.55,
+          "entry": 16.62,
+          "stop": 11.37,
+          "target": 30.62,
           "rr": 2.7
         }
       }
@@ -3667,21 +3667,21 @@
       "atr": 1.57,
       "buckets": {
         "intraday": {
-          "entry": 16.02,
-          "stop": 14.45,
-          "target": 18.38,
+          "entry": 16.23,
+          "stop": 14.66,
+          "target": 18.59,
           "rr": 1.5
         },
         "swing": {
-          "entry": 16.02,
-          "stop": 13.66,
-          "target": 20.73,
+          "entry": 16.23,
+          "stop": 13.88,
+          "target": 20.94,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 16.02,
-          "stop": 11.31,
-          "target": 28.58,
+          "entry": 16.23,
+          "stop": 11.52,
+          "target": 28.79,
           "rr": 2.7
         }
       }
@@ -3691,21 +3691,21 @@
       "atr": 2.13,
       "buckets": {
         "intraday": {
-          "entry": 27.22,
-          "stop": 25.09,
-          "target": 30.41,
+          "entry": 27.58,
+          "stop": 25.45,
+          "target": 30.77,
           "rr": 1.5
         },
         "swing": {
-          "entry": 27.22,
-          "stop": 24.02,
-          "target": 33.61,
+          "entry": 27.58,
+          "stop": 24.38,
+          "target": 33.97,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 27.22,
-          "stop": 20.83,
-          "target": 44.26,
+          "entry": 27.58,
+          "stop": 21.19,
+          "target": 44.62,
           "rr": 2.7
         }
       }
@@ -3715,21 +3715,21 @@
       "atr": 1.34,
       "buckets": {
         "intraday": {
-          "entry": 13.64,
-          "stop": 12.3,
-          "target": 15.65,
+          "entry": 13.95,
+          "stop": 12.61,
+          "target": 15.96,
           "rr": 1.5
         },
         "swing": {
-          "entry": 13.64,
-          "stop": 11.63,
-          "target": 17.66,
+          "entry": 13.95,
+          "stop": 11.94,
+          "target": 17.97,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 13.64,
-          "stop": 9.62,
-          "target": 24.36,
+          "entry": 13.95,
+          "stop": 9.93,
+          "target": 24.67,
           "rr": 2.7
         }
       }
@@ -3739,21 +3739,21 @@
       "atr": 0.34,
       "buckets": {
         "intraday": {
-          "entry": 8.34,
-          "stop": 8.0,
-          "target": 8.85,
+          "entry": 8.35,
+          "stop": 8.01,
+          "target": 8.86,
           "rr": 1.5
         },
         "swing": {
-          "entry": 8.34,
-          "stop": 7.83,
-          "target": 9.36,
+          "entry": 8.35,
+          "stop": 7.84,
+          "target": 9.37,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 8.34,
-          "stop": 7.32,
-          "target": 11.06,
+          "entry": 8.35,
+          "stop": 7.33,
+          "target": 11.07,
           "rr": 2.7
         }
       }
@@ -3763,21 +3763,21 @@
       "atr": 0.48,
       "buckets": {
         "intraday": {
-          "entry": 10.56,
-          "stop": 10.08,
-          "target": 11.28,
+          "entry": 10.63,
+          "stop": 10.15,
+          "target": 11.35,
           "rr": 1.5
         },
         "swing": {
-          "entry": 10.56,
-          "stop": 9.84,
-          "target": 12.0,
+          "entry": 10.63,
+          "stop": 9.91,
+          "target": 12.07,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 10.56,
-          "stop": 9.12,
-          "target": 14.4,
+          "entry": 10.63,
+          "stop": 9.19,
+          "target": 14.47,
           "rr": 2.7
         }
       }
@@ -3787,21 +3787,21 @@
       "atr": 0.27,
       "buckets": {
         "intraday": {
-          "entry": 5.92,
-          "stop": 5.65,
+          "entry": 5.93,
+          "stop": 5.66,
           "target": 6.33,
           "rr": 1.5
         },
         "swing": {
-          "entry": 5.92,
-          "stop": 5.51,
-          "target": 6.73,
+          "entry": 5.93,
+          "stop": 5.52,
+          "target": 6.74,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 5.92,
-          "stop": 5.11,
-          "target": 8.08,
+          "entry": 5.93,
+          "stop": 5.12,
+          "target": 8.09,
           "rr": 2.7
         }
       }
@@ -3811,21 +3811,21 @@
       "atr": 0.79,
       "buckets": {
         "intraday": {
-          "entry": 9.44,
-          "stop": 8.65,
-          "target": 10.62,
+          "entry": 9.49,
+          "stop": 8.7,
+          "target": 10.68,
           "rr": 1.5
         },
         "swing": {
-          "entry": 9.44,
-          "stop": 8.25,
-          "target": 11.81,
+          "entry": 9.49,
+          "stop": 8.3,
+          "target": 11.86,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 9.44,
-          "stop": 7.07,
-          "target": 15.76,
+          "entry": 9.49,
+          "stop": 7.12,
+          "target": 15.81,
           "rr": 2.7
         }
       }
@@ -3835,21 +3835,21 @@
       "atr": 6.23,
       "buckets": {
         "intraday": {
-          "entry": 40.19,
-          "stop": 33.96,
-          "target": 49.53,
+          "entry": 41.01,
+          "stop": 34.78,
+          "target": 50.35,
           "rr": 1.5
         },
         "swing": {
-          "entry": 40.19,
-          "stop": 30.84,
-          "target": 58.88,
+          "entry": 41.01,
+          "stop": 31.66,
+          "target": 59.7,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 40.19,
-          "stop": 21.5,
-          "target": 90.03,
+          "entry": 41.01,
+          "stop": 22.32,
+          "target": 90.85,
           "rr": 2.7
         }
       }
@@ -3859,21 +3859,21 @@
       "atr": 0.88,
       "buckets": {
         "intraday": {
-          "entry": 11.98,
-          "stop": 11.1,
-          "target": 13.3,
+          "entry": 12.01,
+          "stop": 11.13,
+          "target": 13.33,
           "rr": 1.5
         },
         "swing": {
-          "entry": 11.98,
-          "stop": 10.66,
-          "target": 14.62,
+          "entry": 12.01,
+          "stop": 10.69,
+          "target": 14.65,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 11.98,
-          "stop": 9.34,
-          "target": 19.02,
+          "entry": 12.01,
+          "stop": 9.37,
+          "target": 19.05,
           "rr": 2.7
         }
       }
@@ -3883,21 +3883,21 @@
       "atr": 0.44,
       "buckets": {
         "intraday": {
-          "entry": 6.88,
-          "stop": 6.44,
-          "target": 7.54,
+          "entry": 6.89,
+          "stop": 6.45,
+          "target": 7.55,
           "rr": 1.5
         },
         "swing": {
-          "entry": 6.88,
-          "stop": 6.22,
-          "target": 8.2,
+          "entry": 6.89,
+          "stop": 6.23,
+          "target": 8.21,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 6.88,
-          "stop": 5.56,
-          "target": 10.4,
+          "entry": 6.89,
+          "stop": 5.57,
+          "target": 10.41,
           "rr": 2.7
         }
       }
@@ -3907,21 +3907,21 @@
       "atr": 0.94,
       "buckets": {
         "intraday": {
-          "entry": 9.92,
-          "stop": 8.98,
-          "target": 11.33,
+          "entry": 9.96,
+          "stop": 9.02,
+          "target": 11.37,
           "rr": 1.5
         },
         "swing": {
-          "entry": 9.92,
-          "stop": 8.51,
-          "target": 12.74,
+          "entry": 9.96,
+          "stop": 8.55,
+          "target": 12.78,
           "rr": 2.0
         },
         "long_term": {
-          "entry": 9.92,
-          "stop": 7.1,
-          "target": 17.44,
+          "entry": 9.96,
+          "stop": 7.14,
+          "target": 17.48,
           "rr": 2.7
         }
       }
