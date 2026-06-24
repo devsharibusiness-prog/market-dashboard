@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="data:,">
 <title>Investing Dashboard</title>
 <style>
   :root{
@@ -23,9 +24,7 @@
     --shadow:0 6px 22px rgba(40,60,100,.12);
   }
   *{box-sizing:border-box;margin:0;padding:0}
-  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;
-    background:linear-gradient(160deg,var(--bg),var(--card));color:var(--txt);
-    min-height:100vh;line-height:1.5;padding-bottom:50px}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Arial,sans-serif;background:linear-gradient(160deg,var(--bg),var(--card));color:var(--txt);min-height:100vh;line-height:1.5;padding-bottom:50px}
   .tnum{font-variant-numeric:tabular-nums}
   a{color:inherit;text-decoration:none}
   .wrap{max-width:1240px;margin:0 auto;padding:20px 18px}
@@ -40,7 +39,7 @@
   .ibtn{width:38px;height:38px;border-radius:11px;border:1px solid var(--line);background:var(--card);color:var(--txt);cursor:pointer;font-size:1.05rem}
   .ibtn:hover{background:var(--card2)}
   .hero{border-radius:20px;padding:24px;margin-bottom:22px;position:relative;overflow:hidden;background:linear-gradient(135deg,color-mix(in srgb,var(--accent) 16%,var(--card)),color-mix(in srgb,var(--purple) 16%,var(--card)));border:1px solid var(--line);box-shadow:var(--shadow)}
-  .hero-row{display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap;position:relative;z-index:1}
+  .hero-row{display:flex;gap:20px;align-items:flex-start;flex-wrap:wrap}
   .mood-emoji{font-size:3rem;line-height:1;animation:bob 2.6s ease-in-out infinite}
   @keyframes bob{0%,100%{transform:scale(1) rotate(0)}50%{transform:scale(1.12) rotate(-4deg)}}
   .hero-text{flex:1;min-width:250px}
@@ -68,7 +67,7 @@
   .sec-head h2{font-size:1.28rem;font-weight:800}
   .sec-head .sub{color:var(--soft);font-size:.82rem}
   .grid{display:grid;gap:15px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;box-shadow:var(--shadow);transition:transform .2s,box-shadow .2s;position:relative}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;box-shadow:var(--shadow);transition:transform .2s,box-shadow .2s}
   .card:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(0,0,0,.4)}
   .trow{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:4px}
   .tkr{font-weight:800;font-size:1.12rem}
@@ -223,7 +222,8 @@
   themeBtn.addEventListener("click",function(){
     var cur=document.documentElement.getAttribute("data-theme")==="light"?"light":"dark";
     var nx=cur==="light"?"dark":"light";applyTheme(nx);try{localStorage.setItem("dash-theme",nx);}catch(e){}});
-  function esc(s){if(s==null){return "";}return String(s).replace(/[&<>"']/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c];});}
+  var ESC_MAP={"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"};
+  function esc(s){if(s==null){return "";}return String(s).split("").map(function(c){return ESC_MAP[c]||c;}).join("");}
   function n(v){return (v==null||isNaN(v))?null:Number(v);}
   function money(v){return (v==null||isNaN(v))?"—":"$"+Number(v).toLocaleString("en-US",{minimumFractionDigits:2,maximumFractionDigits:2});}
   function clamp(x,lo,hi){return Math.max(lo,Math.min(hi,x));}
@@ -260,14 +260,13 @@
     function pct(v){return clamp(((v-lo)/span)*100,0,100);}
     return '<div class="tcard"><div class="ttop"><div class="ttl"><span class="tkr">'+esc(t.ticker)+'</span><span class="atr tnum">ATR '+(t.atr==null||isNaN(t.atr)?"—":Number(t.atr).toFixed(2))+'</span></div><span class="rr '+rrCls(rr)+' tnum">R:R '+(rr===null?"—":rr.toFixed(1))+'</span></div>'+(capH||sigH?'<div class="meta">'+sigH+capH+'</div>':'')+'<div class="ets"><div class="ebox e-stop"><div class="elabel">Stop-Loss</div><div class="eval tnum">'+money(stop)+'</div></div><div class="ebox e-entry"><div class="elabel">Entry</div><div class="eval tnum">'+money(entry)+'</div></div><div class="ebox e-target"><div class="elabel">Target</div><div class="eval tnum">'+money(target)+'</div></div></div><div class="rrbar"><div class="rrm s" style="left:'+pct(stop)+'%"></div><div class="rrm e" style="left:'+pct(entry)+'%"></div><div class="rrm t" style="left:'+pct(target)+'%"></div></div><div class="rrends"><span class="s">◄ Stop</span><span class="e">Entry</span><span class="t">Target ►</span></div></div>';
   }
+  function isEmojiChar(ch){if(!ch){return false;}var cp=ch.codePointAt(0);return cp>=0x1F000||(cp>=0x2600&&cp<=0x27BF)||(cp>=0x2190&&cp<=0x21FF);}
+  function nl2br(str){return esc(str).split(String.fromCharCode(10)).join("<br>");}
   function renderBrief(){
     var brief=(DATA&&DATA.brief)||"";
     var first=Array.from(brief.trim())[0]||"";
-    var isEmoji=/[\u{1F000}-\u{1FAFF}\u{2600}-\u{27BF}]/u.test(first);
-    document.getElementById("moodEmoji").textContent=isEmoji?first:"🧭";
-    document.getElementById("briefBody").innerHTML=esc(brief).replace(/  
-/g,"<br>").replace(/
-/g,"<br>")||"No brief.";
+    document.getElementById("moodEmoji").textContent=isEmojiChar(first)?first:"🧭";
+    document.getElementById("briefBody").innerHTML=nl2br(brief)||"No brief.";
     var k=0,d=0,w=0;(DATA.screen||[]).forEach(function(s){if(s.signal==="keeper"){k++;}else if(s.signal==="dip-risk"){d++;}else if(s.signal==="watch"){w++;}});
     document.getElementById("moodCounts").innerHTML='<span class="mpill k">🟢 Keepers <span class="n tnum">'+k+'</span></span><span class="mpill d">🔴 Dip-risk <span class="n tnum">'+d+'</span></span><span class="mpill w">🟡 Watch <span class="n tnum">'+w+'</span></span>';
   }
@@ -324,11 +323,12 @@
     }).join("");
   }
   function newsIcon(u,h){u=(u||"").toLowerCase();h=(h||"").toLowerCase();if(u.indexOf("sec.gov")!==-1||h.indexOf("8-k")!==-1||h.indexOf("filing")!==-1){return "📄";}if(h.indexOf("earnings")!==-1){return "💰";}if(h.indexOf("analyst")!==-1||h.indexOf("target")!==-1){return "🎯";}return "📰";}
+  function hostOf(url){try{var a=document.createElement("a");a.href=url;var hn=a.hostname;if(hn.indexOf("www.")===0){hn=hn.slice(4);}return hn;}catch(e){return "";}}
   function renderNews(){
     var el=document.getElementById("newsList");
     var list=(DATA.news||[]);
     if(!list.length){el.innerHTML='<div class="empty"><span class="em">📰</span>No news available.</div>';return;}
-    el.innerHTML=list.map(function(nw){var host="";try{host=new URL(nw.url).hostname.replace(/^www\./,"");}catch(e){host="";}return '<a class="ncard" href="'+esc(nw.url||"#")+'" target="_blank" rel="noopener"><span class="nic">'+newsIcon(nw.url,nw.headline)+'</span><span><span class="nhead">'+esc(nw.headline)+'</span>'+(host?'<span class="nurl">'+esc(host)+'</span>':'')+'</span></a>';}).join("");
+    el.innerHTML=list.map(function(nw){var host=hostOf(nw.url||"");return '<a class="ncard" href="'+esc(nw.url||"#")+'" target="_blank" rel="noopener"><span class="nic">'+newsIcon(nw.url,nw.headline)+'</span><span><span class="nhead">'+esc(nw.headline)+'</span>'+(host?'<span class="nurl">'+esc(host)+'</span>':'')+'</span></a>';}).join("");
   }
   function renderFresh(){
     var dot=document.getElementById("freshDot"),txt=document.getElementById("freshText");
