@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-24T18:36:52Z",
+  "generated_at": "2026-06-25T19:30:11Z",
   "suggestions": [
     {
       "ticker": "GOOGL",
-      "total_score": 77.0,
-      "technical_score": 32.0,
+      "total_score": 79.0,
+      "technical_score": 34.0,
       "fundamental_score": 45.0,
       "horizon": "long_term",
       "expected_window": "6-18+ months",
@@ -12,10 +12,10 @@
       "conviction": "Strong",
       "conviction_emoji": "\ud83d\udfe2",
       "tech_notes": [
-        "RSI 42 healthy",
+        "RSI 31 recovering",
         "Above 200MA",
-        "3M +18.6%",
-        "Near 52w high (75%)"
+        "3M +18.3%",
+        "75% of 52w range"
       ],
       "fund_notes": [
         "P/E 26 (rich)",
@@ -24,17 +24,17 @@
         "ROE 39%"
       ],
       "technicals": {
-        "rsi": 41.53,
-        "ma50": 368.87,
-        "ma200": 312.45,
-        "mom_1m": -10.02,
-        "mom_3m": 18.65,
-        "pos_52w": 75.44,
+        "rsi": 30.55,
+        "ma50": 369.11,
+        "ma200": 313.01,
+        "mom_1m": -11.52,
+        "mom_3m": 18.27,
+        "pos_52w": 74.8,
         "volatility": 2.05,
-        "price": 344.39
+        "price": 343.87
       },
       "fundamentals": {
-        "pe": 26.25,
+        "pe": 26.21,
         "rev_growth": 21.8,
         "margin": 37.92,
         "roe": 38.88,
@@ -43,19 +43,18 @@
     },
     {
       "ticker": "NVDA",
-      "total_score": 76.0,
-      "technical_score": 31.0,
+      "total_score": 74.0,
+      "technical_score": 29.0,
       "fundamental_score": 45.0,
       "horizon": "long_term",
       "expected_window": "6-18+ months",
       "horizon_reason": "Established uptrend, suited to holding",
-      "conviction": "Strong",
-      "conviction_emoji": "\ud83d\udfe2",
+      "conviction": "Moderate",
+      "conviction_emoji": "\ud83d\udfe1",
       "tech_notes": [
-        "RSI 38 recovering",
+        "RSI 32 recovering",
         "Above 200MA",
-        "3M +13.2%",
-        "57% of 52w range"
+        "50% of 52w range"
       ],
       "fund_notes": [
         "P/E 30 (rich)",
@@ -64,17 +63,17 @@
         "ROE 114%"
       ],
       "technicals": {
-        "rsi": 37.96,
-        "ma50": 210.03,
-        "ma200": 190.18,
-        "mom_1m": -7.87,
-        "mom_3m": 13.24,
-        "pos_52w": 57.49,
-        "volatility": 2.95,
-        "price": 198.16
+        "rsi": 31.99,
+        "ma50": 210.01,
+        "ma200": 190.31,
+        "mom_1m": -9.45,
+        "mom_3m": 8.88,
+        "pos_52w": 50.05,
+        "volatility": 2.98,
+        "price": 194.32
       },
       "fundamentals": {
-        "pe": 30.39,
+        "pe": 29.76,
         "rev_growth": 85.2,
         "margin": 62.97,
         "roe": 114.29,
@@ -82,48 +81,9 @@
       }
     },
     {
-      "ticker": "AMZN",
-      "total_score": 75.0,
-      "technical_score": 39.0,
-      "fundamental_score": 36.0,
-      "horizon": "long_term",
-      "expected_window": "6-18+ months",
-      "horizon_reason": "Established uptrend, suited to holding",
-      "conviction": "Strong",
-      "conviction_emoji": "\ud83d\udfe2",
-      "tech_notes": [
-        "RSI 40 healthy",
-        "Above 200MA",
-        "3M +14.6%",
-        "51% of 52w range"
-      ],
-      "fund_notes": [
-        "P/E 32 (rich)",
-        "Rev growth +17%",
-        "ROE 24%"
-      ],
-      "technicals": {
-        "rsi": 40.46,
-        "ma50": 256.95,
-        "ma200": 232.86,
-        "mom_1m": -10.8,
-        "mom_3m": 14.63,
-        "pos_52w": 50.88,
-        "volatility": 2.31,
-        "price": 237.56
-      },
-      "fundamentals": {
-        "pe": 32.1,
-        "rev_growth": 16.6,
-        "margin": 12.22,
-        "roe": 24.29,
-        "debt_to_equity": 53.3
-      }
-    },
-    {
       "ticker": "AAPL",
-      "total_score": 73.0,
-      "technical_score": 34.0,
+      "total_score": 68.0,
+      "technical_score": 29.0,
       "fundamental_score": 39.0,
       "horizon": "long_term",
       "expected_window": "6-18+ months",
@@ -131,29 +91,28 @@
       "conviction": "Moderate",
       "conviction_emoji": "\ud83d\udfe1",
       "tech_notes": [
-        "RSI 36 recovering",
-        "Strong uptrend (>50>200MA)",
-        "3M +17.7%",
-        "Near 52w high (83%)"
+        "RSI 23 oversold",
+        "Above 200MA",
+        "66% of 52w range"
       ],
       "fund_notes": [
-        "P/E 36 (rich)",
+        "P/E 33 (rich)",
         "Rev growth +17%",
         "Margin 27%",
         "ROE 141%"
       ],
       "technicals": {
-        "rsi": 35.61,
-        "ma50": 290.78,
-        "ma200": 268.65,
-        "mom_1m": -4.19,
-        "mom_3m": 17.69,
-        "pos_52w": 83.3,
-        "volatility": 1.53,
-        "price": 295.88
+        "rsi": 23.43,
+        "ma50": 291.09,
+        "ma200": 268.83,
+        "mom_1m": -10.28,
+        "mom_3m": 9.61,
+        "pos_52w": 66.47,
+        "volatility": 1.91,
+        "price": 276.64
       },
       "fundamentals": {
-        "pe": 35.78,
+        "pe": 33.49,
         "rev_growth": 16.6,
         "margin": 27.15,
         "roe": 141.47,
@@ -171,32 +130,71 @@
       "conviction": "Moderate",
       "conviction_emoji": "\ud83d\udfe1",
       "tech_notes": [
-        "RSI 19 oversold",
+        "RSI 15 oversold",
         "Below key MAs",
-        "Near 52w low (8%)"
+        "Near 52w low (0%)"
       ],
       "fund_notes": [
-        "P/E 22 (fair)",
+        "P/E 21 (fair)",
         "Rev growth +18%",
         "Margin 39%",
         "ROE 34%"
       ],
       "technicals": {
-        "rsi": 18.9,
-        "ma50": 412.16,
-        "ma200": 447.62,
-        "mom_1m": -11.45,
-        "mom_3m": -0.34,
-        "pos_52w": 8.03,
-        "volatility": 2.54,
-        "price": 370.66
+        "rsi": 15.22,
+        "ma50": 411.26,
+        "ma200": 446.88,
+        "mom_1m": -15.24,
+        "mom_3m": -4.76,
+        "pos_52w": 0.0,
+        "volatility": 2.65,
+        "price": 352.61
       },
       "fundamentals": {
-        "pe": 22.08,
+        "pe": 21.03,
         "rev_growth": 18.3,
         "margin": 39.34,
         "roe": 34.01,
         "debt_to_equity": 30.27
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "total_score": 60.0,
+      "technical_score": 24.0,
+      "fundamental_score": 36.0,
+      "horizon": "swing",
+      "expected_window": "1-6 weeks",
+      "horizon_reason": "Mixed signals - monitor on swing timeframe",
+      "conviction": "Moderate",
+      "conviction_emoji": "\ud83d\udfe1",
+      "tech_notes": [
+        "RSI 30 oversold",
+        "Below key MAs",
+        "37% of 52w range",
+        "Rising volume"
+      ],
+      "fund_notes": [
+        "P/E 31 (rich)",
+        "Rev growth +17%",
+        "ROE 24%"
+      ],
+      "technicals": {
+        "rsi": 29.61,
+        "ma50": 256.45,
+        "ma200": 232.8,
+        "mom_1m": -14.38,
+        "mom_3m": 7.28,
+        "pos_52w": 37.19,
+        "volatility": 2.21,
+        "price": 227.13
+      },
+      "fundamentals": {
+        "pe": 30.69,
+        "rev_growth": 16.6,
+        "margin": 12.22,
+        "roe": 24.29,
+        "debt_to_equity": 53.3
       }
     }
   ],
@@ -214,40 +212,79 @@
         "conviction": "Moderate",
         "conviction_emoji": "\ud83d\udfe1",
         "tech_notes": [
-          "RSI 19 oversold",
+          "RSI 15 oversold",
           "Below key MAs",
-          "Near 52w low (8%)"
+          "Near 52w low (0%)"
         ],
         "fund_notes": [
-          "P/E 22 (fair)",
+          "P/E 21 (fair)",
           "Rev growth +18%",
           "Margin 39%",
           "ROE 34%"
         ],
         "technicals": {
-          "rsi": 18.9,
-          "ma50": 412.16,
-          "ma200": 447.62,
-          "mom_1m": -11.45,
-          "mom_3m": -0.34,
-          "pos_52w": 8.03,
-          "volatility": 2.54,
-          "price": 370.66
+          "rsi": 15.22,
+          "ma50": 411.26,
+          "ma200": 446.88,
+          "mom_1m": -15.24,
+          "mom_3m": -4.76,
+          "pos_52w": 0.0,
+          "volatility": 2.65,
+          "price": 352.61
         },
         "fundamentals": {
-          "pe": 22.08,
+          "pe": 21.03,
           "rev_growth": 18.3,
           "margin": 39.34,
           "roe": 34.01,
           "debt_to_equity": 30.27
+        }
+      },
+      {
+        "ticker": "AMZN",
+        "total_score": 60.0,
+        "technical_score": 24.0,
+        "fundamental_score": 36.0,
+        "horizon": "swing",
+        "expected_window": "1-6 weeks",
+        "horizon_reason": "Mixed signals - monitor on swing timeframe",
+        "conviction": "Moderate",
+        "conviction_emoji": "\ud83d\udfe1",
+        "tech_notes": [
+          "RSI 30 oversold",
+          "Below key MAs",
+          "37% of 52w range",
+          "Rising volume"
+        ],
+        "fund_notes": [
+          "P/E 31 (rich)",
+          "Rev growth +17%",
+          "ROE 24%"
+        ],
+        "technicals": {
+          "rsi": 29.61,
+          "ma50": 256.45,
+          "ma200": 232.8,
+          "mom_1m": -14.38,
+          "mom_3m": 7.28,
+          "pos_52w": 37.19,
+          "volatility": 2.21,
+          "price": 227.13
+        },
+        "fundamentals": {
+          "pe": 30.69,
+          "rev_growth": 16.6,
+          "margin": 12.22,
+          "roe": 24.29,
+          "debt_to_equity": 53.3
         }
       }
     ],
     "long_term": [
       {
         "ticker": "GOOGL",
-        "total_score": 77.0,
-        "technical_score": 32.0,
+        "total_score": 79.0,
+        "technical_score": 34.0,
         "fundamental_score": 45.0,
         "horizon": "long_term",
         "expected_window": "6-18+ months",
@@ -255,10 +292,10 @@
         "conviction": "Strong",
         "conviction_emoji": "\ud83d\udfe2",
         "tech_notes": [
-          "RSI 42 healthy",
+          "RSI 31 recovering",
           "Above 200MA",
-          "3M +18.6%",
-          "Near 52w high (75%)"
+          "3M +18.3%",
+          "75% of 52w range"
         ],
         "fund_notes": [
           "P/E 26 (rich)",
@@ -267,17 +304,17 @@
           "ROE 39%"
         ],
         "technicals": {
-          "rsi": 41.53,
-          "ma50": 368.87,
-          "ma200": 312.45,
-          "mom_1m": -10.02,
-          "mom_3m": 18.65,
-          "pos_52w": 75.44,
+          "rsi": 30.55,
+          "ma50": 369.11,
+          "ma200": 313.01,
+          "mom_1m": -11.52,
+          "mom_3m": 18.27,
+          "pos_52w": 74.8,
           "volatility": 2.05,
-          "price": 344.39
+          "price": 343.87
         },
         "fundamentals": {
-          "pe": 26.25,
+          "pe": 26.21,
           "rev_growth": 21.8,
           "margin": 37.92,
           "roe": 38.88,
@@ -286,19 +323,18 @@
       },
       {
         "ticker": "NVDA",
-        "total_score": 76.0,
-        "technical_score": 31.0,
+        "total_score": 74.0,
+        "technical_score": 29.0,
         "fundamental_score": 45.0,
         "horizon": "long_term",
         "expected_window": "6-18+ months",
         "horizon_reason": "Established uptrend, suited to holding",
-        "conviction": "Strong",
-        "conviction_emoji": "\ud83d\udfe2",
+        "conviction": "Moderate",
+        "conviction_emoji": "\ud83d\udfe1",
         "tech_notes": [
-          "RSI 38 recovering",
+          "RSI 32 recovering",
           "Above 200MA",
-          "3M +13.2%",
-          "57% of 52w range"
+          "50% of 52w range"
         ],
         "fund_notes": [
           "P/E 30 (rich)",
@@ -307,17 +343,17 @@
           "ROE 114%"
         ],
         "technicals": {
-          "rsi": 37.96,
-          "ma50": 210.03,
-          "ma200": 190.18,
-          "mom_1m": -7.87,
-          "mom_3m": 13.24,
-          "pos_52w": 57.49,
-          "volatility": 2.95,
-          "price": 198.16
+          "rsi": 31.99,
+          "ma50": 210.01,
+          "ma200": 190.31,
+          "mom_1m": -9.45,
+          "mom_3m": 8.88,
+          "pos_52w": 50.05,
+          "volatility": 2.98,
+          "price": 194.32
         },
         "fundamentals": {
-          "pe": 30.39,
+          "pe": 29.76,
           "rev_growth": 85.2,
           "margin": 62.97,
           "roe": 114.29,
@@ -325,48 +361,9 @@
         }
       },
       {
-        "ticker": "AMZN",
-        "total_score": 75.0,
-        "technical_score": 39.0,
-        "fundamental_score": 36.0,
-        "horizon": "long_term",
-        "expected_window": "6-18+ months",
-        "horizon_reason": "Established uptrend, suited to holding",
-        "conviction": "Strong",
-        "conviction_emoji": "\ud83d\udfe2",
-        "tech_notes": [
-          "RSI 40 healthy",
-          "Above 200MA",
-          "3M +14.6%",
-          "51% of 52w range"
-        ],
-        "fund_notes": [
-          "P/E 32 (rich)",
-          "Rev growth +17%",
-          "ROE 24%"
-        ],
-        "technicals": {
-          "rsi": 40.46,
-          "ma50": 256.95,
-          "ma200": 232.86,
-          "mom_1m": -10.8,
-          "mom_3m": 14.63,
-          "pos_52w": 50.88,
-          "volatility": 2.31,
-          "price": 237.56
-        },
-        "fundamentals": {
-          "pe": 32.1,
-          "rev_growth": 16.6,
-          "margin": 12.22,
-          "roe": 24.29,
-          "debt_to_equity": 53.3
-        }
-      },
-      {
         "ticker": "AAPL",
-        "total_score": 73.0,
-        "technical_score": 34.0,
+        "total_score": 68.0,
+        "technical_score": 29.0,
         "fundamental_score": 39.0,
         "horizon": "long_term",
         "expected_window": "6-18+ months",
@@ -374,29 +371,28 @@
         "conviction": "Moderate",
         "conviction_emoji": "\ud83d\udfe1",
         "tech_notes": [
-          "RSI 36 recovering",
-          "Strong uptrend (>50>200MA)",
-          "3M +17.7%",
-          "Near 52w high (83%)"
+          "RSI 23 oversold",
+          "Above 200MA",
+          "66% of 52w range"
         ],
         "fund_notes": [
-          "P/E 36 (rich)",
+          "P/E 33 (rich)",
           "Rev growth +17%",
           "Margin 27%",
           "ROE 141%"
         ],
         "technicals": {
-          "rsi": 35.61,
-          "ma50": 290.78,
-          "ma200": 268.65,
-          "mom_1m": -4.19,
-          "mom_3m": 17.69,
-          "pos_52w": 83.3,
-          "volatility": 1.53,
-          "price": 295.88
+          "rsi": 23.43,
+          "ma50": 291.09,
+          "ma200": 268.83,
+          "mom_1m": -10.28,
+          "mom_3m": 9.61,
+          "pos_52w": 66.47,
+          "volatility": 1.91,
+          "price": 276.64
         },
         "fundamentals": {
-          "pe": 35.78,
+          "pe": 33.49,
           "rev_growth": 16.6,
           "margin": 27.15,
           "roe": 141.47,
@@ -408,8 +404,8 @@
   "top_picks": [
     {
       "ticker": "GOOGL",
-      "total_score": 77.0,
-      "technical_score": 32.0,
+      "total_score": 79.0,
+      "technical_score": 34.0,
       "fundamental_score": 45.0,
       "horizon": "long_term",
       "expected_window": "6-18+ months",
@@ -417,10 +413,10 @@
       "conviction": "Strong",
       "conviction_emoji": "\ud83d\udfe2",
       "tech_notes": [
-        "RSI 42 healthy",
+        "RSI 31 recovering",
         "Above 200MA",
-        "3M +18.6%",
-        "Near 52w high (75%)"
+        "3M +18.3%",
+        "75% of 52w range"
       ],
       "fund_notes": [
         "P/E 26 (rich)",
@@ -429,17 +425,17 @@
         "ROE 39%"
       ],
       "technicals": {
-        "rsi": 41.53,
-        "ma50": 368.87,
-        "ma200": 312.45,
-        "mom_1m": -10.02,
-        "mom_3m": 18.65,
-        "pos_52w": 75.44,
+        "rsi": 30.55,
+        "ma50": 369.11,
+        "ma200": 313.01,
+        "mom_1m": -11.52,
+        "mom_3m": 18.27,
+        "pos_52w": 74.8,
         "volatility": 2.05,
-        "price": 344.39
+        "price": 343.87
       },
       "fundamentals": {
-        "pe": 26.25,
+        "pe": 26.21,
         "rev_growth": 21.8,
         "margin": 37.92,
         "roe": 38.88,
@@ -448,19 +444,18 @@
     },
     {
       "ticker": "NVDA",
-      "total_score": 76.0,
-      "technical_score": 31.0,
+      "total_score": 74.0,
+      "technical_score": 29.0,
       "fundamental_score": 45.0,
       "horizon": "long_term",
       "expected_window": "6-18+ months",
       "horizon_reason": "Established uptrend, suited to holding",
-      "conviction": "Strong",
-      "conviction_emoji": "\ud83d\udfe2",
+      "conviction": "Moderate",
+      "conviction_emoji": "\ud83d\udfe1",
       "tech_notes": [
-        "RSI 38 recovering",
+        "RSI 32 recovering",
         "Above 200MA",
-        "3M +13.2%",
-        "57% of 52w range"
+        "50% of 52w range"
       ],
       "fund_notes": [
         "P/E 30 (rich)",
@@ -469,17 +464,17 @@
         "ROE 114%"
       ],
       "technicals": {
-        "rsi": 37.96,
-        "ma50": 210.03,
-        "ma200": 190.18,
-        "mom_1m": -7.87,
-        "mom_3m": 13.24,
-        "pos_52w": 57.49,
-        "volatility": 2.95,
-        "price": 198.16
+        "rsi": 31.99,
+        "ma50": 210.01,
+        "ma200": 190.31,
+        "mom_1m": -9.45,
+        "mom_3m": 8.88,
+        "pos_52w": 50.05,
+        "volatility": 2.98,
+        "price": 194.32
       },
       "fundamentals": {
-        "pe": 30.39,
+        "pe": 29.76,
         "rev_growth": 85.2,
         "margin": 62.97,
         "roe": 114.29,
@@ -487,48 +482,9 @@
       }
     },
     {
-      "ticker": "AMZN",
-      "total_score": 75.0,
-      "technical_score": 39.0,
-      "fundamental_score": 36.0,
-      "horizon": "long_term",
-      "expected_window": "6-18+ months",
-      "horizon_reason": "Established uptrend, suited to holding",
-      "conviction": "Strong",
-      "conviction_emoji": "\ud83d\udfe2",
-      "tech_notes": [
-        "RSI 40 healthy",
-        "Above 200MA",
-        "3M +14.6%",
-        "51% of 52w range"
-      ],
-      "fund_notes": [
-        "P/E 32 (rich)",
-        "Rev growth +17%",
-        "ROE 24%"
-      ],
-      "technicals": {
-        "rsi": 40.46,
-        "ma50": 256.95,
-        "ma200": 232.86,
-        "mom_1m": -10.8,
-        "mom_3m": 14.63,
-        "pos_52w": 50.88,
-        "volatility": 2.31,
-        "price": 237.56
-      },
-      "fundamentals": {
-        "pe": 32.1,
-        "rev_growth": 16.6,
-        "margin": 12.22,
-        "roe": 24.29,
-        "debt_to_equity": 53.3
-      }
-    },
-    {
       "ticker": "AAPL",
-      "total_score": 73.0,
-      "technical_score": 34.0,
+      "total_score": 68.0,
+      "technical_score": 29.0,
       "fundamental_score": 39.0,
       "horizon": "long_term",
       "expected_window": "6-18+ months",
@@ -536,29 +492,28 @@
       "conviction": "Moderate",
       "conviction_emoji": "\ud83d\udfe1",
       "tech_notes": [
-        "RSI 36 recovering",
-        "Strong uptrend (>50>200MA)",
-        "3M +17.7%",
-        "Near 52w high (83%)"
+        "RSI 23 oversold",
+        "Above 200MA",
+        "66% of 52w range"
       ],
       "fund_notes": [
-        "P/E 36 (rich)",
+        "P/E 33 (rich)",
         "Rev growth +17%",
         "Margin 27%",
         "ROE 141%"
       ],
       "technicals": {
-        "rsi": 35.61,
-        "ma50": 290.78,
-        "ma200": 268.65,
-        "mom_1m": -4.19,
-        "mom_3m": 17.69,
-        "pos_52w": 83.3,
-        "volatility": 1.53,
-        "price": 295.88
+        "rsi": 23.43,
+        "ma50": 291.09,
+        "ma200": 268.83,
+        "mom_1m": -10.28,
+        "mom_3m": 9.61,
+        "pos_52w": 66.47,
+        "volatility": 1.91,
+        "price": 276.64
       },
       "fundamentals": {
-        "pe": 35.78,
+        "pe": 33.49,
         "rev_growth": 16.6,
         "margin": 27.15,
         "roe": 141.47,
@@ -576,32 +531,71 @@
       "conviction": "Moderate",
       "conviction_emoji": "\ud83d\udfe1",
       "tech_notes": [
-        "RSI 19 oversold",
+        "RSI 15 oversold",
         "Below key MAs",
-        "Near 52w low (8%)"
+        "Near 52w low (0%)"
       ],
       "fund_notes": [
-        "P/E 22 (fair)",
+        "P/E 21 (fair)",
         "Rev growth +18%",
         "Margin 39%",
         "ROE 34%"
       ],
       "technicals": {
-        "rsi": 18.9,
-        "ma50": 412.16,
-        "ma200": 447.62,
-        "mom_1m": -11.45,
-        "mom_3m": -0.34,
-        "pos_52w": 8.03,
-        "volatility": 2.54,
-        "price": 370.66
+        "rsi": 15.22,
+        "ma50": 411.26,
+        "ma200": 446.88,
+        "mom_1m": -15.24,
+        "mom_3m": -4.76,
+        "pos_52w": 0.0,
+        "volatility": 2.65,
+        "price": 352.61
       },
       "fundamentals": {
-        "pe": 22.08,
+        "pe": 21.03,
         "rev_growth": 18.3,
         "margin": 39.34,
         "roe": 34.01,
         "debt_to_equity": 30.27
+      }
+    },
+    {
+      "ticker": "AMZN",
+      "total_score": 60.0,
+      "technical_score": 24.0,
+      "fundamental_score": 36.0,
+      "horizon": "swing",
+      "expected_window": "1-6 weeks",
+      "horizon_reason": "Mixed signals - monitor on swing timeframe",
+      "conviction": "Moderate",
+      "conviction_emoji": "\ud83d\udfe1",
+      "tech_notes": [
+        "RSI 30 oversold",
+        "Below key MAs",
+        "37% of 52w range",
+        "Rising volume"
+      ],
+      "fund_notes": [
+        "P/E 31 (rich)",
+        "Rev growth +17%",
+        "ROE 24%"
+      ],
+      "technicals": {
+        "rsi": 29.61,
+        "ma50": 256.45,
+        "ma200": 232.8,
+        "mom_1m": -14.38,
+        "mom_3m": 7.28,
+        "pos_52w": 37.19,
+        "volatility": 2.21,
+        "price": 227.13
+      },
+      "fundamentals": {
+        "pe": 30.69,
+        "rev_growth": 16.6,
+        "margin": 12.22,
+        "roe": 24.29,
+        "debt_to_equity": 53.3
       }
     }
   ]
