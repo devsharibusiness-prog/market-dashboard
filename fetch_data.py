@@ -124,23 +124,29 @@ def get_market_cap(t):
     return None
 
 # ---------- trade-bucket levels ----------
-def build_trade_buckets(price, atr_val):
+def build_trade_buckets(price, atr_val, direction):
     if not price or not atr_val:
         return {}
-    def setup(stop_mult, target_mult):
-        entry = price
-        stop = price - stop_mult * atr_val
-        target = price + target_mult * atr_val
-        risk = entry - stop
-        reward = target - entry
-        rr = round1(reward / risk) if risk > 0 else None
-        return {"entry": round2(entry), "stop": round2(stop),
-                "target": round2(target), "rr": rr}
-    return {
-        "intraday": setup(1.0, 1.5),
-        "swing": setup(1.5, 3.0),
-        "long_term": setup(3.0, 8.0),
-    }
+    def long_setup(stop_mult, target_mult):
+        stop = round(price - stop_mult * atr_val, 2)
+        target = round(price + target_mult * atr_val, 2)
+        risk = price - stop
+        reward = target - price
+        rr = round(reward / risk, 1) if risk > 0 else None
+        return {"direction": "long", "action": "BUY", "exit_action": "SELL",
+                "entry": round(price, 2), "stop": stop, "target": target, "rr": rr}
+    def short_setup(stop_mult, target_mult):
+        stop = round(price + stop_mult * atr_val, 2)
+        target = round(price - target_mult * atr_val, 2)
+        risk = stop - price
+        reward = price - target
+        rr = round(reward / risk, 1) if risk > 0 else None
+        return {"direction": "short", "action": "SELL/SHORT", "exit_action": "BUY/COVER",
+                "entry": round(price, 2), "stop": stop, "target": target, "rr": rr}
+    if direction == "short":
+        return {"intraday": short_setup(1.0, 1.5), "swing": short_setup(1.5, 3.0), "long_term": short_setup(3.0, 8.0)}
+    return {"intraday": long_setup(1.0, 1.5), "swing": long_setup(1.5, 3.0), "long_term": long_setup(3.0, 8.0)}
+
 
 # ---------- per-ticker ----------
 def build_ticker(ticker):
@@ -182,7 +188,9 @@ def build_ticker(ticker):
         screen = {"ticker": ticker, "rsi": r, "vs_200ma": vs_200,
                   "pos_52w_pct": pos52, "signal": signal,
                   "cap_tier": cap_tier, "market_cap_str": cap_str}
-        trade = {"ticker": ticker, "atr": a, "buckets": build_trade_buckets(price, a)}
+        tdir = "short" if (ma200 and price < ma200) else "long"
+        trade = {"ticker": ticker, "atr": a, "buckets": build_trade_buckets(price, a, tdir)}
+
 
         print("  [ok]   " + ticker + ": $" + str(price) + " ("
               + str(change_pct) + "%) " + cap_tier + " cap, RSI " + str(r))
