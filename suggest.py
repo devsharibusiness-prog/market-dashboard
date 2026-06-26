@@ -1,14 +1,9 @@
 #!/usr/bin/env python3
 """
-suggest.py - Phase 1 upgraded engine.
-Addresses review: real sector population, swing-based (varying) R:R,
-trend filter, expected value (EV), small-sample warning, relative strength
-vs SPY, position sizing ($10k acct / 1% risk), concentration-risk flag,
-VIX Sentiment (renamed from Fear&Greed), signal-history logging.
-
-Writes: suggestions.json, market.json, and APPENDS to signal_history.json.
+suggest.py - direction-aware engine (long for uptrend, short for downtrend).
+Writes suggestions.json, market.json, and appends signal_history.json.
 Free stack: yfinance + pandas. Regex-free. No backslash-n in strings.
-NOT financial advice. Transparent rule-based stats for research only.
+NOT financial advice. Shorting carries higher risk.
 """
 import json
 import os
@@ -21,9 +16,8 @@ import pandas as pd
 # CONFIG  <-- KEEP WATCHLIST IDENTICAL TO fetch_data.py
 # ============================================================
 WATCHLIST = ["AAPL", "MSFT", "NVDA", "AMZN", "GOOGL"]
-
-ACCOUNT_SIZE = 10000.0     # position sizing base
-RISK_PCT = 1.0             # risk 1% of account per trade
+ACCOUNT_SIZE = 10000.0
+RISK_PCT = 1.0
 
 SECTOR_ETFS = ["XLK", "XLE", "XLF", "XLV", "XLI",
                "XLY", "XLP", "XLU", "XLB", "XLRE", "XLC"]
@@ -65,7 +59,10 @@ def rsi_series(series, period=14):
     return 100 - (100 / (1 + rs))
 
 def atr(hist, period=14):
-    h = hist["High"]; lo = hist["Low"]; c = hist["Close"]; p = c.shift(1)
+    h = hist["High"]
+    lo = hist["Low"]
+    c = hist["Close"]
+    p = c.shift(1)
     tr = pd.concat([(h - lo), (h - p).abs(), (lo - p).abs()], axis=1).max(axis=1)
     v = tr.rolling(period).mean().iloc[-1]
     return round2(v) if pd.notna(v) else None
@@ -73,7 +70,8 @@ def atr(hist, period=14):
 def pct_return(series, days):
     if len(series) <= days:
         return None
-    o = series.iloc[-days - 1]; nw = series.iloc[-1]
+    o = series.iloc[-days - 1]
+    nw = series.iloc[-1]
     return float((nw - o) / o * 100) if o else None
 
 def clamp(x, lo, hi):
@@ -109,20 +107,31 @@ def score_volume(vr):
     return 100.0 if vr >= 1.5 else 80.0 if vr >= 1.2 else 60.0 if vr >= 1.0 else 45.0 if vr >= 0.8 else 30.0
 
 def score_fundamental(f):
-    s = 0.0; cnt = 0
-    pe = f.get("pe"); rg = f.get("rev_growth"); mg = f.get("margin")
-    roe = f.get("roe"); de = f.get("debt_to_equity")
+    s = 0.0
+    cnt = 0
+    pe = f.get("pe")
+    rg = f.get("rev_growth")
+    mg = f.get("margin")
+    roe = f.get("roe")
+    de = f.get("debt_to_equity")
     if pe is not None and pe > 0:
-        cnt += 1; s += 100 if pe < 15 else 80 if pe < 25 else 50 if pe < 40 else 25
+        cnt += 1
+        s += 100 if pe < 15 else 80 if pe < 25 else 50 if pe < 40 else 25
     if rg is not None:
-        cnt += 1; s += 100 if rg > 20 else 80 if rg > 10 else 55 if rg > 0 else 20
+        cnt += 1
+        s += 100 if rg > 20 else 80 if rg > 10 else 55 if rg > 0 else 20
     if mg is not None:
-        cnt += 1; s += 100 if mg > 20 else 75 if mg > 10 else 50 if mg > 0 else 10
+        cnt += 1
+        s += 100 if mg > 20 else 75 if mg > 10 else 50 if mg > 0 else 10
     if roe is not None:
-        cnt += 1; s += 100 if roe > 20 else 75 if roe > 10 else 50 if roe > 0 else 15
+        cnt += 1
+        s += 100 if roe > 20 else 75 if roe > 10 else 50 if roe > 0 else 15
     if de is not None:
-        cnt += 1; s += 100 if de < 50 else 70 if de < 100 else 45 if de < 200 else 20
-    return 50.0 if cnt == 0 else clamp(s / cnt, 0, 100)
+        cnt += 1
+        s += 100 if de < 50 else 70 if de < 100 else 45 if de < 200 else 20
+    if cnt == 0:
+        return 50.0
+    return clamp(s / cnt, 0, 100)
 
 def compute_confidence(a, b, c, d):
     subs = [a, b, c, d]
@@ -147,7 +156,7 @@ def build_trigger(rn, rp, price, ma50, ma200, vr, m1):
     return "Mixed - monitor for confirmation"
 
 # ============================================================
-# BACKTEST + EXPECTED VALUE (past frequency, NOT a prediction)
+# BACKTEST + EXPECTED VALUE
 # ============================================================
 def backtest_setup(hist, horizon_days=5):
     try:
@@ -155,20 +164,28 @@ def backtest_setup(hist, horizon_days=5):
         if len(close) < 220:
             return {"winrate": None, "sample": 0, "note": "Insufficient history",
                     "avg_win": None, "avg_loss": None, "ev_pct": None, "low_sample": True}
-        r = rsi_series(close); ma200 = close.rolling(200).mean(); ma50 = close.rolling(50).mean()
-        cr = r.iloc[-1]; cp = close.iloc[-1]; cm = ma200.iloc[-1]
+        r = rsi_series(close)
+        ma200 = close.rolling(200).mean()
+        ma50 = close.rolling(50).mean()
+        cr = r.iloc[-1]
+        cp = close.iloc[-1]
+        cm = ma200.iloc[-1]
         if pd.isna(cr) or pd.isna(cm):
             return {"winrate": None, "sample": 0, "note": "Setup undefined",
                     "avg_win": None, "avg_loss": None, "ev_pct": None, "low_sample": True}
         above = cp > cm
         if cr < 35:
-            cl = "RSI<35"; cond = r < 35
+            label = "RSI<35"
+            cond = r < 35
         elif cr > 70:
-            cl = "RSI>70"; cond = r > 70
+            label = "RSI>70"
+            cond = r > 70
         elif cp > ma50.iloc[-1]:
-            cl = "price>50MA"; cond = close > ma50
+            label = "price>50MA"
+            cond = close > ma50
         else:
-            cl = "RSI 35-70"; cond = (r >= 35) & (r <= 70)
+            label = "RSI 35-70"
+            cond = (r >= 35) & (r <= 70)
         tl = "above 200MA" if above else "below 200MA"
         cond = cond & (close > ma200) if above else cond & (close <= ma200)
         fwd = (close.shift(-horizon_days) - close) / close * 100
@@ -178,14 +195,15 @@ def backtest_setup(hist, horizon_days=5):
             return {"winrate": None, "sample": sample, "note": "Too few matches",
                     "avg_win": None, "avg_loss": None, "ev_pct": None, "low_sample": True}
         rets = fwd[valid]
-        wins = rets[rets > 0]; losses = rets[rets <= 0]
+        wins = rets[rets > 0]
+        losses = rets[rets <= 0]
         wr = round1(len(wins) / sample * 100)
         avg_win = round2(wins.mean()) if len(wins) else 0.0
         avg_loss = round2(losses.mean()) if len(losses) else 0.0
-        # Expected value % = P(win)*avgWin + P(loss)*avgLoss
-        pw = len(wins) / sample; pl = len(losses) / sample
+        pw = len(wins) / sample
+        pl = len(losses) / sample
         ev = round2(pw * (avg_win or 0) + pl * (avg_loss or 0))
-        note = cl + " & " + tl + " -> " + str(horizon_days) + "d fwd, " + str(sample) + " samples"
+        note = label + " & " + tl + " -> " + str(horizon_days) + "d fwd, " + str(sample) + " samples"
         return {"winrate": wr, "sample": sample, "note": note, "avg_win": avg_win,
                 "avg_loss": avg_loss, "ev_pct": ev, "low_sample": sample < 30}
     except Exception:
@@ -193,14 +211,18 @@ def backtest_setup(hist, horizon_days=5):
                 "avg_win": None, "avg_loss": None, "ev_pct": None, "low_sample": True}
 
 # ============================================================
-# DIRECTION-AWARE SWING R:R  (long for uptrend, short for downtrend)
+# SWING LEVELS
+# ============================================================
+def swing_levels(close, lookback=20):
+    if len(close) < lookback:
+        return None, None
+    window = close.iloc[-lookback:]
+    return round2(float(window.max())), round2(float(window.min()))
+
+# ============================================================
+# DIRECTION-AWARE TRADE BUCKETS (long uptrend / short downtrend)
 # ============================================================
 def build_trade_buckets(price, atr_val, resistance, support, direction):
-    """
-    direction = "long" (uptrend) or "short" (downtrend).
-    LONG : target ABOVE, stop BELOW.
-    SHORT: target BELOW, stop ABOVE (profit when price falls).
-    """
     if not price or not atr_val:
         return {}
 
@@ -214,7 +236,6 @@ def build_trade_buckets(price, atr_val, resistance, support, direction):
                 "entry": round2(price), "stop": stop, "target": target, "rr": rr}
 
     def short_setup(stop_ref, target_ref, atr_stop, atr_target):
-        # target is BELOW (cover for profit), stop is ABOVE (short went wrong)
         stop = stop_ref if (stop_ref and stop_ref > price) else round2(price + atr_stop * atr_val)
         target = target_ref if (target_ref and target_ref < price) else round2(price - atr_target * atr_val)
         risk = stop - price
@@ -226,21 +247,19 @@ def build_trade_buckets(price, atr_val, resistance, support, direction):
     if direction == "short":
         return {
             "intraday": short_setup(round2(price + 1.0 * atr_val), round2(price - 1.5 * atr_val), 1.0, 1.5),
-            "swing": short_setup(resistance, support, 1.5, 3.0),       # stop=resistance above, target=support below
+            "swing": short_setup(resistance, support, 1.5, 3.0),
             "long_term": short_setup(round2(price + 3.0 * atr_val), round2(price - 8.0 * atr_val), 3.0, 8.0),
         }
-    # default long
     return {
         "intraday": long_setup(round2(price - 1.0 * atr_val), round2(price + 1.5 * atr_val), 1.0, 1.5),
-        "swing": long_setup(support, resistance, 1.5, 3.0),           # stop=support below, target=resistance above
+        "swing": long_setup(support, resistance, 1.5, 3.0),
         "long_term": long_setup(support, round2(price + 8.0 * atr_val), 3.0, 8.0),
     }
 
 # ============================================================
-# POSITION SIZING (direction-aware risk per share)
+# POSITION SIZING (direction-aware)
 # ============================================================
 def position_size(price, stop, direction):
-    """Shares to risk RISK_PCT of ACCOUNT_SIZE. Risk = |entry - stop|."""
     if not price or not stop:
         return None
     risk_per_share = (price - stop) if direction == "long" else (stop - price)
@@ -256,7 +275,9 @@ def position_size(price, stop, direction):
 # EARNINGS / SENTIMENT / SECTOR
 # ============================================================
 def earnings_stats(t):
-    eps = None; streak = []; avg = None
+    eps = None
+    streak = []
+    avg = None
     try:
         eps = t.info.get("epsForward") or t.info.get("forwardEps")
     except Exception:
@@ -265,7 +286,8 @@ def earnings_stats(t):
         eh = t.earnings_history
         if eh is not None and not eh.empty:
             for _, row in eh.tail(4).iterrows():
-                est = row.get("epsEstimate"); act = row.get("epsActual")
+                est = row.get("epsEstimate")
+                act = row.get("epsActual")
                 if est is None or act is None or pd.isna(est) or pd.isna(act):
                     streak.append("n/a")
                 elif act > est:
@@ -279,14 +301,17 @@ def earnings_stats(t):
     try:
         cal = t.get_earnings_dates(limit=8)
         if cal is not None and not cal.empty:
-            h = t.history(period="2y"); closes = h["Close"]
+            h = t.history(period="2y")
+            closes = h["Close"]
             idx = closes.index.tz_localize(None) if closes.index.tz is not None else closes.index
             moves = []
             for dt in cal.index:
                 try:
-                    d = pd.Timestamp(dt).tz_localize(None); pos = idx.searchsorted(d)
+                    d = pd.Timestamp(dt).tz_localize(None)
+                    pos = idx.searchsorted(d)
                     if 1 <= pos < len(closes) - 1:
-                        before = closes.iloc[pos - 1]; after = closes.iloc[pos]
+                        before = closes.iloc[pos - 1]
+                        after = closes.iloc[pos]
                         if before:
                             moves.append(abs((after - before) / before * 100))
                 except Exception:
@@ -316,7 +341,6 @@ def keyword_sentiment(t):
             "method": "crude keyword heuristic, NOT AI"}
 
 def get_sector(t):
-    """Return (sector_name, sector_etf). Fixes the n/a bug."""
     sec = None
     try:
         sec = t.info.get("sector")
@@ -344,7 +368,8 @@ def decide_horizon(tech):
     vola = tech.get("volatility") or 0
     m1 = tech.get("mom_1m") or 0
     rsi_v = tech.get("rsi") or 50
-    price = tech.get("price"); ma200 = tech.get("ma200")
+    price = tech.get("price")
+    ma200 = tech.get("ma200")
     long_ok = (ma200 is not None and price is not None and price > ma200)
     if vola >= 3.0 and abs(m1) >= 5:
         return "intraday", "High volatility + strong short-term momentum"
@@ -392,24 +417,26 @@ def analyze(ticker, etf_cache, spy_1m, spy_3m):
         rp = float(rs.iloc[-2]) if len(rs) > 1 and pd.notna(rs.iloc[-2]) else None
         ma50 = float(close.rolling(50).mean().iloc[-1]) if len(close) >= 50 else None
         ma200 = float(close.rolling(200).mean().iloc[-1]) if len(close) >= 200 else None
-        m1 = pct_return(close, 21); m3 = pct_return(close, 63)
-        hi = float(close.max()); lo = float(close.min())
+        m1 = pct_return(close, 21)
+        m3 = pct_return(close, 63)
+        hi = float(close.max())
+        lo = float(close.min())
         pos = (price - lo) / (hi - lo) * 100 if hi != lo else 50.0
         dret = close.pct_change().dropna()
         vola = float(dret.iloc[-20:].std() * 100) if len(dret) >= 20 else None
         atr_val = atr(hist)
-        vol = hist["Volume"]; vr = None
+        vol = hist["Volume"]
+        vr = None
         if len(vol) >= 20:
-            recent = float(vol.iloc[-5:].mean()); base = float(vol.iloc[-20:].mean())
+            recent = float(vol.iloc[-5:].mean())
+            base = float(vol.iloc[-20:].mean())
             vr = round2(recent / base) if base else None
         sparkline = [round2(x) for x in close.iloc[-5:].tolist()]
         sector_name, etf = get_sector(t)
         etf_ret = etf_1m_return(etf, etf_cache)
         sector_rel = round1(m1 - etf_ret) if (m1 is not None and etf_ret is not None) else None
-        # relative strength vs SPY
         rs_spy_1m = round1(m1 - spy_1m) if (m1 is not None and spy_1m is not None) else None
         rs_spy_3m = round1(m3 - spy_3m) if (m3 is not None and spy_3m is not None) else None
-        # trend filter
         trend = "neutral"
         if ma200 is not None:
             trend = "uptrend" if price > ma200 else "downtrend"
@@ -426,15 +453,20 @@ def analyze(ticker, etf_cache, spy_1m, spy_3m):
             "roe": round1(info.get("returnOnEquity") * 100) if info.get("returnOnEquity") is not None else None,
             "debt_to_equity": round2(info.get("debtToEquity")),
         }
-        rsi_s = round1(score_rsi(r)); mom_s = round1(score_momentum(m1, m3))
-        vol_s = round1(score_volume(vr)); fund_s = round1(score_fundamental(f_raw))
+        rsi_s = round1(score_rsi(r))
+        mom_s = round1(score_momentum(m1, m3))
+        vol_s = round1(score_volume(vr))
+        fund_s = round1(score_fundamental(f_raw))
         tech_avg = (rsi_s + mom_s + vol_s) / 3.0
         total = round1(tech_avg * 0.6 + fund_s * 0.4)
-        technical_score = round1(tech_avg / 2.0); fundamental_score = round1(fund_s / 2.0)
+        technical_score = round1(tech_avg / 2.0)
+        fundamental_score = round1(fund_s / 2.0)
         conf = round1(compute_confidence(rsi_s, mom_s, fund_s, vol_s))
         trigger = build_trigger(r, rp, price, ma50, ma200, vr, m1)
         bt = backtest_setup(hist, 5)
-        earn = earnings_stats(t); sentiment = keyword_sentiment(t)
+        earn = earnings_stats(t)
+        sentiment = keyword_sentiment(t)
+
         resistance, support = swing_levels(close, 20)
         trade_direction = "short" if trend == "downtrend" else "long"
         buckets = build_trade_buckets(price, atr_val, resistance, support, trade_direction)
@@ -445,8 +477,6 @@ def analyze(ticker, etf_cache, spy_1m, spy_3m):
         grade = setup_grade(swing_rr, trend_aligned, vola)
         breakout_level = resistance
         breakout_distance_pct = round1((resistance - price) / price * 100) if (resistance and price) else None
-
-
 
         tech_obj = {"rsi": round2(r), "ma200": round2(ma200), "mom_1m": round1(m1),
                     "volatility": round2(vola), "price": round2(price)}
@@ -475,7 +505,8 @@ def analyze(ticker, etf_cache, spy_1m, spy_3m):
             "confidence_pct": conf, "horizon": horizon,
             "expected_window": expected_window(horizon), "horizon_reason": hreason,
             "conviction": conv_label, "conviction_emoji": conv_emoji,
-            "trigger": trigger, "trend": trend,"trade_direction": trade_direction, "trend_aligned": trend_aligned,
+            "trigger": trigger, "trend": trend, "trend_aligned": trend_aligned,
+            "trade_direction": trade_direction,
             "backtest_winrate": bt["winrate"], "backtest_sample": bt["sample"],
             "backtest_note": bt["note"], "backtest_low_sample": bt["low_sample"],
             "avg_win_pct": bt["avg_win"], "avg_loss_pct": bt["avg_loss"], "ev_pct": bt["ev_pct"],
@@ -505,6 +536,7 @@ def analyze(ticker, etf_cache, spy_1m, spy_3m):
         }
         print("  [ok]   " + ticker + ": " + str(total) + "/100 " + conv_label
               + " grade " + grade + " RR " + str(swing_rr) + " " + trend
+              + " (" + trade_direction + ")"
               + (" EV " + str(bt["ev_pct"]) + "%" if bt["ev_pct"] is not None else ""))
         return rec
     except Exception as e:
@@ -528,7 +560,7 @@ def concentration_flags(recs, top_n=5):
     return flags
 
 # ============================================================
-# MARKET (VIX Sentiment, renamed)
+# MARKET (VIX Sentiment)
 # ============================================================
 def build_market(etf_cache, spy_1m):
     mkt = {
@@ -541,30 +573,39 @@ def build_market(etf_cache, spy_1m):
     spy_mom = spy_1m
     try:
         spy = yf.Ticker("SPY").history(period="6mo")
-        sc = spy["Close"].dropna(); spy_price = float(sc.iloc[-1])
+        sc = spy["Close"].dropna()
+        spy_price = float(sc.iloc[-1])
         slope = pct_return(sc, 20)
         dret = sc.pct_change().dropna()
         spy_vola = float(dret.iloc[-20:].std() * 100) if len(dret) >= 20 else 0.0
         if spy_vola >= 1.6:
-            mkt["regime"] = "volatile"; mkt["regime_reason"] = "SPY 20d daily vol " + str(round1(spy_vola)) + "% (elevated)"
+            mkt["regime"] = "volatile"
+            mkt["regime_reason"] = "SPY 20d daily vol " + str(round1(spy_vola)) + "% (elevated)"
         elif slope is not None and abs(slope) >= 4:
-            mkt["regime"] = "trend"; mkt["regime_reason"] = "SPY 20d move " + ("+" if slope >= 0 else "") + str(round1(slope)) + "%"
+            mkt["regime"] = "trend"
+            mkt["regime_reason"] = "SPY 20d move " + ("+" if slope >= 0 else "") + str(round1(slope)) + "%"
         else:
-            mkt["regime"] = "range"; mkt["regime_reason"] = "SPY drifting, low directional momentum"
-        sh = float(sc.iloc[-20:].max()); sl = float(sc.iloc[-20:].min())
+            mkt["regime"] = "range"
+            mkt["regime_reason"] = "SPY drifting, low directional momentum"
+        sh = float(sc.iloc[-20:].max())
+        sl = float(sc.iloc[-20:].min())
         if abs(sh - spy_price) <= abs(spy_price - sl):
-            level = sh; kind = "resistance"
+            level = sh
+            kind = "resistance"
         else:
-            level = sl; kind = "support"
+            level = sl
+            kind = "support"
         mkt["key_spy_level"] = {"level": round2(level), "kind": kind, "spy_price": round2(spy_price),
                                 "distance_pct": round1((level - spy_price) / spy_price * 100)}
     except Exception:
-        mkt["regime"] = "unknown"; mkt["regime_reason"] = "SPY data unavailable"
+        mkt["regime"] = "unknown"
+        mkt["regime_reason"] = "SPY data unavailable"
 
     sectors = []
     for etf in SECTOR_ETFS:
         try:
-            h = yf.Ticker(etf).history(period="3mo"); c = h["Close"].dropna()
+            h = yf.Ticker(etf).history(period="3mo")
+            c = h["Close"].dropna()
             sectors.append({"etf": etf, "ret_1d": round1(pct_return(c, 1)), "ret_1m": round1(pct_return(c, 21))})
         except Exception:
             sectors.append({"etf": etf, "ret_1d": None, "ret_1m": None})
@@ -580,7 +621,6 @@ def build_market(etf_cache, spy_1m):
         vix_val = float(vx["Close"].dropna().iloc[-1])
         mkt["vix"] = round2(vix_val)
         mkt["vix_label"] = "low" if vix_val < 14 else "normal" if vix_val < 20 else "elevated" if vix_val < 28 else "high"
-        # VIX Sentiment (renamed) - 0=fearful, 100=calm/greedy
         vs = clamp(100 - (vix_val - 10) * 4, 0, 100)
         mkt["vix_sentiment"] = round(vs)
         mkt["vix_sentiment_label"] = ("Extreme Fear" if vs < 25 else "Fear" if vs < 45
@@ -591,13 +631,13 @@ def build_market(etf_cache, spy_1m):
     return mkt
 
 # ============================================================
-# SIGNAL HISTORY LOGGING (accuracy tracking)
+# SIGNAL HISTORY LOGGING
 # ============================================================
 def log_history(recs):
     today = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
     entry = {"date": today, "signals": [{"ticker": r["ticker"], "total_score": r["total_score"],
              "conviction": r["conviction"], "price": r["technicals"]["price"],
-             "horizon": r["horizon"]} for r in recs]}
+             "horizon": r["horizon"], "direction": r["trade_direction"]} for r in recs]}
     hist = []
     if os.path.exists("signal_history.json"):
         try:
@@ -605,10 +645,9 @@ def log_history(recs):
                 hist = json.load(f)
         except Exception:
             hist = []
-    # replace today's entry if re-run same day
     hist = [h for h in hist if h.get("date") != today]
     hist.append(entry)
-    hist = hist[-180:]  # keep ~6 months
+    hist = hist[-180:]
     with open("signal_history.json", "w") as f:
         json.dump(hist, f, indent=2)
     print("Logged " + str(len(recs)) + " signals to signal_history.json (" + str(len(hist)) + " days tracked).")
@@ -617,13 +656,13 @@ def log_history(recs):
 # MAIN
 # ============================================================
 def main():
-    print("Analyzing " + str(len(WATCHLIST)) + " tickers (Phase 1 engine)...")
+    print("Analyzing " + str(len(WATCHLIST)) + " tickers (direction-aware engine)...")
     etf_cache = {}
-    # SPY returns for relative strength
     spy_1m = spy_3m = None
     try:
         spyh = yf.Ticker("SPY").history(period="6mo")["Close"]
-        spy_1m = pct_return(spyh, 21); spy_3m = pct_return(spyh, 63)
+        spy_1m = pct_return(spyh, 21)
+        spy_3m = pct_return(spyh, 63)
     except Exception:
         pass
 
@@ -642,7 +681,7 @@ def main():
         "suggestions": recs, "by_horizon": buckets, "top_picks": recs[:5],
         "concentration_flags": concentration_flags(recs, 5),
         "account_size": ACCOUNT_SIZE, "risk_pct": RISK_PCT,
-        "disclaimer": "Not financial advice. Rule-based stats only. Backtest/EV = past frequency, NOT a prediction.",
+        "disclaimer": "Not financial advice. Rule-based stats only. Backtest/EV = past frequency, NOT a prediction. Shorting carries higher risk.",
     }
     with open("suggestions.json", "w") as f:
         json.dump(suggestions, f, indent=2)
