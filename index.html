@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="data:,">
+<title>Investing Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <div class="brand"><span class="logo">📈</span><span>Investing Dashboard</span></div>
+    <div class="spacer"></div>
+    <div class="fresh"><span class="dot" id="fd"></span><span id="ft">Loading...</span></div>
+    <button class="ibtn" id="theme">🌙</button>
+    <button class="ibtn" id="refresh">↻</button>
+  </div>
+  <div id="err"></div>
+  <section class="hero">
+    <div class="hero-top">
+      <div class="mood" id="mood">🧭</div>
+      <div class="htext">
+        <div class="hlabel">Daily Brief</div>
+        <div id="regime"></div>
+        <div class="brief" id="brief">Loading...</div>
+      </div>
+    </div>
+    <div class="mkt" id="mkt"></div>
+  </section>
+  <div class="ctrl">
+    <div class="search"><span class="si">🔍</span><input id="srch" placeholder="Search ticker..." autocomplete="off"></div>
+    <div class="cg"><span class="cl">Signal</span>
+      <span class="fchip active" data-sig="all">All</span>
+      <span class="fchip" data-sig="keeper">Keepers</span>
+      <span class="fchip" data-sig="dip-risk">Dip-risk</span>
+      <span class="fchip" data-sig="watch">Watch</span></div>
+    <div class="cg"><span class="cl">Cap</span>
+      <span class="fchip cap active" data-cap="all">All</span>
+      <span class="fchip cap" data-cap="Mega">Mega</span>
+      <span class="fchip cap" data-cap="Large">Large</span>
+      <span class="fchip cap" data-cap="Mid">Mid</span>
+      <span class="fchip cap" data-cap="Small">Small</span></div>
+  </div>
+  <section class="section"><div class="sh"><h2>💡 Suggestions</h2><span class="sub" id="sugSub"></span></div>
+    <div class="tdisc">⚠️ Sub-scored + confidence + backtest win-rate (PAST frequency, NOT a prediction). Research only.</div>
+    <div class="ttabs" id="sugTabs"><button class="ttab active" data-shz="all">All</button><button class="ttab" data-shz="intraday">Intraday</button><button class="ttab" data-shz="swing">Swing</button><button class="ttab" data-shz="long_term">Long-Term</button></div>
+    <div class="grid" id="sugGrid"></div></section>
+  <section class="section"><div class="sh"><h2>💹 Quotes</h2><span class="sub" id="qSub"></span></div><div class="grid" id="qGrid"></div></section>
+  <section class="section"><div class="sh"><h2>🎯 Trade Setups</h2><span class="sub">ATR · grade · R:R · click for analysis</span></div>
+    <div class="tdisc">⚠️ Mechanical ATR levels - NOT advice. Research only.</div>
+    <div class="ttabs" id="trTabs"><button class="ttab active" data-bk="swing">Swing</button><button class="ttab" data-bk="intraday">Intraday</button><button class="ttab" data-bk="long_term">Long-Term</button></div>
+    <div class="tgrid" id="trGrid"></div></section>
+  <section class="section"><div class="sh"><h2>📅 Earnings</h2><span class="sub">Expected move · EPS · streak</span></div><div class="tl" id="eList"></div></section>
+  <section class="section"><div class="sh"><h2>📰 News &amp; Filings</h2></div>
+    <div class="ttabs" id="nTabs"><button class="ttab active" data-nt="news">News</button><button class="ttab" data-nt="filings">SEC Filings</button></div>
+    <div class="news" id="nList"></div></section>
+  <div class="disc">⚠️ Not financial advice. Sentiment=crude keyword heuristic (NOT AI). Fear&amp;Greed=PROXY (not CNN). Backtest=past frequency, not a prediction. Research only.</div>
+</div>
+<div class="mbg" id="mbg"><div class="modal"><div class="mhead"><div><div class="mt" id="mTitle">—</div><div class="msub" id="mSub"></div></div><button class="mclose" id="mClose">✕</button></div><div class="mbody" id="mBody"></div></div></div>
+<script src="app.js"></script>
+</body>
+</html>
