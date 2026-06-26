@@ -1,200 +1,382 @@
 {
-  "generated_at": "2026-06-25T19:30:11Z",
+  "generated_at": "2026-06-26T05:52:16Z",
   "suggestions": [
     {
       "ticker": "GOOGL",
-      "total_score": 79.0,
-      "technical_score": 34.0,
+      "total_score": 80.0,
+      "technical_score": 36.7,
       "fundamental_score": 45.0,
+      "rsi_score": 85.0,
+      "momentum_score": 55.0,
+      "fundamental_subscore": 90.0,
+      "volume_score": 80.0,
+      "confidence_pct": 78.0,
       "horizon": "long_term",
       "expected_window": "6-18+ months",
       "horizon_reason": "Established uptrend, suited to holding",
       "conviction": "Strong",
       "conviction_emoji": "\ud83d\udfe2",
+      "trigger": "Holding above 200-day MA",
+      "backtest_winrate": 64.3,
+      "backtest_sample": 28,
+      "backtest_note": "RSI<35 & above 200MA -> up after 5d, 28 samples (~2y)",
+      "setup_grade": "A",
+      "breakout_level": 389.9,
+      "breakout_distance_pct": 13.4,
+      "rr": 2.0,
+      "sentiment": {
+        "headline": null,
+        "label": "neutral",
+        "method": "crude keyword heuristic, NOT AI"
+      },
       "tech_notes": [
-        "RSI 31 recovering",
+        "RSI 30",
         "Above 200MA",
-        "3M +18.3%",
-        "75% of 52w range"
+        "1M -11.6%",
+        "Vol 1.2x"
       ],
       "fund_notes": [
-        "P/E 26 (rich)",
-        "Rev growth +22%",
-        "Margin 38%",
-        "ROE 39%"
+        "P/E 26.24",
+        "Rev +21.8%",
+        "Margin 37.9%"
       ],
       "technicals": {
-        "rsi": 30.55,
+        "rsi": 30.48,
         "ma50": 369.11,
         "ma200": 313.01,
-        "mom_1m": -11.52,
-        "mom_3m": 18.27,
-        "pos_52w": 74.8,
+        "mom_1m": -11.6,
+        "mom_3m": 18.2,
+        "pos_52w": 77.3,
         "volatility": 2.05,
-        "price": 343.87
+        "price": 343.71,
+        "atr": 12.1,
+        "sparkline": [
+          368.03,
+          349.68,
+          346.13,
+          345.29,
+          343.71
+        ],
+        "volume_ratio": 1.21,
+        "sector_rel": -3.2,
+        "sector_etf": "XLC"
       },
       "fundamentals": {
-        "pe": 26.21,
+        "pe": 26.24,
         "rev_growth": 21.8,
-        "margin": 37.92,
-        "roe": 38.88,
-        "debt_to_equity": 20.03
+        "margin": 37.9,
+        "roe": 38.9,
+        "debt_to_equity": 20.03,
+        "eps_estimate": 14.55,
+        "earnings_streak": [
+          "beat",
+          "beat",
+          "beat",
+          "beat"
+        ],
+        "avg_post_earnings_move_pct": null
       }
     },
     {
       "ticker": "NVDA",
-      "total_score": 74.0,
-      "technical_score": 29.0,
+      "total_score": 70.4,
+      "technical_score": 28.7,
       "fundamental_score": 45.0,
+      "rsi_score": 85.0,
+      "momentum_score": 42.0,
+      "fundamental_subscore": 90.0,
+      "volume_score": 45.0,
+      "confidence_pct": 60.0,
       "horizon": "long_term",
       "expected_window": "6-18+ months",
       "horizon_reason": "Established uptrend, suited to holding",
       "conviction": "Moderate",
       "conviction_emoji": "\ud83d\udfe1",
+      "trigger": "Holding above 200-day MA",
+      "backtest_winrate": 78.6,
+      "backtest_sample": 14,
+      "backtest_note": "RSI<35 & above 200MA -> up after 5d, 14 samples (~2y)",
+      "setup_grade": "A",
+      "breakout_level": 224.1,
+      "breakout_distance_pct": 14.5,
+      "rr": 2.0,
+      "sentiment": {
+        "headline": null,
+        "label": "neutral",
+        "method": "crude keyword heuristic, NOT AI"
+      },
       "tech_notes": [
-        "RSI 32 recovering",
+        "RSI 33",
         "Above 200MA",
-        "50% of 52w range"
+        "1M -8.8%",
+        "Vol 1.0x"
       ],
       "fund_notes": [
-        "P/E 30 (rich)",
-        "Rev growth +85%",
-        "Margin 63%",
-        "ROE 114%"
+        "P/E 29.98",
+        "Rev +85.2%",
+        "Margin 63.0%"
       ],
       "technicals": {
-        "rsi": 31.99,
-        "ma50": 210.01,
-        "ma200": 190.31,
-        "mom_1m": -9.45,
-        "mom_3m": 8.88,
-        "pos_52w": 50.05,
-        "volatility": 2.98,
-        "price": 194.32
+        "rsi": 32.67,
+        "ma50": 210.04,
+        "ma200": 190.32,
+        "mom_1m": -8.8,
+        "mom_3m": 9.7,
+        "pos_52w": 71.9,
+        "volatility": 2.96,
+        "price": 195.74,
+        "atr": 7.43,
+        "sparkline": [
+          210.69,
+          208.65,
+          200.04,
+          199.0,
+          195.74
+        ],
+        "volume_ratio": 0.97,
+        "sector_rel": -8.6,
+        "sector_etf": "XLK"
       },
       "fundamentals": {
-        "pe": 29.76,
+        "pe": 29.98,
         "rev_growth": 85.2,
-        "margin": 62.97,
-        "roe": 114.29,
-        "debt_to_equity": 6.55
+        "margin": 63.0,
+        "roe": 114.3,
+        "debt_to_equity": 6.55,
+        "eps_estimate": 12.73,
+        "earnings_streak": [
+          "beat",
+          "beat",
+          "beat",
+          "beat"
+        ],
+        "avg_post_earnings_move_pct": null
       }
     },
     {
       "ticker": "AAPL",
-      "total_score": 68.0,
-      "technical_score": 29.0,
-      "fundamental_score": 39.0,
+      "total_score": 69.4,
+      "technical_score": 31.2,
+      "fundamental_score": 40.0,
+      "rsi_score": 65.0,
+      "momentum_score": 42.0,
+      "fundamental_subscore": 80.0,
+      "volume_score": 80.0,
+      "confidence_pct": 78.0,
       "horizon": "long_term",
       "expected_window": "6-18+ months",
       "horizon_reason": "Established uptrend, suited to holding",
       "conviction": "Moderate",
       "conviction_emoji": "\ud83d\udfe1",
+      "trigger": "Holding above 200-day MA",
+      "backtest_winrate": 45.5,
+      "backtest_sample": 33,
+      "backtest_note": "RSI<35 & above 200MA -> up after 5d, 33 samples (~2y)",
+      "setup_grade": "A",
+      "breakout_level": 315.2,
+      "breakout_distance_pct": 14.6,
+      "rr": 2.0,
+      "sentiment": {
+        "headline": null,
+        "label": "neutral",
+        "method": "crude keyword heuristic, NOT AI"
+      },
       "tech_notes": [
-        "RSI 23 oversold",
+        "RSI 23",
         "Above 200MA",
-        "66% of 52w range"
+        "1M -10.8%",
+        "Vol 1.2x"
       ],
       "fund_notes": [
-        "P/E 33 (rich)",
-        "Rev growth +17%",
-        "Margin 27%",
-        "ROE 141%"
+        "P/E 33.35",
+        "Rev +16.6%",
+        "Margin 27.2%"
       ],
       "technicals": {
-        "rsi": 23.43,
-        "ma50": 291.09,
+        "rsi": 22.9,
+        "ma50": 291.06,
         "ma200": 268.83,
-        "mom_1m": -10.28,
-        "mom_3m": 9.61,
-        "pos_52w": 66.47,
-        "volatility": 1.91,
-        "price": 276.64
+        "mom_1m": -10.8,
+        "mom_3m": 9.0,
+        "pos_52w": 72.1,
+        "volatility": 1.99,
+        "price": 275.15,
+        "atr": 8.95,
+        "sparkline": [
+          298.01,
+          297.01,
+          294.3,
+          293.08,
+          275.15
+        ],
+        "volume_ratio": 1.22,
+        "sector_rel": -10.6,
+        "sector_etf": "XLK"
       },
       "fundamentals": {
-        "pe": 33.49,
+        "pe": 33.35,
         "rev_growth": 16.6,
-        "margin": 27.15,
-        "roe": 141.47,
-        "debt_to_equity": 79.55
-      }
-    },
-    {
-      "ticker": "MSFT",
-      "total_score": 60.0,
-      "technical_score": 15.0,
-      "fundamental_score": 45.0,
-      "horizon": "swing",
-      "expected_window": "1-6 weeks",
-      "horizon_reason": "Mixed signals - monitor on swing timeframe",
-      "conviction": "Moderate",
-      "conviction_emoji": "\ud83d\udfe1",
-      "tech_notes": [
-        "RSI 15 oversold",
-        "Below key MAs",
-        "Near 52w low (0%)"
-      ],
-      "fund_notes": [
-        "P/E 21 (fair)",
-        "Rev growth +18%",
-        "Margin 39%",
-        "ROE 34%"
-      ],
-      "technicals": {
-        "rsi": 15.22,
-        "ma50": 411.26,
-        "ma200": 446.88,
-        "mom_1m": -15.24,
-        "mom_3m": -4.76,
-        "pos_52w": 0.0,
-        "volatility": 2.65,
-        "price": 352.61
-      },
-      "fundamentals": {
-        "pe": 21.03,
-        "rev_growth": 18.3,
-        "margin": 39.34,
-        "roe": 34.01,
-        "debt_to_equity": 30.27
+        "margin": 27.2,
+        "roe": 141.5,
+        "debt_to_equity": 79.55,
+        "eps_estimate": 9.61,
+        "earnings_streak": [
+          "beat",
+          "beat",
+          "beat",
+          "beat"
+        ],
+        "avg_post_earnings_move_pct": null
       }
     },
     {
       "ticker": "AMZN",
-      "total_score": 60.0,
-      "technical_score": 24.0,
-      "fundamental_score": 36.0,
+      "total_score": 67.4,
+      "technical_score": 31.2,
+      "fundamental_score": 37.5,
+      "rsi_score": 65.0,
+      "momentum_score": 42.0,
+      "fundamental_subscore": 75.0,
+      "volume_score": 80.0,
+      "confidence_pct": 78.0,
       "horizon": "swing",
       "expected_window": "1-6 weeks",
       "horizon_reason": "Mixed signals - monitor on swing timeframe",
       "conviction": "Moderate",
       "conviction_emoji": "\ud83d\udfe1",
+      "trigger": "Oversold (RSI 30)",
+      "backtest_winrate": 71.4,
+      "backtest_sample": 14,
+      "backtest_note": "RSI<35 & below 200MA -> up after 5d, 14 samples (~2y)",
+      "setup_grade": "B",
+      "breakout_level": 274.0,
+      "breakout_distance_pct": 20.7,
+      "rr": 2.0,
+      "sentiment": {
+        "headline": null,
+        "label": "neutral",
+        "method": "crude keyword heuristic, NOT AI"
+      },
       "tech_notes": [
-        "RSI 30 oversold",
-        "Below key MAs",
-        "37% of 52w range",
-        "Rising volume"
+        "RSI 30",
+        "1M -14.4%",
+        "Vol 1.4x"
       ],
       "fund_notes": [
-        "P/E 31 (rich)",
-        "Rev growth +17%",
-        "ROE 24%"
+        "P/E 30.68",
+        "Rev +16.6%",
+        "Margin 12.2%"
       ],
       "technicals": {
-        "rsi": 29.61,
+        "rsi": 29.55,
         "ma50": 256.45,
         "ma200": 232.8,
-        "mom_1m": -14.38,
-        "mom_3m": 7.28,
-        "pos_52w": 37.19,
+        "mom_1m": -14.4,
+        "mom_3m": 7.2,
+        "pos_52w": 57.9,
         "volatility": 2.21,
-        "price": 227.13
+        "price": 227.01,
+        "atr": 8.46,
+        "sparkline": [
+          244.39,
+          232.79,
+          234.11,
+          234.27,
+          227.01
+        ],
+        "volume_ratio": 1.39,
+        "sector_rel": -9.5,
+        "sector_etf": "XLY"
       },
       "fundamentals": {
-        "pe": 30.69,
+        "pe": 30.68,
         "rev_growth": 16.6,
-        "margin": 12.22,
-        "roe": 24.29,
-        "debt_to_equity": 53.3
+        "margin": 12.2,
+        "roe": 24.3,
+        "debt_to_equity": 53.3,
+        "eps_estimate": 9.88,
+        "earnings_streak": [
+          "beat",
+          "beat",
+          "miss",
+          "beat"
+        ],
+        "avg_post_earnings_move_pct": null
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "total_score": 64.8,
+      "technical_score": 23.3,
+      "fundamental_score": 46.0,
+      "rsi_score": 65.0,
+      "momentum_score": 15.0,
+      "fundamental_subscore": 92.0,
+      "volume_score": 60.0,
+      "confidence_pct": 78.0,
+      "horizon": "swing",
+      "expected_window": "1-6 weeks",
+      "horizon_reason": "Mixed signals - monitor on swing timeframe",
+      "conviction": "Moderate",
+      "conviction_emoji": "\ud83d\udfe1",
+      "trigger": "Oversold (RSI 15)",
+      "backtest_winrate": 48.6,
+      "backtest_sample": 35,
+      "backtest_note": "RSI<35 & below 200MA -> up after 5d, 35 samples (~2y)",
+      "setup_grade": "B",
+      "breakout_level": 460.52,
+      "breakout_distance_pct": 30.5,
+      "rr": 2.0,
+      "sentiment": {
+        "headline": null,
+        "label": "neutral",
+        "method": "crude keyword heuristic, NOT AI"
+      },
+      "tech_notes": [
+        "RSI 15",
+        "1M -15.2%",
+        "Vol 1.2x"
+      ],
+      "fund_notes": [
+        "P/E 21.04",
+        "Rev +18.3%",
+        "Margin 39.3%"
+      ],
+      "technicals": {
+        "rsi": 15.25,
+        "ma50": 411.27,
+        "ma200": 446.88,
+        "mom_1m": -15.2,
+        "mom_3m": -4.7,
+        "pos_52w": 0.9,
+        "volatility": 2.65,
+        "price": 352.83,
+        "atr": 11.95,
+        "sparkline": [
+          379.4,
+          367.34,
+          373.94,
+          365.46,
+          352.83
+        ],
+        "volume_ratio": 1.19,
+        "sector_rel": -15.0,
+        "sector_etf": "XLK"
+      },
+      "fundamentals": {
+        "pe": 21.04,
+        "rev_growth": 18.3,
+        "margin": 39.3,
+        "roe": 34.0,
+        "debt_to_equity": 30.27,
+        "eps_estimate": 19.37,
+        "earnings_streak": [
+          "beat",
+          "beat",
+          "beat",
+          "beat"
+        ],
+        "avg_post_earnings_move_pct": null
       }
     }
   ],
@@ -202,201 +384,383 @@
     "intraday": [],
     "swing": [
       {
-        "ticker": "MSFT",
-        "total_score": 60.0,
-        "technical_score": 15.0,
-        "fundamental_score": 45.0,
+        "ticker": "AMZN",
+        "total_score": 67.4,
+        "technical_score": 31.2,
+        "fundamental_score": 37.5,
+        "rsi_score": 65.0,
+        "momentum_score": 42.0,
+        "fundamental_subscore": 75.0,
+        "volume_score": 80.0,
+        "confidence_pct": 78.0,
         "horizon": "swing",
         "expected_window": "1-6 weeks",
         "horizon_reason": "Mixed signals - monitor on swing timeframe",
         "conviction": "Moderate",
         "conviction_emoji": "\ud83d\udfe1",
+        "trigger": "Oversold (RSI 30)",
+        "backtest_winrate": 71.4,
+        "backtest_sample": 14,
+        "backtest_note": "RSI<35 & below 200MA -> up after 5d, 14 samples (~2y)",
+        "setup_grade": "B",
+        "breakout_level": 274.0,
+        "breakout_distance_pct": 20.7,
+        "rr": 2.0,
+        "sentiment": {
+          "headline": null,
+          "label": "neutral",
+          "method": "crude keyword heuristic, NOT AI"
+        },
         "tech_notes": [
-          "RSI 15 oversold",
-          "Below key MAs",
-          "Near 52w low (0%)"
+          "RSI 30",
+          "1M -14.4%",
+          "Vol 1.4x"
         ],
         "fund_notes": [
-          "P/E 21 (fair)",
-          "Rev growth +18%",
-          "Margin 39%",
-          "ROE 34%"
+          "P/E 30.68",
+          "Rev +16.6%",
+          "Margin 12.2%"
         ],
         "technicals": {
-          "rsi": 15.22,
-          "ma50": 411.26,
-          "ma200": 446.88,
-          "mom_1m": -15.24,
-          "mom_3m": -4.76,
-          "pos_52w": 0.0,
-          "volatility": 2.65,
-          "price": 352.61
+          "rsi": 29.55,
+          "ma50": 256.45,
+          "ma200": 232.8,
+          "mom_1m": -14.4,
+          "mom_3m": 7.2,
+          "pos_52w": 57.9,
+          "volatility": 2.21,
+          "price": 227.01,
+          "atr": 8.46,
+          "sparkline": [
+            244.39,
+            232.79,
+            234.11,
+            234.27,
+            227.01
+          ],
+          "volume_ratio": 1.39,
+          "sector_rel": -9.5,
+          "sector_etf": "XLY"
         },
         "fundamentals": {
-          "pe": 21.03,
-          "rev_growth": 18.3,
-          "margin": 39.34,
-          "roe": 34.01,
-          "debt_to_equity": 30.27
+          "pe": 30.68,
+          "rev_growth": 16.6,
+          "margin": 12.2,
+          "roe": 24.3,
+          "debt_to_equity": 53.3,
+          "eps_estimate": 9.88,
+          "earnings_streak": [
+            "beat",
+            "beat",
+            "miss",
+            "beat"
+          ],
+          "avg_post_earnings_move_pct": null
         }
       },
       {
-        "ticker": "AMZN",
-        "total_score": 60.0,
-        "technical_score": 24.0,
-        "fundamental_score": 36.0,
+        "ticker": "MSFT",
+        "total_score": 64.8,
+        "technical_score": 23.3,
+        "fundamental_score": 46.0,
+        "rsi_score": 65.0,
+        "momentum_score": 15.0,
+        "fundamental_subscore": 92.0,
+        "volume_score": 60.0,
+        "confidence_pct": 78.0,
         "horizon": "swing",
         "expected_window": "1-6 weeks",
         "horizon_reason": "Mixed signals - monitor on swing timeframe",
         "conviction": "Moderate",
         "conviction_emoji": "\ud83d\udfe1",
+        "trigger": "Oversold (RSI 15)",
+        "backtest_winrate": 48.6,
+        "backtest_sample": 35,
+        "backtest_note": "RSI<35 & below 200MA -> up after 5d, 35 samples (~2y)",
+        "setup_grade": "B",
+        "breakout_level": 460.52,
+        "breakout_distance_pct": 30.5,
+        "rr": 2.0,
+        "sentiment": {
+          "headline": null,
+          "label": "neutral",
+          "method": "crude keyword heuristic, NOT AI"
+        },
         "tech_notes": [
-          "RSI 30 oversold",
-          "Below key MAs",
-          "37% of 52w range",
-          "Rising volume"
+          "RSI 15",
+          "1M -15.2%",
+          "Vol 1.2x"
         ],
         "fund_notes": [
-          "P/E 31 (rich)",
-          "Rev growth +17%",
-          "ROE 24%"
+          "P/E 21.04",
+          "Rev +18.3%",
+          "Margin 39.3%"
         ],
         "technicals": {
-          "rsi": 29.61,
-          "ma50": 256.45,
-          "ma200": 232.8,
-          "mom_1m": -14.38,
-          "mom_3m": 7.28,
-          "pos_52w": 37.19,
-          "volatility": 2.21,
-          "price": 227.13
+          "rsi": 15.25,
+          "ma50": 411.27,
+          "ma200": 446.88,
+          "mom_1m": -15.2,
+          "mom_3m": -4.7,
+          "pos_52w": 0.9,
+          "volatility": 2.65,
+          "price": 352.83,
+          "atr": 11.95,
+          "sparkline": [
+            379.4,
+            367.34,
+            373.94,
+            365.46,
+            352.83
+          ],
+          "volume_ratio": 1.19,
+          "sector_rel": -15.0,
+          "sector_etf": "XLK"
         },
         "fundamentals": {
-          "pe": 30.69,
-          "rev_growth": 16.6,
-          "margin": 12.22,
-          "roe": 24.29,
-          "debt_to_equity": 53.3
+          "pe": 21.04,
+          "rev_growth": 18.3,
+          "margin": 39.3,
+          "roe": 34.0,
+          "debt_to_equity": 30.27,
+          "eps_estimate": 19.37,
+          "earnings_streak": [
+            "beat",
+            "beat",
+            "beat",
+            "beat"
+          ],
+          "avg_post_earnings_move_pct": null
         }
       }
     ],
     "long_term": [
       {
         "ticker": "GOOGL",
-        "total_score": 79.0,
-        "technical_score": 34.0,
+        "total_score": 80.0,
+        "technical_score": 36.7,
         "fundamental_score": 45.0,
+        "rsi_score": 85.0,
+        "momentum_score": 55.0,
+        "fundamental_subscore": 90.0,
+        "volume_score": 80.0,
+        "confidence_pct": 78.0,
         "horizon": "long_term",
         "expected_window": "6-18+ months",
         "horizon_reason": "Established uptrend, suited to holding",
         "conviction": "Strong",
         "conviction_emoji": "\ud83d\udfe2",
+        "trigger": "Holding above 200-day MA",
+        "backtest_winrate": 64.3,
+        "backtest_sample": 28,
+        "backtest_note": "RSI<35 & above 200MA -> up after 5d, 28 samples (~2y)",
+        "setup_grade": "A",
+        "breakout_level": 389.9,
+        "breakout_distance_pct": 13.4,
+        "rr": 2.0,
+        "sentiment": {
+          "headline": null,
+          "label": "neutral",
+          "method": "crude keyword heuristic, NOT AI"
+        },
         "tech_notes": [
-          "RSI 31 recovering",
+          "RSI 30",
           "Above 200MA",
-          "3M +18.3%",
-          "75% of 52w range"
+          "1M -11.6%",
+          "Vol 1.2x"
         ],
         "fund_notes": [
-          "P/E 26 (rich)",
-          "Rev growth +22%",
-          "Margin 38%",
-          "ROE 39%"
+          "P/E 26.24",
+          "Rev +21.8%",
+          "Margin 37.9%"
         ],
         "technicals": {
-          "rsi": 30.55,
+          "rsi": 30.48,
           "ma50": 369.11,
           "ma200": 313.01,
-          "mom_1m": -11.52,
-          "mom_3m": 18.27,
-          "pos_52w": 74.8,
+          "mom_1m": -11.6,
+          "mom_3m": 18.2,
+          "pos_52w": 77.3,
           "volatility": 2.05,
-          "price": 343.87
+          "price": 343.71,
+          "atr": 12.1,
+          "sparkline": [
+            368.03,
+            349.68,
+            346.13,
+            345.29,
+            343.71
+          ],
+          "volume_ratio": 1.21,
+          "sector_rel": -3.2,
+          "sector_etf": "XLC"
         },
         "fundamentals": {
-          "pe": 26.21,
+          "pe": 26.24,
           "rev_growth": 21.8,
-          "margin": 37.92,
-          "roe": 38.88,
-          "debt_to_equity": 20.03
+          "margin": 37.9,
+          "roe": 38.9,
+          "debt_to_equity": 20.03,
+          "eps_estimate": 14.55,
+          "earnings_streak": [
+            "beat",
+            "beat",
+            "beat",
+            "beat"
+          ],
+          "avg_post_earnings_move_pct": null
         }
       },
       {
         "ticker": "NVDA",
-        "total_score": 74.0,
-        "technical_score": 29.0,
+        "total_score": 70.4,
+        "technical_score": 28.7,
         "fundamental_score": 45.0,
+        "rsi_score": 85.0,
+        "momentum_score": 42.0,
+        "fundamental_subscore": 90.0,
+        "volume_score": 45.0,
+        "confidence_pct": 60.0,
         "horizon": "long_term",
         "expected_window": "6-18+ months",
         "horizon_reason": "Established uptrend, suited to holding",
         "conviction": "Moderate",
         "conviction_emoji": "\ud83d\udfe1",
+        "trigger": "Holding above 200-day MA",
+        "backtest_winrate": 78.6,
+        "backtest_sample": 14,
+        "backtest_note": "RSI<35 & above 200MA -> up after 5d, 14 samples (~2y)",
+        "setup_grade": "A",
+        "breakout_level": 224.1,
+        "breakout_distance_pct": 14.5,
+        "rr": 2.0,
+        "sentiment": {
+          "headline": null,
+          "label": "neutral",
+          "method": "crude keyword heuristic, NOT AI"
+        },
         "tech_notes": [
-          "RSI 32 recovering",
+          "RSI 33",
           "Above 200MA",
-          "50% of 52w range"
+          "1M -8.8%",
+          "Vol 1.0x"
         ],
         "fund_notes": [
-          "P/E 30 (rich)",
-          "Rev growth +85%",
-          "Margin 63%",
-          "ROE 114%"
+          "P/E 29.98",
+          "Rev +85.2%",
+          "Margin 63.0%"
         ],
         "technicals": {
-          "rsi": 31.99,
-          "ma50": 210.01,
-          "ma200": 190.31,
-          "mom_1m": -9.45,
-          "mom_3m": 8.88,
-          "pos_52w": 50.05,
-          "volatility": 2.98,
-          "price": 194.32
+          "rsi": 32.67,
+          "ma50": 210.04,
+          "ma200": 190.32,
+          "mom_1m": -8.8,
+          "mom_3m": 9.7,
+          "pos_52w": 71.9,
+          "volatility": 2.96,
+          "price": 195.74,
+          "atr": 7.43,
+          "sparkline": [
+            210.69,
+            208.65,
+            200.04,
+            199.0,
+            195.74
+          ],
+          "volume_ratio": 0.97,
+          "sector_rel": -8.6,
+          "sector_etf": "XLK"
         },
         "fundamentals": {
-          "pe": 29.76,
+          "pe": 29.98,
           "rev_growth": 85.2,
-          "margin": 62.97,
-          "roe": 114.29,
-          "debt_to_equity": 6.55
+          "margin": 63.0,
+          "roe": 114.3,
+          "debt_to_equity": 6.55,
+          "eps_estimate": 12.73,
+          "earnings_streak": [
+            "beat",
+            "beat",
+            "beat",
+            "beat"
+          ],
+          "avg_post_earnings_move_pct": null
         }
       },
       {
         "ticker": "AAPL",
-        "total_score": 68.0,
-        "technical_score": 29.0,
-        "fundamental_score": 39.0,
+        "total_score": 69.4,
+        "technical_score": 31.2,
+        "fundamental_score": 40.0,
+        "rsi_score": 65.0,
+        "momentum_score": 42.0,
+        "fundamental_subscore": 80.0,
+        "volume_score": 80.0,
+        "confidence_pct": 78.0,
         "horizon": "long_term",
         "expected_window": "6-18+ months",
         "horizon_reason": "Established uptrend, suited to holding",
         "conviction": "Moderate",
         "conviction_emoji": "\ud83d\udfe1",
+        "trigger": "Holding above 200-day MA",
+        "backtest_winrate": 45.5,
+        "backtest_sample": 33,
+        "backtest_note": "RSI<35 & above 200MA -> up after 5d, 33 samples (~2y)",
+        "setup_grade": "A",
+        "breakout_level": 315.2,
+        "breakout_distance_pct": 14.6,
+        "rr": 2.0,
+        "sentiment": {
+          "headline": null,
+          "label": "neutral",
+          "method": "crude keyword heuristic, NOT AI"
+        },
         "tech_notes": [
-          "RSI 23 oversold",
+          "RSI 23",
           "Above 200MA",
-          "66% of 52w range"
+          "1M -10.8%",
+          "Vol 1.2x"
         ],
         "fund_notes": [
-          "P/E 33 (rich)",
-          "Rev growth +17%",
-          "Margin 27%",
-          "ROE 141%"
+          "P/E 33.35",
+          "Rev +16.6%",
+          "Margin 27.2%"
         ],
         "technicals": {
-          "rsi": 23.43,
-          "ma50": 291.09,
+          "rsi": 22.9,
+          "ma50": 291.06,
           "ma200": 268.83,
-          "mom_1m": -10.28,
-          "mom_3m": 9.61,
-          "pos_52w": 66.47,
-          "volatility": 1.91,
-          "price": 276.64
+          "mom_1m": -10.8,
+          "mom_3m": 9.0,
+          "pos_52w": 72.1,
+          "volatility": 1.99,
+          "price": 275.15,
+          "atr": 8.95,
+          "sparkline": [
+            298.01,
+            297.01,
+            294.3,
+            293.08,
+            275.15
+          ],
+          "volume_ratio": 1.22,
+          "sector_rel": -10.6,
+          "sector_etf": "XLK"
         },
         "fundamentals": {
-          "pe": 33.49,
+          "pe": 33.35,
           "rev_growth": 16.6,
-          "margin": 27.15,
-          "roe": 141.47,
-          "debt_to_equity": 79.55
+          "margin": 27.2,
+          "roe": 141.5,
+          "debt_to_equity": 79.55,
+          "eps_estimate": 9.61,
+          "earnings_streak": [
+            "beat",
+            "beat",
+            "beat",
+            "beat"
+          ],
+          "avg_post_earnings_move_pct": null
         }
       }
     ]
@@ -404,199 +768,382 @@
   "top_picks": [
     {
       "ticker": "GOOGL",
-      "total_score": 79.0,
-      "technical_score": 34.0,
+      "total_score": 80.0,
+      "technical_score": 36.7,
       "fundamental_score": 45.0,
+      "rsi_score": 85.0,
+      "momentum_score": 55.0,
+      "fundamental_subscore": 90.0,
+      "volume_score": 80.0,
+      "confidence_pct": 78.0,
       "horizon": "long_term",
       "expected_window": "6-18+ months",
       "horizon_reason": "Established uptrend, suited to holding",
       "conviction": "Strong",
       "conviction_emoji": "\ud83d\udfe2",
+      "trigger": "Holding above 200-day MA",
+      "backtest_winrate": 64.3,
+      "backtest_sample": 28,
+      "backtest_note": "RSI<35 & above 200MA -> up after 5d, 28 samples (~2y)",
+      "setup_grade": "A",
+      "breakout_level": 389.9,
+      "breakout_distance_pct": 13.4,
+      "rr": 2.0,
+      "sentiment": {
+        "headline": null,
+        "label": "neutral",
+        "method": "crude keyword heuristic, NOT AI"
+      },
       "tech_notes": [
-        "RSI 31 recovering",
+        "RSI 30",
         "Above 200MA",
-        "3M +18.3%",
-        "75% of 52w range"
+        "1M -11.6%",
+        "Vol 1.2x"
       ],
       "fund_notes": [
-        "P/E 26 (rich)",
-        "Rev growth +22%",
-        "Margin 38%",
-        "ROE 39%"
+        "P/E 26.24",
+        "Rev +21.8%",
+        "Margin 37.9%"
       ],
       "technicals": {
-        "rsi": 30.55,
+        "rsi": 30.48,
         "ma50": 369.11,
         "ma200": 313.01,
-        "mom_1m": -11.52,
-        "mom_3m": 18.27,
-        "pos_52w": 74.8,
+        "mom_1m": -11.6,
+        "mom_3m": 18.2,
+        "pos_52w": 77.3,
         "volatility": 2.05,
-        "price": 343.87
+        "price": 343.71,
+        "atr": 12.1,
+        "sparkline": [
+          368.03,
+          349.68,
+          346.13,
+          345.29,
+          343.71
+        ],
+        "volume_ratio": 1.21,
+        "sector_rel": -3.2,
+        "sector_etf": "XLC"
       },
       "fundamentals": {
-        "pe": 26.21,
+        "pe": 26.24,
         "rev_growth": 21.8,
-        "margin": 37.92,
-        "roe": 38.88,
-        "debt_to_equity": 20.03
+        "margin": 37.9,
+        "roe": 38.9,
+        "debt_to_equity": 20.03,
+        "eps_estimate": 14.55,
+        "earnings_streak": [
+          "beat",
+          "beat",
+          "beat",
+          "beat"
+        ],
+        "avg_post_earnings_move_pct": null
       }
     },
     {
       "ticker": "NVDA",
-      "total_score": 74.0,
-      "technical_score": 29.0,
+      "total_score": 70.4,
+      "technical_score": 28.7,
       "fundamental_score": 45.0,
+      "rsi_score": 85.0,
+      "momentum_score": 42.0,
+      "fundamental_subscore": 90.0,
+      "volume_score": 45.0,
+      "confidence_pct": 60.0,
       "horizon": "long_term",
       "expected_window": "6-18+ months",
       "horizon_reason": "Established uptrend, suited to holding",
       "conviction": "Moderate",
       "conviction_emoji": "\ud83d\udfe1",
+      "trigger": "Holding above 200-day MA",
+      "backtest_winrate": 78.6,
+      "backtest_sample": 14,
+      "backtest_note": "RSI<35 & above 200MA -> up after 5d, 14 samples (~2y)",
+      "setup_grade": "A",
+      "breakout_level": 224.1,
+      "breakout_distance_pct": 14.5,
+      "rr": 2.0,
+      "sentiment": {
+        "headline": null,
+        "label": "neutral",
+        "method": "crude keyword heuristic, NOT AI"
+      },
       "tech_notes": [
-        "RSI 32 recovering",
+        "RSI 33",
         "Above 200MA",
-        "50% of 52w range"
+        "1M -8.8%",
+        "Vol 1.0x"
       ],
       "fund_notes": [
-        "P/E 30 (rich)",
-        "Rev growth +85%",
-        "Margin 63%",
-        "ROE 114%"
+        "P/E 29.98",
+        "Rev +85.2%",
+        "Margin 63.0%"
       ],
       "technicals": {
-        "rsi": 31.99,
-        "ma50": 210.01,
-        "ma200": 190.31,
-        "mom_1m": -9.45,
-        "mom_3m": 8.88,
-        "pos_52w": 50.05,
-        "volatility": 2.98,
-        "price": 194.32
+        "rsi": 32.67,
+        "ma50": 210.04,
+        "ma200": 190.32,
+        "mom_1m": -8.8,
+        "mom_3m": 9.7,
+        "pos_52w": 71.9,
+        "volatility": 2.96,
+        "price": 195.74,
+        "atr": 7.43,
+        "sparkline": [
+          210.69,
+          208.65,
+          200.04,
+          199.0,
+          195.74
+        ],
+        "volume_ratio": 0.97,
+        "sector_rel": -8.6,
+        "sector_etf": "XLK"
       },
       "fundamentals": {
-        "pe": 29.76,
+        "pe": 29.98,
         "rev_growth": 85.2,
-        "margin": 62.97,
-        "roe": 114.29,
-        "debt_to_equity": 6.55
+        "margin": 63.0,
+        "roe": 114.3,
+        "debt_to_equity": 6.55,
+        "eps_estimate": 12.73,
+        "earnings_streak": [
+          "beat",
+          "beat",
+          "beat",
+          "beat"
+        ],
+        "avg_post_earnings_move_pct": null
       }
     },
     {
       "ticker": "AAPL",
-      "total_score": 68.0,
-      "technical_score": 29.0,
-      "fundamental_score": 39.0,
+      "total_score": 69.4,
+      "technical_score": 31.2,
+      "fundamental_score": 40.0,
+      "rsi_score": 65.0,
+      "momentum_score": 42.0,
+      "fundamental_subscore": 80.0,
+      "volume_score": 80.0,
+      "confidence_pct": 78.0,
       "horizon": "long_term",
       "expected_window": "6-18+ months",
       "horizon_reason": "Established uptrend, suited to holding",
       "conviction": "Moderate",
       "conviction_emoji": "\ud83d\udfe1",
+      "trigger": "Holding above 200-day MA",
+      "backtest_winrate": 45.5,
+      "backtest_sample": 33,
+      "backtest_note": "RSI<35 & above 200MA -> up after 5d, 33 samples (~2y)",
+      "setup_grade": "A",
+      "breakout_level": 315.2,
+      "breakout_distance_pct": 14.6,
+      "rr": 2.0,
+      "sentiment": {
+        "headline": null,
+        "label": "neutral",
+        "method": "crude keyword heuristic, NOT AI"
+      },
       "tech_notes": [
-        "RSI 23 oversold",
+        "RSI 23",
         "Above 200MA",
-        "66% of 52w range"
+        "1M -10.8%",
+        "Vol 1.2x"
       ],
       "fund_notes": [
-        "P/E 33 (rich)",
-        "Rev growth +17%",
-        "Margin 27%",
-        "ROE 141%"
+        "P/E 33.35",
+        "Rev +16.6%",
+        "Margin 27.2%"
       ],
       "technicals": {
-        "rsi": 23.43,
-        "ma50": 291.09,
+        "rsi": 22.9,
+        "ma50": 291.06,
         "ma200": 268.83,
-        "mom_1m": -10.28,
-        "mom_3m": 9.61,
-        "pos_52w": 66.47,
-        "volatility": 1.91,
-        "price": 276.64
+        "mom_1m": -10.8,
+        "mom_3m": 9.0,
+        "pos_52w": 72.1,
+        "volatility": 1.99,
+        "price": 275.15,
+        "atr": 8.95,
+        "sparkline": [
+          298.01,
+          297.01,
+          294.3,
+          293.08,
+          275.15
+        ],
+        "volume_ratio": 1.22,
+        "sector_rel": -10.6,
+        "sector_etf": "XLK"
       },
       "fundamentals": {
-        "pe": 33.49,
+        "pe": 33.35,
         "rev_growth": 16.6,
-        "margin": 27.15,
-        "roe": 141.47,
-        "debt_to_equity": 79.55
-      }
-    },
-    {
-      "ticker": "MSFT",
-      "total_score": 60.0,
-      "technical_score": 15.0,
-      "fundamental_score": 45.0,
-      "horizon": "swing",
-      "expected_window": "1-6 weeks",
-      "horizon_reason": "Mixed signals - monitor on swing timeframe",
-      "conviction": "Moderate",
-      "conviction_emoji": "\ud83d\udfe1",
-      "tech_notes": [
-        "RSI 15 oversold",
-        "Below key MAs",
-        "Near 52w low (0%)"
-      ],
-      "fund_notes": [
-        "P/E 21 (fair)",
-        "Rev growth +18%",
-        "Margin 39%",
-        "ROE 34%"
-      ],
-      "technicals": {
-        "rsi": 15.22,
-        "ma50": 411.26,
-        "ma200": 446.88,
-        "mom_1m": -15.24,
-        "mom_3m": -4.76,
-        "pos_52w": 0.0,
-        "volatility": 2.65,
-        "price": 352.61
-      },
-      "fundamentals": {
-        "pe": 21.03,
-        "rev_growth": 18.3,
-        "margin": 39.34,
-        "roe": 34.01,
-        "debt_to_equity": 30.27
+        "margin": 27.2,
+        "roe": 141.5,
+        "debt_to_equity": 79.55,
+        "eps_estimate": 9.61,
+        "earnings_streak": [
+          "beat",
+          "beat",
+          "beat",
+          "beat"
+        ],
+        "avg_post_earnings_move_pct": null
       }
     },
     {
       "ticker": "AMZN",
-      "total_score": 60.0,
-      "technical_score": 24.0,
-      "fundamental_score": 36.0,
+      "total_score": 67.4,
+      "technical_score": 31.2,
+      "fundamental_score": 37.5,
+      "rsi_score": 65.0,
+      "momentum_score": 42.0,
+      "fundamental_subscore": 75.0,
+      "volume_score": 80.0,
+      "confidence_pct": 78.0,
       "horizon": "swing",
       "expected_window": "1-6 weeks",
       "horizon_reason": "Mixed signals - monitor on swing timeframe",
       "conviction": "Moderate",
       "conviction_emoji": "\ud83d\udfe1",
+      "trigger": "Oversold (RSI 30)",
+      "backtest_winrate": 71.4,
+      "backtest_sample": 14,
+      "backtest_note": "RSI<35 & below 200MA -> up after 5d, 14 samples (~2y)",
+      "setup_grade": "B",
+      "breakout_level": 274.0,
+      "breakout_distance_pct": 20.7,
+      "rr": 2.0,
+      "sentiment": {
+        "headline": null,
+        "label": "neutral",
+        "method": "crude keyword heuristic, NOT AI"
+      },
       "tech_notes": [
-        "RSI 30 oversold",
-        "Below key MAs",
-        "37% of 52w range",
-        "Rising volume"
+        "RSI 30",
+        "1M -14.4%",
+        "Vol 1.4x"
       ],
       "fund_notes": [
-        "P/E 31 (rich)",
-        "Rev growth +17%",
-        "ROE 24%"
+        "P/E 30.68",
+        "Rev +16.6%",
+        "Margin 12.2%"
       ],
       "technicals": {
-        "rsi": 29.61,
+        "rsi": 29.55,
         "ma50": 256.45,
         "ma200": 232.8,
-        "mom_1m": -14.38,
-        "mom_3m": 7.28,
-        "pos_52w": 37.19,
+        "mom_1m": -14.4,
+        "mom_3m": 7.2,
+        "pos_52w": 57.9,
         "volatility": 2.21,
-        "price": 227.13
+        "price": 227.01,
+        "atr": 8.46,
+        "sparkline": [
+          244.39,
+          232.79,
+          234.11,
+          234.27,
+          227.01
+        ],
+        "volume_ratio": 1.39,
+        "sector_rel": -9.5,
+        "sector_etf": "XLY"
       },
       "fundamentals": {
-        "pe": 30.69,
+        "pe": 30.68,
         "rev_growth": 16.6,
-        "margin": 12.22,
-        "roe": 24.29,
-        "debt_to_equity": 53.3
+        "margin": 12.2,
+        "roe": 24.3,
+        "debt_to_equity": 53.3,
+        "eps_estimate": 9.88,
+        "earnings_streak": [
+          "beat",
+          "beat",
+          "miss",
+          "beat"
+        ],
+        "avg_post_earnings_move_pct": null
+      }
+    },
+    {
+      "ticker": "MSFT",
+      "total_score": 64.8,
+      "technical_score": 23.3,
+      "fundamental_score": 46.0,
+      "rsi_score": 65.0,
+      "momentum_score": 15.0,
+      "fundamental_subscore": 92.0,
+      "volume_score": 60.0,
+      "confidence_pct": 78.0,
+      "horizon": "swing",
+      "expected_window": "1-6 weeks",
+      "horizon_reason": "Mixed signals - monitor on swing timeframe",
+      "conviction": "Moderate",
+      "conviction_emoji": "\ud83d\udfe1",
+      "trigger": "Oversold (RSI 15)",
+      "backtest_winrate": 48.6,
+      "backtest_sample": 35,
+      "backtest_note": "RSI<35 & below 200MA -> up after 5d, 35 samples (~2y)",
+      "setup_grade": "B",
+      "breakout_level": 460.52,
+      "breakout_distance_pct": 30.5,
+      "rr": 2.0,
+      "sentiment": {
+        "headline": null,
+        "label": "neutral",
+        "method": "crude keyword heuristic, NOT AI"
+      },
+      "tech_notes": [
+        "RSI 15",
+        "1M -15.2%",
+        "Vol 1.2x"
+      ],
+      "fund_notes": [
+        "P/E 21.04",
+        "Rev +18.3%",
+        "Margin 39.3%"
+      ],
+      "technicals": {
+        "rsi": 15.25,
+        "ma50": 411.27,
+        "ma200": 446.88,
+        "mom_1m": -15.2,
+        "mom_3m": -4.7,
+        "pos_52w": 0.9,
+        "volatility": 2.65,
+        "price": 352.83,
+        "atr": 11.95,
+        "sparkline": [
+          379.4,
+          367.34,
+          373.94,
+          365.46,
+          352.83
+        ],
+        "volume_ratio": 1.19,
+        "sector_rel": -15.0,
+        "sector_etf": "XLK"
+      },
+      "fundamentals": {
+        "pe": 21.04,
+        "rev_growth": 18.3,
+        "margin": 39.3,
+        "roe": 34.0,
+        "debt_to_equity": 30.27,
+        "eps_estimate": 19.37,
+        "earnings_streak": [
+          "beat",
+          "beat",
+          "beat",
+          "beat"
+        ],
+        "avg_post_earnings_move_pct": null
       }
     }
-  ]
+  ],
+  "disclaimer": "Not financial advice. Transparent rule-based scoring + historical statistics for research only. Backtest win-rate is a past frequency, NOT a prediction."
 }
