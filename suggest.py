@@ -435,8 +435,7 @@ def analyze(ticker, etf_cache, spy_1m, spy_3m):
         trigger = build_trigger(r, rp, price, ma50, ma200, vr, m1)
         bt = backtest_setup(hist, 5)
         earn = earnings_stats(t); sentiment = keyword_sentiment(t)
-
-                resistance, support = swing_levels(close, 20)
+        resistance, support = swing_levels(close, 20)
         # direction follows the trend: downtrend -> short setup, else long
         trade_direction = "short" if trend == "downtrend" else "long"
         buckets = build_trade_buckets(price, atr_val, resistance, support, trade_direction)
