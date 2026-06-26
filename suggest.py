@@ -436,7 +436,6 @@ def analyze(ticker, etf_cache, spy_1m, spy_3m):
         bt = backtest_setup(hist, 5)
         earn = earnings_stats(t); sentiment = keyword_sentiment(t)
         resistance, support = swing_levels(close, 20)
-        # direction follows the trend: downtrend -> short setup, else long
         trade_direction = "short" if trend == "downtrend" else "long"
         buckets = build_trade_buckets(price, atr_val, resistance, support, trade_direction)
         swing = buckets.get("swing", {})
@@ -446,6 +445,8 @@ def analyze(ticker, etf_cache, spy_1m, spy_3m):
         grade = setup_grade(swing_rr, trend_aligned, vola)
         breakout_level = resistance
         breakout_distance_pct = round1((resistance - price) / price * 100) if (resistance and price) else None
+
+
 
         tech_obj = {"rsi": round2(r), "ma200": round2(ma200), "mom_1m": round1(m1),
                     "volatility": round2(vola), "price": round2(price)}
