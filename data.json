@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T09:28:29Z",
+  "generated_at": "2026-06-26T09:33:00Z",
   "brief": "\ud83d\udfe2 Good day, SRIHARI! Here's your market pulse.  \n\ud83d\ude80 Today's headline mover is MU at +15.74% (Mega cap).  \n\ud83d\udcca Breadth: 34 up vs 64 down on your watchlist.  \n\ud83d\udc9a Strength (oversold-in-uptrend): AAPL, NVDA, GOOGL, GOOG, XOM, RKLB, FSLR, NXT, IONQ, LUNR, RDW, BTDR.  \n\u26a0 Pullback risk (overbought): JPM, HD, BAC, GE, PGR, VRTX, BROS, ELF, BLZE.  \n\ud83d\udd0e Tip: open the Suggestions section for scored ideas. Signals are heuristics, not advice.",
   "quotes": [
     {
@@ -1579,18 +1579,27 @@
       "atr": 8.95,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 275.15,
           "stop": 266.2,
           "target": 288.57,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 275.15,
           "stop": 261.72,
           "target": 302.0,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 275.15,
           "stop": 248.3,
           "target": 346.75,
@@ -1603,21 +1612,30 @@
       "atr": 11.95,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 352.83,
-          "stop": 340.88,
-          "target": 370.75,
+          "stop": 364.78,
+          "target": 334.9,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 352.83,
-          "stop": 334.9,
-          "target": 388.68,
+          "stop": 370.75,
+          "target": 316.98,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 352.83,
-          "stop": 316.98,
-          "target": 448.43,
+          "stop": 388.68,
+          "target": 257.23,
           "rr": 2.7
         }
       }
@@ -1627,18 +1645,27 @@
       "atr": 7.43,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 195.74,
           "stop": 188.31,
           "target": 206.89,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 195.74,
           "stop": 184.59,
           "target": 218.03,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 195.74,
           "stop": 173.45,
           "target": 255.18,
@@ -1651,21 +1678,30 @@
       "atr": 8.46,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 227.01,
-          "stop": 218.55,
-          "target": 239.7,
+          "stop": 235.47,
+          "target": 214.32,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 227.01,
-          "stop": 214.32,
-          "target": 252.39,
+          "stop": 239.7,
+          "target": 201.63,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 227.01,
-          "stop": 201.63,
-          "target": 294.69,
+          "stop": 252.39,
+          "target": 159.33,
           "rr": 2.7
         }
       }
@@ -1675,18 +1711,27 @@
       "atr": 12.1,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 343.71,
           "stop": 331.61,
           "target": 361.86,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 343.71,
           "stop": 325.56,
           "target": 380.01,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 343.71,
           "stop": 307.41,
           "target": 440.51,
@@ -1699,18 +1744,27 @@
       "atr": 12.12,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 342.19,
           "stop": 330.07,
           "target": 360.37,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 342.19,
           "stop": 324.01,
           "target": 378.55,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 342.19,
           "stop": 305.83,
           "target": 439.15,
@@ -1723,21 +1777,30 @@
       "atr": 20.49,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 542.87,
-          "stop": 522.38,
-          "target": 573.61,
+          "stop": 563.36,
+          "target": 512.13,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 542.87,
-          "stop": 512.13,
-          "target": 604.34,
+          "stop": 573.61,
+          "target": 481.4,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 542.87,
-          "stop": 481.4,
-          "target": 706.79,
+          "stop": 604.34,
+          "target": 378.95,
           "rr": 2.7
         }
       }
@@ -1747,21 +1810,30 @@
       "atr": 18.95,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 375.12,
-          "stop": 356.17,
-          "target": 403.55,
+          "stop": 394.07,
+          "target": 346.69,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 375.12,
-          "stop": 346.69,
-          "target": 431.97,
+          "stop": 403.55,
+          "target": 318.27,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 375.12,
-          "stop": 318.27,
-          "target": 526.72,
+          "stop": 431.97,
+          "target": 223.52,
           "rr": 2.7
         }
       }
@@ -1771,18 +1843,27 @@
       "atr": 19.83,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 378.91,
           "stop": 359.08,
           "target": 408.66,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 378.91,
           "stop": 349.17,
           "target": 438.4,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 378.91,
           "stop": 319.42,
           "target": 537.55,
@@ -1795,18 +1876,27 @@
       "atr": 34.74,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 1127.69,
           "stop": 1092.95,
           "target": 1179.8,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 1127.69,
           "stop": 1075.58,
           "target": 1231.91,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 1127.69,
           "stop": 1023.47,
           "target": 1405.61,
@@ -1819,18 +1909,27 @@
       "atr": 7.73,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 335.12,
           "stop": 327.39,
           "target": 346.72,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 335.12,
           "stop": 323.52,
           "target": 358.31,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 335.12,
           "stop": 311.93,
           "target": 396.96,
@@ -1843,18 +1942,27 @@
       "atr": 6.72,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 330.52,
           "stop": 323.8,
           "target": 340.6,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 330.52,
           "stop": 320.44,
           "target": 350.68,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 330.52,
           "stop": 310.36,
           "target": 384.28,
@@ -1867,21 +1975,30 @@
       "atr": 10.49,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 488.92,
-          "stop": 478.43,
-          "target": 504.66,
+          "stop": 499.41,
+          "target": 473.19,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 488.92,
-          "stop": 473.19,
-          "target": 520.39,
+          "stop": 504.66,
+          "target": 457.45,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 488.92,
-          "stop": 457.45,
-          "target": 572.84,
+          "stop": 520.39,
+          "target": 405.0,
           "rr": 2.7
         }
       }
@@ -1891,21 +2008,30 @@
       "atr": 2.65,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 115.78,
-          "stop": 113.13,
-          "target": 119.75,
+          "stop": 118.43,
+          "target": 111.81,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 115.78,
-          "stop": 111.81,
-          "target": 123.73,
+          "stop": 119.75,
+          "target": 107.83,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 115.78,
-          "stop": 107.83,
-          "target": 136.98,
+          "stop": 123.73,
+          "target": 94.58,
           "rr": 2.7
         }
       }
@@ -1915,18 +2041,27 @@
       "atr": 3.83,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 137.55,
           "stop": 133.72,
           "target": 143.3,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 137.55,
           "stop": 131.81,
           "target": 149.04,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 137.55,
           "stop": 126.06,
           "target": 168.19,
@@ -1939,21 +2074,30 @@
       "atr": 12.95,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 152.46,
-          "stop": 139.51,
-          "target": 171.88,
+          "stop": 165.41,
+          "target": 133.04,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 152.46,
-          "stop": 133.04,
-          "target": 191.31,
+          "stop": 171.88,
+          "target": 113.61,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 152.46,
-          "stop": 113.61,
-          "target": 256.06,
+          "stop": 191.31,
+          "target": 48.86,
           "rr": 2.7
         }
       }
@@ -1963,21 +2107,30 @@
       "atr": 2.27,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 70.9,
-          "stop": 68.63,
-          "target": 74.31,
+          "stop": 73.17,
+          "target": 67.5,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 70.9,
-          "stop": 67.5,
-          "target": 77.71,
+          "stop": 74.31,
+          "target": 64.09,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 70.9,
-          "stop": 64.09,
-          "target": 89.06,
+          "stop": 77.71,
+          "target": 52.74,
           "rr": 2.7
         }
       }
@@ -1987,21 +2140,30 @@
       "atr": 18.42,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 942.24,
-          "stop": 923.82,
-          "target": 969.87,
+          "stop": 960.66,
+          "target": 914.61,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 942.24,
-          "stop": 914.61,
-          "target": 997.5,
+          "stop": 969.87,
+          "target": 886.98,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 942.24,
-          "stop": 886.98,
-          "target": 1089.6,
+          "stop": 997.5,
+          "target": 794.88,
           "rr": 2.7
         }
       }
@@ -2011,18 +2173,27 @@
       "atr": 5.54,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 244.88,
           "stop": 239.34,
           "target": 253.19,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 244.88,
           "stop": 236.57,
           "target": 261.5,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 244.88,
           "stop": 228.26,
           "target": 289.2,
@@ -2035,18 +2206,27 @@
       "atr": 3.16,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 148.5,
           "stop": 145.34,
           "target": 153.24,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 148.5,
           "stop": 143.76,
           "target": 157.98,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 148.5,
           "stop": 139.02,
           "target": 173.78,
@@ -2059,21 +2239,30 @@
       "atr": 9.21,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 345.0,
-          "stop": 335.79,
-          "target": 358.81,
+          "stop": 354.21,
+          "target": 331.19,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 345.0,
-          "stop": 331.19,
-          "target": 372.63,
+          "stop": 358.81,
+          "target": 317.37,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 345.0,
-          "stop": 317.37,
-          "target": 418.68,
+          "stop": 372.63,
+          "target": 271.32,
           "rr": 2.7
         }
       }
@@ -2083,18 +2272,27 @@
       "atr": 6.33,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 243.14,
           "stop": 236.81,
           "target": 252.63,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 243.14,
           "stop": 233.64,
           "target": 262.13,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 243.14,
           "stop": 224.15,
           "target": 293.78,
@@ -2107,18 +2305,27 @@
       "atr": 1.16,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 58.19,
           "stop": 57.03,
           "target": 59.93,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 58.19,
           "stop": 56.45,
           "target": 61.67,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 58.19,
           "stop": 54.71,
           "target": 67.47,
@@ -2131,18 +2338,27 @@
       "atr": 1.69,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 80.42,
           "stop": 78.73,
           "target": 82.95,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 80.42,
           "stop": 77.89,
           "target": 85.49,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 80.42,
           "stop": 75.35,
           "target": 93.94,
@@ -2155,21 +2371,30 @@
       "atr": 6.37,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 150.19,
-          "stop": 143.82,
-          "target": 159.75,
+          "stop": 156.56,
+          "target": 140.63,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 150.19,
-          "stop": 140.63,
-          "target": 169.3,
+          "stop": 159.75,
+          "target": 131.08,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 150.19,
-          "stop": 131.08,
-          "target": 201.15,
+          "stop": 169.3,
+          "target": 99.23,
           "rr": 2.7
         }
       }
@@ -2179,21 +2404,30 @@
       "atr": 9.93,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 193.41,
-          "stop": 183.48,
-          "target": 208.31,
+          "stop": 203.34,
+          "target": 178.51,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 193.41,
-          "stop": 178.51,
-          "target": 223.2,
+          "stop": 208.31,
+          "target": 163.62,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 193.41,
-          "stop": 163.62,
-          "target": 272.85,
+          "stop": 223.2,
+          "target": 113.97,
           "rr": 2.7
         }
       }
@@ -2203,18 +2437,27 @@
       "atr": 38.17,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 532.57,
           "stop": 494.4,
           "target": 589.83,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 532.57,
           "stop": 475.32,
           "target": 647.08,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 532.57,
           "stop": 418.06,
           "target": 837.93,
@@ -2227,18 +2470,27 @@
       "atr": 17.06,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 204.9,
           "stop": 187.84,
           "target": 230.49,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 204.9,
           "stop": 179.31,
           "target": 256.08,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 204.9,
           "stop": 153.72,
           "target": 341.38,
@@ -2251,18 +2503,27 @@
       "atr": 15.48,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 311.81,
           "stop": 296.33,
           "target": 335.03,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 311.81,
           "stop": 288.59,
           "target": 358.25,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 311.81,
           "stop": 265.37,
           "target": 435.65,
@@ -2275,18 +2536,27 @@
       "atr": 9.39,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 352.82,
           "stop": 343.43,
           "target": 366.9,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 352.82,
           "stop": 338.74,
           "target": 380.99,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 352.82,
           "stop": 324.65,
           "target": 427.94,
@@ -2299,21 +2569,30 @@
       "atr": 12.32,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 255.07,
-          "stop": 242.75,
-          "target": 273.55,
+          "stop": 267.39,
+          "target": 236.59,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 255.07,
-          "stop": 236.59,
-          "target": 292.03,
+          "stop": 273.55,
+          "target": 218.11,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 255.07,
-          "stop": 218.11,
-          "target": 353.63,
+          "stop": 292.03,
+          "target": 156.51,
           "rr": 2.7
         }
       }
@@ -2323,21 +2602,30 @@
       "atr": 6.46,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 221.93,
-          "stop": 215.47,
-          "target": 231.62,
+          "stop": 228.39,
+          "target": 212.24,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 221.93,
-          "stop": 212.24,
-          "target": 241.31,
+          "stop": 231.62,
+          "target": 202.55,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 221.93,
-          "stop": 202.55,
-          "target": 273.61,
+          "stop": 241.31,
+          "target": 170.25,
           "rr": 2.7
         }
       }
@@ -2347,21 +2635,30 @@
       "atr": 11.84,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 395.14,
-          "stop": 383.3,
-          "target": 412.9,
+          "stop": 406.98,
+          "target": 377.38,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 395.14,
-          "stop": 377.38,
-          "target": 430.66,
+          "stop": 412.9,
+          "target": 359.62,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 395.14,
-          "stop": 359.62,
-          "target": 489.86,
+          "stop": 430.66,
+          "target": 300.42,
           "rr": 2.7
         }
       }
@@ -2371,18 +2668,27 @@
       "atr": 40.49,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 1057.01,
           "stop": 1016.52,
           "target": 1117.74,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 1057.01,
           "stop": 996.27,
           "target": 1178.48,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 1057.01,
           "stop": 935.54,
           "target": 1380.93,
@@ -2395,18 +2701,27 @@
       "atr": 11.26,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 371.36,
           "stop": 360.1,
           "target": 388.25,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 371.36,
           "stop": 354.47,
           "target": 405.14,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 371.36,
           "stop": 337.58,
           "target": 461.44,
@@ -2419,21 +2734,30 @@
       "atr": 6.88,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 177.05,
-          "stop": 170.17,
-          "target": 187.37,
+          "stop": 183.93,
+          "target": 166.73,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 177.05,
-          "stop": 166.73,
-          "target": 197.69,
+          "stop": 187.37,
+          "target": 156.41,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 177.05,
-          "stop": 156.41,
-          "target": 232.09,
+          "stop": 197.69,
+          "target": 122.01,
           "rr": 2.7
         }
       }
@@ -2443,21 +2767,30 @@
       "atr": 14.26,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 505.75,
-          "stop": 491.49,
-          "target": 527.14,
+          "stop": 520.01,
+          "target": 484.36,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 505.75,
-          "stop": 484.36,
-          "target": 548.53,
+          "stop": 527.14,
+          "target": 462.97,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 505.75,
-          "stop": 462.97,
-          "target": 619.83,
+          "stop": 548.53,
+          "target": 391.67,
           "rr": 2.7
         }
       }
@@ -2467,21 +2800,30 @@
       "atr": 2.16,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 89.44,
-          "stop": 87.28,
-          "target": 92.68,
+          "stop": 91.6,
+          "target": 86.2,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 89.44,
-          "stop": 86.2,
-          "target": 95.92,
+          "stop": 92.68,
+          "target": 82.96,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 89.44,
-          "stop": 82.96,
-          "target": 106.72,
+          "stop": 95.92,
+          "target": 72.16,
           "rr": 2.7
         }
       }
@@ -2491,18 +2833,27 @@
       "atr": 5.68,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 215.54,
           "stop": 209.86,
           "target": 224.06,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 215.54,
           "stop": 207.02,
           "target": 232.58,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 215.54,
           "stop": 198.5,
           "target": 260.98,
@@ -2515,21 +2866,30 @@
       "atr": 3.52,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 123.84,
-          "stop": 120.32,
-          "target": 129.12,
+          "stop": 127.36,
+          "target": 118.56,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 123.84,
-          "stop": 118.56,
-          "target": 134.4,
+          "stop": 129.12,
+          "target": 113.28,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 123.84,
-          "stop": 113.28,
-          "target": 152.0,
+          "stop": 134.4,
+          "target": 95.68,
           "rr": 2.7
         }
       }
@@ -2539,18 +2899,27 @@
       "atr": 11.7,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 480.18,
           "stop": 468.48,
           "target": 497.73,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 480.18,
           "stop": 462.63,
           "target": 515.28,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 480.18,
           "stop": 445.08,
           "target": 573.78,
@@ -2563,18 +2932,27 @@
       "atr": 7.24,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 231.24,
           "stop": 224.0,
           "target": 242.1,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 231.24,
           "stop": 220.38,
           "target": 252.96,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 231.24,
           "stop": 209.52,
           "target": 289.16,
@@ -2587,18 +2965,27 @@
       "atr": 17.86,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 630.76,
           "stop": 612.9,
           "target": 657.55,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 630.76,
           "stop": 603.97,
           "target": 684.34,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 630.76,
           "stop": 577.18,
           "target": 773.64,
@@ -2611,21 +2998,30 @@
       "atr": 8.65,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 316.11,
-          "stop": 307.46,
-          "target": 329.09,
+          "stop": 324.76,
+          "target": 303.13,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 316.11,
-          "stop": 303.13,
-          "target": 342.06,
+          "stop": 329.09,
+          "target": 290.16,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 316.11,
-          "stop": 290.16,
-          "target": 385.31,
+          "stop": 342.06,
+          "target": 246.91,
           "rr": 2.7
         }
       }
@@ -2635,18 +3031,27 @@
       "atr": 11.3,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 293.09,
           "stop": 281.79,
           "target": 310.04,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 293.09,
           "stop": 276.14,
           "target": 326.99,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 293.09,
           "stop": 259.19,
           "target": 383.49,
@@ -2659,18 +3064,27 @@
       "atr": 8.54,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 165.45,
           "stop": 156.91,
           "target": 178.26,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 165.45,
           "stop": 152.64,
           "target": 191.07,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 165.45,
           "stop": 139.83,
           "target": 233.77,
@@ -2683,18 +3097,27 @@
       "atr": 29.8,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 401.82,
           "stop": 372.02,
           "target": 446.52,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 401.82,
           "stop": 357.12,
           "target": 491.22,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 401.82,
           "stop": 312.42,
           "target": 640.22,
@@ -2707,18 +3130,27 @@
       "atr": 110.03,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 1213.56,
           "stop": 1103.53,
           "target": 1378.61,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 1213.56,
           "stop": 1048.51,
           "target": 1543.65,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 1213.56,
           "stop": 883.47,
           "target": 2093.8,
@@ -2731,21 +3163,30 @@
       "atr": 5.39,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 216.31,
-          "stop": 210.92,
-          "target": 224.4,
+          "stop": 221.7,
+          "target": 208.22,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 216.31,
-          "stop": 208.22,
-          "target": 232.48,
+          "stop": 224.4,
+          "target": 200.14,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 216.31,
-          "stop": 200.14,
-          "target": 259.43,
+          "stop": 232.48,
+          "target": 173.19,
           "rr": 2.7
         }
       }
@@ -2755,21 +3196,30 @@
       "atr": 1.51,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 23.1,
-          "stop": 21.59,
-          "target": 25.37,
+          "stop": 24.61,
+          "target": 20.84,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 23.1,
-          "stop": 20.84,
-          "target": 27.63,
+          "stop": 25.37,
+          "target": 18.57,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 23.1,
-          "stop": 18.57,
-          "target": 35.18,
+          "stop": 27.63,
+          "target": 11.02,
           "rr": 2.7
         }
       }
@@ -2779,21 +3229,30 @@
       "atr": 11.97,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 158.02,
-          "stop": 146.05,
-          "target": 175.98,
+          "stop": 169.99,
+          "target": 140.06,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 158.02,
-          "stop": 140.06,
-          "target": 193.93,
+          "stop": 175.98,
+          "target": 122.11,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 158.02,
-          "stop": 122.11,
-          "target": 253.78,
+          "stop": 193.93,
+          "target": 62.26,
           "rr": 2.7
         }
       }
@@ -2803,21 +3262,30 @@
       "atr": 1.49,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 28.22,
-          "stop": 26.73,
-          "target": 30.45,
+          "stop": 29.71,
+          "target": 25.98,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 28.22,
-          "stop": 25.98,
-          "target": 32.69,
+          "stop": 30.45,
+          "target": 23.75,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 28.22,
-          "stop": 23.75,
-          "target": 40.14,
+          "stop": 32.69,
+          "target": 16.3,
           "rr": 2.7
         }
       }
@@ -2827,18 +3295,27 @@
       "atr": 41.06,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 347.71,
           "stop": 306.65,
           "target": 409.3,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 347.71,
           "stop": 286.12,
           "target": 470.89,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 347.71,
           "stop": 224.53,
           "target": 676.19,
@@ -2851,21 +3328,30 @@
       "atr": 32.01,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 445.93,
-          "stop": 413.92,
-          "target": 493.94,
+          "stop": 477.94,
+          "target": 397.92,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 445.93,
-          "stop": 397.92,
-          "target": 541.96,
+          "stop": 493.94,
+          "target": 349.9,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 445.93,
-          "stop": 349.9,
-          "target": 702.01,
+          "stop": 541.96,
+          "target": 189.85,
           "rr": 2.7
         }
       }
@@ -2875,21 +3361,30 @@
       "atr": 1.0,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 17.3,
-          "stop": 16.3,
-          "target": 18.8,
+          "stop": 18.3,
+          "target": 15.8,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 17.3,
-          "stop": 15.8,
-          "target": 20.3,
+          "stop": 18.8,
+          "target": 14.3,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 17.3,
-          "stop": 14.3,
-          "target": 25.3,
+          "stop": 20.3,
+          "target": 9.3,
           "rr": 2.7
         }
       }
@@ -2899,21 +3394,30 @@
       "atr": 7.48,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 93.47,
-          "stop": 85.99,
-          "target": 104.69,
+          "stop": 100.95,
+          "target": 82.25,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 93.47,
-          "stop": 82.25,
-          "target": 115.91,
+          "stop": 104.69,
+          "target": 71.03,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 93.47,
-          "stop": 71.03,
-          "target": 153.31,
+          "stop": 115.91,
+          "target": 33.63,
           "rr": 2.7
         }
       }
@@ -2923,18 +3427,27 @@
       "atr": 4.43,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 83.3,
           "stop": 78.87,
           "target": 89.94,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 83.3,
           "stop": 76.66,
           "target": 96.59,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 83.3,
           "stop": 70.01,
           "target": 118.74,
@@ -2947,18 +3460,27 @@
       "atr": 9.92,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 80.69,
           "stop": 70.77,
           "target": 95.57,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 80.69,
           "stop": 65.81,
           "target": 110.45,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 80.69,
           "stop": 50.93,
           "target": 160.05,
@@ -2971,21 +3493,30 @@
       "atr": 6.09,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 107.27,
-          "stop": 101.18,
-          "target": 116.41,
+          "stop": 113.36,
+          "target": 98.13,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 107.27,
-          "stop": 98.13,
-          "target": 125.54,
+          "stop": 116.41,
+          "target": 89.0,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 107.27,
-          "stop": 89.0,
-          "target": 155.99,
+          "stop": 125.54,
+          "target": 58.55,
           "rr": 2.7
         }
       }
@@ -2995,21 +3526,30 @@
       "atr": 2.46,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 72.25,
-          "stop": 69.79,
-          "target": 75.94,
+          "stop": 74.71,
+          "target": 68.56,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 72.25,
-          "stop": 68.56,
-          "target": 79.63,
+          "stop": 75.94,
+          "target": 64.87,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 72.25,
-          "stop": 64.87,
-          "target": 91.93,
+          "stop": 79.63,
+          "target": 52.57,
           "rr": 2.7
         }
       }
@@ -3019,21 +3559,30 @@
       "atr": 0.62,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 14.08,
-          "stop": 13.46,
-          "target": 15.01,
+          "stop": 14.7,
+          "target": 13.15,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 14.08,
-          "stop": 13.15,
-          "target": 15.94,
+          "stop": 15.01,
+          "target": 12.22,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 14.08,
-          "stop": 12.22,
-          "target": 19.04,
+          "stop": 15.94,
+          "target": 9.12,
           "rr": 2.7
         }
       }
@@ -3043,18 +3592,27 @@
       "atr": 17.04,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 248.64,
           "stop": 231.6,
           "target": 274.2,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 248.64,
           "stop": 223.08,
           "target": 299.76,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 248.64,
           "stop": 197.52,
           "target": 384.96,
@@ -3067,21 +3625,30 @@
       "atr": 10.13,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 165.42,
-          "stop": 155.29,
-          "target": 180.61,
+          "stop": 175.55,
+          "target": 150.22,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 165.42,
-          "stop": 150.22,
-          "target": 195.81,
+          "stop": 180.61,
+          "target": 135.03,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 165.42,
-          "stop": 135.03,
-          "target": 246.46,
+          "stop": 195.81,
+          "target": 84.38,
           "rr": 2.7
         }
       }
@@ -3091,18 +3658,27 @@
       "atr": 31.96,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 862.66,
           "stop": 830.7,
           "target": 910.6,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 862.66,
           "stop": 814.72,
           "target": 958.54,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 862.66,
           "stop": 766.78,
           "target": 1118.34,
@@ -3115,21 +3691,30 @@
       "atr": 8.98,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 119.94,
-          "stop": 110.96,
-          "target": 133.41,
+          "stop": 128.92,
+          "target": 106.47,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 119.94,
-          "stop": 106.47,
-          "target": 146.88,
+          "stop": 133.41,
+          "target": 93.0,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 119.94,
-          "stop": 93.0,
-          "target": 191.78,
+          "stop": 146.88,
+          "target": 48.1,
           "rr": 2.7
         }
       }
@@ -3139,21 +3724,30 @@
       "atr": 1.14,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 19.48,
-          "stop": 18.34,
-          "target": 21.19,
+          "stop": 20.62,
+          "target": 17.77,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 19.48,
-          "stop": 17.77,
-          "target": 22.9,
+          "stop": 21.19,
+          "target": 16.06,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 19.48,
-          "stop": 16.06,
-          "target": 28.6,
+          "stop": 22.9,
+          "target": 10.36,
           "rr": 2.7
         }
       }
@@ -3163,18 +3757,27 @@
       "atr": 3.34,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 66.6,
           "stop": 63.26,
           "target": 71.61,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 66.6,
           "stop": 61.59,
           "target": 76.62,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 66.6,
           "stop": 56.58,
           "target": 93.32,
@@ -3187,21 +3790,30 @@
       "atr": 4.09,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 65.09,
-          "stop": 61.0,
-          "target": 71.23,
+          "stop": 69.18,
+          "target": 58.96,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 65.09,
-          "stop": 58.96,
-          "target": 77.36,
+          "stop": 71.23,
+          "target": 52.82,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 65.09,
-          "stop": 52.82,
-          "target": 97.81,
+          "stop": 77.36,
+          "target": 32.37,
           "rr": 2.7
         }
       }
@@ -3211,18 +3823,27 @@
       "atr": 16.97,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 268.4,
           "stop": 251.43,
           "target": 293.85,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 268.4,
           "stop": 242.94,
           "target": 319.31,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 268.4,
           "stop": 217.49,
           "target": 404.16,
@@ -3235,21 +3856,30 @@
       "atr": 1.62,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 36.58,
-          "stop": 34.96,
-          "target": 39.01,
+          "stop": 38.2,
+          "target": 34.15,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 36.58,
-          "stop": 34.15,
-          "target": 41.44,
+          "stop": 39.01,
+          "target": 31.72,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 36.58,
-          "stop": 31.72,
-          "target": 49.54,
+          "stop": 41.44,
+          "target": 23.62,
           "rr": 2.7
         }
       }
@@ -3259,21 +3889,30 @@
       "atr": 2.57,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 32.71,
-          "stop": 30.14,
-          "target": 36.56,
+          "stop": 35.28,
+          "target": 28.86,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 32.71,
-          "stop": 28.86,
-          "target": 40.42,
+          "stop": 36.56,
+          "target": 25.0,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 32.71,
-          "stop": 25.0,
-          "target": 53.27,
+          "stop": 40.42,
+          "target": 12.15,
           "rr": 2.7
         }
       }
@@ -3283,18 +3922,27 @@
       "atr": 29.29,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 268.03,
           "stop": 238.74,
           "target": 311.96,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 268.03,
           "stop": 224.09,
           "target": 355.9,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 268.03,
           "stop": 180.16,
           "target": 502.35,
@@ -3307,21 +3955,30 @@
       "atr": 9.05,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 65.62,
-          "stop": 56.57,
-          "target": 79.2,
+          "stop": 74.67,
+          "target": 52.05,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 65.62,
-          "stop": 52.05,
-          "target": 92.77,
+          "stop": 79.2,
+          "target": 38.47,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 65.62,
-          "stop": 38.47,
-          "target": 138.02,
+          "stop": 92.77,
+          "target": -6.78,
           "rr": 2.7
         }
       }
@@ -3331,18 +3988,27 @@
       "atr": 9.46,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 113.18,
           "stop": 103.72,
           "target": 127.37,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 113.18,
           "stop": 98.99,
           "target": 141.56,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 113.18,
           "stop": 84.8,
           "target": 188.86,
@@ -3355,18 +4021,27 @@
       "atr": 5.86,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 50.56,
           "stop": 44.7,
           "target": 59.35,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 50.56,
           "stop": 41.77,
           "target": 68.14,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 50.56,
           "stop": 32.98,
           "target": 97.44,
@@ -3379,21 +4054,30 @@
       "atr": 2.31,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 18.41,
-          "stop": 16.1,
-          "target": 21.88,
+          "stop": 20.72,
+          "target": 14.95,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 18.41,
-          "stop": 14.95,
-          "target": 25.34,
+          "stop": 21.88,
+          "target": 11.48,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 18.41,
-          "stop": 11.48,
-          "target": 36.89,
+          "stop": 25.34,
+          "target": -0.07,
           "rr": 2.7
         }
       }
@@ -3403,21 +4087,30 @@
       "atr": 2.58,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 21.91,
-          "stop": 19.33,
-          "target": 25.78,
+          "stop": 24.49,
+          "target": 18.04,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 21.91,
-          "stop": 18.04,
-          "target": 29.65,
+          "stop": 25.78,
+          "target": 14.17,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 21.91,
-          "stop": 14.17,
-          "target": 42.55,
+          "stop": 29.65,
+          "target": 1.27,
           "rr": 2.7
         }
       }
@@ -3427,21 +4120,30 @@
       "atr": 0.47,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 6.21,
-          "stop": 5.74,
-          "target": 6.92,
+          "stop": 6.68,
+          "target": 5.5,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 6.21,
-          "stop": 5.5,
-          "target": 7.62,
+          "stop": 6.92,
+          "target": 4.8,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 6.21,
-          "stop": 4.8,
-          "target": 9.97,
+          "stop": 7.62,
+          "target": 2.45,
           "rr": 2.7
         }
       }
@@ -3451,21 +4153,30 @@
       "atr": 0.42,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 4.79,
-          "stop": 4.37,
-          "target": 5.42,
+          "stop": 5.21,
+          "target": 4.16,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 4.79,
-          "stop": 4.16,
-          "target": 6.05,
+          "stop": 5.42,
+          "target": 3.53,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 4.79,
-          "stop": 3.53,
-          "target": 8.15,
+          "stop": 6.05,
+          "target": 1.43,
           "rr": 2.7
         }
       }
@@ -3475,21 +4186,30 @@
       "atr": 0.71,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 8.87,
-          "stop": 8.16,
-          "target": 9.93,
+          "stop": 9.58,
+          "target": 7.8,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 8.87,
-          "stop": 7.8,
-          "target": 11.0,
+          "stop": 9.93,
+          "target": 6.74,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 8.87,
-          "stop": 6.74,
-          "target": 14.55,
+          "stop": 11.0,
+          "target": 3.19,
           "rr": 2.7
         }
       }
@@ -3499,18 +4219,27 @@
       "atr": 2.74,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 18.7,
           "stop": 15.96,
           "target": 22.81,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 18.7,
           "stop": 14.59,
           "target": 26.92,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 18.7,
           "stop": 10.48,
           "target": 40.62,
@@ -3523,18 +4252,27 @@
       "atr": 1.85,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 10.8,
           "stop": 8.95,
           "target": 13.58,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 10.8,
           "stop": 8.03,
           "target": 16.35,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 10.8,
           "stop": 5.25,
           "target": 25.6,
@@ -3547,21 +4285,30 @@
       "atr": 9.63,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 97.13,
-          "stop": 87.5,
-          "target": 111.57,
+          "stop": 106.76,
+          "target": 82.69,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 97.13,
-          "stop": 82.69,
-          "target": 126.02,
+          "stop": 111.57,
+          "target": 68.24,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 97.13,
-          "stop": 68.24,
-          "target": 174.17,
+          "stop": 126.02,
+          "target": 20.09,
           "rr": 2.7
         }
       }
@@ -3571,21 +4318,30 @@
       "atr": 3.28,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 24.35,
-          "stop": 21.07,
-          "target": 29.27,
+          "stop": 27.63,
+          "target": 19.43,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 24.35,
-          "stop": 19.43,
-          "target": 34.19,
+          "stop": 29.27,
+          "target": 14.51,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 24.35,
-          "stop": 14.51,
-          "target": 50.59,
+          "stop": 34.19,
+          "target": -1.89,
           "rr": 2.7
         }
       }
@@ -3595,18 +4351,27 @@
       "atr": 0.35,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 6.24,
           "stop": 5.89,
           "target": 6.77,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 6.24,
           "stop": 5.71,
           "target": 7.29,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 6.24,
           "stop": 5.19,
           "target": 9.04,
@@ -3619,18 +4384,27 @@
       "atr": 13.75,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 98.79,
           "stop": 85.04,
           "target": 119.42,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 98.79,
           "stop": 78.17,
           "target": 140.04,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 98.79,
           "stop": 57.54,
           "target": 208.79,
@@ -3643,18 +4417,27 @@
       "atr": 1.82,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 16.39,
           "stop": 14.57,
           "target": 19.12,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 16.39,
           "stop": 13.66,
           "target": 21.85,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 16.39,
           "stop": 10.93,
           "target": 30.95,
@@ -3667,18 +4450,27 @@
       "atr": 1.62,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 15.87,
           "stop": 14.25,
           "target": 18.3,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 15.87,
           "stop": 13.44,
           "target": 20.73,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 15.87,
           "stop": 11.01,
           "target": 28.83,
@@ -3691,18 +4483,27 @@
       "atr": 2.21,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 27.76,
           "stop": 25.55,
           "target": 31.08,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 27.76,
           "stop": 24.45,
           "target": 34.39,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 27.76,
           "stop": 21.13,
           "target": 45.44,
@@ -3715,18 +4516,27 @@
       "atr": 1.41,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 13.88,
           "stop": 12.47,
           "target": 16.0,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 13.88,
           "stop": 11.77,
           "target": 18.11,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 13.88,
           "stop": 9.65,
           "target": 25.16,
@@ -3739,21 +4549,30 @@
       "atr": 0.34,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 7.86,
-          "stop": 7.52,
-          "target": 8.37,
+          "stop": 8.2,
+          "target": 7.35,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 7.86,
-          "stop": 7.35,
-          "target": 8.88,
+          "stop": 8.37,
+          "target": 6.84,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 7.86,
-          "stop": 6.84,
-          "target": 10.58,
+          "stop": 8.88,
+          "target": 5.14,
           "rr": 2.7
         }
       }
@@ -3763,21 +4582,30 @@
       "atr": 0.49,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 10.1,
-          "stop": 9.61,
-          "target": 10.83,
+          "stop": 10.59,
+          "target": 9.37,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 10.1,
-          "stop": 9.37,
-          "target": 11.57,
+          "stop": 10.83,
+          "target": 8.63,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 10.1,
-          "stop": 8.63,
-          "target": 14.02,
+          "stop": 11.57,
+          "target": 6.18,
           "rr": 2.7
         }
       }
@@ -3787,21 +4615,30 @@
       "atr": 0.28,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 5.76,
-          "stop": 5.48,
-          "target": 6.18,
+          "stop": 6.04,
+          "target": 5.34,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 5.76,
-          "stop": 5.34,
-          "target": 6.6,
+          "stop": 6.18,
+          "target": 4.92,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 5.76,
-          "stop": 4.92,
-          "target": 8.0,
+          "stop": 6.6,
+          "target": 3.52,
           "rr": 2.7
         }
       }
@@ -3811,18 +4648,27 @@
       "atr": 0.72,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 9.57,
           "stop": 8.85,
           "target": 10.65,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 9.57,
           "stop": 8.49,
           "target": 11.73,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 9.57,
           "stop": 7.41,
           "target": 15.33,
@@ -3835,18 +4681,27 @@
       "atr": 5.99,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 41.82,
           "stop": 35.83,
           "target": 50.8,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 41.82,
           "stop": 32.84,
           "target": 59.79,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 41.82,
           "stop": 23.85,
           "target": 89.74,
@@ -3859,18 +4714,27 @@
       "atr": 1.03,
       "buckets": {
         "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 13.42,
           "stop": 12.39,
           "target": 14.96,
           "rr": 1.5
         },
         "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 13.42,
           "stop": 11.88,
           "target": 16.51,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
           "entry": 13.42,
           "stop": 10.33,
           "target": 21.66,
@@ -3883,21 +4747,30 @@
       "atr": 0.43,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 6.76,
-          "stop": 6.33,
-          "target": 7.4,
+          "stop": 7.19,
+          "target": 6.12,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 6.76,
-          "stop": 6.12,
-          "target": 8.05,
+          "stop": 7.4,
+          "target": 5.47,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 6.76,
-          "stop": 5.47,
-          "target": 10.2,
+          "stop": 8.05,
+          "target": 3.32,
           "rr": 2.7
         }
       }
@@ -3907,21 +4780,30 @@
       "atr": 0.93,
       "buckets": {
         "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 9.85,
-          "stop": 8.92,
-          "target": 11.24,
+          "stop": 10.78,
+          "target": 8.46,
           "rr": 1.5
         },
         "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 9.85,
-          "stop": 8.46,
-          "target": 12.64,
+          "stop": 11.24,
+          "target": 7.06,
           "rr": 2.0
         },
         "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
           "entry": 9.85,
-          "stop": 7.06,
-          "target": 17.29,
+          "stop": 12.64,
+          "target": 2.41,
           "rr": 2.7
         }
       }
