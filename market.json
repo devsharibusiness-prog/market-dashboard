@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26T05:52:16Z",
+  "generated_at": "2026-06-26T06:32:11Z",
   "regime": "range",
   "regime_reason": "SPY drifting, low directional momentum",
   "sectors": [
@@ -85,9 +85,9 @@
   ],
   "vix": 18.89,
   "vix_label": "normal",
-  "fear_greed_proxy": 56,
-  "fg_label": "Greed",
-  "fg_note": "PROXY (not CNN's official index): VIX + SPY momentum + sector breadth",
+  "vix_sentiment": 64,
+  "vix_sentiment_label": "Calm",
+  "vix_sentiment_inputs": "Derived from VIX only (inverted). Not CNN's Fear&Greed (which adds put/call, breadth, junk-bond demand).",
   "key_spy_level": {
     "level": 723.57,
     "kind": "support",
