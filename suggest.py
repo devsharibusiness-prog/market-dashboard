@@ -1,63 +1,46 @@
 #!/usr/bin/env python3
 """
-MAXIMAL Stock Suggestion + Market Context Engine.
+suggest.py - Phase 1 upgraded engine.
+Addresses review: real sector population, swing-based (varying) R:R,
+trend filter, expected value (EV), small-sample warning, relative strength
+vs SPY, position sizing ($10k acct / 1% risk), concentration-risk flag,
+VIX Sentiment (renamed from Fear&Greed), signal-history logging.
 
-Writes TWO files:
-  - suggestions.json : per-ticker scored recommendations with sub-scores,
-                       confidence, triggers, backtest win-rate, sparklines,
-                       sector-relative return, setup grade, earnings stats,
-                       and a CRUDE keyword sentiment label.
-  - market.json      : market-wide regime, sector leaders/laggards, VIX,
-                       a Fear & Greed PROXY (not CNN's official index),
-                       and a key S&P 500 level to watch.
-
-Free stack only: yfinance + pandas. Runs in GitHub Actions, no paid APIs.
-Regex-free. Newlines via chr(10), never literal backslash-n inside strings.
-Per-ticker try/except so one bad ticker never crashes the whole run.
-
-NOT FINANCIAL ADVICE. Transparent rule-based scoring + historical statistics
-for personal research only. A high score or high backtest win-rate does NOT
-predict the future.
+Writes: suggestions.json, market.json, and APPENDS to signal_history.json.
+Free stack: yfinance + pandas. Regex-free. No backslash-n in strings.
+NOT financial advice. Transparent rule-based stats for research only.
 """
 import json
+import os
 import datetime
 import traceback
 import yfinance as yf
 import pandas as pd
 
 # ============================================================
-# CONFIG  <-- EDIT YOUR WATCHLIST HERE
+# CONFIG  <-- KEEP WATCHLIST IDENTICAL TO fetch_data.py
 # ============================================================
 WATCHLIST = ["AAPL", "MSFT", "NVDA", "AMZN", "GOOGL"]
 
+ACCOUNT_SIZE = 10000.0     # position sizing base
+RISK_PCT = 1.0             # risk 1% of account per trade
+
 SECTOR_ETFS = ["XLK", "XLE", "XLF", "XLV", "XLI",
                "XLY", "XLP", "XLU", "XLB", "XLRE", "XLC"]
-
-# Map yfinance .info sector strings -> SPDR sector ETF
 SECTOR_TO_ETF = {
-    "Technology": "XLK",
-    "Communication Services": "XLC",
-    "Financial Services": "XLF",
-    "Financial": "XLF",
-    "Healthcare": "XLV",
-    "Consumer Cyclical": "XLY",
-    "Consumer Defensive": "XLP",
-    "Energy": "XLE",
-    "Industrials": "XLI",
-    "Basic Materials": "XLB",
-    "Utilities": "XLU",
-    "Real Estate": "XLRE",
+    "Technology": "XLK", "Communication Services": "XLC",
+    "Financial Services": "XLF", "Financial": "XLF",
+    "Healthcare": "XLV", "Consumer Cyclical": "XLY",
+    "Consumer Defensive": "XLP", "Energy": "XLE",
+    "Industrials": "XLI", "Basic Materials": "XLB",
+    "Utilities": "XLU", "Real Estate": "XLRE",
 }
-
-# Crude keyword sentiment lexicon (NOT AI - simple word counts)
 BULLISH_WORDS = ["beat", "beats", "surge", "soar", "jump", "rally", "record",
-                 "upgrade", "raises", "raised", "strong", "growth", "gains",
-                 "outperform", "buy", "bullish", "tops", "wins", "profit",
-                 "boost", "expands", "high", "rises", "rose", "approve"]
-BEARISH_WORDS = ["miss", "misses", "plunge", "drop", "fall", "falls", "fell",
-                 "slump", "downgrade", "cuts", "cut", "weak", "loss", "losses",
-                 "underperform", "sell", "bearish", "lawsuit", "probe", "warns",
-                 "warning", "decline", "slows", "layoff", "layoffs", "recall"]
+                 "upgrade", "raises", "strong", "growth", "gains", "outperform",
+                 "buy", "bullish", "tops", "wins", "profit", "boost", "high", "approve"]
+BEARISH_WORDS = ["miss", "misses", "plunge", "drop", "fall", "fell", "slump",
+                 "downgrade", "cuts", "weak", "loss", "losses", "underperform",
+                 "sell", "bearish", "lawsuit", "probe", "warns", "decline", "layoff", "recall"]
 
 # ============================================================
 # HELPERS
@@ -74,45 +57,30 @@ def round1(x):
     except Exception:
         return None
 
-def rsi(series, period=14):
-    delta = series.diff()
-    gain = delta.clip(lower=0).rolling(period).mean()
-    loss = -delta.clip(upper=0).rolling(period).mean()
-    rs = gain / loss
-    val = 100 - (100 / (1 + rs.iloc[-1]))
-    return float(val) if pd.notna(val) else None
-
 def rsi_series(series, period=14):
-    delta = series.diff()
-    gain = delta.clip(lower=0).rolling(period).mean()
-    loss = -delta.clip(upper=0).rolling(period).mean()
-    rs = gain / loss
+    d = series.diff()
+    g = d.clip(lower=0).rolling(period).mean()
+    l = -d.clip(upper=0).rolling(period).mean()
+    rs = g / l
     return 100 - (100 / (1 + rs))
 
 def atr(hist, period=14):
-    high = hist["High"]
-    low = hist["Low"]
-    close = hist["Close"]
-    prev_close = close.shift(1)
-    tr1 = high - low
-    tr2 = (high - prev_close).abs()
-    tr3 = (low - prev_close).abs()
-    tr = pd.concat([tr1, tr2, tr3], axis=1).max(axis=1)
-    val = tr.rolling(period).mean().iloc[-1]
-    return float(val) if pd.notna(val) else None
+    h = hist["High"]; lo = hist["Low"]; c = hist["Close"]; p = c.shift(1)
+    tr = pd.concat([(h - lo), (h - p).abs(), (lo - p).abs()], axis=1).max(axis=1)
+    v = tr.rolling(period).mean().iloc[-1]
+    return round2(v) if pd.notna(v) else None
 
 def pct_return(series, days):
     if len(series) <= days:
         return None
-    old = series.iloc[-days - 1]
-    new = series.iloc[-1]
-    return float((new - old) / old * 100) if old else None
+    o = series.iloc[-days - 1]; nw = series.iloc[-1]
+    return float((nw - o) / o * 100) if o else None
 
 def clamp(x, lo, hi):
     return max(lo, min(hi, x))
 
 # ============================================================
-# SUB-SCORES (each normalized 0-100)
+# SUB-SCORES (0-100)
 # ============================================================
 def score_rsi(r):
     if r is None:
@@ -125,212 +93,162 @@ def score_rsi(r):
         return 55.0
     if r < 30:
         return 65.0
-    return 25.0  # overbought >70
+    return 25.0
 
 def score_momentum(m1, m3):
     s = 50.0
     if m1 is not None:
-        if m1 > 5:
-            s += 25
-        elif m1 > 0:
-            s += 12
-        elif m1 > -5:
-            s -= 5
-        else:
-            s -= 20
+        s += 25 if m1 > 5 else 12 if m1 > 0 else -5 if m1 > -5 else -20
     if m3 is not None:
-        if m3 > 10:
-            s += 25
-        elif m3 > 0:
-            s += 12
-        else:
-            s -= 15
+        s += 25 if m3 > 10 else 12 if m3 > 0 else -15
     return clamp(s, 0, 100)
 
-def score_volume(volume_ratio):
-    if volume_ratio is None:
+def score_volume(vr):
+    if vr is None:
         return 50.0
-    if volume_ratio >= 1.5:
-        return 100.0
-    if volume_ratio >= 1.2:
-        return 80.0
-    if volume_ratio >= 1.0:
-        return 60.0
-    if volume_ratio >= 0.8:
-        return 45.0
-    return 30.0
+    return 100.0 if vr >= 1.5 else 80.0 if vr >= 1.2 else 60.0 if vr >= 1.0 else 45.0 if vr >= 0.8 else 30.0
 
-def score_fundamental(fund):
-    s = 0.0
-    cnt = 0
-    pe = fund.get("pe")
-    rg = fund.get("rev_growth")
-    mg = fund.get("margin")
-    roe = fund.get("roe")
-    de = fund.get("debt_to_equity")
+def score_fundamental(f):
+    s = 0.0; cnt = 0
+    pe = f.get("pe"); rg = f.get("rev_growth"); mg = f.get("margin")
+    roe = f.get("roe"); de = f.get("debt_to_equity")
     if pe is not None and pe > 0:
-        cnt += 1
-        if pe < 15:
-            s += 100
-        elif pe < 25:
-            s += 80
-        elif pe < 40:
-            s += 50
-        else:
-            s += 25
+        cnt += 1; s += 100 if pe < 15 else 80 if pe < 25 else 50 if pe < 40 else 25
     if rg is not None:
-        cnt += 1
-        if rg > 20:
-            s += 100
-        elif rg > 10:
-            s += 80
-        elif rg > 0:
-            s += 55
-        else:
-            s += 20
+        cnt += 1; s += 100 if rg > 20 else 80 if rg > 10 else 55 if rg > 0 else 20
     if mg is not None:
-        cnt += 1
-        if mg > 20:
-            s += 100
-        elif mg > 10:
-            s += 75
-        elif mg > 0:
-            s += 50
-        else:
-            s += 10
+        cnt += 1; s += 100 if mg > 20 else 75 if mg > 10 else 50 if mg > 0 else 10
     if roe is not None:
-        cnt += 1
-        if roe > 20:
-            s += 100
-        elif roe > 10:
-            s += 75
-        elif roe > 0:
-            s += 50
-        else:
-            s += 15
+        cnt += 1; s += 100 if roe > 20 else 75 if roe > 10 else 50 if roe > 0 else 15
     if de is not None:
-        cnt += 1
-        if de < 50:
-            s += 100
-        elif de < 100:
-            s += 70
-        elif de < 200:
-            s += 45
-        else:
-            s += 20
-    if cnt == 0:
-        return 50.0
-    return clamp(s / cnt, 0, 100)
+        cnt += 1; s += 100 if de < 50 else 70 if de < 100 else 45 if de < 200 else 20
+    return 50.0 if cnt == 0 else clamp(s / cnt, 0, 100)
 
-# ============================================================
-# CONFIDENCE: how many sub-signals agree (point the same way)
-# ============================================================
-def compute_confidence(rsi_s, mom_s, fund_s, vol_s):
-    subs = [rsi_s, mom_s, fund_s, vol_s]
-    bullish = sum(1 for x in subs if x >= 60)
-    bearish = sum(1 for x in subs if x <= 40)
-    agree = max(bullish, bearish)
-    # 4 aligned -> ~95, 3 -> ~78, 2 -> ~60, else ~45
-    table = {4: 95.0, 3: 78.0, 2: 60.0, 1: 48.0, 0: 40.0}
-    return table.get(agree, 50.0)
+def compute_confidence(a, b, c, d):
+    subs = [a, b, c, d]
+    bull = sum(1 for x in subs if x >= 60)
+    bear = sum(1 for x in subs if x <= 40)
+    agree = max(bull, bear)
+    return {4: 95.0, 3: 78.0, 2: 60.0, 1: 48.0, 0: 40.0}.get(agree, 50.0)
 
-# ============================================================
-# TRIGGER CONDITION TEXT
-# ============================================================
-def build_trigger(rsi_now, rsi_prev, price, ma50, ma200, volume_ratio, m1):
-    if rsi_now is not None and rsi_prev is not None and rsi_prev < 40 <= rsi_now:
-        return "RSI bouncing off " + str(int(round(rsi_prev)))
+def build_trigger(rn, rp, price, ma50, ma200, vr, m1):
+    if rn is not None and rp is not None and rp < 40 <= rn:
+        return "RSI bouncing off " + str(int(round(rp)))
     if price is not None and ma50 is not None and price > ma50 and m1 is not None and m1 > 0:
         return "Reclaimed 50-day MA"
-    if volume_ratio is not None and volume_ratio >= 1.4:
-        return "Volume " + str(round1(volume_ratio)) + "x average"
+    if vr is not None and vr >= 1.4:
+        return "Volume " + str(round1(vr)) + "x average"
     if price is not None and ma200 is not None and price > ma200:
         return "Holding above 200-day MA"
-    if rsi_now is not None and rsi_now < 30:
-        return "Oversold (RSI " + str(int(round(rsi_now))) + ")"
-    if rsi_now is not None and rsi_now > 70:
-        return "Overbought (RSI " + str(int(round(rsi_now))) + ")"
+    if rn is not None and rn < 30:
+        return "Oversold (RSI " + str(int(round(rn))) + ")"
+    if rn is not None and rn > 70:
+        return "Overbought (RSI " + str(int(round(rn))) + ")"
     return "Mixed - monitor for confirmation"
 
 # ============================================================
-# BACKTEST: historical frequency, NOT a prediction
+# BACKTEST + EXPECTED VALUE (past frequency, NOT a prediction)
 # ============================================================
 def backtest_setup(hist, horizon_days=5):
-    """
-    Over the available history, find days matching the CURRENT setup type
-    and measure what fraction saw a positive return horizon_days later.
-    Setup type chosen by current RSI + trend position.
-    """
     try:
         close = hist["Close"].dropna()
         if len(close) < 220:
-            return None, 0, "Insufficient history for backtest"
-        r = rsi_series(close)
-        ma200 = close.rolling(200).mean()
-        ma50 = close.rolling(50).mean()
-        cur_rsi = r.iloc[-1]
-        cur_price = close.iloc[-1]
-        cur_ma200 = ma200.iloc[-1]
-
-        if pd.isna(cur_rsi) or pd.isna(cur_ma200):
-            return None, 0, "Setup undefined"
-
-        above_200 = cur_price > cur_ma200
-        if cur_rsi < 35:
-            cond_label = "RSI<35"
-            cond = r < 35
-        elif cur_rsi > 70:
-            cond_label = "RSI>70"
-            cond = r > 70
-        elif cur_price > ma50.iloc[-1]:
-            cond_label = "price>50MA"
-            cond = close > ma50
+            return {"winrate": None, "sample": 0, "note": "Insufficient history",
+                    "avg_win": None, "avg_loss": None, "ev_pct": None, "low_sample": True}
+        r = rsi_series(close); ma200 = close.rolling(200).mean(); ma50 = close.rolling(50).mean()
+        cr = r.iloc[-1]; cp = close.iloc[-1]; cm = ma200.iloc[-1]
+        if pd.isna(cr) or pd.isna(cm):
+            return {"winrate": None, "sample": 0, "note": "Setup undefined",
+                    "avg_win": None, "avg_loss": None, "ev_pct": None, "low_sample": True}
+        above = cp > cm
+        if cr < 35:
+            cl = "RSI<35"; cond = r < 35
+        elif cr > 70:
+            cl = "RSI>70"; cond = r > 70
+        elif cp > ma50.iloc[-1]:
+            cl = "price>50MA"; cond = close > ma50
         else:
-            cond_label = "RSI 35-70"
-            cond = (r >= 35) & (r <= 70)
-
-        trend_label = "above 200MA" if above_200 else "below 200MA"
-        if above_200:
-            cond = cond & (close > ma200)
-        else:
-            cond = cond & (close <= ma200)
-
-        future = close.shift(-horizon_days)
-        fwd_ret = (future - close) / close
-        mask = cond.fillna(False)
-        # exclude last horizon_days (no future data)
-        valid = mask & fwd_ret.notna()
+            cl = "RSI 35-70"; cond = (r >= 35) & (r <= 70)
+        tl = "above 200MA" if above else "below 200MA"
+        cond = cond & (close > ma200) if above else cond & (close <= ma200)
+        fwd = (close.shift(-horizon_days) - close) / close * 100
+        valid = cond.fillna(False) & fwd.notna()
         sample = int(valid.sum())
         if sample < 10:
-            return None, sample, "Too few matches (" + str(sample) + ")"
-        wins = int((fwd_ret[valid] > 0).sum())
-        winrate = round1(wins / sample * 100)
-        note = (str(cond_label) + " & " + trend_label + " -> up after "
-                + str(horizon_days) + "d, " + str(sample) + " samples (~2y)")
-        return winrate, sample, note
+            return {"winrate": None, "sample": sample, "note": "Too few matches",
+                    "avg_win": None, "avg_loss": None, "ev_pct": None, "low_sample": True}
+        rets = fwd[valid]
+        wins = rets[rets > 0]; losses = rets[rets <= 0]
+        wr = round1(len(wins) / sample * 100)
+        avg_win = round2(wins.mean()) if len(wins) else 0.0
+        avg_loss = round2(losses.mean()) if len(losses) else 0.0
+        # Expected value % = P(win)*avgWin + P(loss)*avgLoss
+        pw = len(wins) / sample; pl = len(losses) / sample
+        ev = round2(pw * (avg_win or 0) + pl * (avg_loss or 0))
+        note = cl + " & " + tl + " -> " + str(horizon_days) + "d fwd, " + str(sample) + " samples"
+        return {"winrate": wr, "sample": sample, "note": note, "avg_win": avg_win,
+                "avg_loss": avg_loss, "ev_pct": ev, "low_sample": sample < 30}
     except Exception:
-        return None, 0, "Backtest error"
+        return {"winrate": None, "sample": 0, "note": "Backtest error",
+                "avg_win": None, "avg_loss": None, "ev_pct": None, "low_sample": True}
 
 # ============================================================
-# EARNINGS STATS
+# SWING-BASED R:R (varying, from real support/resistance)
+# ============================================================
+def swing_levels(close, lookback=20):
+    """Recent swing high (resistance) and low (support)."""
+    if len(close) < lookback:
+        return None, None
+    window = close.iloc[-lookback:]
+    return round2(float(window.max())), round2(float(window.min()))
+
+def build_trade_buckets(price, atr_val, resistance, support):
+    """
+    Entry = current price. Stop = recent support (or 1.5 ATR if none).
+    Target = recent resistance (or 2-3 ATR). R:R is REAL (varying).
+    """
+    if not price or not atr_val:
+        return {}
+    def setup(stop_ref, target_ref, atr_stop, atr_target):
+        stop = stop_ref if (stop_ref and stop_ref < price) else round2(price - atr_stop * atr_val)
+        target = target_ref if (target_ref and target_ref > price) else round2(price + atr_target * atr_val)
+        risk = price - stop
+        reward = target - price
+        rr = round2(reward / risk) if risk and risk > 0 else None
+        return {"entry": round2(price), "stop": stop, "target": target, "rr": rr}
+    return {
+        "intraday": setup(round2(price - 1.0 * atr_val), round2(price + 1.5 * atr_val), 1.0, 1.5),
+        "swing": setup(support, resistance, 1.5, 3.0),
+        "long_term": setup(support, round2(price + 8.0 * atr_val), 3.0, 8.0),
+    }
+
+# ============================================================
+# POSITION SIZING
+# ============================================================
+def position_size(price, stop):
+    """Shares to risk RISK_PCT of ACCOUNT_SIZE given stop distance."""
+    if not price or not stop or price <= stop:
+        return None
+    risk_per_share = price - stop
+    dollar_risk = ACCOUNT_SIZE * (RISK_PCT / 100.0)
+    shares = int(dollar_risk / risk_per_share) if risk_per_share > 0 else 0
+    return {"shares": shares, "dollar_risk": round2(dollar_risk),
+            "position_value": round2(shares * price), "risk_per_share": round2(risk_per_share)}
+
+# ============================================================
+# EARNINGS / SENTIMENT / SECTOR
 # ============================================================
 def earnings_stats(t):
-    eps_estimate = None
-    streak = []
-    avg_move = None
+    eps = None; streak = []; avg = None
     try:
-        info = t.info
-        eps_estimate = info.get("epsForward") or info.get("forwardEps")
+        eps = t.info.get("epsForward") or t.info.get("forwardEps")
     except Exception:
         pass
-    # beat/miss streak from earnings history
     try:
         eh = t.earnings_history
         if eh is not None and not eh.empty:
-            rows = eh.tail(4)
-            for _, row in rows.iterrows():
-                est = row.get("epsEstimate")
-                act = row.get("epsActual")
+            for _, row in eh.tail(4).iterrows():
+                est = row.get("epsEstimate"); act = row.get("epsActual")
                 if est is None or act is None or pd.isna(est) or pd.isna(act):
                     streak.append("n/a")
                 elif act > est:
@@ -341,41 +259,30 @@ def earnings_stats(t):
                     streak.append("in-line")
     except Exception:
         pass
-    # average absolute post-earnings move from price reaction
     try:
         cal = t.get_earnings_dates(limit=8)
         if cal is not None and not cal.empty:
-            hist = t.history(period="2y")
-            closes = hist["Close"]
+            h = t.history(period="2y"); closes = h["Close"]
+            idx = closes.index.tz_localize(None) if closes.index.tz is not None else closes.index
             moves = []
             for dt in cal.index:
                 try:
-                    d = pd.Timestamp(dt).tz_localize(None)
-                    idx = closes.index.tz_localize(None) if closes.index.tz is not None else closes.index
-                    pos = idx.searchsorted(d)
+                    d = pd.Timestamp(dt).tz_localize(None); pos = idx.searchsorted(d)
                     if 1 <= pos < len(closes) - 1:
-                        before = closes.iloc[pos - 1]
-                        after = closes.iloc[pos]
+                        before = closes.iloc[pos - 1]; after = closes.iloc[pos]
                         if before:
                             moves.append(abs((after - before) / before * 100))
                 except Exception:
                     continue
             if moves:
-                avg_move = round1(sum(moves) / len(moves))
+                avg = round1(sum(moves) / len(moves))
     except Exception:
         pass
-    return {
-        "eps_estimate": round2(eps_estimate),
-        "earnings_streak": streak,
-        "avg_post_earnings_move_pct": avg_move,
-    }
+    return {"eps_estimate": round2(eps), "earnings_streak": streak,
+            "avg_post_earnings_move_pct": avg}
 
-# ============================================================
-# CRUDE KEYWORD SENTIMENT (NOT AI)
-# ============================================================
 def keyword_sentiment(t):
     headline = None
-    label = "neutral"
     try:
         news = t.news
         if news and len(news) > 0:
@@ -383,31 +290,23 @@ def keyword_sentiment(t):
     except Exception:
         headline = None
     if not headline:
-        return {"headline": None, "label": "neutral",
-                "method": "crude keyword heuristic, NOT AI"}
+        return {"headline": None, "label": "neutral", "method": "crude keyword heuristic, NOT AI"}
     low = headline.lower()
     b = sum(1 for w in BULLISH_WORDS if w in low)
     s = sum(1 for w in BEARISH_WORDS if w in low)
-    if b > s:
-        label = "bullish"
-    elif s > b:
-        label = "bearish"
-    return {"headline": headline, "label": label,
-            "bullish_hits": b, "bearish_hits": s,
+    label = "bullish" if b > s else "bearish" if s > b else "neutral"
+    return {"headline": headline, "label": label, "bullish_hits": b, "bearish_hits": s,
             "method": "crude keyword heuristic, NOT AI"}
 
-# ============================================================
-# SECTOR-RELATIVE RETURN
-# ============================================================
-def sector_etf_for(t, sector_cache):
-    etf = "XLK"
+def get_sector(t):
+    """Return (sector_name, sector_etf). Fixes the n/a bug."""
+    sec = None
     try:
         sec = t.info.get("sector")
-        if sec and sec in SECTOR_TO_ETF:
-            etf = SECTOR_TO_ETF[sec]
     except Exception:
-        pass
-    return etf
+        sec = None
+    etf = SECTOR_TO_ETF.get(sec, "XLK") if sec else "XLK"
+    return (sec or "Unknown"), etf
 
 def etf_1m_return(etf, cache):
     if etf in cache:
@@ -422,14 +321,13 @@ def etf_1m_return(etf, cache):
     return val
 
 # ============================================================
-# HORIZON + CONVICTION + SETUP GRADE
+# HORIZON / CONVICTION / GRADE
 # ============================================================
 def decide_horizon(tech):
     vola = tech.get("volatility") or 0
     m1 = tech.get("mom_1m") or 0
     rsi_v = tech.get("rsi") or 50
-    price = tech.get("price")
-    ma200 = tech.get("ma200")
+    price = tech.get("price"); ma200 = tech.get("ma200")
     long_ok = (ma200 is not None and price is not None and price > ma200)
     if vola >= 3.0 and abs(m1) >= 5:
         return "intraday", "High volatility + strong short-term momentum"
@@ -441,214 +339,153 @@ def decide_horizon(tech):
 
 def conviction(total):
     if total >= 75:
-        return "Strong", chr(0x1F7E2)   # green circle
+        return "Strong", chr(0x1F7E2)
     if total >= 55:
-        return "Moderate", chr(0x1F7E1)  # yellow circle
-    return "Weak", chr(0x26AA)           # white circle
+        return "Moderate", chr(0x1F7E1)
+    return "Weak", chr(0x26AA)
 
-def expected_window(horizon):
-    return {"intraday": "Hours to 1-2 days",
-            "swing": "1-6 weeks",
-            "long_term": "6-18+ months"}.get(horizon, "Varies")
+def expected_window(h):
+    return {"intraday": "Hours to 1-2 days", "swing": "1-6 weeks",
+            "long_term": "6-18+ months"}.get(h, "Varies")
 
 def setup_grade(rr, trend_aligned, vola):
-    """A/B/C from R:R + trend alignment + volatility."""
-    score = 0
+    sc = 0
     if rr is not None:
-        if rr >= 2.5:
-            score += 3
-        elif rr >= 1.5:
-            score += 2
-        elif rr >= 1.0:
-            score += 1
+        sc += 3 if rr >= 2.5 else 2 if rr >= 1.5 else 1 if rr >= 1.0 else 0
     if trend_aligned:
-        score += 2
+        sc += 2
     if vola is not None and vola < 3.5:
-        score += 1
-    if score >= 5:
-        return "A"
-    if score >= 3:
-        return "B"
-    return "C"
+        sc += 1
+    return "A" if sc >= 5 else "B" if sc >= 3 else "C"
 
 # ============================================================
-# PER-TICKER ANALYSIS
+# PER-TICKER
 # ============================================================
-def analyze(ticker, etf_cache):
+def analyze(ticker, etf_cache, spy_1m, spy_3m):
     try:
         t = yf.Ticker(ticker)
         hist = t.history(period="2y")
         if hist is None or hist.empty or len(hist) < 40:
             print("  [skip] " + ticker + ": insufficient history")
             return None
-
         close = hist["Close"].dropna()
         price = float(close.iloc[-1])
-
-        # --- indicators ---
-        r_series = rsi_series(close)
-        r = float(r_series.iloc[-1]) if pd.notna(r_series.iloc[-1]) else None
-        r_prev = float(r_series.iloc[-2]) if len(r_series) > 1 and pd.notna(r_series.iloc[-2]) else None
+        rs = rsi_series(close)
+        r = float(rs.iloc[-1]) if pd.notna(rs.iloc[-1]) else None
+        rp = float(rs.iloc[-2]) if len(rs) > 1 and pd.notna(rs.iloc[-2]) else None
         ma50 = float(close.rolling(50).mean().iloc[-1]) if len(close) >= 50 else None
         ma200 = float(close.rolling(200).mean().iloc[-1]) if len(close) >= 200 else None
-        m1 = pct_return(close, 21)
-        m3 = pct_return(close, 63)
-        hi = float(close.max())
-        lo = float(close.min())
+        m1 = pct_return(close, 21); m3 = pct_return(close, 63)
+        hi = float(close.max()); lo = float(close.min())
         pos = (price - lo) / (hi - lo) * 100 if hi != lo else 50.0
-        daily_ret = close.pct_change().dropna()
-        vola = float(daily_ret.iloc[-20:].std() * 100) if len(daily_ret) >= 20 else None
+        dret = close.pct_change().dropna()
+        vola = float(dret.iloc[-20:].std() * 100) if len(dret) >= 20 else None
         atr_val = atr(hist)
-
-        # volume ratio
-        vol = hist["Volume"]
-        volume_ratio = None
+        vol = hist["Volume"]; vr = None
         if len(vol) >= 20:
-            recent = float(vol.iloc[-5:].mean())
-            base = float(vol.iloc[-20:].mean())
-            volume_ratio = round2(recent / base) if base else None
-
-        # sparkline = last 5 closes
+            recent = float(vol.iloc[-5:].mean()); base = float(vol.iloc[-20:].mean())
+            vr = round2(recent / base) if base else None
         sparkline = [round2(x) for x in close.iloc[-5:].tolist()]
-
-        # sector relative
-        etf = sector_etf_for(t, etf_cache)
+        sector_name, etf = get_sector(t)
         etf_ret = etf_1m_return(etf, etf_cache)
         sector_rel = round1(m1 - etf_ret) if (m1 is not None and etf_ret is not None) else None
+        # relative strength vs SPY
+        rs_spy_1m = round1(m1 - spy_1m) if (m1 is not None and spy_1m is not None) else None
+        rs_spy_3m = round1(m3 - spy_3m) if (m3 is not None and spy_3m is not None) else None
+        # trend filter
+        trend = "neutral"
+        if ma200 is not None:
+            trend = "uptrend" if price > ma200 else "downtrend"
+        trend_aligned = (ma200 is not None and price > ma200)
 
-        # --- fundamentals ---
         try:
             info = t.info
         except Exception:
             info = {}
-        pe = info.get("trailingPE")
-        rev_growth = info.get("revenueGrowth")
-        margin = info.get("profitMargins")
-        roe = info.get("returnOnEquity")
-        de = info.get("debtToEquity")
-        fund_raw = {
-            "pe": round2(pe),
-            "rev_growth": round1(rev_growth * 100) if rev_growth is not None else None,
-            "margin": round1(margin * 100) if margin is not None else None,
-            "roe": round1(roe * 100) if roe is not None else None,
-            "debt_to_equity": round2(de),
+        f_raw = {
+            "pe": round2(info.get("trailingPE")),
+            "rev_growth": round1(info.get("revenueGrowth") * 100) if info.get("revenueGrowth") is not None else None,
+            "margin": round1(info.get("profitMargins") * 100) if info.get("profitMargins") is not None else None,
+            "roe": round1(info.get("returnOnEquity") * 100) if info.get("returnOnEquity") is not None else None,
+            "debt_to_equity": round2(info.get("debtToEquity")),
         }
-
-        # --- sub-scores (0-100) ---
-        rsi_s = round1(score_rsi(r))
-        mom_s = round1(score_momentum(m1, m3))
-        vol_s = round1(score_volume(volume_ratio))
-        fund_s = round1(score_fundamental(fund_raw))
-
-        # weighted total (technical 60%, fundamental 40%)
+        rsi_s = round1(score_rsi(r)); mom_s = round1(score_momentum(m1, m3))
+        vol_s = round1(score_volume(vr)); fund_s = round1(score_fundamental(f_raw))
         tech_avg = (rsi_s + mom_s + vol_s) / 3.0
         total = round1(tech_avg * 0.6 + fund_s * 0.4)
-
-        # technical_score / fundamental_score on 0-50 for the existing modal
-        technical_score = round1(tech_avg / 2.0)
-        fundamental_score = round1(fund_s / 2.0)
-
-        # confidence
+        technical_score = round1(tech_avg / 2.0); fundamental_score = round1(fund_s / 2.0)
         conf = round1(compute_confidence(rsi_s, mom_s, fund_s, vol_s))
+        trigger = build_trigger(r, rp, price, ma50, ma200, vr, m1)
+        bt = backtest_setup(hist, 5)
+        earn = earnings_stats(t); sentiment = keyword_sentiment(t)
 
-        # trigger
-        trigger = build_trigger(r, r_prev, price, ma50, ma200, volume_ratio, m1)
+        resistance, support = swing_levels(close, 20)
+        buckets = build_trade_buckets(price, atr_val, resistance, support)
+        swing_rr = buckets.get("swing", {}).get("rr")
+        swing_stop = buckets.get("swing", {}).get("stop")
+        possize = position_size(price, swing_stop)
+        grade = setup_grade(swing_rr, trend_aligned, vola)
+        breakout_level = resistance
+        breakout_distance_pct = round1((resistance - price) / price * 100) if (resistance and price) else None
 
-        # backtest
-        winrate, sample, bt_note = backtest_setup(hist, 5)
-
-        # earnings + sentiment
-        earn = earnings_stats(t)
-        sentiment = keyword_sentiment(t)
-
-        # horizon + conviction
-        tech_obj = {"rsi": round2(r), "ma50": round2(ma50), "ma200": round2(ma200),
-                    "mom_1m": round1(m1), "mom_3m": round1(m3), "pos_52w": round1(pos),
+        tech_obj = {"rsi": round2(r), "ma200": round2(ma200), "mom_1m": round1(m1),
                     "volatility": round2(vola), "price": round2(price)}
         horizon, hreason = decide_horizon(tech_obj)
         conv_label, conv_emoji = conviction(total)
 
-        # trade setup grade + breakout
-        rr = None
-        if atr_val:
-            entry = price
-            stop = price - atr_val * 1.5
-            target = price + atr_val * 3.0
-            risk = entry - stop
-            reward = target - entry
-            rr = round2(reward / risk) if risk else None
-        trend_aligned = (ma200 is not None and price > ma200)
-        grade = setup_grade(rr, trend_aligned, vola)
-
-        # breakout = recent 20-day swing high
-        breakout_level = round2(float(close.iloc[-20:].max())) if len(close) >= 20 else None
-        breakout_distance_pct = None
-        if breakout_level and price:
-            breakout_distance_pct = round1((breakout_level - price) / price * 100)
-
-        # build notes for existing modal compatibility
         tech_notes = []
         if r is not None:
             tech_notes.append("RSI " + str(int(round(r))))
-        if trend_aligned:
-            tech_notes.append("Above 200MA")
+        tech_notes.append(trend.capitalize())
         if m1 is not None:
             tech_notes.append("1M " + ("+" if m1 >= 0 else "") + str(round1(m1)) + "%")
-        if volume_ratio is not None:
-            tech_notes.append("Vol " + str(round1(volume_ratio)) + "x")
+        if vr is not None:
+            tech_notes.append("RelVol " + str(round1(vr)) + "x (5d/20d)")
         fund_notes = []
-        if fund_raw["pe"] is not None:
-            fund_notes.append("P/E " + str(fund_raw["pe"]))
-        if fund_raw["rev_growth"] is not None:
-            fund_notes.append("Rev " + ("+" if fund_raw["rev_growth"] >= 0 else "") + str(fund_raw["rev_growth"]) + "%")
-        if fund_raw["margin"] is not None:
-            fund_notes.append("Margin " + str(fund_raw["margin"]) + "%")
+        if f_raw["pe"] is not None:
+            fund_notes.append("P/E " + str(f_raw["pe"]))
+        if f_raw["rev_growth"] is not None:
+            fund_notes.append("Rev " + ("+" if f_raw["rev_growth"] >= 0 else "") + str(f_raw["rev_growth"]) + "%")
 
         rec = {
-            "ticker": ticker,
-            "total_score": total,
-            "technical_score": technical_score,
-            "fundamental_score": fundamental_score,
-            "rsi_score": rsi_s,
-            "momentum_score": mom_s,
-            "fundamental_subscore": fund_s,
-            "volume_score": vol_s,
-            "confidence_pct": conf,
-            "horizon": horizon,
-            "expected_window": expected_window(horizon),
-            "horizon_reason": hreason,
-            "conviction": conv_label,
-            "conviction_emoji": conv_emoji,
-            "trigger": trigger,
-            "backtest_winrate": winrate,
-            "backtest_sample": sample,
-            "backtest_note": bt_note,
-            "setup_grade": grade,
-            "breakout_level": breakout_level,
-            "breakout_distance_pct": breakout_distance_pct,
-            "rr": rr,
-            "sentiment": sentiment,
-            "tech_notes": tech_notes,
-            "fund_notes": fund_notes,
+            "ticker": ticker, "total_score": total, "score_formula": "60% technical + 40% fundamental",
+            "technical_score": technical_score, "fundamental_score": fundamental_score,
+            "rsi_score": rsi_s, "momentum_score": mom_s,
+            "fundamental_subscore": fund_s, "volume_score": vol_s,
+            "confidence_pct": conf, "horizon": horizon,
+            "expected_window": expected_window(horizon), "horizon_reason": hreason,
+            "conviction": conv_label, "conviction_emoji": conv_emoji,
+            "trigger": trigger, "trend": trend, "trend_aligned": trend_aligned,
+            "backtest_winrate": bt["winrate"], "backtest_sample": bt["sample"],
+            "backtest_note": bt["note"], "backtest_low_sample": bt["low_sample"],
+            "avg_win_pct": bt["avg_win"], "avg_loss_pct": bt["avg_loss"], "ev_pct": bt["ev_pct"],
+            "setup_grade": grade, "breakout_level": breakout_level,
+            "breakout_distance_pct": breakout_distance_pct, "rr": swing_rr,
+            "position_sizing": possize, "sentiment": sentiment,
+            "relative_strength_1m": rs_spy_1m, "relative_strength_3m": rs_spy_3m,
+            "tech_notes": tech_notes, "fund_notes": fund_notes,
             "technicals": {
                 "rsi": round2(r), "ma50": round2(ma50), "ma200": round2(ma200),
                 "mom_1m": round1(m1), "mom_3m": round1(m3), "pos_52w": round1(pos),
+                "pos_52w_text": str(int(round(pos))) + "% of 52w range",
                 "volatility": round2(vola), "price": round2(price), "atr": round2(atr_val),
-                "sparkline": sparkline, "volume_ratio": volume_ratio,
-                "sector_rel": sector_rel, "sector_etf": etf,
+                "sparkline": sparkline, "volume_ratio": vr,
+                "volume_desc": "Relative volume = 5-day avg / 20-day avg",
+                "sector_rel": sector_rel, "sector_etf": etf, "sector_name": sector_name,
+                "support": support, "resistance": resistance,
+                "rs_spy_1m": rs_spy_1m, "rs_spy_3m": rs_spy_3m,
             },
             "fundamentals": {
-                "pe": fund_raw["pe"], "rev_growth": fund_raw["rev_growth"],
-                "margin": fund_raw["margin"], "roe": fund_raw["roe"],
-                "debt_to_equity": fund_raw["debt_to_equity"],
-                "eps_estimate": earn["eps_estimate"],
+                "pe": f_raw["pe"], "rev_growth": f_raw["rev_growth"], "margin": f_raw["margin"],
+                "roe": f_raw["roe"], "debt_to_equity": f_raw["debt_to_equity"],
+                "sector": sector_name, "eps_estimate": earn["eps_estimate"],
                 "earnings_streak": earn["earnings_streak"],
                 "avg_post_earnings_move_pct": earn["avg_post_earnings_move_pct"],
             },
         }
         print("  [ok]   " + ticker + ": " + str(total) + "/100 " + conv_label
-              + " conf " + str(conf) + "% grade " + grade
-              + (" win " + str(winrate) + "%" if winrate is not None else ""))
+              + " grade " + grade + " RR " + str(swing_rr) + " " + trend
+              + (" EV " + str(bt["ev_pct"]) + "%" if bt["ev_pct"] is not None else ""))
         return rec
     except Exception as e:
         print("  [FAIL] " + ticker + ": " + str(e))
@@ -656,144 +493,125 @@ def analyze(ticker, etf_cache):
         return None
 
 # ============================================================
-# MARKET CONTEXT (market.json)
+# CONCENTRATION RISK
 # ============================================================
-def build_market(etf_cache):
-    market = {
+def concentration_flags(recs, top_n=5):
+    top = recs[:top_n]
+    flags = []
+    sectors = {}
+    for r in top:
+        s = r["fundamentals"].get("sector") or "Unknown"
+        sectors[s] = sectors.get(s, 0) + 1
+    for s, c in sectors.items():
+        if c >= 3 and s != "Unknown":
+            flags.append(str(c) + " of top " + str(len(top)) + " picks are in " + s + " - concentration risk")
+    return flags
+
+# ============================================================
+# MARKET (VIX Sentiment, renamed)
+# ============================================================
+def build_market(etf_cache, spy_1m):
+    mkt = {
         "generated_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "regime": None, "regime_reason": None, "sectors": [],
         "top2_leading": [], "top2_lagging": [], "vix": None, "vix_label": None,
-        "fear_greed_proxy": None, "fg_label": None, "fg_note": None,
+        "vix_sentiment": None, "vix_sentiment_label": None, "vix_sentiment_inputs": None,
         "key_spy_level": None,
     }
-
-    # --- SPY trend + regime ---
-    spy_mom = None
-    spy_price = None
+    spy_mom = spy_1m
     try:
         spy = yf.Ticker("SPY").history(period="6mo")
-        sc = spy["Close"].dropna()
-        spy_price = float(sc.iloc[-1])
-        ma50 = float(sc.rolling(50).mean().iloc[-1]) if len(sc) >= 50 else None
+        sc = spy["Close"].dropna(); spy_price = float(sc.iloc[-1])
         slope = pct_return(sc, 20)
-        spy_mom = slope
         dret = sc.pct_change().dropna()
         spy_vola = float(dret.iloc[-20:].std() * 100) if len(dret) >= 20 else 0.0
-
         if spy_vola >= 1.6:
-            regime = "volatile"
-            reason = "SPY 20d daily vol " + str(round1(spy_vola)) + "% (elevated)"
+            mkt["regime"] = "volatile"; mkt["regime_reason"] = "SPY 20d daily vol " + str(round1(spy_vola)) + "% (elevated)"
         elif slope is not None and abs(slope) >= 4:
-            regime = "trend"
-            reason = "SPY 20d move " + ("+" if slope >= 0 else "") + str(round1(slope)) + "% (directional)"
+            mkt["regime"] = "trend"; mkt["regime_reason"] = "SPY 20d move " + ("+" if slope >= 0 else "") + str(round1(slope)) + "%"
         else:
-            regime = "range"
-            reason = "SPY drifting, low directional momentum"
-        market["regime"] = regime
-        market["regime_reason"] = reason
-
-        # key SPY level: recent 20-day swing high/low closest to price
-        sh = float(sc.iloc[-20:].max())
-        sl = float(sc.iloc[-20:].min())
+            mkt["regime"] = "range"; mkt["regime_reason"] = "SPY drifting, low directional momentum"
+        sh = float(sc.iloc[-20:].max()); sl = float(sc.iloc[-20:].min())
         if abs(sh - spy_price) <= abs(spy_price - sl):
-            level = sh
-            kind = "resistance"
+            level = sh; kind = "resistance"
         else:
-            level = sl
-            kind = "support"
-        dist = round1((level - spy_price) / spy_price * 100)
-        market["key_spy_level"] = {
-            "level": round2(level), "kind": kind,
-            "spy_price": round2(spy_price), "distance_pct": dist,
-        }
+            level = sl; kind = "support"
+        mkt["key_spy_level"] = {"level": round2(level), "kind": kind, "spy_price": round2(spy_price),
+                                "distance_pct": round1((level - spy_price) / spy_price * 100)}
     except Exception:
-        market["regime"] = "unknown"
-        market["regime_reason"] = "SPY data unavailable"
+        mkt["regime"] = "unknown"; mkt["regime_reason"] = "SPY data unavailable"
 
-    # --- sectors ---
     sectors = []
     for etf in SECTOR_ETFS:
         try:
-            h = yf.Ticker(etf).history(period="3mo")
-            c = h["Close"].dropna()
-            d1 = pct_return(c, 1)
-            d1m = pct_return(c, 21)
-            sectors.append({"etf": etf, "ret_1d": round1(d1), "ret_1m": round1(d1m)})
+            h = yf.Ticker(etf).history(period="3mo"); c = h["Close"].dropna()
+            sectors.append({"etf": etf, "ret_1d": round1(pct_return(c, 1)), "ret_1m": round1(pct_return(c, 21))})
         except Exception:
             sectors.append({"etf": etf, "ret_1d": None, "ret_1m": None})
-    market["sectors"] = sectors
+    mkt["sectors"] = sectors
     ranked = [s for s in sectors if s["ret_1m"] is not None]
     ranked.sort(key=lambda x: x["ret_1m"], reverse=True)
-    market["top2_leading"] = ranked[:2]
-    market["top2_lagging"] = ranked[-2:][::-1] if len(ranked) >= 2 else []
+    mkt["top2_leading"] = ranked[:2]
+    mkt["top2_lagging"] = ranked[-2:][::-1] if len(ranked) >= 2 else []
 
-    # --- VIX ---
     vix_val = None
     try:
         vx = yf.Ticker("^VIX").history(period="1mo")
         vix_val = float(vx["Close"].dropna().iloc[-1])
-        market["vix"] = round2(vix_val)
-        if vix_val < 14:
-            market["vix_label"] = "low"
-        elif vix_val < 20:
-            market["vix_label"] = "normal"
-        elif vix_val < 28:
-            market["vix_label"] = "elevated"
-        else:
-            market["vix_label"] = "high"
+        mkt["vix"] = round2(vix_val)
+        mkt["vix_label"] = "low" if vix_val < 14 else "normal" if vix_val < 20 else "elevated" if vix_val < 28 else "high"
+        # VIX Sentiment (renamed) - 0=fearful, 100=calm/greedy
+        vs = clamp(100 - (vix_val - 10) * 4, 0, 100)
+        mkt["vix_sentiment"] = round(vs)
+        mkt["vix_sentiment_label"] = ("Extreme Fear" if vs < 25 else "Fear" if vs < 45
+                                      else "Neutral" if vs < 55 else "Calm" if vs < 75 else "Complacent")
+        mkt["vix_sentiment_inputs"] = "Derived from VIX only (inverted). Not CNN's Fear&Greed (which adds put/call, breadth, junk-bond demand)."
     except Exception:
-        market["vix_label"] = "unknown"
+        mkt["vix_label"] = "unknown"
+    return mkt
 
-    # --- Fear & Greed PROXY (NOT CNN's official index) ---
-    try:
-        comp = []
-        # VIX inverted -> calm = greedy
-        if vix_val is not None:
-            vix_component = clamp(100 - (vix_val - 10) * 4, 0, 100)
-            comp.append(vix_component)
-        # SPY momentum -> positive = greedy
-        if spy_mom is not None:
-            mom_component = clamp(50 + spy_mom * 5, 0, 100)
-            comp.append(mom_component)
-        # breadth: fraction of sectors positive on 1m
-        pos = [s for s in sectors if s["ret_1m"] is not None and s["ret_1m"] > 0]
-        tot = [s for s in sectors if s["ret_1m"] is not None]
-        if tot:
-            breadth = len(pos) / len(tot) * 100
-            comp.append(breadth)
-        if comp:
-            fg = round(sum(comp) / len(comp))
-            market["fear_greed_proxy"] = fg
-            if fg < 25:
-                lab = "Extreme Fear"
-            elif fg < 45:
-                lab = "Fear"
-            elif fg < 55:
-                lab = "Neutral"
-            elif fg < 75:
-                lab = "Greed"
-            else:
-                lab = "Extreme Greed"
-            market["fg_label"] = lab
-            market["fg_note"] = "PROXY (not CNN's official index): VIX + SPY momentum + sector breadth"
-    except Exception:
-        market["fear_greed_proxy"] = None
-        market["fg_note"] = "PROXY unavailable"
-
-    return market
+# ============================================================
+# SIGNAL HISTORY LOGGING (accuracy tracking)
+# ============================================================
+def log_history(recs):
+    today = datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d")
+    entry = {"date": today, "signals": [{"ticker": r["ticker"], "total_score": r["total_score"],
+             "conviction": r["conviction"], "price": r["technicals"]["price"],
+             "horizon": r["horizon"]} for r in recs]}
+    hist = []
+    if os.path.exists("signal_history.json"):
+        try:
+            with open("signal_history.json", "r") as f:
+                hist = json.load(f)
+        except Exception:
+            hist = []
+    # replace today's entry if re-run same day
+    hist = [h for h in hist if h.get("date") != today]
+    hist.append(entry)
+    hist = hist[-180:]  # keep ~6 months
+    with open("signal_history.json", "w") as f:
+        json.dump(hist, f, indent=2)
+    print("Logged " + str(len(recs)) + " signals to signal_history.json (" + str(len(hist)) + " days tracked).")
 
 # ============================================================
 # MAIN
 # ============================================================
 def main():
-    print("Analyzing " + str(len(WATCHLIST)) + " tickers (maximal engine)...")
+    print("Analyzing " + str(len(WATCHLIST)) + " tickers (Phase 1 engine)...")
     etf_cache = {}
+    # SPY returns for relative strength
+    spy_1m = spy_3m = None
+    try:
+        spyh = yf.Ticker("SPY").history(period="6mo")["Close"]
+        spy_1m = pct_return(spyh, 21); spy_3m = pct_return(spyh, 63)
+    except Exception:
+        pass
+
     recs = []
     for tk in WATCHLIST:
-        r = analyze(tk, etf_cache)
+        r = analyze(tk, etf_cache, spy_1m, spy_3m)
         if r:
             recs.append(r)
-
     recs.sort(key=lambda x: x["total_score"], reverse=True)
     buckets = {"intraday": [], "swing": [], "long_term": []}
     for r in recs:
@@ -801,27 +619,26 @@ def main():
 
     suggestions = {
         "generated_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-        "suggestions": recs,
-        "by_horizon": buckets,
-        "top_picks": recs[:5],
-        "disclaimer": "Not financial advice. Transparent rule-based scoring + "
-                      "historical statistics for research only. Backtest win-rate "
-                      "is a past frequency, NOT a prediction.",
+        "suggestions": recs, "by_horizon": buckets, "top_picks": recs[:5],
+        "concentration_flags": concentration_flags(recs, 5),
+        "account_size": ACCOUNT_SIZE, "risk_pct": RISK_PCT,
+        "disclaimer": "Not financial advice. Rule-based stats only. Backtest/EV = past frequency, NOT a prediction.",
     }
     with open("suggestions.json", "w") as f:
         json.dump(suggestions, f, indent=2)
 
     print("")
-    print("Building market context (regime, sectors, VIX, F&G proxy)...")
-    market = build_market(etf_cache)
+    print("Building market context (VIX Sentiment)...")
+    market = build_market(etf_cache, spy_1m)
     with open("market.json", "w") as f:
         json.dump(market, f, indent=2)
 
+    log_history(recs)
+
     print("")
-    print("Wrote suggestions.json with " + str(len(recs)) + " scored stocks.")
-    print("Wrote market.json (regime=" + str(market.get("regime"))
-          + ", VIX=" + str(market.get("vix"))
-          + ", F&G proxy=" + str(market.get("fear_greed_proxy")) + ").")
+    print("Wrote suggestions.json (" + str(len(recs)) + " stocks), market.json, signal_history.json.")
+    print("regime=" + str(market.get("regime")) + " VIX=" + str(market.get("vix"))
+          + " VIX-Sentiment=" + str(market.get("vix_sentiment")))
 
 if __name__ == "__main__":
     main()
