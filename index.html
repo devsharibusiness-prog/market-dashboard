@@ -17,6 +17,7 @@
     <button class="ibtn" id="refresh">↻</button>
   </div>
   <div id="err"></div>
+  <div id="concBanner"></div>
   <section class="hero">
     <div class="hero-top">
       <div class="mood" id="mood">🧭</div>
@@ -42,10 +43,9 @@
       <span class="fchip cap" data-cap="Mid">Mid</span>
       <span class="fchip cap" data-cap="Small">Small</span></div>
   </div>
-  <section class="section"><div class="sh"><h2>💡 Suggestions</h2><span class="sub" id="sugSub"></span></div>
-    <div class="tdisc">⚠️ Sub-scored + confidence + backtest win-rate (PAST frequency, NOT a prediction). Research only.</div>
-    <div class="ttabs" id="sugTabs"><button class="ttab active" data-shz="all">All</button><button class="ttab" data-shz="intraday">Intraday</button><button class="ttab" data-shz="swing">Swing</button><button class="ttab" data-shz="long_term">Long-Term</button></div>
-    <div class="grid" id="sugGrid"></div></section>
+  <section class="section"><div class="sh"><h2>💹 Quotes</h2><span class="sub" id="qSub"></span></div>
+  <div class="ttabs" id="qSortTabs"><button class="ttab active" data-sort="name">A-Z</button><button class="ttab" data-sort="change">% Change</button><button class="ttab" data-sort="vol">Volume</button><button class="ttab" data-sort="signal">Signal</button></div>
+  <div class="grid" id="qGrid"></div></section>
   <section class="section"><div class="sh"><h2>💹 Quotes</h2><span class="sub" id="qSub"></span></div><div class="grid" id="qGrid"></div></section>
   <section class="section"><div class="sh"><h2>🎯 Trade Setups</h2><span class="sub">ATR · grade · R:R · click for analysis</span></div>
     <div class="tdisc">⚠️ Mechanical ATR levels - NOT advice. Research only.</div>
@@ -55,6 +55,7 @@
   <section class="section"><div class="sh"><h2>📰 News &amp; Filings</h2></div>
     <div class="ttabs" id="nTabs"><button class="ttab active" data-nt="news">News</button><button class="ttab" data-nt="filings">SEC Filings</button></div>
     <div class="news" id="nList"></div></section>
+  <section class="section" id="newsSection">
   <div class="disc">⚠️ Not financial advice. Sentiment=crude keyword heuristic (NOT AI). Fear&amp;Greed=PROXY (not CNN). Backtest=past frequency, not a prediction. Research only.</div>
 </div>
 <div class="mbg" id="mbg"><div class="modal"><div class="mhead"><div><div class="mt" id="mTitle">—</div><div class="msub" id="mSub"></div></div><button class="mclose" id="mClose">✕</button></div><div class="mbody" id="mBody"></div></div></div>
