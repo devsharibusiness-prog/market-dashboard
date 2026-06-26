@@ -2,10 +2,8 @@ name: Daily Market Fetch
 
 on:
   schedule:
-    # 13:00 UTC daily, Mon–Fri = 6:30 PM IST = ~9:00 AM ET (standard time).
-    # Cron is ALWAYS in UTC.
     - cron: '30 12 * * 1-5'
-  workflow_dispatch:   # lets you trigger it manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   fetch:
@@ -19,14 +17,11 @@ jobs:
           python-version: '3.11'
       - run: pip install -r requirements.txt
       - run: python fetch_data.py
-        env:
-          FINNHUB_KEY: ${{ secrets.FINNHUB_KEY }}
-          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
       - run: python suggest.py
-      - name: Commit refreshed data.json
+      - name: Commit refreshed data
         run: |
           git config user.name "market-bot"
           git config user.email "bot@users.noreply.github.com"
           git add data.json suggestions.json market.json
-          git commit -m "Daily data refresh $(date -u)" || echo "no changes"
+          git commit -m "Daily refresh $(date -u)" || echo "no changes"
           git push
