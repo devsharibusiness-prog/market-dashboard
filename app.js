@@ -135,19 +135,28 @@
     var p52 = t.pos_52w_text ? '<div class="p52">' + esc(t.pos_52w_text) + '</div>' : '';
     return '<div class="card" data-tk="' + esc(q.ticker) + '"><div class="trow"><span class="tkr">' + esc(q.ticker) + '</span><span class="chg ' + d + ' tnum">' + ar + ' ' + tx + '</span></div><div class="price tnum">' + mon(q.price) + '</div>' + sp + '<div class="relrow">' + rl + vo + '</div>' + p52 + '<div class="distbar"><div class="m" style="left:' + pp + '%"></div></div><div class="ends"><span>52w low</span><span>52w high</span></div><div class="meta">' + cb(q.cap_tier, q.market_cap_str) + sect + '</div></div>';
   }
-  function rrc(rr) { if (rr == null || isNaN(rr)) { return "rr-mid"; } if (rr >= 2) { return "rr-good"; } if (rr >= 1) { return "rr-mid"; } return "rr-bad"; }
+    function rrc(rr) { if (rr == null || isNaN(rr)) { return "rr-mid"; } if (rr >= 2) { return "rr-good"; } if (rr >= 1) { return "rr-mid"; } return "rr-bad"; }
   function tcard(t) {
     var b = t.buckets && t.buckets[st.bk], sc = DATA.screenIndex && DATA.screenIndex[t.ticker], rec = si(t.ticker);
     var ch = sc ? cb(sc.cap_tier, sc.market_cap_str) : "";
     var gr = rec && rec.setup_grade ? '<span class="grade grade-' + esc(rec.setup_grade) + '">' + esc(rec.setup_grade) + '</span>' : "";
     var trend = rec && rec.trend ? '<span class="trendb ' + (rec.trend === "uptrend" ? "tu" : rec.trend === "downtrend" ? "td" : "tn") + '">' + esc(rec.trend) + '</span>' : "";
     if (!b) { return '<div class="tcard" data-tk="' + esc(t.ticker) + '"><div class="ttop"><div class="ttl"><span class="tkr">' + esc(t.ticker) + '</span></div></div><div class="empty" style="border:none;padding:14px 0">No setup</div></div>'; }
+    var isShort = b.direction === "short";
+    var dirBadge = '<span class="dirb ' + (isShort ? "short" : "long") + '">' + esc(b.action || (isShort ? "SELL/SHORT" : "BUY")) + '</span>';
     var en = num(b.entry), tg = num(b.target), sp = num(b.stop), rr = num(b.rr);
     var lo = Math.min(sp, tg, en), hi = Math.max(sp, tg, en), span = (hi - lo) || 1;
     function p(v) { return cl(((v - lo) / span) * 100, 0, 100); }
-    var bk = ""; if (rec && rec.breakout_level != null) { bk = '<div class="brk">Breakout: <b>' + mon(rec.breakout_level) + '</b> (' + pc(rec.breakout_distance_pct) + ' away)</div>'; }
+    var bk = ""; if (rec && rec.breakout_level != null) { bk = '<div class="brk">Key level: <b>' + mon(rec.breakout_level) + '</b> (' + pc(rec.breakout_distance_pct) + ' away)</div>'; }
     var ps = ""; if (rec && rec.position_sizing && rec.position_sizing.shares != null) { ps = '<div class="brk">Size (1% risk): <b>' + rec.position_sizing.shares + ' sh</b> · ' + mon(rec.position_sizing.position_value) + '</div>'; }
-    return '<div class="tcard" data-tk="' + esc(t.ticker) + '"><div class="ttop"><div class="ttl"><span class="tkr">' + esc(t.ticker) + '</span>' + gr + trend + '<span class="atr tnum">ATR ' + mon(t.atr) + '</span></div><span class="rr ' + rrc(rr) + ' tnum">1:' + (rr === null ? "—" : rr.toFixed(1)) + '</span></div>' + (ch ? '<div class="meta">' + ch + '</div>' : '') + '<div class="ets"><div class="ebox e-stop"><div class="elabel">Stop</div><div class="eval tnum">' + mon(sp) + '</div></div><div class="ebox e-entry"><div class="elabel">Entry</div><div class="eval tnum">' + mon(en) + '</div></div><div class="ebox e-target"><div class="elabel">Target</div><div class="eval tnum">' + mon(tg) + '</div></div></div><div class="rrbar"><div class="rrm s" style="left:' + p(sp) + '%"></div><div class="rrm e" style="left:' + p(en) + '%"></div><div class="rrm t" style="left:' + p(tg) + '%"></div></div><div class="rrends"><span class="s">◄ Stop</span><span class="e">Entry</span><span class="t">Target ►</span></div>' + bk + ps + '</div>';
+    // labels swap for shorts: entry action, target = exit-for-profit, stop = risk side
+    var entryLabel = isShort ? "Entry (Short)" : "Entry (Buy)";
+    var targetLabel = isShort ? "Target ↓ (Cover)" : "Target ↑ (Sell)";
+    var stopLabel = isShort ? "Stop ↑ (Risk)" : "Stop ↓ (Risk)";
+    // bar ends differ by direction
+    var leftEnd = isShort ? '<span class="t">◄ Target</span>' : '<span class="s">◄ Stop</span>';
+    var rightEnd = isShort ? '<span class="s">Stop ►</span>' : '<span class="t">Target ►</span>';
+    return '<div class="tcard ' + (isShort ? "short-setup" : "") + '" data-tk="' + esc(t.ticker) + '"><div class="ttop"><div class="ttl"><span class="tkr">' + esc(t.ticker) + '</span>' + dirBadge + gr + trend + '<span class="atr tnum">ATR ' + mon(t.atr) + '</span></div><span class="rr ' + rrc(rr) + ' tnum">1:' + (rr === null ? "—" : rr.toFixed(1)) + '</span></div>' + (ch ? '<div class="meta">' + ch + '</div>' : '') + '<div class="ets"><div class="ebox e-stop"><div class="elabel">' + stopLabel + '</div><div class="eval tnum">' + mon(sp) + '</div></div><div class="ebox e-entry"><div class="elabel">' + entryLabel + '</div><div class="eval tnum">' + mon(en) + '</div></div><div class="ebox e-target"><div class="elabel">' + targetLabel + '</div><div class="eval tnum">' + mon(tg) + '</div></div></div><div class="rrbar"><div class="rrm s" style="left:' + p(sp) + '%"></div><div class="rrm e" style="left:' + p(en) + '%"></div><div class="rrm t" style="left:' + p(tg) + '%"></div></div><div class="rrends">' + leftEnd + '<span class="e">Entry</span>' + rightEnd + '</div>' + bk + ps + '</div>';
   }
   function sgcard(r) {
     var cf = cl(r.confidence_pct || 0, 0, 100);
