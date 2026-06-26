@@ -193,47 +193,64 @@ def backtest_setup(hist, horizon_days=5):
                 "avg_win": None, "avg_loss": None, "ev_pct": None, "low_sample": True}
 
 # ============================================================
-# SWING-BASED R:R (varying, from real support/resistance)
+# DIRECTION-AWARE SWING R:R  (long for uptrend, short for downtrend)
 # ============================================================
-def swing_levels(close, lookback=20):
-    """Recent swing high (resistance) and low (support)."""
-    if len(close) < lookback:
-        return None, None
-    window = close.iloc[-lookback:]
-    return round2(float(window.max())), round2(float(window.min()))
-
-def build_trade_buckets(price, atr_val, resistance, support):
+def build_trade_buckets(price, atr_val, resistance, support, direction):
     """
-    Entry = current price. Stop = recent support (or 1.5 ATR if none).
-    Target = recent resistance (or 2-3 ATR). R:R is REAL (varying).
+    direction = "long" (uptrend) or "short" (downtrend).
+    LONG : target ABOVE, stop BELOW.
+    SHORT: target BELOW, stop ABOVE (profit when price falls).
     """
     if not price or not atr_val:
         return {}
-    def setup(stop_ref, target_ref, atr_stop, atr_target):
+
+    def long_setup(stop_ref, target_ref, atr_stop, atr_target):
         stop = stop_ref if (stop_ref and stop_ref < price) else round2(price - atr_stop * atr_val)
         target = target_ref if (target_ref and target_ref > price) else round2(price + atr_target * atr_val)
         risk = price - stop
         reward = target - price
         rr = round2(reward / risk) if risk and risk > 0 else None
-        return {"entry": round2(price), "stop": stop, "target": target, "rr": rr}
+        return {"direction": "long", "action": "BUY", "exit_action": "SELL",
+                "entry": round2(price), "stop": stop, "target": target, "rr": rr}
+
+    def short_setup(stop_ref, target_ref, atr_stop, atr_target):
+        # target is BELOW (cover for profit), stop is ABOVE (short went wrong)
+        stop = stop_ref if (stop_ref and stop_ref > price) else round2(price + atr_stop * atr_val)
+        target = target_ref if (target_ref and target_ref < price) else round2(price - atr_target * atr_val)
+        risk = stop - price
+        reward = price - target
+        rr = round2(reward / risk) if risk and risk > 0 else None
+        return {"direction": "short", "action": "SELL/SHORT", "exit_action": "BUY/COVER",
+                "entry": round2(price), "stop": stop, "target": target, "rr": rr}
+
+    if direction == "short":
+        return {
+            "intraday": short_setup(round2(price + 1.0 * atr_val), round2(price - 1.5 * atr_val), 1.0, 1.5),
+            "swing": short_setup(resistance, support, 1.5, 3.0),       # stop=resistance above, target=support below
+            "long_term": short_setup(round2(price + 3.0 * atr_val), round2(price - 8.0 * atr_val), 3.0, 8.0),
+        }
+    # default long
     return {
-        "intraday": setup(round2(price - 1.0 * atr_val), round2(price + 1.5 * atr_val), 1.0, 1.5),
-        "swing": setup(support, resistance, 1.5, 3.0),
-        "long_term": setup(support, round2(price + 8.0 * atr_val), 3.0, 8.0),
+        "intraday": long_setup(round2(price - 1.0 * atr_val), round2(price + 1.5 * atr_val), 1.0, 1.5),
+        "swing": long_setup(support, resistance, 1.5, 3.0),           # stop=support below, target=resistance above
+        "long_term": long_setup(support, round2(price + 8.0 * atr_val), 3.0, 8.0),
     }
 
 # ============================================================
-# POSITION SIZING
+# POSITION SIZING (direction-aware risk per share)
 # ============================================================
-def position_size(price, stop):
-    """Shares to risk RISK_PCT of ACCOUNT_SIZE given stop distance."""
-    if not price or not stop or price <= stop:
+def position_size(price, stop, direction):
+    """Shares to risk RISK_PCT of ACCOUNT_SIZE. Risk = |entry - stop|."""
+    if not price or not stop:
         return None
-    risk_per_share = price - stop
+    risk_per_share = (price - stop) if direction == "long" else (stop - price)
+    if risk_per_share <= 0:
+        return None
     dollar_risk = ACCOUNT_SIZE * (RISK_PCT / 100.0)
-    shares = int(dollar_risk / risk_per_share) if risk_per_share > 0 else 0
+    shares = int(dollar_risk / risk_per_share)
     return {"shares": shares, "dollar_risk": round2(dollar_risk),
-            "position_value": round2(shares * price), "risk_per_share": round2(risk_per_share)}
+            "position_value": round2(shares * price),
+            "risk_per_share": round2(risk_per_share), "direction": direction}
 
 # ============================================================
 # EARNINGS / SENTIMENT / SECTOR
@@ -419,11 +436,14 @@ def analyze(ticker, etf_cache, spy_1m, spy_3m):
         bt = backtest_setup(hist, 5)
         earn = earnings_stats(t); sentiment = keyword_sentiment(t)
 
-        resistance, support = swing_levels(close, 20)
-        buckets = build_trade_buckets(price, atr_val, resistance, support)
-        swing_rr = buckets.get("swing", {}).get("rr")
-        swing_stop = buckets.get("swing", {}).get("stop")
-        possize = position_size(price, swing_stop)
+                resistance, support = swing_levels(close, 20)
+        # direction follows the trend: downtrend -> short setup, else long
+        trade_direction = "short" if trend == "downtrend" else "long"
+        buckets = build_trade_buckets(price, atr_val, resistance, support, trade_direction)
+        swing = buckets.get("swing", {})
+        swing_rr = swing.get("rr")
+        swing_stop = swing.get("stop")
+        possize = position_size(price, swing_stop, trade_direction)
         grade = setup_grade(swing_rr, trend_aligned, vola)
         breakout_level = resistance
         breakout_distance_pct = round1((resistance - price) / price * 100) if (resistance and price) else None
@@ -455,7 +475,7 @@ def analyze(ticker, etf_cache, spy_1m, spy_3m):
             "confidence_pct": conf, "horizon": horizon,
             "expected_window": expected_window(horizon), "horizon_reason": hreason,
             "conviction": conv_label, "conviction_emoji": conv_emoji,
-            "trigger": trigger, "trend": trend, "trend_aligned": trend_aligned,
+            "trigger": trigger, "trend": trend,"trade_direction": trade_direction, "trend_aligned": trend_aligned,
             "backtest_winrate": bt["winrate"], "backtest_sample": bt["sample"],
             "backtest_note": bt["note"], "backtest_low_sample": bt["low_sample"],
             "avg_win_pct": bt["avg_win"], "avg_loss_pct": bt["avg_loss"], "ev_pct": bt["ev_pct"],
