@@ -28,5 +28,6 @@ jobs:
           git config user.name "market-bot"
           git config user.email "bot@users.noreply.github.com"
           git add data.json suggestions.json
+          git add data.json suggestions.json market.json
           git commit -m "Daily data refresh $(date -u)" || echo "no changes"
           git push
