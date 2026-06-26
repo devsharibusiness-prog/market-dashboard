@@ -4,43 +4,43 @@
     "signals": [
       {
         "ticker": "GOOGL",
-        "total_score": 80.0,
+        "total_score": 76.0,
         "conviction": "Strong",
-        "price": 343.71,
+        "price": 341.33,
         "horizon": "long_term",
         "direction": "long"
       },
       {
-        "ticker": "NVDA",
-        "total_score": 70.4,
+        "ticker": "MSFT",
+        "total_score": 74.2,
         "conviction": "Moderate",
-        "price": 195.74,
+        "price": 371.4,
+        "horizon": "swing",
+        "direction": "short"
+      },
+      {
+        "ticker": "AMZN",
+        "total_score": 74.0,
+        "conviction": "Moderate",
+        "price": 230.75,
+        "horizon": "swing",
+        "direction": "short"
+      },
+      {
+        "ticker": "NVDA",
+        "total_score": 73.0,
+        "conviction": "Moderate",
+        "price": 194.45,
         "horizon": "long_term",
         "direction": "long"
       },
       {
         "ticker": "AAPL",
-        "total_score": 69.4,
+        "total_score": 72.0,
         "conviction": "Moderate",
-        "price": 275.15,
+        "price": 281.09,
         "horizon": "long_term",
         "direction": "long"
-      },
-      {
-        "ticker": "AMZN",
-        "total_score": 67.4,
-        "conviction": "Moderate",
-        "price": 227.01,
-        "horizon": "swing",
-        "direction": "short"
-      },
-      {
-        "ticker": "MSFT",
-        "total_score": 64.8,
-        "conviction": "Moderate",
-        "price": 352.83,
-        "horizon": "swing",
-        "direction": "short"
       }
     ]
   }
