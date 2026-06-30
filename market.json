@@ -1,89 +1,89 @@
 {
-  "generated_at": "2026-06-29T19:25:15Z",
+  "generated_at": "2026-06-30T07:52:34Z",
   "regime": "range",
   "regime_reason": "SPY drifting, low directional momentum",
   "sectors": [
     {
       "etf": "XLK",
       "ret_1d": 2.4,
-      "ret_1m": -0.6
+      "ret_1m": -0.7
     },
     {
       "etf": "XLE",
-      "ret_1d": -0.2,
-      "ret_1m": -5.0
+      "ret_1d": -0.5,
+      "ret_1m": -5.2
     },
     {
       "etf": "XLF",
-      "ret_1d": 0.4,
-      "ret_1m": 5.3
+      "ret_1d": 0.3,
+      "ret_1m": 5.1
     },
     {
       "etf": "XLV",
-      "ret_1d": 0.1,
-      "ret_1m": 6.9
+      "ret_1d": 0.2,
+      "ret_1m": 7.0
     },
     {
       "etf": "XLI",
-      "ret_1d": 0.8,
-      "ret_1m": 5.3
+      "ret_1d": 0.9,
+      "ret_1m": 5.4
     },
     {
       "etf": "XLY",
-      "ret_1d": 2.5,
-      "ret_1m": -3.8
+      "ret_1d": 2.4,
+      "ret_1m": -3.9
     },
     {
       "etf": "XLP",
-      "ret_1d": -0.5,
-      "ret_1m": 0.5
+      "ret_1d": -0.4,
+      "ret_1m": 0.6
     },
     {
       "etf": "XLU",
       "ret_1d": -0.4,
-      "ret_1m": 3.7
+      "ret_1m": 3.8
     },
     {
       "etf": "XLB",
-      "ret_1d": -2.0,
-      "ret_1m": -1.2
+      "ret_1d": -1.8,
+      "ret_1m": -1.0
     },
     {
       "etf": "XLRE",
-      "ret_1d": -1.1,
-      "ret_1m": 1.6
+      "ret_1d": -0.7,
+      "ret_1m": 2.0
     },
     {
       "etf": "XLC",
-      "ret_1d": 1.8,
-      "ret_1m": -7.2
+      "ret_1d": 1.6,
+      "ret_1m": -7.3
     }
   ],
   "top2_leading": [
     {
       "etf": "XLV",
-      "ret_1d": 0.1,
-      "ret_1m": 6.9
+      "ret_1d": 0.2,
+      "ret_1m": 7.0
     },
     {
-      "etf": "XLF",
-      "ret_1d": 0.4,
-      "ret_1m": 5.3
+      "etf": "XLI",
+      "ret_1d": 0.9,
+      "ret_1m": 5.4
     }
   ],
   "top2_lagging": [
     {
       "etf": "XLC",
-      "ret_1d": 1.8,
-      "ret_1m": -7.2
+      "ret_1d": 1.6,
+      "ret_1m": -7.3
     },
     {
       "etf": "XLE",
-      "ret_1d": -0.2,
-      "ret_1m": -5.0
+      "ret_1d": -0.5,
+      "ret_1m": -5.2
     }
   ],
-  "vix": 17.6,
+  "vix": 17.48,
   "vix_label": "normal",
   "vix_sentiment": 70,
   "vix_sentiment_label": "Calm",
