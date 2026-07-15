@@ -1,89 +1,89 @@
 {
-  "generated_at": "2026-07-14T16:50:48Z",
+  "generated_at": "2026-07-15T16:57:14Z",
   "regime": "range",
   "regime_reason": "SPY drifting, low directional momentum",
   "sectors": [
     {
       "etf": "XLK",
-      "ret_1d": 1.4,
-      "ret_1m": 0.5
+      "ret_1d": -2.5,
+      "ret_1m": -3.0
     },
     {
       "etf": "XLE",
-      "ret_1d": -0.3,
-      "ret_1m": -0.3
+      "ret_1d": -1.4,
+      "ret_1m": -1.7
     },
     {
       "etf": "XLF",
-      "ret_1d": 0.2,
-      "ret_1m": 7.2
+      "ret_1d": 0.8,
+      "ret_1m": 6.6
     },
     {
       "etf": "XLV",
-      "ret_1d": -2.0,
-      "ret_1m": 3.1
+      "ret_1d": 0.4,
+      "ret_1m": 3.8
     },
     {
       "etf": "XLI",
-      "ret_1d": -0.1,
-      "ret_1m": 3.1
+      "ret_1d": -1.1,
+      "ret_1m": 1.5
     },
     {
       "etf": "XLY",
-      "ret_1d": -0.3,
-      "ret_1m": -0.3
+      "ret_1d": 1.2,
+      "ret_1m": 0.7
     },
     {
       "etf": "XLP",
-      "ret_1d": -1.2,
-      "ret_1m": -1.3
+      "ret_1d": 0.7,
+      "ret_1m": -1.5
     },
     {
       "etf": "XLU",
-      "ret_1d": -0.1,
-      "ret_1m": 4.4
+      "ret_1d": -0.5,
+      "ret_1m": 2.8
     },
     {
       "etf": "XLB",
-      "ret_1d": 0.1,
-      "ret_1m": -0.8
+      "ret_1d": -0.8,
+      "ret_1m": -3.4
     },
     {
       "etf": "XLRE",
-      "ret_1d": -0.6,
-      "ret_1m": -0.3
+      "ret_1d": 0.3,
+      "ret_1m": -0.8
     },
     {
       "etf": "XLC",
-      "ret_1d": 0.0,
-      "ret_1m": -0.2
+      "ret_1d": 1.7,
+      "ret_1m": 1.8
     }
   ],
   "top2_leading": [
     {
       "etf": "XLF",
-      "ret_1d": 0.2,
-      "ret_1m": 7.2
+      "ret_1d": 0.8,
+      "ret_1m": 6.6
     },
     {
-      "etf": "XLU",
-      "ret_1d": -0.1,
-      "ret_1m": 4.4
+      "etf": "XLV",
+      "ret_1d": 0.4,
+      "ret_1m": 3.8
     }
   ],
   "top2_lagging": [
     {
-      "etf": "XLP",
-      "ret_1d": -1.2,
-      "ret_1m": -1.3
+      "etf": "XLB",
+      "ret_1d": -0.8,
+      "ret_1m": -3.4
     },
     {
-      "etf": "XLB",
-      "ret_1d": 0.1,
-      "ret_1m": -0.8
+      "etf": "XLK",
+      "ret_1d": -2.5,
+      "ret_1m": -3.0
     }
   ],
-  "vix": 16.58,
+  "vix": 16.51,
   "vix_label": "normal",
   "vix_sentiment": 74,
   "vix_sentiment_label": "Calm",
@@ -91,7 +91,7 @@
   "key_spy_level": {
     "level": 754.95,
     "kind": "resistance",
-    "spy_price": 751.38,
+    "spy_price": 751.05,
     "distance_pct": 0.5
   }
 }
