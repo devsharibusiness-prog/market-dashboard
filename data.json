@@ -1,716 +1,716 @@
 {
-  "generated_at": "2026-07-15T16:57:04Z",
-  "brief": "\ud83d\udd34 Good day, SRIHARI! Here's your market pulse.  \n\ud83d\ude80 Today's headline mover is AEHR at +22.33% (Mid cap).  \n\ud83d\udcca Breadth: 56 up vs 41 down on your watchlist.  \n\ud83d\udc9a Strength (oversold-in-uptrend): ARM, EME, RIOT.  \n\u26a0 Pullback risk (overbought): AAPL, AMZN, META, V, MA, ADBE, SPGI, TMO, SCHW, ADP, RDDT, PLTR, LYFT, PINS, AMPL.  \n\ud83d\udd0e Tip: open the Suggestions section for scored ideas. Signals are heuristics, not advice.",
+  "generated_at": "2026-07-16T16:53:44Z",
+  "brief": "\ud83d\udd34 Good day, SRIHARI! Here's your market pulse.  \n\ud83d\udcc9 Today's headline mover is ASTS at -18.02% (Large cap).  \n\ud83d\udcca Breadth: 40 up vs 58 down on your watchlist.  \n\ud83d\udc9a Strength (oversold-in-uptrend): QCOM, CAT, GE, MU, ARM, EME, RIOT.  \n\u26a0 Pullback risk (overbought): AAPL, MSFT, AMZN, META, V, MA, CRM, ADBE, INTU, SPGI, SCHW, ADP, PLTR, LYFT, PINS, UPWK, AMPL.  \n\ud83d\udd0e Tip: open the Suggestions section for scored ideas. Signals are heuristics, not advice.",
   "quotes": [
     {
       "ticker": "AAPL",
-      "price": 328.12,
-      "change_pct": 4.21,
+      "price": 331.71,
+      "change_pct": 1.29,
       "cap_tier": "Mega",
-      "market_cap_str": "$4.82T"
+      "market_cap_str": "$4.87T"
     },
     {
       "ticker": "MSFT",
-      "price": 394.74,
-      "change_pct": 2.55,
+      "price": 403.56,
+      "change_pct": 2.0,
       "cap_tier": "Mega",
-      "market_cap_str": "$2.93T"
+      "market_cap_str": "$3.0T"
     },
     {
       "ticker": "NVDA",
-      "price": 207.17,
-      "change_pct": -2.19,
+      "price": 207.2,
+      "change_pct": -2.49,
       "cap_tier": "Mega",
       "market_cap_str": "$5.02T"
     },
     {
       "ticker": "AMZN",
-      "price": 255.49,
-      "change_pct": 3.23,
+      "price": 256.19,
+      "change_pct": 0.48,
       "cap_tier": "Mega",
-      "market_cap_str": "$2.75T"
+      "market_cap_str": "$2.76T"
     },
     {
       "ticker": "GOOGL",
-      "price": 371.56,
-      "change_pct": 3.35,
+      "price": 372.02,
+      "change_pct": 0.3,
+      "cap_tier": "Mega",
+      "market_cap_str": "$4.54T"
+    },
+    {
+      "ticker": "GOOG",
+      "price": 371.33,
+      "change_pct": 0.3,
       "cap_tier": "Mega",
       "market_cap_str": "$4.53T"
     },
     {
-      "ticker": "GOOG",
-      "price": 369.98,
-      "change_pct": 3.54,
-      "cap_tier": "Mega",
-      "market_cap_str": "$4.51T"
-    },
-    {
       "ticker": "META",
-      "price": 675.4,
-      "change_pct": 2.17,
+      "price": 669.99,
+      "change_pct": -1.66,
       "cap_tier": "Mega",
-      "market_cap_str": "$1.71T"
+      "market_cap_str": "$1.7T"
     },
     {
       "ticker": "TSLA",
-      "price": 392.8,
-      "change_pct": -0.85,
+      "price": 388.51,
+      "change_pct": -1.51,
       "cap_tier": "Mega",
-      "market_cap_str": "$1.48T"
+      "market_cap_str": "$1.46T"
     },
     {
       "ticker": "AVGO",
-      "price": 389.78,
-      "change_pct": 0.17,
+      "price": 378.78,
+      "change_pct": -3.93,
       "cap_tier": "Mega",
-      "market_cap_str": "$1.85T"
+      "market_cap_str": "$1.8T"
     },
     {
       "ticker": "LLY",
-      "price": 1144.93,
-      "change_pct": -0.66,
+      "price": 1170.01,
+      "change_pct": 1.16,
       "cap_tier": "Mega",
-      "market_cap_str": "$1.02T"
+      "market_cap_str": "$1.04T"
     },
     {
       "ticker": "JPM",
-      "price": 347.41,
-      "change_pct": 1.32,
+      "price": 345.26,
+      "change_pct": -0.48,
       "cap_tier": "Mega",
-      "market_cap_str": "$930.9B"
+      "market_cap_str": "$917.8B"
     },
     {
       "ticker": "V",
-      "price": 359.48,
-      "change_pct": 0.97,
+      "price": 361.85,
+      "change_pct": 1.89,
       "cap_tier": "Mega",
-      "market_cap_str": "$683.6B"
+      "market_cap_str": "$688.1B"
     },
     {
       "ticker": "MA",
-      "price": 539.77,
-      "change_pct": 0.33,
+      "price": 547.39,
+      "change_pct": 2.28,
       "cap_tier": "Mega",
-      "market_cap_str": "$476.9B"
+      "market_cap_str": "$483.7B"
     },
     {
       "ticker": "WMT",
-      "price": 114.35,
-      "change_pct": 0.57,
+      "price": 114.91,
+      "change_pct": 2.11,
       "cap_tier": "Mega",
-      "market_cap_str": "$910.0B"
+      "market_cap_str": "$914.5B"
     },
     {
       "ticker": "XOM",
-      "price": 143.41,
-      "change_pct": -1.16,
+      "price": 145.91,
+      "change_pct": 0.97,
       "cap_tier": "Mega",
-      "market_cap_str": "$594.4B"
+      "market_cap_str": "$604.8B"
     },
     {
       "ticker": "ORCL",
-      "price": 132.17,
-      "change_pct": 3.31,
+      "price": 126.59,
+      "change_pct": -4.45,
       "cap_tier": "Mega",
-      "market_cap_str": "$380.7B"
+      "market_cap_str": "$364.6B"
     },
     {
       "ticker": "NFLX",
-      "price": 74.12,
-      "change_pct": 0.8,
+      "price": 73.96,
+      "change_pct": 0.38,
       "cap_tier": "Mega",
-      "market_cap_str": "$312.1B"
+      "market_cap_str": "$311.4B"
     },
     {
       "ticker": "COST",
-      "price": 924.14,
-      "change_pct": 0.26,
+      "price": 938.06,
+      "change_pct": 2.35,
       "cap_tier": "Mega",
-      "market_cap_str": "$409.9B"
+      "market_cap_str": "$416.0B"
     },
     {
       "ticker": "JNJ",
-      "price": 251.29,
-      "change_pct": -1.01,
+      "price": 248.9,
+      "change_pct": 0.76,
       "cap_tier": "Mega",
-      "market_cap_str": "$604.9B"
+      "market_cap_str": "$599.2B"
     },
     {
       "ticker": "PG",
-      "price": 148.03,
-      "change_pct": 1.33,
+      "price": 150.6,
+      "change_pct": 1.72,
       "cap_tier": "Mega",
-      "market_cap_str": "$344.7B"
+      "market_cap_str": "$350.7B"
     },
     {
       "ticker": "HD",
-      "price": 342.58,
-      "change_pct": 1.43,
+      "price": 347.38,
+      "change_pct": 1.74,
       "cap_tier": "Mega",
-      "market_cap_str": "$341.6B"
+      "market_cap_str": "$346.4B"
     },
     {
       "ticker": "ABBV",
-      "price": 246.68,
-      "change_pct": 0.78,
+      "price": 251.48,
+      "change_pct": 3.02,
       "cap_tier": "Mega",
-      "market_cap_str": "$435.8B"
+      "market_cap_str": "$444.3B"
     },
     {
       "ticker": "BAC",
-      "price": 61.53,
-      "change_pct": 1.5,
+      "price": 61.65,
+      "change_pct": 0.1,
       "cap_tier": "Mega",
-      "market_cap_str": "$431.7B"
+      "market_cap_str": "$432.7B"
     },
     {
       "ticker": "KO",
-      "price": 83.1,
-      "change_pct": 0.02,
+      "price": 84.4,
+      "change_pct": 2.37,
       "cap_tier": "Mega",
-      "market_cap_str": "$357.5B"
+      "market_cap_str": "$363.1B"
     },
     {
       "ticker": "CRM",
-      "price": 167.77,
-      "change_pct": 0.13,
+      "price": 172.59,
+      "change_pct": 3.35,
       "cap_tier": "Large",
-      "market_cap_str": "$137.4B"
+      "market_cap_str": "$141.4B"
     },
     {
       "ticker": "ADBE",
-      "price": 225.32,
-      "change_pct": 2.06,
+      "price": 232.43,
+      "change_pct": 3.5,
       "cap_tier": "Large",
-      "market_cap_str": "$89.6B"
+      "market_cap_str": "$92.4B"
     },
     {
       "ticker": "AMD",
-      "price": 516.72,
-      "change_pct": -5.73,
+      "price": 500.25,
+      "change_pct": -5.46,
       "cap_tier": "Mega",
-      "market_cap_str": "$842.6B"
+      "market_cap_str": "$815.5B"
     },
     {
       "ticker": "QCOM",
-      "price": 175.91,
-      "change_pct": -1.23,
+      "price": 171.15,
+      "change_pct": -3.84,
       "cap_tier": "Large",
-      "market_cap_str": "$185.4B"
+      "market_cap_str": "$180.4B"
     },
     {
       "ticker": "TXN",
-      "price": 296.78,
-      "change_pct": -2.87,
+      "price": 290.12,
+      "change_pct": -3.68,
       "cap_tier": "Mega",
-      "market_cap_str": "$270.1B"
+      "market_cap_str": "$264.0B"
     },
     {
       "ticker": "AMGN",
-      "price": 358.75,
-      "change_pct": 0.99,
+      "price": 368.06,
+      "change_pct": 2.72,
       "cap_tier": "Large",
-      "market_cap_str": "$193.5B"
+      "market_cap_str": "$198.6B"
     },
     {
       "ticker": "INTU",
-      "price": 281.42,
-      "change_pct": -0.36,
+      "price": 295.05,
+      "change_pct": 5.49,
       "cap_tier": "Large",
-      "market_cap_str": "$77.0B"
+      "market_cap_str": "$80.7B"
     },
     {
       "ticker": "LOW",
-      "price": 210.47,
-      "change_pct": 1.34,
+      "price": 215.14,
+      "change_pct": 2.61,
       "cap_tier": "Large",
-      "market_cap_str": "$118.1B"
+      "market_cap_str": "$120.7B"
     },
     {
       "ticker": "SPGI",
-      "price": 446.2,
-      "change_pct": 1.67,
+      "price": 454.68,
+      "change_pct": 2.29,
       "cap_tier": "Large",
-      "market_cap_str": "$132.1B"
+      "market_cap_str": "$134.6B"
     },
     {
       "ticker": "CAT",
-      "price": 894.27,
-      "change_pct": -4.19,
+      "price": 879.16,
+      "change_pct": -3.84,
       "cap_tier": "Mega",
-      "market_cap_str": "$411.9B"
+      "market_cap_str": "$404.9B"
     },
     {
       "ticker": "GE",
-      "price": 355.12,
-      "change_pct": 0.39,
+      "price": 340.41,
+      "change_pct": -5.53,
       "cap_tier": "Mega",
-      "market_cap_str": "$371.0B"
+      "market_cap_str": "$355.7B"
     },
     {
       "ticker": "BKNG",
-      "price": 181.12,
-      "change_pct": 3.59,
+      "price": 181.34,
+      "change_pct": -0.8,
       "cap_tier": "Large",
-      "market_cap_str": "$140.3B"
+      "market_cap_str": "$140.5B"
     },
     {
       "ticker": "TMO",
-      "price": 534.63,
-      "change_pct": 0.1,
-      "cap_tier": "Large",
-      "market_cap_str": "$198.7B"
+      "price": 538.58,
+      "change_pct": 0.61,
+      "cap_tier": "Mega",
+      "market_cap_str": "$200.1B"
     },
     {
       "ticker": "SCHW",
-      "price": 103.14,
-      "change_pct": 2.02,
+      "price": 102.85,
+      "change_pct": 0.06,
       "cap_tier": "Large",
-      "market_cap_str": "$179.4B"
+      "market_cap_str": "$178.9B"
     },
     {
       "ticker": "PGR",
-      "price": 208.28,
-      "change_pct": -8.08,
+      "price": 204.54,
+      "change_pct": -0.33,
       "cap_tier": "Large",
-      "market_cap_str": "$121.3B"
+      "market_cap_str": "$119.1B"
     },
     {
       "ticker": "GILD",
-      "price": 132.55,
-      "change_pct": 1.93,
+      "price": 133.99,
+      "change_pct": 1.74,
       "cap_tier": "Large",
-      "market_cap_str": "$164.6B"
+      "market_cap_str": "$166.4B"
     },
     {
       "ticker": "VRTX",
-      "price": 479.31,
-      "change_pct": 0.63,
+      "price": 481.71,
+      "change_pct": 0.97,
       "cap_tier": "Large",
-      "market_cap_str": "$121.7B"
+      "market_cap_str": "$122.3B"
     },
     {
       "ticker": "HON",
-      "price": 222.35,
-      "change_pct": -0.15,
+      "price": 223.39,
+      "change_pct": 0.25,
       "cap_tier": "Large",
-      "market_cap_str": "$70.4B"
+      "market_cap_str": "$70.8B"
     },
     {
       "ticker": "DE",
-      "price": 584.31,
-      "change_pct": -0.02,
+      "price": 595.02,
+      "change_pct": 0.94,
       "cap_tier": "Large",
-      "market_cap_str": "$157.8B"
+      "market_cap_str": "$160.7B"
     },
     {
       "ticker": "SYK",
-      "price": 316.27,
-      "change_pct": 1.67,
+      "price": 329.73,
+      "change_pct": 4.2,
       "cap_tier": "Large",
-      "market_cap_str": "$121.2B"
+      "market_cap_str": "$126.4B"
     },
     {
       "ticker": "PANW",
-      "price": 354.71,
-      "change_pct": 0.52,
+      "price": 350.27,
+      "change_pct": -1.06,
       "cap_tier": "Mega",
-      "market_cap_str": "$289.1B"
+      "market_cap_str": "$285.5B"
     },
     {
       "ticker": "ANET",
-      "price": 168.64,
-      "change_pct": -7.63,
+      "price": 166.53,
+      "change_pct": -3.14,
       "cap_tier": "Mega",
-      "market_cap_str": "$212.3B"
+      "market_cap_str": "$209.7B"
     },
     {
       "ticker": "LRCX",
-      "price": 322.7,
-      "change_pct": -6.76,
+      "price": 320.12,
+      "change_pct": -4.56,
       "cap_tier": "Mega",
-      "market_cap_str": "$403.6B"
+      "market_cap_str": "$400.3B"
     },
     {
       "ticker": "MU",
-      "price": 888.11,
-      "change_pct": -9.66,
+      "price": 846.13,
+      "change_pct": -6.43,
       "cap_tier": "Mega",
-      "market_cap_str": "$1.0T"
+      "market_cap_str": "$955.6B"
     },
     {
       "ticker": "ADP",
-      "price": 249.15,
-      "change_pct": 1.1,
+      "price": 256.09,
+      "change_pct": 3.48,
       "cap_tier": "Large",
-      "market_cap_str": "$99.6B"
+      "market_cap_str": "$102.4B"
     },
     {
       "ticker": "DKNG",
-      "price": 25.81,
-      "change_pct": 2.38,
+      "price": 25.02,
+      "change_pct": -0.91,
       "cap_tier": "Large",
-      "market_cap_str": "$12.8B"
+      "market_cap_str": "$12.4B"
     },
     {
       "ticker": "RDDT",
-      "price": 199.53,
-      "change_pct": -1.84,
+      "price": 190.13,
+      "change_pct": -3.99,
       "cap_tier": "Large",
-      "market_cap_str": "$38.4B"
+      "market_cap_str": "$36.6B"
     },
     {
       "ticker": "CELH",
-      "price": 30.46,
-      "change_pct": 1.06,
+      "price": 29.75,
+      "change_pct": -1.52,
+      "cap_tier": "Mid",
+      "market_cap_str": "$7.6B"
+    },
+    {
+      "ticker": "ARM",
+      "price": 253.56,
+      "change_pct": -8.47,
+      "cap_tier": "Mega",
+      "market_cap_str": "$270.8B"
+    },
+    {
+      "ticker": "APP",
+      "price": 440.48,
+      "change_pct": -2.71,
+      "cap_tier": "Large",
+      "market_cap_str": "$148.0B"
+    },
+    {
+      "ticker": "SOFI",
+      "price": 17.49,
+      "change_pct": -2.13,
+      "cap_tier": "Large",
+      "market_cap_str": "$22.4B"
+    },
+    {
+      "ticker": "HOOD",
+      "price": 108.53,
+      "change_pct": -6.07,
+      "cap_tier": "Large",
+      "market_cap_str": "$97.7B"
+    },
+    {
+      "ticker": "CAVA",
+      "price": 67.05,
+      "change_pct": -3.73,
       "cap_tier": "Mid",
       "market_cap_str": "$7.8B"
     },
     {
-      "ticker": "ARM",
-      "price": 268.4,
-      "change_pct": -4.54,
-      "cap_tier": "Mega",
-      "market_cap_str": "$286.7B"
-    },
-    {
-      "ticker": "APP",
-      "price": 451.88,
-      "change_pct": 0.65,
-      "cap_tier": "Large",
-      "market_cap_str": "$151.8B"
-    },
-    {
-      "ticker": "SOFI",
-      "price": 17.96,
-      "change_pct": -3.18,
-      "cap_tier": "Large",
-      "market_cap_str": "$23.0B"
-    },
-    {
-      "ticker": "HOOD",
-      "price": 114.46,
-      "change_pct": 0.89,
-      "cap_tier": "Large",
-      "market_cap_str": "$103.0B"
-    },
-    {
-      "ticker": "CAVA",
-      "price": 74.06,
-      "change_pct": 5.85,
-      "cap_tier": "Mid",
-      "market_cap_str": "$8.6B"
-    },
-    {
       "ticker": "RKLB",
-      "price": 75.58,
-      "change_pct": -4.1,
+      "price": 66.56,
+      "change_pct": -12.65,
       "cap_tier": "Large",
-      "market_cap_str": "$47.2B"
+      "market_cap_str": "$41.6B"
     },
     {
       "ticker": "PLTR",
-      "price": 133.72,
-      "change_pct": -0.0,
+      "price": 133.73,
+      "change_pct": -0.02,
       "cap_tier": "Mega",
       "market_cap_str": "$320.6B"
     },
     {
       "ticker": "UBER",
-      "price": 73.37,
-      "change_pct": 1.79,
+      "price": 73.59,
+      "change_pct": 1.27,
       "cap_tier": "Large",
-      "market_cap_str": "$149.4B"
+      "market_cap_str": "$149.8B"
     },
     {
       "ticker": "LYFT",
-      "price": 16.35,
-      "change_pct": 4.74,
+      "price": 16.09,
+      "change_pct": -0.86,
       "cap_tier": "Mid",
-      "market_cap_str": "$6.2B"
+      "market_cap_str": "$6.1B"
     },
     {
       "ticker": "FSLR",
-      "price": 220.73,
-      "change_pct": 0.07,
+      "price": 212.9,
+      "change_pct": -4.88,
       "cap_tier": "Large",
-      "market_cap_str": "$23.7B"
+      "market_cap_str": "$22.9B"
     },
     {
       "ticker": "WING",
-      "price": 148.83,
-      "change_pct": 0.28,
+      "price": 142.95,
+      "change_pct": -1.89,
       "cap_tier": "Mid",
-      "market_cap_str": "$4.1B"
+      "market_cap_str": "$3.9B"
     },
     {
       "ticker": "EME",
-      "price": 753.77,
-      "change_pct": -2.71,
+      "price": 750.38,
+      "change_pct": -2.51,
       "cap_tier": "Large",
-      "market_cap_str": "$33.6B"
+      "market_cap_str": "$33.4B"
     },
     {
       "ticker": "DUOL",
-      "price": 132.3,
-      "change_pct": 3.08,
+      "price": 129.14,
+      "change_pct": -1.59,
       "cap_tier": "Mid",
-      "market_cap_str": "$6.2B"
+      "market_cap_str": "$6.0B"
     },
     {
       "ticker": "PINS",
-      "price": 23.28,
-      "change_pct": 2.96,
+      "price": 23.67,
+      "change_pct": -0.04,
       "cap_tier": "Large",
-      "market_cap_str": "$13.0B"
+      "market_cap_str": "$13.3B"
     },
     {
       "ticker": "BROS",
-      "price": 65.79,
-      "change_pct": 2.72,
+      "price": 64.46,
+      "change_pct": 0.94,
+      "cap_tier": "Large",
+      "market_cap_str": "$11.3B"
+    },
+    {
+      "ticker": "ELF",
+      "price": 74.95,
+      "change_pct": 0.98,
+      "cap_tier": "Mid",
+      "market_cap_str": "$4.4B"
+    },
+    {
+      "ticker": "FTAI",
+      "price": 200.61,
+      "change_pct": -6.17,
+      "cap_tier": "Large",
+      "market_cap_str": "$20.6B"
+    },
+    {
+      "ticker": "ONON",
+      "price": 38.35,
+      "change_pct": 2.38,
+      "cap_tier": "Large",
+      "market_cap_str": "$12.8B"
+    },
+    {
+      "ticker": "HIMS",
+      "price": 34.66,
+      "change_pct": -6.75,
+      "cap_tier": "Mid",
+      "market_cap_str": "$8.0B"
+    },
+    {
+      "ticker": "CRDO",
+      "price": 203.98,
+      "change_pct": -10.04,
+      "cap_tier": "Large",
+      "market_cap_str": "$38.0B"
+    },
+    {
+      "ticker": "ASTS",
+      "price": 54.36,
+      "change_pct": -18.02,
+      "cap_tier": "Large",
+      "market_cap_str": "$21.1B"
+    },
+    {
+      "ticker": "NXT",
+      "price": 106.79,
+      "change_pct": -2.14,
+      "cap_tier": "Large",
+      "market_cap_str": "$16.4B"
+    },
+    {
+      "ticker": "IONQ",
+      "price": 35.4,
+      "change_pct": -5.63,
+      "cap_tier": "Large",
+      "market_cap_str": "$13.2B"
+    },
+    {
+      "ticker": "RGTI",
+      "price": 14.27,
+      "change_pct": -6.43,
+      "cap_tier": "Mid",
+      "market_cap_str": "$4.7B"
+    },
+    {
+      "ticker": "QBTS",
+      "price": 17.18,
+      "change_pct": -5.97,
+      "cap_tier": "Mid",
+      "market_cap_str": "$6.4B"
+    },
+    {
+      "ticker": "SOUN",
+      "price": 6.28,
+      "change_pct": -3.38,
+      "cap_tier": "Mid",
+      "market_cap_str": "$2.7B"
+    },
+    {
+      "ticker": "ACHR",
+      "price": 4.53,
+      "change_pct": -5.23,
+      "cap_tier": "Mid",
+      "market_cap_str": "$3.5B"
+    },
+    {
+      "ticker": "JOBY",
+      "price": 7.41,
+      "change_pct": -4.51,
+      "cap_tier": "Mid",
+      "market_cap_str": "$7.3B"
+    },
+    {
+      "ticker": "LUNR",
+      "price": 13.58,
+      "change_pct": -8.55,
+      "cap_tier": "Mid",
+      "market_cap_str": "$2.2B"
+    },
+    {
+      "ticker": "RDW",
+      "price": 8.57,
+      "change_pct": -8.44,
+      "cap_tier": "Mid",
+      "market_cap_str": "$2.0B"
+    },
+    {
+      "ticker": "BKSY",
+      "price": 21.42,
+      "change_pct": -11.85,
+      "cap_tier": "Small",
+      "market_cap_str": "$795M"
+    },
+    {
+      "ticker": "AUR",
+      "price": 5.88,
+      "change_pct": -2.33,
       "cap_tier": "Large",
       "market_cap_str": "$11.5B"
     },
     {
-      "ticker": "ELF",
-      "price": 73.61,
-      "change_pct": 1.88,
-      "cap_tier": "Mid",
-      "market_cap_str": "$4.3B"
-    },
-    {
-      "ticker": "FTAI",
-      "price": 206.45,
-      "change_pct": 0.11,
-      "cap_tier": "Large",
-      "market_cap_str": "$21.2B"
-    },
-    {
-      "ticker": "ONON",
-      "price": 37.91,
-      "change_pct": 0.45,
-      "cap_tier": "Large",
-      "market_cap_str": "$12.6B"
-    },
-    {
-      "ticker": "HIMS",
-      "price": 36.53,
-      "change_pct": 3.93,
-      "cap_tier": "Mid",
-      "market_cap_str": "$8.5B"
-    },
-    {
-      "ticker": "CRDO",
-      "price": 221.37,
-      "change_pct": -6.27,
-      "cap_tier": "Large",
-      "market_cap_str": "$41.3B"
-    },
-    {
-      "ticker": "ASTS",
-      "price": 65.82,
-      "change_pct": -4.36,
-      "cap_tier": "Large",
-      "market_cap_str": "$25.5B"
-    },
-    {
-      "ticker": "NXT",
-      "price": 108.17,
-      "change_pct": 3.35,
-      "cap_tier": "Large",
-      "market_cap_str": "$16.6B"
-    },
-    {
-      "ticker": "IONQ",
-      "price": 37.26,
-      "change_pct": -5.17,
-      "cap_tier": "Large",
-      "market_cap_str": "$13.9B"
-    },
-    {
-      "ticker": "RGTI",
-      "price": 15.09,
-      "change_pct": -6.33,
-      "cap_tier": "Mid",
-      "market_cap_str": "$5.0B"
-    },
-    {
-      "ticker": "QBTS",
-      "price": 18.11,
-      "change_pct": -4.43,
-      "cap_tier": "Mid",
-      "market_cap_str": "$6.7B"
-    },
-    {
-      "ticker": "SOUN",
-      "price": 6.46,
-      "change_pct": -3.44,
-      "cap_tier": "Mid",
-      "market_cap_str": "$2.8B"
-    },
-    {
-      "ticker": "ACHR",
-      "price": 4.74,
-      "change_pct": -2.27,
-      "cap_tier": "Mid",
-      "market_cap_str": "$3.6B"
-    },
-    {
-      "ticker": "JOBY",
-      "price": 7.7,
-      "change_pct": -2.41,
-      "cap_tier": "Mid",
-      "market_cap_str": "$7.6B"
-    },
-    {
-      "ticker": "LUNR",
-      "price": 14.92,
-      "change_pct": 0.07,
-      "cap_tier": "Mid",
-      "market_cap_str": "$2.4B"
-    },
-    {
-      "ticker": "RDW",
-      "price": 9.44,
-      "change_pct": -3.08,
-      "cap_tier": "Mid",
-      "market_cap_str": "$2.3B"
-    },
-    {
-      "ticker": "BKSY",
-      "price": 24.65,
-      "change_pct": -3.97,
-      "cap_tier": "Small",
-      "market_cap_str": "$915M"
-    },
-    {
-      "ticker": "AUR",
-      "price": 5.95,
-      "change_pct": -2.94,
-      "cap_tier": "Large",
-      "market_cap_str": "$11.7B"
-    },
-    {
       "ticker": "LAZR",
-      "price": 40.85,
-      "change_pct": -4.69,
+      "price": 38.53,
+      "change_pct": -6.82,
       "cap_tier": "Unknown",
       "market_cap_str": null
     },
     {
       "ticker": "AEHR",
-      "price": 88.09,
-      "change_pct": 22.33,
+      "price": 83.11,
+      "change_pct": -5.33,
+      "cap_tier": "Mid",
+      "market_cap_str": "$2.7B"
+    },
+    {
+      "ticker": "BTDR",
+      "price": 11.56,
+      "change_pct": -8.04,
       "cap_tier": "Mid",
       "market_cap_str": "$2.8B"
     },
     {
-      "ticker": "BTDR",
-      "price": 12.54,
-      "change_pct": 1.46,
-      "cap_tier": "Mid",
-      "market_cap_str": "$3.1B"
-    },
-    {
       "ticker": "CLSK",
-      "price": 13.6,
-      "change_pct": 1.12,
+      "price": 13.15,
+      "change_pct": -6.94,
       "cap_tier": "Mid",
-      "market_cap_str": "$3.5B"
+      "market_cap_str": "$3.4B"
     },
     {
       "ticker": "RIOT",
-      "price": 19.76,
-      "change_pct": -2.13,
+      "price": 18.51,
+      "change_pct": -7.91,
       "cap_tier": "Mid",
-      "market_cap_str": "$7.5B"
+      "market_cap_str": "$7.0B"
     },
     {
       "ticker": "MARA",
-      "price": 11.81,
-      "change_pct": -2.88,
+      "price": 11.48,
+      "change_pct": -6.59,
       "cap_tier": "Mid",
-      "market_cap_str": "$4.5B"
+      "market_cap_str": "$4.4B"
     },
     {
       "ticker": "UPWK",
-      "price": 9.26,
-      "change_pct": 2.55,
+      "price": 9.54,
+      "change_pct": 3.25,
       "cap_tier": "Small",
-      "market_cap_str": "$1.1B"
+      "market_cap_str": "$1.2B"
     },
     {
       "ticker": "FVRR",
-      "price": 11.31,
-      "change_pct": 2.17,
+      "price": 11.82,
+      "change_pct": 5.07,
       "cap_tier": "Small",
-      "market_cap_str": "$407M"
+      "market_cap_str": "$425M"
     },
     {
       "ticker": "COUR",
-      "price": 5.63,
-      "change_pct": -1.4,
+      "price": 5.64,
+      "change_pct": 1.44,
       "cap_tier": "Small",
       "market_cap_str": "$1.6B"
     },
     {
       "ticker": "DNA",
-      "price": 8.94,
-      "change_pct": -1.11,
+      "price": 8.39,
+      "change_pct": -6.78,
       "cap_tier": "Small",
-      "market_cap_str": "$584M"
+      "market_cap_str": "$548M"
     },
     {
       "ticker": "OUST",
-      "price": 38.12,
-      "change_pct": -9.17,
+      "price": 35.74,
+      "change_pct": -5.82,
       "cap_tier": "Mid",
-      "market_cap_str": "$2.6B"
+      "market_cap_str": "$2.4B"
     },
     {
       "ticker": "BLZE",
-      "price": 15.13,
-      "change_pct": -8.58,
+      "price": 14.49,
+      "change_pct": -3.27,
       "cap_tier": "Small",
-      "market_cap_str": "$908M"
+      "market_cap_str": "$870M"
     },
     {
       "ticker": "AMPL",
-      "price": 9.57,
-      "change_pct": -1.24,
+      "price": 9.72,
+      "change_pct": 0.83,
       "cap_tier": "Small",
       "market_cap_str": "$1.3B"
     },
     {
       "ticker": "CRNC",
-      "price": 10.11,
-      "change_pct": -1.27,
+      "price": 9.39,
+      "change_pct": -8.21,
       "cap_tier": "Small",
-      "market_cap_str": "$458M"
+      "market_cap_str": "$424M"
     }
   ],
   "screen": [
     {
       "ticker": "AAPL",
-      "rsi": 70.4,
-      "vs_200ma": 20.2,
+      "rsi": 89.6,
+      "vs_200ma": 21.3,
       "pos_52w_pct": 100,
       "signal": "dip-risk",
       "cap_tier": "Mega",
-      "market_cap_str": "$4.82T"
+      "market_cap_str": "$4.87T"
     },
     {
       "ticker": "MSFT",
-      "rsi": 65.6,
-      "vs_200ma": -10.1,
-      "pos_52w_pct": 23,
-      "signal": "watch",
+      "rsi": 78.1,
+      "vs_200ma": -8.0,
+      "pos_52w_pct": 27,
+      "signal": "dip-risk",
       "cap_tier": "Mega",
-      "market_cap_str": "$2.93T"
+      "market_cap_str": "$3.0T"
     },
     {
       "ticker": "NVDA",
-      "rsi": 57.0,
+      "rsi": 60.1,
       "vs_200ma": 7.9,
       "pos_52w_pct": 60,
       "signal": "watch",
@@ -719,503 +719,503 @@
     },
     {
       "ticker": "AMZN",
-      "rsi": 72.4,
-      "vs_200ma": 9.3,
-      "pos_52w_pct": 74,
+      "rsi": 85.7,
+      "vs_200ma": 9.5,
+      "pos_52w_pct": 75,
       "signal": "dip-risk",
       "cap_tier": "Mega",
-      "market_cap_str": "$2.75T"
+      "market_cap_str": "$2.76T"
     },
     {
       "ticker": "GOOGL",
-      "rsi": 67.8,
-      "vs_200ma": 16.0,
+      "rsi": 69.5,
+      "vs_200ma": 15.9,
       "pos_52w_pct": 86,
+      "signal": "watch",
+      "cap_tier": "Mega",
+      "market_cap_str": "$4.54T"
+    },
+    {
+      "ticker": "GOOG",
+      "rsi": 69.2,
+      "vs_200ma": 16.0,
+      "pos_52w_pct": 87,
       "signal": "watch",
       "cap_tier": "Mega",
       "market_cap_str": "$4.53T"
     },
     {
-      "ticker": "GOOG",
-      "rsi": 66.1,
-      "vs_200ma": 15.8,
-      "pos_52w_pct": 87,
-      "signal": "watch",
-      "cap_tier": "Mega",
-      "market_cap_str": "$4.51T"
-    },
-    {
       "ticker": "META",
-      "rsi": 72.9,
-      "vs_200ma": 5.5,
-      "pos_52w_pct": 57,
+      "rsi": 74.5,
+      "vs_200ma": 4.7,
+      "pos_52w_pct": 55,
       "signal": "dip-risk",
       "cap_tier": "Mega",
-      "market_cap_str": "$1.71T"
+      "market_cap_str": "$1.7T"
     },
     {
       "ticker": "TSLA",
-      "rsi": 55.2,
-      "vs_200ma": -5.9,
-      "pos_52w_pct": 48,
+      "rsi": 53.9,
+      "vs_200ma": -6.9,
+      "pos_52w_pct": 46,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$1.48T"
+      "market_cap_str": "$1.46T"
     },
     {
       "ticker": "AVGO",
-      "rsi": 53.3,
-      "vs_200ma": 7.7,
-      "pos_52w_pct": 55,
-      "signal": "watch",
-      "cap_tier": "Mega",
-      "market_cap_str": "$1.85T"
-    },
-    {
-      "ticker": "LLY",
-      "rsi": 54.4,
-      "vs_200ma": 14.4,
-      "pos_52w_pct": 85,
-      "signal": "watch",
-      "cap_tier": "Mega",
-      "market_cap_str": "$1.02T"
-    },
-    {
-      "ticker": "JPM",
-      "rsi": 64.7,
-      "vs_200ma": 13.3,
-      "pos_52w_pct": 100,
-      "signal": "watch",
-      "cap_tier": "Mega",
-      "market_cap_str": "$930.9B"
-    },
-    {
-      "ticker": "V",
-      "rsi": 71.5,
-      "vs_200ma": 9.4,
-      "pos_52w_pct": 96,
-      "signal": "dip-risk",
-      "cap_tier": "Mega",
-      "market_cap_str": "$683.6B"
-    },
-    {
-      "ticker": "MA",
-      "rsi": 74.0,
-      "vs_200ma": 2.4,
-      "pos_52w_pct": 55,
-      "signal": "dip-risk",
-      "cap_tier": "Mega",
-      "market_cap_str": "$476.9B"
-    },
-    {
-      "ticker": "WMT",
-      "rsi": 39.4,
-      "vs_200ma": -2.3,
+      "rsi": 50.0,
+      "vs_200ma": 4.6,
       "pos_52w_pct": 50,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$910.0B"
+      "market_cap_str": "$1.8T"
+    },
+    {
+      "ticker": "LLY",
+      "rsi": 56.7,
+      "vs_200ma": 16.7,
+      "pos_52w_pct": 89,
+      "signal": "watch",
+      "cap_tier": "Mega",
+      "market_cap_str": "$1.04T"
+    },
+    {
+      "ticker": "JPM",
+      "rsi": 61.2,
+      "vs_200ma": 12.5,
+      "pos_52w_pct": 98,
+      "signal": "watch",
+      "cap_tier": "Mega",
+      "market_cap_str": "$917.8B"
+    },
+    {
+      "ticker": "V",
+      "rsi": 73.8,
+      "vs_200ma": 10.1,
+      "pos_52w_pct": 100,
+      "signal": "dip-risk",
+      "cap_tier": "Mega",
+      "market_cap_str": "$688.1B"
+    },
+    {
+      "ticker": "MA",
+      "rsi": 78.5,
+      "vs_200ma": 3.8,
+      "pos_52w_pct": 62,
+      "signal": "dip-risk",
+      "cap_tier": "Mega",
+      "market_cap_str": "$483.7B"
+    },
+    {
+      "ticker": "WMT",
+      "rsi": 48.0,
+      "vs_200ma": -1.9,
+      "pos_52w_pct": 52,
+      "signal": "watch",
+      "cap_tier": "Mega",
+      "market_cap_str": "$914.5B"
     },
     {
       "ticker": "XOM",
-      "rsi": 63.9,
-      "vs_200ma": 5.9,
-      "pos_52w_pct": 60,
+      "rsi": 68.1,
+      "vs_200ma": 7.6,
+      "pos_52w_pct": 64,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$594.4B"
+      "market_cap_str": "$604.8B"
     },
     {
       "ticker": "ORCL",
-      "rsi": 24.0,
-      "vs_200ma": -31.1,
-      "pos_52w_pct": 2,
+      "rsi": 24.1,
+      "vs_200ma": -33.7,
+      "pos_52w_pct": 0,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$380.7B"
+      "market_cap_str": "$364.6B"
     },
     {
       "ticker": "NFLX",
-      "rsi": 56.2,
+      "rsi": 58.8,
       "vs_200ma": -21.3,
-      "pos_52w_pct": 6,
+      "pos_52w_pct": 5,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$312.1B"
+      "market_cap_str": "$311.4B"
     },
     {
       "ticker": "COST",
-      "rsi": 38.0,
-      "vs_200ma": -3.2,
-      "pos_52w_pct": 31,
+      "rsi": 48.7,
+      "vs_200ma": -1.8,
+      "pos_52w_pct": 37,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$409.9B"
+      "market_cap_str": "$416.0B"
     },
     {
       "ticker": "JNJ",
-      "rsi": 58.5,
-      "vs_200ma": 14.0,
-      "pos_52w_pct": 86,
+      "rsi": 53.2,
+      "vs_200ma": 12.8,
+      "pos_52w_pct": 83,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$604.9B"
+      "market_cap_str": "$599.2B"
     },
     {
       "ticker": "PG",
-      "rsi": 42.9,
-      "vs_200ma": 0.7,
-      "pos_52w_pct": 40,
+      "rsi": 53.8,
+      "vs_200ma": 2.5,
+      "pos_52w_pct": 49,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$344.7B"
+      "market_cap_str": "$350.7B"
     },
     {
       "ticker": "HD",
-      "rsi": 49.8,
-      "vs_200ma": -1.6,
-      "pos_52w_pct": 40,
+      "rsi": 51.9,
+      "vs_200ma": -0.2,
+      "pos_52w_pct": 44,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$341.6B"
+      "market_cap_str": "$346.4B"
     },
     {
       "ticker": "ABBV",
-      "rsi": 61.6,
-      "vs_200ma": 11.6,
-      "pos_52w_pct": 82,
+      "rsi": 60.3,
+      "vs_200ma": 14.4,
+      "pos_52w_pct": 90,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$435.8B"
+      "market_cap_str": "$444.3B"
     },
     {
       "ticker": "BAC",
-      "rsi": 69.5,
-      "vs_200ma": 17.3,
+      "rsi": 68.4,
+      "vs_200ma": 17.4,
       "pos_52w_pct": 100,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$431.7B"
+      "market_cap_str": "$432.7B"
     },
     {
       "ticker": "KO",
-      "rsi": 59.5,
-      "vs_200ma": 12.0,
-      "pos_52w_pct": 94,
+      "rsi": 62.8,
+      "vs_200ma": 13.6,
+      "pos_52w_pct": 100,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$357.5B"
+      "market_cap_str": "$363.1B"
     },
     {
       "ticker": "CRM",
-      "rsi": 66.4,
-      "vs_200ma": -19.4,
-      "pos_52w_pct": 15,
-      "signal": "watch",
+      "rsi": 72.8,
+      "vs_200ma": -17.0,
+      "pos_52w_pct": 19,
+      "signal": "dip-risk",
       "cap_tier": "Large",
-      "market_cap_str": "$137.4B"
+      "market_cap_str": "$141.4B"
     },
     {
       "ticker": "ADBE",
-      "rsi": 73.2,
-      "vs_200ma": -20.4,
-      "pos_52w_pct": 18,
+      "rsi": 79.6,
+      "vs_200ma": -17.7,
+      "pos_52w_pct": 22,
       "signal": "dip-risk",
       "cap_tier": "Large",
-      "market_cap_str": "$89.6B"
+      "market_cap_str": "$92.4B"
     },
     {
       "ticker": "AMD",
-      "rsi": 49.5,
-      "vs_200ma": 76.2,
-      "pos_52w_pct": 85,
-      "signal": "watch",
-      "cap_tier": "Mega",
-      "market_cap_str": "$842.6B"
-    },
-    {
-      "ticker": "QCOM",
-      "rsi": 35.3,
-      "vs_200ma": 4.9,
-      "pos_52w_pct": 41,
-      "signal": "watch",
-      "cap_tier": "Large",
-      "market_cap_str": "$185.4B"
-    },
-    {
-      "ticker": "TXN",
-      "rsi": 47.4,
-      "vs_200ma": 35.6,
-      "pos_52w_pct": 80,
-      "signal": "watch",
-      "cap_tier": "Mega",
-      "market_cap_str": "$270.1B"
-    },
-    {
-      "ticker": "AMGN",
-      "rsi": 57.3,
-      "vs_200ma": 7.0,
-      "pos_52w_pct": 78,
-      "signal": "watch",
-      "cap_tier": "Large",
-      "market_cap_str": "$193.5B"
-    },
-    {
-      "ticker": "INTU",
-      "rsi": 61.4,
-      "vs_200ma": -42.0,
-      "pos_52w_pct": 5,
-      "signal": "watch",
-      "cap_tier": "Large",
-      "market_cap_str": "$77.0B"
-    },
-    {
-      "ticker": "LOW",
-      "rsi": 34.1,
-      "vs_200ma": -12.3,
-      "pos_52w_pct": 5,
-      "signal": "watch",
-      "cap_tier": "Large",
-      "market_cap_str": "$118.1B"
-    },
-    {
-      "ticker": "SPGI",
-      "rsi": 77.4,
-      "vs_200ma": 2.6,
-      "pos_52w_pct": 48,
-      "signal": "dip-risk",
-      "cap_tier": "Large",
-      "market_cap_str": "$132.1B"
-    },
-    {
-      "ticker": "CAT",
-      "rsi": 38.1,
-      "vs_200ma": 25.2,
-      "pos_52w_pct": 74,
-      "signal": "watch",
-      "cap_tier": "Mega",
-      "market_cap_str": "$411.9B"
-    },
-    {
-      "ticker": "GE",
-      "rsi": 40.0,
-      "vs_200ma": 14.1,
+      "rsi": 45.1,
+      "vs_200ma": 69.6,
       "pos_52w_pct": 81,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$371.0B"
+      "market_cap_str": "$815.5B"
     },
     {
-      "ticker": "BKNG",
-      "rsi": 49.9,
-      "vs_200ma": -2.8,
-      "pos_52w_pct": 36,
-      "signal": "watch",
-      "cap_tier": "Large",
-      "market_cap_str": "$140.3B"
-    },
-    {
-      "ticker": "TMO",
-      "rsi": 73.0,
-      "vs_200ma": 1.3,
-      "pos_52w_pct": 56,
-      "signal": "dip-risk",
-      "cap_tier": "Large",
-      "market_cap_str": "$198.7B"
-    },
-    {
-      "ticker": "SCHW",
-      "rsi": 78.8,
-      "vs_200ma": 9.1,
-      "pos_52w_pct": 84,
-      "signal": "dip-risk",
-      "cap_tier": "Large",
-      "market_cap_str": "$179.4B"
-    },
-    {
-      "ticker": "PGR",
-      "rsi": 41.7,
-      "vs_200ma": 0.1,
+      "ticker": "QCOM",
+      "rsi": 26.1,
+      "vs_200ma": 2.0,
       "pos_52w_pct": 38,
-      "signal": "watch",
+      "signal": "keeper",
       "cap_tier": "Large",
-      "market_cap_str": "$121.3B"
+      "market_cap_str": "$180.4B"
     },
     {
-      "ticker": "GILD",
-      "rsi": 61.2,
-      "vs_200ma": 2.5,
-      "pos_52w_pct": 56,
-      "signal": "watch",
-      "cap_tier": "Large",
-      "market_cap_str": "$164.6B"
-    },
-    {
-      "ticker": "VRTX",
-      "rsi": 51.8,
-      "vs_200ma": 6.9,
-      "pos_52w_pct": 69,
-      "signal": "watch",
-      "cap_tier": "Large",
-      "market_cap_str": "$121.7B"
-    },
-    {
-      "ticker": "HON",
-      "rsi": 36.1,
-      "vs_200ma": -0.6,
-      "pos_52w_pct": 43,
-      "signal": "watch",
-      "cap_tier": "Large",
-      "market_cap_str": "$70.4B"
-    },
-    {
-      "ticker": "DE",
-      "rsi": 45.0,
-      "vs_200ma": 9.0,
-      "pos_52w_pct": 67,
-      "signal": "watch",
-      "cap_tier": "Large",
-      "market_cap_str": "$157.8B"
-    },
-    {
-      "ticker": "SYK",
-      "rsi": 51.9,
-      "vs_200ma": -8.0,
-      "pos_52w_pct": 29,
-      "signal": "watch",
-      "cap_tier": "Large",
-      "market_cap_str": "$121.2B"
-    },
-    {
-      "ticker": "PANW",
-      "rsi": 69.7,
-      "vs_200ma": 71.4,
-      "pos_52w_pct": 99,
-      "signal": "watch",
-      "cap_tier": "Mega",
-      "market_cap_str": "$289.1B"
-    },
-    {
-      "ticker": "ANET",
-      "rsi": 53.6,
-      "vs_200ma": 16.7,
+      "ticker": "TXN",
+      "rsi": 40.9,
+      "vs_200ma": 32.2,
       "pos_52w_pct": 77,
       "signal": "watch",
       "cap_tier": "Mega",
-      "market_cap_str": "$212.3B"
+      "market_cap_str": "$264.0B"
     },
     {
-      "ticker": "LRCX",
+      "ticker": "AMGN",
+      "rsi": 63.2,
+      "vs_200ma": 9.6,
+      "pos_52w_pct": 86,
+      "signal": "watch",
+      "cap_tier": "Large",
+      "market_cap_str": "$198.6B"
+    },
+    {
+      "ticker": "INTU",
+      "rsi": 70.7,
+      "vs_200ma": -39.0,
+      "pos_52w_pct": 8,
+      "signal": "dip-risk",
+      "cap_tier": "Large",
+      "market_cap_str": "$80.7B"
+    },
+    {
+      "ticker": "LOW",
       "rsi": 41.3,
-      "vs_200ma": 39.7,
-      "pos_52w_pct": 67,
+      "vs_200ma": -10.3,
+      "pos_52w_pct": 11,
       "signal": "watch",
-      "cap_tier": "Mega",
-      "market_cap_str": "$403.6B"
+      "cap_tier": "Large",
+      "market_cap_str": "$120.7B"
     },
     {
-      "ticker": "MU",
-      "rsi": 39.3,
-      "vs_200ma": 86.6,
-      "pos_52w_pct": 71,
-      "signal": "watch",
-      "cap_tier": "Mega",
-      "market_cap_str": "$1.0T"
-    },
-    {
-      "ticker": "ADP",
-      "rsi": 73.7,
-      "vs_200ma": 6.2,
+      "ticker": "SPGI",
+      "rsi": 83.4,
+      "vs_200ma": 4.6,
       "pos_52w_pct": 54,
       "signal": "dip-risk",
       "cap_tier": "Large",
-      "market_cap_str": "$99.6B"
+      "market_cap_str": "$134.6B"
+    },
+    {
+      "ticker": "CAT",
+      "rsi": 26.2,
+      "vs_200ma": 22.7,
+      "pos_52w_pct": 72,
+      "signal": "keeper",
+      "cap_tier": "Mega",
+      "market_cap_str": "$404.9B"
+    },
+    {
+      "ticker": "GE",
+      "rsi": 28.6,
+      "vs_200ma": 9.3,
+      "pos_52w_pct": 68,
+      "signal": "keeper",
+      "cap_tier": "Mega",
+      "market_cap_str": "$355.7B"
+    },
+    {
+      "ticker": "BKNG",
+      "rsi": 54.8,
+      "vs_200ma": -2.6,
+      "pos_52w_pct": 37,
+      "signal": "watch",
+      "cap_tier": "Large",
+      "market_cap_str": "$140.5B"
+    },
+    {
+      "ticker": "TMO",
+      "rsi": 69.8,
+      "vs_200ma": 2.0,
+      "pos_52w_pct": 58,
+      "signal": "watch",
+      "cap_tier": "Mega",
+      "market_cap_str": "$200.1B"
+    },
+    {
+      "ticker": "SCHW",
+      "rsi": 86.9,
+      "vs_200ma": 8.7,
+      "pos_52w_pct": 83,
+      "signal": "dip-risk",
+      "cap_tier": "Large",
+      "market_cap_str": "$178.9B"
+    },
+    {
+      "ticker": "PGR",
+      "rsi": 42.4,
+      "vs_200ma": -1.6,
+      "pos_52w_pct": 30,
+      "signal": "watch",
+      "cap_tier": "Large",
+      "market_cap_str": "$119.1B"
+    },
+    {
+      "ticker": "GILD",
+      "rsi": 65.3,
+      "vs_200ma": 3.5,
+      "pos_52w_pct": 59,
+      "signal": "watch",
+      "cap_tier": "Large",
+      "market_cap_str": "$166.4B"
+    },
+    {
+      "ticker": "VRTX",
+      "rsi": 50.7,
+      "vs_200ma": 7.3,
+      "pos_52w_pct": 71,
+      "signal": "watch",
+      "cap_tier": "Large",
+      "market_cap_str": "$122.3B"
+    },
+    {
+      "ticker": "HON",
+      "rsi": 32.4,
+      "vs_200ma": -0.2,
+      "pos_52w_pct": 44,
+      "signal": "watch",
+      "cap_tier": "Large",
+      "market_cap_str": "$70.8B"
+    },
+    {
+      "ticker": "DE",
+      "rsi": 36.7,
+      "vs_200ma": 10.9,
+      "pos_52w_pct": 71,
+      "signal": "watch",
+      "cap_tier": "Large",
+      "market_cap_str": "$160.7B"
+    },
+    {
+      "ticker": "SYK",
+      "rsi": 57.1,
+      "vs_200ma": -4.0,
+      "pos_52w_pct": 41,
+      "signal": "watch",
+      "cap_tier": "Large",
+      "market_cap_str": "$126.4B"
+    },
+    {
+      "ticker": "PANW",
+      "rsi": 66.7,
+      "vs_200ma": 68.7,
+      "pos_52w_pct": 97,
+      "signal": "watch",
+      "cap_tier": "Mega",
+      "market_cap_str": "$285.5B"
+    },
+    {
+      "ticker": "ANET",
+      "rsi": 50.6,
+      "vs_200ma": 15.2,
+      "pos_52w_pct": 74,
+      "signal": "watch",
+      "cap_tier": "Mega",
+      "market_cap_str": "$209.7B"
+    },
+    {
+      "ticker": "LRCX",
+      "rsi": 35.2,
+      "vs_200ma": 38.0,
+      "pos_52w_pct": 67,
+      "signal": "watch",
+      "cap_tier": "Mega",
+      "market_cap_str": "$400.3B"
+    },
+    {
+      "ticker": "MU",
+      "rsi": 20.8,
+      "vs_200ma": 76.5,
+      "pos_52w_pct": 67,
+      "signal": "keeper",
+      "cap_tier": "Mega",
+      "market_cap_str": "$955.6B"
+    },
+    {
+      "ticker": "ADP",
+      "rsi": 80.5,
+      "vs_200ma": 9.2,
+      "pos_52w_pct": 60,
+      "signal": "dip-risk",
+      "cap_tier": "Large",
+      "market_cap_str": "$102.4B"
     },
     {
       "ticker": "DKNG",
-      "rsi": 56.7,
-      "vs_200ma": -9.0,
-      "pos_52w_pct": 19,
+      "rsi": 62.4,
+      "vs_200ma": -11.5,
+      "pos_52w_pct": 16,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$12.8B"
+      "market_cap_str": "$12.4B"
     },
     {
       "ticker": "RDDT",
-      "rsi": 74.1,
-      "vs_200ma": 9.4,
-      "pos_52w_pct": 52,
-      "signal": "dip-risk",
+      "rsi": 68.4,
+      "vs_200ma": 4.4,
+      "pos_52w_pct": 46,
+      "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$38.4B"
+      "market_cap_str": "$36.6B"
     },
     {
       "ticker": "CELH",
-      "rsi": 59.2,
-      "vs_200ma": -28.8,
-      "pos_52w_pct": 7,
+      "rsi": 57.3,
+      "vs_200ma": -30.2,
+      "pos_52w_pct": 5,
+      "signal": "watch",
+      "cap_tier": "Mid",
+      "market_cap_str": "$7.6B"
+    },
+    {
+      "ticker": "ARM",
+      "rsi": 26.9,
+      "vs_200ma": 37.8,
+      "pos_52w_pct": 44,
+      "signal": "keeper",
+      "cap_tier": "Mega",
+      "market_cap_str": "$270.8B"
+    },
+    {
+      "ticker": "APP",
+      "rsi": 49.1,
+      "vs_200ma": -17.4,
+      "pos_52w_pct": 24,
+      "signal": "watch",
+      "cap_tier": "Large",
+      "market_cap_str": "$148.0B"
+    },
+    {
+      "ticker": "SOFI",
+      "rsi": 51.5,
+      "vs_200ma": -20.0,
+      "pos_52w_pct": 14,
+      "signal": "watch",
+      "cap_tier": "Large",
+      "market_cap_str": "$22.4B"
+    },
+    {
+      "ticker": "HOOD",
+      "rsi": 64.5,
+      "vs_200ma": 6.5,
+      "pos_52w_pct": 50,
+      "signal": "watch",
+      "cap_tier": "Large",
+      "market_cap_str": "$97.7B"
+    },
+    {
+      "ticker": "CAVA",
+      "rsi": 21.9,
+      "vs_200ma": -5.0,
+      "pos_52w_pct": 44,
       "signal": "watch",
       "cap_tier": "Mid",
       "market_cap_str": "$7.8B"
     },
     {
-      "ticker": "ARM",
-      "rsi": 27.4,
-      "vs_200ma": 46.3,
-      "pos_52w_pct": 49,
-      "signal": "keeper",
-      "cap_tier": "Mega",
-      "market_cap_str": "$286.7B"
-    },
-    {
-      "ticker": "APP",
-      "rsi": 47.8,
-      "vs_200ma": -15.4,
-      "pos_52w_pct": 27,
-      "signal": "watch",
-      "cap_tier": "Large",
-      "market_cap_str": "$151.8B"
-    },
-    {
-      "ticker": "SOFI",
-      "rsi": 55.6,
-      "vs_200ma": -18.1,
-      "pos_52w_pct": 16,
-      "signal": "watch",
-      "cap_tier": "Large",
-      "market_cap_str": "$23.0B"
-    },
-    {
-      "ticker": "HOOD",
-      "rsi": 68.1,
-      "vs_200ma": 12.2,
-      "pos_52w_pct": 56,
-      "signal": "watch",
-      "cap_tier": "Large",
-      "market_cap_str": "$103.0B"
-    },
-    {
-      "ticker": "CAVA",
-      "rsi": 36.9,
-      "vs_200ma": 4.9,
-      "pos_52w_pct": 57,
-      "signal": "watch",
-      "cap_tier": "Mid",
-      "market_cap_str": "$8.6B"
-    },
-    {
       "ticker": "RKLB",
-      "rsi": 41.3,
-      "vs_200ma": -2.1,
-      "pos_52w_pct": 33,
+      "rsi": 38.4,
+      "vs_200ma": -13.9,
+      "pos_52w_pct": 24,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$47.2B"
+      "market_cap_str": "$41.6B"
     },
     {
       "ticker": "PLTR",
-      "rsi": 71.1,
-      "vs_200ma": -14.3,
+      "rsi": 81.7,
+      "vs_200ma": -14.2,
       "pos_52w_pct": 26,
       "signal": "dip-risk",
       "cap_tier": "Mega",
@@ -1223,305 +1223,305 @@
     },
     {
       "ticker": "UBER",
-      "rsi": 48.9,
-      "vs_200ma": -8.5,
-      "pos_52w_pct": 15,
+      "rsi": 53.4,
+      "vs_200ma": -8.1,
+      "pos_52w_pct": 16,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$149.4B"
+      "market_cap_str": "$149.8B"
     },
     {
       "ticker": "LYFT",
-      "rsi": 70.4,
-      "vs_200ma": -2.8,
-      "pos_52w_pct": 31,
+      "rsi": 72.5,
+      "vs_200ma": -4.2,
+      "pos_52w_pct": 29,
       "signal": "dip-risk",
       "cap_tier": "Mid",
-      "market_cap_str": "$6.2B"
+      "market_cap_str": "$6.1B"
     },
     {
       "ticker": "FSLR",
-      "rsi": 27.0,
-      "vs_200ma": -6.3,
-      "pos_52w_pct": 36,
+      "rsi": 25.8,
+      "vs_200ma": -9.6,
+      "pos_52w_pct": 30,
       "signal": "watch",
       "cap_tier": "Large",
-      "market_cap_str": "$23.7B"
+      "market_cap_str": "$22.9B"
     },
     {
       "ticker": "WING",
-      "rsi": 43.8,
-      "vs_200ma": -30.0,
-      "pos_52w_pct": 12,
+      "rsi": 28.3,
+      "vs_200ma": -32.6,
+      "pos_52w_pct": 9,
       "signal": "watch",
       "cap_tier": "Mid",
-      "market_cap_str": "$4.1B"
+      "market_cap_str": "$3.9B"
     },
     {
       "ticker": "EME",
-      "rsi": 32.2,
-      "vs_200ma": 1.9,
-      "pos_52w_pct": 52,
+      "rsi": 27.7,
+      "vs_200ma": 1.4,
+      "pos_52w_pct": 51,
       "signal": "keeper",
       "cap_tier": "Large",
-      "market_cap_str": "$33.6B"
+      "market_cap_str": "$33.4B"
     },
     {
       "ticker": "DUOL",
-      "rsi": 50.1,
-      "vs_200ma": -16.4,
-      "pos_52w_pct": 14,
+      "rsi": 58.6,
+      "vs_200ma": -17.9,
+      "pos_52w_pct": 13,
       "signal": "watch",
       "cap_tier": "Mid",
-      "market_cap_str": "$6.2B"
+      "market_cap_str": "$6.0B"
     },
     {
       "ticker": "PINS",
-      "rsi": 77.4,
-      "vs_200ma": -0.6,
-      "pos_52w_pct": 33,
+      "rsi": 83.4,
+      "vs_200ma": 1.2,
+      "pos_52w_pct": 35,
       "signal": "dip-risk",
       "cap_tier": "Large",
-      "market_cap_str": "$13.0B"
+      "market_cap_str": "$13.3B"
     },
     {
       "ticker": "BROS",
-      "rsi": 47.1,
-      "vs_200ma": 15.8,
-      "pos_52w_pct": 69,
+      "rsi": 45.2,
+      "vs_200ma": 13.4,
+      "pos_52w_pct": 65,
+      "signal": "watch",
+      "cap_tier": "Large",
+      "market_cap_str": "$11.3B"
+    },
+    {
+      "ticker": "ELF",
+      "rsi": 65.5,
+      "vs_200ma": -7.0,
+      "pos_52w_pct": 26,
+      "signal": "watch",
+      "cap_tier": "Mid",
+      "market_cap_str": "$4.4B"
+    },
+    {
+      "ticker": "FTAI",
+      "rsi": 23.5,
+      "vs_200ma": -11.5,
+      "pos_52w_pct": 46,
+      "signal": "watch",
+      "cap_tier": "Large",
+      "market_cap_str": "$20.6B"
+    },
+    {
+      "ticker": "ONON",
+      "rsi": 60.8,
+      "vs_200ma": -6.3,
+      "pos_52w_pct": 29,
+      "signal": "watch",
+      "cap_tier": "Large",
+      "market_cap_str": "$12.8B"
+    },
+    {
+      "ticker": "HIMS",
+      "rsi": 55.6,
+      "vs_200ma": 9.0,
+      "pos_52w_pct": 39,
+      "signal": "watch",
+      "cap_tier": "Mid",
+      "market_cap_str": "$8.0B"
+    },
+    {
+      "ticker": "CRDO",
+      "rsi": 35.3,
+      "vs_200ma": 25.5,
+      "pos_52w_pct": 54,
+      "signal": "watch",
+      "cap_tier": "Large",
+      "market_cap_str": "$38.0B"
+    },
+    {
+      "ticker": "ASTS",
+      "rsi": 40.9,
+      "vs_200ma": -34.6,
+      "pos_52w_pct": 18,
+      "signal": "watch",
+      "cap_tier": "Large",
+      "market_cap_str": "$21.1B"
+    },
+    {
+      "ticker": "NXT",
+      "rsi": 44.8,
+      "vs_200ma": -1.0,
+      "pos_52w_pct": 52,
+      "signal": "watch",
+      "cap_tier": "Large",
+      "market_cap_str": "$16.4B"
+    },
+    {
+      "ticker": "IONQ",
+      "rsi": 19.8,
+      "vs_200ma": -26.8,
+      "pos_52w_pct": 16,
+      "signal": "watch",
+      "cap_tier": "Large",
+      "market_cap_str": "$13.2B"
+    },
+    {
+      "ticker": "RGTI",
+      "rsi": 26.2,
+      "vs_200ma": -38.9,
+      "pos_52w_pct": 3,
+      "signal": "watch",
+      "cap_tier": "Mid",
+      "market_cap_str": "$4.7B"
+    },
+    {
+      "ticker": "QBTS",
+      "rsi": 27.6,
+      "vs_200ma": -28.3,
+      "pos_52w_pct": 13,
+      "signal": "watch",
+      "cap_tier": "Mid",
+      "market_cap_str": "$6.4B"
+    },
+    {
+      "ticker": "SOUN",
+      "rsi": 51.5,
+      "vs_200ma": -38.2,
+      "pos_52w_pct": 2,
+      "signal": "watch",
+      "cap_tier": "Mid",
+      "market_cap_str": "$2.7B"
+    },
+    {
+      "ticker": "ACHR",
+      "rsi": 44.5,
+      "vs_200ma": -38.4,
+      "pos_52w_pct": 0,
+      "signal": "watch",
+      "cap_tier": "Mid",
+      "market_cap_str": "$3.5B"
+    },
+    {
+      "ticker": "JOBY",
+      "rsi": 31.0,
+      "vs_200ma": -38.0,
+      "pos_52w_pct": 0,
+      "signal": "watch",
+      "cap_tier": "Mid",
+      "market_cap_str": "$7.3B"
+    },
+    {
+      "ticker": "LUNR",
+      "rsi": 25.6,
+      "vs_200ma": -28.8,
+      "pos_52w_pct": 15,
+      "signal": "watch",
+      "cap_tier": "Mid",
+      "market_cap_str": "$2.2B"
+    },
+    {
+      "ticker": "RDW",
+      "rsi": 32.1,
+      "vs_200ma": -15.0,
+      "pos_52w_pct": 17,
+      "signal": "watch",
+      "cap_tier": "Mid",
+      "market_cap_str": "$2.0B"
+    },
+    {
+      "ticker": "BKSY",
+      "rsi": 40.6,
+      "vs_200ma": -19.6,
+      "pos_52w_pct": 22,
+      "signal": "watch",
+      "cap_tier": "Small",
+      "market_cap_str": "$795M"
+    },
+    {
+      "ticker": "AUR",
+      "rsi": 43.8,
+      "vs_200ma": 15.0,
+      "pos_52w_pct": 46,
       "signal": "watch",
       "cap_tier": "Large",
       "market_cap_str": "$11.5B"
     },
     {
-      "ticker": "ELF",
-      "rsi": 64.6,
-      "vs_200ma": -9.0,
-      "pos_52w_pct": 25,
-      "signal": "watch",
-      "cap_tier": "Mid",
-      "market_cap_str": "$4.3B"
-    },
-    {
-      "ticker": "FTAI",
-      "rsi": 20.4,
-      "vs_200ma": -8.9,
-      "pos_52w_pct": 49,
-      "signal": "watch",
-      "cap_tier": "Large",
-      "market_cap_str": "$21.2B"
-    },
-    {
-      "ticker": "ONON",
-      "rsi": 56.6,
-      "vs_200ma": -7.4,
-      "pos_52w_pct": 27,
-      "signal": "watch",
-      "cap_tier": "Large",
-      "market_cap_str": "$12.6B"
-    },
-    {
-      "ticker": "HIMS",
-      "rsi": 63.4,
-      "vs_200ma": 14.5,
-      "pos_52w_pct": 43,
-      "signal": "watch",
-      "cap_tier": "Mid",
-      "market_cap_str": "$8.5B"
-    },
-    {
-      "ticker": "CRDO",
-      "rsi": 38.2,
-      "vs_200ma": 36.5,
-      "pos_52w_pct": 62,
-      "signal": "watch",
-      "cap_tier": "Large",
-      "market_cap_str": "$41.3B"
-    },
-    {
-      "ticker": "ASTS",
-      "rsi": 47.9,
-      "vs_200ma": -20.8,
-      "pos_52w_pct": 30,
-      "signal": "watch",
-      "cap_tier": "Large",
-      "market_cap_str": "$25.5B"
-    },
-    {
-      "ticker": "NXT",
-      "rsi": 43.1,
-      "vs_200ma": 0.5,
-      "pos_52w_pct": 53,
-      "signal": "watch",
-      "cap_tier": "Large",
-      "market_cap_str": "$16.6B"
-    },
-    {
-      "ticker": "IONQ",
-      "rsi": 18.9,
-      "vs_200ma": -23.2,
-      "pos_52w_pct": 19,
-      "signal": "watch",
-      "cap_tier": "Large",
-      "market_cap_str": "$13.9B"
-    },
-    {
-      "ticker": "RGTI",
-      "rsi": 25.4,
-      "vs_200ma": -35.6,
-      "pos_52w_pct": 5,
-      "signal": "watch",
-      "cap_tier": "Mid",
-      "market_cap_str": "$5.0B"
-    },
-    {
-      "ticker": "QBTS",
-      "rsi": 27.3,
-      "vs_200ma": -24.5,
-      "pos_52w_pct": 16,
-      "signal": "watch",
-      "cap_tier": "Mid",
-      "market_cap_str": "$6.7B"
-    },
-    {
-      "ticker": "SOUN",
-      "rsi": 52.5,
-      "vs_200ma": -36.7,
-      "pos_52w_pct": 4,
-      "signal": "watch",
-      "cap_tier": "Mid",
-      "market_cap_str": "$2.8B"
-    },
-    {
-      "ticker": "ACHR",
-      "rsi": 43.8,
-      "vs_200ma": -35.7,
-      "pos_52w_pct": 2,
-      "signal": "watch",
-      "cap_tier": "Mid",
-      "market_cap_str": "$3.6B"
-    },
-    {
-      "ticker": "JOBY",
-      "rsi": 30.1,
-      "vs_200ma": -35.8,
-      "pos_52w_pct": 2,
-      "signal": "watch",
-      "cap_tier": "Mid",
-      "market_cap_str": "$7.6B"
-    },
-    {
-      "ticker": "LUNR",
-      "rsi": 28.1,
-      "vs_200ma": -21.7,
-      "pos_52w_pct": 18,
-      "signal": "watch",
-      "cap_tier": "Mid",
-      "market_cap_str": "$2.4B"
-    },
-    {
-      "ticker": "RDW",
-      "rsi": 33.6,
-      "vs_200ma": -6.4,
-      "pos_52w_pct": 21,
-      "signal": "watch",
-      "cap_tier": "Mid",
-      "market_cap_str": "$2.3B"
-    },
-    {
-      "ticker": "BKSY",
-      "rsi": 47.9,
-      "vs_200ma": -7.4,
-      "pos_52w_pct": 30,
-      "signal": "watch",
-      "cap_tier": "Small",
-      "market_cap_str": "$915M"
-    },
-    {
-      "ticker": "AUR",
-      "rsi": 45.1,
-      "vs_200ma": 16.4,
-      "pos_52w_pct": 47,
-      "signal": "watch",
-      "cap_tier": "Large",
-      "market_cap_str": "$11.7B"
-    },
-    {
       "ticker": "LAZR",
       "rsi": null,
       "vs_200ma": null,
-      "pos_52w_pct": 2,
+      "pos_52w_pct": 0,
       "signal": "watch",
       "cap_tier": "Unknown",
       "market_cap_str": null
     },
     {
       "ticker": "AEHR",
-      "rsi": 45.9,
-      "vs_200ma": 76.3,
-      "pos_52w_pct": 72,
+      "rsi": 41.0,
+      "vs_200ma": 65.4,
+      "pos_52w_pct": 67,
+      "signal": "watch",
+      "cap_tier": "Mid",
+      "market_cap_str": "$2.7B"
+    },
+    {
+      "ticker": "BTDR",
+      "rsi": 29.2,
+      "vs_200ma": -15.7,
+      "pos_52w_pct": 23,
       "signal": "watch",
       "cap_tier": "Mid",
       "market_cap_str": "$2.8B"
     },
     {
-      "ticker": "BTDR",
-      "rsi": 28.7,
-      "vs_200ma": -8.7,
-      "pos_52w_pct": 28,
-      "signal": "watch",
-      "cap_tier": "Mid",
-      "market_cap_str": "$3.1B"
-    },
-    {
       "ticker": "CLSK",
-      "rsi": 35.0,
-      "vs_200ma": 2.3,
-      "pos_52w_pct": 36,
+      "rsi": 36.3,
+      "vs_200ma": -1.1,
+      "pos_52w_pct": 33,
       "signal": "watch",
       "cap_tier": "Mid",
-      "market_cap_str": "$3.5B"
+      "market_cap_str": "$3.4B"
     },
     {
       "ticker": "RIOT",
-      "rsi": 18.9,
-      "vs_200ma": 6.9,
-      "pos_52w_pct": 49,
+      "rsi": 15.0,
+      "vs_200ma": 0.1,
+      "pos_52w_pct": 42,
       "signal": "keeper",
       "cap_tier": "Mid",
-      "market_cap_str": "$7.5B"
+      "market_cap_str": "$7.0B"
     },
     {
       "ticker": "MARA",
-      "rsi": 34.4,
-      "vs_200ma": -3.6,
-      "pos_52w_pct": 32,
+      "rsi": 34.0,
+      "vs_200ma": -6.1,
+      "pos_52w_pct": 29,
       "signal": "watch",
       "cap_tier": "Mid",
-      "market_cap_str": "$4.5B"
+      "market_cap_str": "$4.4B"
     },
     {
       "ticker": "UPWK",
-      "rsi": 66.2,
-      "vs_200ma": -35.4,
-      "pos_52w_pct": 10,
-      "signal": "watch",
+      "rsi": 76.9,
+      "vs_200ma": -33.2,
+      "pos_52w_pct": 12,
+      "signal": "dip-risk",
       "cap_tier": "Small",
-      "market_cap_str": "$1.1B"
+      "market_cap_str": "$1.2B"
     },
     {
       "ticker": "FVRR",
-      "rsi": 57.9,
-      "vs_200ma": -26.1,
-      "pos_52w_pct": 10,
+      "rsi": 68.5,
+      "vs_200ma": -22.4,
+      "pos_52w_pct": 13,
       "signal": "watch",
       "cap_tier": "Small",
-      "market_cap_str": "$407M"
+      "market_cap_str": "$425M"
     },
     {
       "ticker": "COUR",
-      "rsi": 33.1,
-      "vs_200ma": -18.6,
+      "rsi": 45.1,
+      "vs_200ma": -18.1,
       "pos_52w_pct": 7,
       "signal": "watch",
       "cap_tier": "Small",
@@ -1529,476 +1529,476 @@
     },
     {
       "ticker": "DNA",
-      "rsi": 41.2,
-      "vs_200ma": -3.3,
-      "pos_52w_pct": 32,
+      "rsi": 37.8,
+      "vs_200ma": -9.1,
+      "pos_52w_pct": 27,
       "signal": "watch",
       "cap_tier": "Small",
-      "market_cap_str": "$584M"
+      "market_cap_str": "$548M"
     },
     {
       "ticker": "OUST",
-      "rsi": 47.8,
-      "vs_200ma": 35.0,
-      "pos_52w_pct": 47,
+      "rsi": 44.9,
+      "vs_200ma": 26.4,
+      "pos_52w_pct": 42,
       "signal": "watch",
       "cap_tier": "Mid",
-      "market_cap_str": "$2.6B"
+      "market_cap_str": "$2.4B"
     },
     {
       "ticker": "BLZE",
-      "rsi": 63.9,
-      "vs_200ma": 130.0,
-      "pos_52w_pct": 81,
+      "rsi": 55.1,
+      "vs_200ma": 119.5,
+      "pos_52w_pct": 77,
       "signal": "watch",
       "cap_tier": "Small",
-      "market_cap_str": "$908M"
+      "market_cap_str": "$870M"
     },
     {
       "ticker": "AMPL",
-      "rsi": 82.6,
-      "vs_200ma": 10.7,
-      "pos_52w_pct": 53,
+      "rsi": 85.6,
+      "vs_200ma": 12.5,
+      "pos_52w_pct": 55,
       "signal": "dip-risk",
       "cap_tier": "Small",
       "market_cap_str": "$1.3B"
     },
     {
       "ticker": "CRNC",
-      "rsi": 52.7,
-      "vs_200ma": 1.0,
-      "pos_52w_pct": 55,
+      "rsi": 45.4,
+      "vs_200ma": -6.1,
+      "pos_52w_pct": 45,
       "signal": "watch",
       "cap_tier": "Small",
-      "market_cap_str": "$458M"
+      "market_cap_str": "$424M"
     }
   ],
   "trades": [
     {
       "ticker": "AAPL",
-      "atr": 9.47,
+      "atr": 8.5,
       "buckets": {
         "intraday": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 328.12,
-          "stop": 318.65,
-          "target": 342.32,
+          "entry": 331.71,
+          "stop": 323.21,
+          "target": 344.46,
           "rr": 1.5
         },
         "swing": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 328.12,
-          "stop": 313.92,
-          "target": 356.53,
+          "entry": 331.71,
+          "stop": 318.96,
+          "target": 357.21,
           "rr": 2.0
         },
         "long_term": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 328.12,
-          "stop": 299.71,
-          "target": 403.88,
+          "entry": 331.71,
+          "stop": 306.21,
+          "target": 399.71,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "MSFT",
-      "atr": 12.49,
+      "atr": 12.18,
       "buckets": {
         "intraday": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 394.74,
-          "stop": 407.23,
-          "target": 376.0,
+          "entry": 403.56,
+          "stop": 415.74,
+          "target": 385.29,
           "rr": 1.5
         },
         "swing": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 394.74,
-          "stop": 413.48,
-          "target": 357.27,
+          "entry": 403.56,
+          "stop": 421.83,
+          "target": 367.02,
           "rr": 2.0
         },
         "long_term": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 394.74,
-          "stop": 432.21,
-          "target": 294.82,
+          "entry": 403.56,
+          "stop": 440.1,
+          "target": 306.12,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "NVDA",
-      "atr": 7.14,
+      "atr": 7.0,
       "buckets": {
         "intraday": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 207.17,
-          "stop": 200.03,
-          "target": 217.88,
+          "entry": 207.2,
+          "stop": 200.2,
+          "target": 217.7,
           "rr": 1.5
         },
         "swing": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 207.17,
-          "stop": 196.46,
-          "target": 228.59,
+          "entry": 207.2,
+          "stop": 196.7,
+          "target": 228.2,
           "rr": 2.0
         },
         "long_term": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 207.17,
-          "stop": 185.75,
-          "target": 264.29,
+          "entry": 207.2,
+          "stop": 186.2,
+          "target": 263.2,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "AMZN",
-      "atr": 7.53,
+      "atr": 7.3,
       "buckets": {
         "intraday": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 255.49,
-          "stop": 247.96,
-          "target": 266.79,
+          "entry": 256.19,
+          "stop": 248.89,
+          "target": 267.14,
           "rr": 1.5
         },
         "swing": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 255.49,
-          "stop": 244.2,
-          "target": 278.08,
+          "entry": 256.19,
+          "stop": 245.24,
+          "target": 278.09,
           "rr": 2.0
         },
         "long_term": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 255.49,
-          "stop": 232.9,
-          "target": 315.73,
+          "entry": 256.19,
+          "stop": 234.29,
+          "target": 314.59,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "GOOGL",
-      "atr": 10.34,
+      "atr": 10.08,
       "buckets": {
         "intraday": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 371.56,
-          "stop": 361.22,
-          "target": 387.07,
+          "entry": 372.02,
+          "stop": 361.94,
+          "target": 387.14,
           "rr": 1.5
         },
         "swing": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 371.56,
-          "stop": 356.05,
-          "target": 402.58,
+          "entry": 372.02,
+          "stop": 356.9,
+          "target": 402.26,
           "rr": 2.0
         },
         "long_term": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 371.56,
-          "stop": 340.54,
-          "target": 454.28,
+          "entry": 372.02,
+          "stop": 341.78,
+          "target": 452.66,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "GOOG",
-      "atr": 9.89,
+      "atr": 9.66,
       "buckets": {
         "intraday": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 369.98,
-          "stop": 360.09,
-          "target": 384.81,
+          "entry": 371.33,
+          "stop": 361.67,
+          "target": 385.82,
           "rr": 1.5
         },
         "swing": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 369.98,
-          "stop": 355.15,
-          "target": 399.65,
+          "entry": 371.33,
+          "stop": 356.84,
+          "target": 400.31,
           "rr": 2.0
         },
         "long_term": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 369.98,
-          "stop": 340.31,
-          "target": 449.1,
+          "entry": 371.33,
+          "stop": 342.35,
+          "target": 448.61,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "META",
-      "atr": 28.78,
+      "atr": 28.74,
       "buckets": {
         "intraday": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 675.4,
-          "stop": 646.62,
-          "target": 718.57,
+          "entry": 669.99,
+          "stop": 641.25,
+          "target": 713.1,
           "rr": 1.5
         },
         "swing": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 675.4,
-          "stop": 632.23,
-          "target": 761.74,
+          "entry": 669.99,
+          "stop": 626.88,
+          "target": 756.21,
           "rr": 2.0
         },
         "long_term": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 675.4,
-          "stop": 589.06,
-          "target": 905.64,
+          "entry": 669.99,
+          "stop": 583.77,
+          "target": 899.91,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "TSLA",
-      "atr": 18.88,
+      "atr": 19.03,
       "buckets": {
         "intraday": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 392.8,
-          "stop": 411.68,
-          "target": 364.48,
+          "entry": 388.51,
+          "stop": 407.54,
+          "target": 359.96,
           "rr": 1.5
         },
         "swing": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 392.8,
-          "stop": 421.12,
-          "target": 336.16,
+          "entry": 388.51,
+          "stop": 417.06,
+          "target": 331.42,
           "rr": 2.0
         },
         "long_term": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 392.8,
-          "stop": 449.44,
-          "target": 241.76,
+          "entry": 388.51,
+          "stop": 445.6,
+          "target": 236.27,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "AVGO",
-      "atr": 15.04,
+      "atr": 15.05,
       "buckets": {
         "intraday": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 389.78,
-          "stop": 374.74,
-          "target": 412.34,
+          "entry": 378.78,
+          "stop": 363.73,
+          "target": 401.35,
           "rr": 1.5
         },
         "swing": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 389.78,
-          "stop": 367.22,
-          "target": 434.9,
+          "entry": 378.78,
+          "stop": 356.2,
+          "target": 423.93,
           "rr": 2.0
         },
         "long_term": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 389.78,
-          "stop": 344.66,
-          "target": 510.1,
+          "entry": 378.78,
+          "stop": 333.63,
+          "target": 499.18,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "LLY",
-      "atr": 40.35,
+      "atr": 42.12,
       "buckets": {
         "intraday": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 1144.93,
-          "stop": 1104.58,
-          "target": 1205.46,
+          "entry": 1170.01,
+          "stop": 1127.89,
+          "target": 1233.19,
           "rr": 1.5
         },
         "swing": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 1144.93,
-          "stop": 1084.4,
-          "target": 1265.98,
+          "entry": 1170.01,
+          "stop": 1106.83,
+          "target": 1296.37,
           "rr": 2.0
         },
         "long_term": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 1144.93,
-          "stop": 1023.88,
-          "target": 1467.73,
+          "entry": 1170.01,
+          "stop": 1043.65,
+          "target": 1506.97,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "JPM",
-      "atr": 7.81,
+      "atr": 7.68,
       "buckets": {
         "intraday": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 347.41,
-          "stop": 339.6,
-          "target": 359.12,
+          "entry": 345.26,
+          "stop": 337.58,
+          "target": 356.78,
           "rr": 1.5
         },
         "swing": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 347.41,
-          "stop": 335.7,
-          "target": 370.84,
+          "entry": 345.26,
+          "stop": 333.74,
+          "target": 368.3,
           "rr": 2.0
         },
         "long_term": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 347.41,
-          "stop": 323.98,
-          "target": 409.89,
+          "entry": 345.26,
+          "stop": 322.22,
+          "target": 406.7,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "V",
-      "atr": 9.15,
+      "atr": 8.96,
       "buckets": {
         "intraday": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 359.48,
-          "stop": 350.33,
-          "target": 373.21,
+          "entry": 361.85,
+          "stop": 352.89,
+          "target": 375.29,
           "rr": 1.5
         },
         "swing": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 359.48,
-          "stop": 345.75,
-          "target": 386.93,
+          "entry": 361.85,
+          "stop": 348.41,
+          "target": 388.73,
           "rr": 2.0
         },
         "long_term": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 359.48,
-          "stop": 332.03,
-          "target": 432.68,
+          "entry": 361.85,
+          "stop": 334.97,
+          "target": 433.53,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "MA",
-      "atr": 13.58,
+      "atr": 13.43,
       "buckets": {
         "intraday": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 539.77,
-          "stop": 526.19,
-          "target": 560.14,
+          "entry": 547.39,
+          "stop": 533.96,
+          "target": 567.53,
           "rr": 1.5
         },
         "swing": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 539.77,
-          "stop": 519.4,
-          "target": 580.51,
+          "entry": 547.39,
+          "stop": 527.25,
+          "target": 587.68,
           "rr": 2.0
         },
         "long_term": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 539.77,
-          "stop": 499.03,
-          "target": 648.41,
+          "entry": 547.39,
+          "stop": 507.1,
+          "target": 654.83,
           "rr": 2.7
         }
       }
@@ -2011,17 +2011,1700 @@
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 114.35,
-          "stop": 117.09,
-          "target": 110.24,
+          "entry": 114.91,
+          "stop": 117.65,
+          "target": 110.8,
           "rr": 1.5
         },
         "swing": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 114.35,
-          "stop": 118.46,
+          "entry": 114.91,
+          "stop": 119.02,
+          "target": 106.69,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 114.91,
+          "stop": 123.13,
+          "target": 92.99,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "XOM",
+      "atr": 2.92,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 145.91,
+          "stop": 142.99,
+          "target": 150.29,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 145.91,
+          "stop": 141.53,
+          "target": 154.67,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 145.91,
+          "stop": 137.15,
+          "target": 169.27,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "ORCL",
+      "atr": 6.67,
+      "buckets": {
+        "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 126.59,
+          "stop": 133.26,
+          "target": 116.59,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 126.59,
+          "stop": 136.59,
+          "target": 106.58,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 126.59,
+          "stop": 146.6,
+          "target": 73.23,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "NFLX",
+      "atr": 2.48,
+      "buckets": {
+        "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 73.96,
+          "stop": 76.44,
+          "target": 70.24,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 73.96,
+          "stop": 77.68,
+          "target": 66.52,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 73.96,
+          "stop": 81.4,
+          "target": 54.12,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "COST",
+      "atr": 20.47,
+      "buckets": {
+        "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 938.06,
+          "stop": 958.53,
+          "target": 907.35,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 938.06,
+          "stop": 968.76,
+          "target": 876.65,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 938.06,
+          "stop": 999.47,
+          "target": 774.3,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "JNJ",
+      "atr": 6.89,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 248.9,
+          "stop": 242.01,
+          "target": 259.24,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 248.9,
+          "stop": 238.56,
+          "target": 269.57,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 248.9,
+          "stop": 228.23,
+          "target": 304.02,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "PG",
+      "atr": 3.25,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 150.6,
+          "stop": 147.35,
+          "target": 155.47,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 150.6,
+          "stop": 145.72,
+          "target": 160.35,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 150.6,
+          "stop": 140.85,
+          "target": 176.6,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "HD",
+      "atr": 8.47,
+      "buckets": {
+        "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 347.38,
+          "stop": 355.85,
+          "target": 334.68,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 347.38,
+          "stop": 360.08,
+          "target": 321.97,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 347.38,
+          "stop": 372.79,
+          "target": 279.62,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "ABBV",
+      "atr": 6.66,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 251.48,
+          "stop": 244.82,
+          "target": 261.47,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 251.48,
+          "stop": 241.49,
+          "target": 271.46,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 251.48,
+          "stop": 231.5,
+          "target": 304.76,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "BAC",
+      "atr": 1.24,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 61.65,
+          "stop": 60.41,
+          "target": 63.51,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 61.65,
+          "stop": 59.79,
+          "target": 65.37,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 61.65,
+          "stop": 57.93,
+          "target": 71.57,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "KO",
+      "atr": 1.78,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 84.4,
+          "stop": 82.62,
+          "target": 87.07,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 84.4,
+          "stop": 81.73,
+          "target": 89.74,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 84.4,
+          "stop": 79.06,
+          "target": 98.64,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "CRM",
+      "atr": 6.63,
+      "buckets": {
+        "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 172.59,
+          "stop": 179.22,
+          "target": 162.65,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 172.59,
+          "stop": 182.53,
+          "target": 152.7,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 172.59,
+          "stop": 192.48,
+          "target": 119.55,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "ADBE",
+      "atr": 8.9,
+      "buckets": {
+        "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 232.43,
+          "stop": 241.33,
+          "target": 219.08,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 232.43,
+          "stop": 245.78,
+          "target": 205.73,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 232.43,
+          "stop": 259.13,
+          "target": 161.23,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "AMD",
+      "atr": 39.12,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 500.25,
+          "stop": 461.13,
+          "target": 558.93,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 500.25,
+          "stop": 441.57,
+          "target": 617.61,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 500.25,
+          "stop": 382.89,
+          "target": 813.21,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "QCOM",
+      "atr": 10.16,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 171.15,
+          "stop": 160.99,
+          "target": 186.39,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 171.15,
+          "stop": 155.91,
+          "target": 201.63,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 171.15,
+          "stop": 140.67,
+          "target": 252.43,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "TXN",
+      "atr": 15.59,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 290.12,
+          "stop": 274.53,
+          "target": 313.5,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 290.12,
+          "stop": 266.74,
+          "target": 336.89,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 290.12,
+          "stop": 243.35,
+          "target": 414.84,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "AMGN",
+      "atr": 8.15,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 368.06,
+          "stop": 359.91,
+          "target": 380.29,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 368.06,
+          "stop": 355.83,
+          "target": 392.51,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 368.06,
+          "stop": 343.61,
+          "target": 433.26,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "INTU",
+      "atr": 13.3,
+      "buckets": {
+        "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 295.05,
+          "stop": 308.35,
+          "target": 275.1,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 295.05,
+          "stop": 315.0,
+          "target": 255.15,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 295.05,
+          "stop": 334.95,
+          "target": 188.65,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "LOW",
+      "atr": 5.51,
+      "buckets": {
+        "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 215.14,
+          "stop": 220.65,
+          "target": 206.88,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 215.14,
+          "stop": 223.4,
+          "target": 198.61,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 215.14,
+          "stop": 231.67,
+          "target": 171.06,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "SPGI",
+      "atr": 15.1,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 454.68,
+          "stop": 439.58,
+          "target": 477.33,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 454.68,
+          "stop": 432.03,
+          "target": 499.98,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 454.68,
+          "stop": 409.38,
+          "target": 575.48,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "CAT",
+      "atr": 45.42,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 879.16,
+          "stop": 833.74,
+          "target": 947.29,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 879.16,
+          "stop": 811.03,
+          "target": 1015.42,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 879.16,
+          "stop": 742.9,
+          "target": 1242.52,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "GE",
+      "atr": 9.17,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 340.41,
+          "stop": 331.24,
+          "target": 354.17,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 340.41,
+          "stop": 326.66,
+          "target": 367.92,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 340.41,
+          "stop": 312.9,
+          "target": 413.77,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "BKNG",
+      "atr": 6.33,
+      "buckets": {
+        "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 181.34,
+          "stop": 187.67,
+          "target": 171.84,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 181.34,
+          "stop": 190.84,
+          "target": 162.35,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 181.34,
+          "stop": 200.33,
+          "target": 130.7,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "TMO",
+      "atr": 13.72,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 538.58,
+          "stop": 524.86,
+          "target": 559.16,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 538.58,
+          "stop": 518.0,
+          "target": 579.74,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 538.58,
+          "stop": 497.42,
+          "target": 648.34,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "SCHW",
+      "atr": 2.44,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 102.85,
+          "stop": 100.41,
+          "target": 106.51,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 102.85,
+          "stop": 99.19,
+          "target": 110.17,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 102.85,
+          "stop": 95.53,
+          "target": 122.37,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "PGR",
+      "atr": 7.25,
+      "buckets": {
+        "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 204.54,
+          "stop": 211.79,
+          "target": 193.66,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 204.54,
+          "stop": 215.41,
+          "target": 182.79,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 204.54,
+          "stop": 226.29,
+          "target": 146.54,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "GILD",
+      "atr": 3.97,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 133.99,
+          "stop": 130.02,
+          "target": 139.95,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 133.99,
+          "stop": 128.03,
+          "target": 145.9,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 133.99,
+          "stop": 122.08,
+          "target": 165.75,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "VRTX",
+      "atr": 16.02,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 481.71,
+          "stop": 465.69,
+          "target": 505.74,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 481.71,
+          "stop": 457.68,
+          "target": 529.77,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 481.71,
+          "stop": 433.65,
+          "target": 609.87,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "HON",
+      "atr": 8.74,
+      "buckets": {
+        "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 223.39,
+          "stop": 232.13,
+          "target": 210.28,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 223.39,
+          "stop": 236.5,
+          "target": 197.17,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 223.39,
+          "stop": 249.61,
+          "target": 153.47,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "DE",
+      "atr": 18.25,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 595.02,
+          "stop": 576.77,
+          "target": 622.39,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 595.02,
+          "stop": 567.64,
+          "target": 649.77,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 595.02,
+          "stop": 540.27,
+          "target": 741.02,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "SYK",
+      "atr": 11.97,
+      "buckets": {
+        "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 329.73,
+          "stop": 341.7,
+          "target": 311.78,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 329.73,
+          "stop": 347.69,
+          "target": 293.82,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 329.73,
+          "stop": 365.64,
+          "target": 233.97,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "PANW",
+      "atr": 18.92,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 350.27,
+          "stop": 331.35,
+          "target": 378.65,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 350.27,
+          "stop": 321.89,
+          "target": 407.03,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 350.27,
+          "stop": 293.51,
+          "target": 501.63,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "ANET",
+      "atr": 11.31,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 166.53,
+          "stop": 155.22,
+          "target": 183.5,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 166.53,
+          "stop": 149.56,
+          "target": 200.46,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 166.53,
+          "stop": 132.6,
+          "target": 257.01,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "LRCX",
+      "atr": 30.0,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 320.12,
+          "stop": 290.12,
+          "target": 365.12,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 320.12,
+          "stop": 275.12,
+          "target": 410.12,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 320.12,
+          "stop": 230.12,
+          "target": 560.12,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "MU",
+      "atr": 80.43,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 846.13,
+          "stop": 765.7,
+          "target": 966.77,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 846.13,
+          "stop": 725.49,
+          "target": 1087.42,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 846.13,
+          "stop": 604.84,
+          "target": 1489.57,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "ADP",
+      "atr": 6.96,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 256.09,
+          "stop": 249.13,
+          "target": 266.53,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 256.09,
+          "stop": 245.65,
+          "target": 276.97,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 256.09,
+          "stop": 235.21,
+          "target": 311.77,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "DKNG",
+      "atr": 1.24,
+      "buckets": {
+        "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 25.02,
+          "stop": 26.26,
+          "target": 23.16,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 25.02,
+          "stop": 26.88,
+          "target": 21.3,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 25.02,
+          "stop": 28.74,
+          "target": 15.1,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "RDDT",
+      "atr": 12.51,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 190.13,
+          "stop": 177.62,
+          "target": 208.89,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 190.13,
+          "stop": 171.37,
+          "target": 227.66,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 190.13,
+          "stop": 152.6,
+          "target": 290.21,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "CELH",
+      "atr": 1.54,
+      "buckets": {
+        "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 29.75,
+          "stop": 31.29,
+          "target": 27.44,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 29.75,
+          "stop": 32.06,
+          "target": 25.13,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 29.75,
+          "stop": 34.37,
+          "target": 17.43,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "ARM",
+      "atr": 27.72,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 253.56,
+          "stop": 225.84,
+          "target": 295.14,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 253.56,
+          "stop": 211.98,
+          "target": 336.72,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 253.56,
+          "stop": 170.4,
+          "target": 475.32,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "APP",
+      "atr": 35.3,
+      "buckets": {
+        "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 440.48,
+          "stop": 475.78,
+          "target": 387.53,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 440.48,
+          "stop": 493.43,
+          "target": 334.58,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 440.48,
+          "stop": 546.38,
+          "target": 158.08,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "SOFI",
+      "atr": 0.92,
+      "buckets": {
+        "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 17.49,
+          "stop": 18.41,
+          "target": 16.11,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 17.49,
+          "stop": 18.87,
+          "target": 14.73,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 17.49,
+          "stop": 20.25,
+          "target": 10.13,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "HOOD",
+      "atr": 6.52,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 108.53,
+          "stop": 102.01,
+          "target": 118.31,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 108.53,
+          "stop": 98.75,
+          "target": 128.09,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 108.53,
+          "stop": 88.97,
+          "target": 160.69,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "CAVA",
+      "atr": 3.9,
+      "buckets": {
+        "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 67.05,
+          "stop": 70.95,
+          "target": 61.2,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 67.05,
+          "stop": 72.9,
+          "target": 55.35,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 67.05,
+          "stop": 78.75,
+          "target": 35.85,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "RKLB",
+      "atr": 7.73,
+      "buckets": {
+        "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 66.56,
+          "stop": 74.29,
+          "target": 54.97,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 66.56,
+          "stop": 78.16,
+          "target": 43.37,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 66.56,
+          "stop": 89.75,
+          "target": 4.72,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "PLTR",
+      "atr": 7.08,
+      "buckets": {
+        "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 133.73,
+          "stop": 140.81,
+          "target": 123.11,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 133.73,
+          "stop": 144.35,
+          "target": 112.49,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 133.73,
+          "stop": 154.97,
+          "target": 77.09,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "UBER",
+      "atr": 2.65,
+      "buckets": {
+        "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 73.59,
+          "stop": 76.24,
+          "target": 69.62,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 73.59,
+          "stop": 77.56,
+          "target": 65.64,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 73.59,
+          "stop": 81.54,
+          "target": 52.39,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "LYFT",
+      "atr": 0.66,
+      "buckets": {
+        "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 16.09,
+          "stop": 16.75,
+          "target": 15.1,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 16.09,
+          "stop": 17.08,
+          "target": 14.11,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 16.09,
+          "stop": 18.07,
+          "target": 10.81,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "FSLR",
+      "atr": 11.31,
+      "buckets": {
+        "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 212.9,
+          "stop": 224.21,
+          "target": 195.94,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 212.9,
+          "stop": 229.87,
+          "target": 178.97,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 212.9,
+          "stop": 246.83,
+          "target": 122.42,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "WING",
+      "atr": 9.59,
+      "buckets": {
+        "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 142.95,
+          "stop": 152.54,
+          "target": 128.56,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 142.95,
+          "stop": 157.33,
+          "target": 114.18,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 142.95,
+          "stop": 171.72,
+          "target": 66.23,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "EME",
+      "atr": 32.54,
+      "buckets": {
+        "intraday": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 750.38,
+          "stop": 717.84,
+          "target": 799.19,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 750.38,
+          "stop": 701.57,
+          "target": 848.0,
+          "rr": 2.0
+        },
+        "long_term": {
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 750.38,
+          "stop": 652.76,
+          "target": 1010.7,
+          "rr": 2.7
+        }
+      }
+    },
+    {
+      "ticker": "DUOL",
+      "atr": 7.67,
+      "buckets": {
+        "intraday": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 129.14,
+          "stop": 136.81,
+          "target": 117.63,
+          "rr": 1.5
+        },
+        "swing": {
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 129.14,
+          "stop": 140.64,
           "target": 106.13,
           "rr": 2.0
         },
@@ -2029,2319 +3712,636 @@
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 114.35,
-          "stop": 122.57,
-          "target": 92.43,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "XOM",
-      "atr": 2.98,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 143.41,
-          "stop": 140.43,
-          "target": 147.88,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 143.41,
-          "stop": 138.94,
-          "target": 152.35,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 143.41,
-          "stop": 134.47,
-          "target": 167.25,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "ORCL",
-      "atr": 6.62,
-      "buckets": {
-        "intraday": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 132.17,
-          "stop": 138.79,
-          "target": 122.24,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 132.17,
-          "stop": 142.1,
-          "target": 112.31,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 132.17,
-          "stop": 152.03,
-          "target": 79.21,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "NFLX",
-      "atr": 2.51,
-      "buckets": {
-        "intraday": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 74.12,
-          "stop": 76.63,
-          "target": 70.36,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 74.12,
-          "stop": 77.89,
-          "target": 66.59,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 74.12,
-          "stop": 81.65,
-          "target": 54.04,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "COST",
-      "atr": 20.0,
-      "buckets": {
-        "intraday": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 924.14,
-          "stop": 944.14,
-          "target": 894.14,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 924.14,
-          "stop": 954.14,
-          "target": 864.14,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 924.14,
-          "stop": 984.14,
-          "target": 764.14,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "JNJ",
-      "atr": 6.78,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 251.29,
-          "stop": 244.51,
-          "target": 261.46,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 251.29,
-          "stop": 241.12,
-          "target": 271.63,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 251.29,
-          "stop": 230.95,
-          "target": 305.53,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "PG",
-      "atr": 3.37,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 148.03,
-          "stop": 144.66,
-          "target": 153.09,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 148.03,
-          "stop": 142.97,
-          "target": 158.14,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 148.03,
-          "stop": 137.92,
-          "target": 174.99,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "HD",
-      "atr": 8.23,
-      "buckets": {
-        "intraday": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 342.58,
-          "stop": 350.81,
-          "target": 330.23,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 342.58,
-          "stop": 354.93,
-          "target": 317.89,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 342.58,
-          "stop": 367.27,
-          "target": 276.74,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "ABBV",
-      "atr": 6.82,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 246.68,
-          "stop": 239.86,
-          "target": 256.91,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 246.68,
-          "stop": 236.45,
-          "target": 267.14,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 246.68,
-          "stop": 226.22,
-          "target": 301.24,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "BAC",
-      "atr": 1.27,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 61.53,
-          "stop": 60.26,
-          "target": 63.44,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 61.53,
-          "stop": 59.62,
-          "target": 65.34,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 61.53,
-          "stop": 57.72,
-          "target": 71.69,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "KO",
-      "atr": 1.71,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 83.1,
-          "stop": 81.39,
-          "target": 85.66,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 83.1,
-          "stop": 80.53,
-          "target": 88.23,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 83.1,
-          "stop": 77.97,
-          "target": 96.78,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "CRM",
-      "atr": 6.53,
-      "buckets": {
-        "intraday": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 167.77,
-          "stop": 174.3,
-          "target": 157.98,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 167.77,
-          "stop": 177.56,
-          "target": 148.18,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 167.77,
-          "stop": 187.36,
-          "target": 115.53,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "ADBE",
-      "atr": 8.68,
-      "buckets": {
-        "intraday": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 225.32,
-          "stop": 234.0,
-          "target": 212.3,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 225.32,
-          "stop": 238.34,
-          "target": 199.28,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 225.32,
-          "stop": 251.36,
-          "target": 155.88,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "AMD",
-      "atr": 40.04,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 516.72,
-          "stop": 476.68,
-          "target": 576.78,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 516.72,
-          "stop": 456.66,
-          "target": 636.84,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 516.72,
-          "stop": 396.6,
-          "target": 837.04,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "QCOM",
-      "atr": 11.15,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 175.91,
-          "stop": 164.76,
-          "target": 192.63,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 175.91,
-          "stop": 159.19,
-          "target": 209.36,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 175.91,
-          "stop": 142.46,
-          "target": 265.11,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "TXN",
-      "atr": 15.65,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 296.78,
-          "stop": 281.13,
-          "target": 320.25,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 296.78,
-          "stop": 273.3,
-          "target": 343.73,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 296.78,
-          "stop": 249.83,
-          "target": 421.98,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "AMGN",
-      "atr": 7.99,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 358.75,
-          "stop": 350.76,
-          "target": 370.74,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 358.75,
-          "stop": 346.76,
-          "target": 382.72,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 358.75,
-          "stop": 334.78,
-          "target": 422.67,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "INTU",
-      "atr": 12.66,
-      "buckets": {
-        "intraday": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 281.42,
-          "stop": 294.08,
-          "target": 262.43,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 281.42,
-          "stop": 300.41,
-          "target": 243.44,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 281.42,
-          "stop": 319.4,
-          "target": 180.14,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "LOW",
-      "atr": 5.49,
-      "buckets": {
-        "intraday": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 210.47,
-          "stop": 215.96,
-          "target": 202.24,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 210.47,
-          "stop": 218.7,
-          "target": 194.0,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 210.47,
-          "stop": 226.94,
-          "target": 166.55,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "SPGI",
-      "atr": 15.57,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 446.2,
-          "stop": 430.63,
-          "target": 469.56,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 446.2,
-          "stop": 422.84,
-          "target": 492.91,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 446.2,
-          "stop": 399.49,
-          "target": 570.76,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "CAT",
-      "atr": 47.21,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 894.27,
-          "stop": 847.06,
-          "target": 965.09,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 894.27,
-          "stop": 823.45,
-          "target": 1035.9,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 894.27,
-          "stop": 752.64,
-          "target": 1271.95,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "GE",
-      "atr": 8.48,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 355.12,
-          "stop": 346.64,
-          "target": 367.84,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 355.12,
-          "stop": 342.4,
-          "target": 380.56,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 355.12,
-          "stop": 329.68,
-          "target": 422.96,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "BKNG",
-      "atr": 6.28,
-      "buckets": {
-        "intraday": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 181.12,
-          "stop": 187.4,
-          "target": 171.7,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 181.12,
-          "stop": 190.54,
-          "target": 162.28,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 181.12,
-          "stop": 199.96,
-          "target": 130.88,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "TMO",
-      "atr": 14.53,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 534.63,
-          "stop": 520.1,
-          "target": 556.42,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 534.63,
-          "stop": 512.84,
-          "target": 578.22,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 534.63,
-          "stop": 491.04,
-          "target": 650.87,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "SCHW",
-      "atr": 2.59,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 103.14,
-          "stop": 100.55,
-          "target": 107.03,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 103.14,
-          "stop": 99.25,
-          "target": 110.91,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 103.14,
-          "stop": 95.37,
-          "target": 123.86,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "PGR",
-      "atr": 7.3,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 208.28,
-          "stop": 200.98,
-          "target": 219.23,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 208.28,
-          "stop": 197.33,
-          "target": 230.18,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 208.28,
-          "stop": 186.38,
-          "target": 266.68,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "GILD",
-      "atr": 4.01,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 132.55,
-          "stop": 128.54,
-          "target": 138.56,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 132.55,
-          "stop": 126.54,
-          "target": 144.58,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 132.55,
-          "stop": 120.52,
-          "target": 164.63,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "VRTX",
-      "atr": 16.41,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 479.31,
-          "stop": 462.9,
-          "target": 503.93,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 479.31,
-          "stop": 454.69,
-          "target": 528.54,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 479.31,
-          "stop": 430.08,
-          "target": 610.59,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "HON",
-      "atr": 9.16,
-      "buckets": {
-        "intraday": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 222.35,
-          "stop": 231.51,
-          "target": 208.61,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 222.35,
-          "stop": 236.09,
-          "target": 194.87,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 222.35,
-          "stop": 249.83,
-          "target": 149.07,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "DE",
-      "atr": 18.97,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 584.31,
-          "stop": 565.34,
-          "target": 612.76,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 584.31,
-          "stop": 555.85,
-          "target": 641.22,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 584.31,
-          "stop": 527.4,
-          "target": 736.07,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "SYK",
-      "atr": 11.19,
-      "buckets": {
-        "intraday": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 316.27,
-          "stop": 327.46,
-          "target": 299.48,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 316.27,
-          "stop": 333.06,
-          "target": 282.7,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 316.27,
-          "stop": 349.84,
-          "target": 226.75,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "PANW",
-      "atr": 18.7,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 354.71,
-          "stop": 336.01,
-          "target": 382.76,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 354.71,
-          "stop": 326.66,
-          "target": 410.81,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 354.71,
-          "stop": 298.61,
-          "target": 504.31,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "ANET",
-      "atr": 11.5,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 168.64,
-          "stop": 157.14,
-          "target": 185.89,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 168.64,
-          "stop": 151.39,
-          "target": 203.14,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 168.64,
-          "stop": 134.14,
-          "target": 260.64,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "LRCX",
-      "atr": 31.2,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 322.7,
-          "stop": 291.5,
-          "target": 369.5,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 322.7,
-          "stop": 275.9,
-          "target": 416.3,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 322.7,
-          "stop": 229.1,
-          "target": 572.3,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "MU",
-      "atr": 91.0,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 888.11,
-          "stop": 797.11,
-          "target": 1024.61,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 888.11,
-          "stop": 751.61,
-          "target": 1161.11,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 888.11,
-          "stop": 615.11,
-          "target": 1616.11,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "ADP",
-      "atr": 6.98,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 249.15,
-          "stop": 242.17,
-          "target": 259.62,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 249.15,
-          "stop": 238.68,
-          "target": 270.09,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 249.15,
-          "stop": 228.21,
-          "target": 304.99,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "DKNG",
-      "atr": 1.31,
-      "buckets": {
-        "intraday": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 25.81,
-          "stop": 27.12,
-          "target": 23.84,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 25.81,
-          "stop": 27.77,
-          "target": 21.88,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 25.81,
-          "stop": 29.74,
-          "target": 15.33,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "RDDT",
-      "atr": 12.22,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 199.53,
-          "stop": 187.31,
-          "target": 217.86,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 199.53,
-          "stop": 181.2,
-          "target": 236.19,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 199.53,
-          "stop": 162.87,
-          "target": 297.29,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "CELH",
-      "atr": 1.53,
-      "buckets": {
-        "intraday": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 30.46,
-          "stop": 31.99,
-          "target": 28.16,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 30.46,
-          "stop": 32.76,
-          "target": 25.87,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 30.46,
-          "stop": 35.05,
-          "target": 18.22,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "ARM",
-      "atr": 28.87,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 268.4,
-          "stop": 239.53,
-          "target": 311.7,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 268.4,
-          "stop": 225.09,
-          "target": 355.01,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 268.4,
-          "stop": 181.79,
-          "target": 499.36,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "APP",
-      "atr": 37.1,
-      "buckets": {
-        "intraday": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 451.88,
-          "stop": 488.98,
-          "target": 396.23,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 451.88,
-          "stop": 507.53,
-          "target": 340.58,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 451.88,
-          "stop": 563.18,
-          "target": 155.08,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "SOFI",
-      "atr": 0.93,
-      "buckets": {
-        "intraday": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 17.96,
-          "stop": 18.89,
-          "target": 16.57,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 17.96,
-          "stop": 19.36,
-          "target": 15.17,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 17.96,
-          "stop": 20.75,
-          "target": 10.52,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "HOOD",
-      "atr": 6.43,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 114.46,
-          "stop": 108.03,
-          "target": 124.1,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 114.46,
-          "stop": 104.81,
-          "target": 133.75,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 114.46,
-          "stop": 95.17,
-          "target": 165.9,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "CAVA",
-      "atr": 3.85,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 74.06,
-          "stop": 70.21,
-          "target": 79.84,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 74.06,
-          "stop": 68.28,
-          "target": 85.61,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 74.06,
-          "stop": 62.51,
-          "target": 104.86,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "RKLB",
-      "atr": 7.44,
-      "buckets": {
-        "intraday": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 75.58,
-          "stop": 83.02,
-          "target": 64.42,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 75.58,
-          "stop": 86.74,
-          "target": 53.26,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 75.58,
-          "stop": 97.9,
-          "target": 16.06,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "PLTR",
-      "atr": 7.22,
-      "buckets": {
-        "intraday": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 133.72,
-          "stop": 140.94,
-          "target": 122.89,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 133.72,
-          "stop": 144.55,
-          "target": 112.06,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 133.72,
-          "stop": 155.38,
-          "target": 75.96,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "UBER",
-      "atr": 2.62,
-      "buckets": {
-        "intraday": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 73.37,
-          "stop": 75.99,
-          "target": 69.44,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 73.37,
-          "stop": 77.3,
-          "target": 65.51,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 73.37,
-          "stop": 81.23,
-          "target": 52.41,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "LYFT",
-      "atr": 0.67,
-      "buckets": {
-        "intraday": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 16.35,
-          "stop": 17.02,
-          "target": 15.35,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 16.35,
-          "stop": 17.36,
-          "target": 14.34,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 16.35,
-          "stop": 18.36,
-          "target": 10.99,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "FSLR",
-      "atr": 11.41,
-      "buckets": {
-        "intraday": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 220.73,
-          "stop": 232.14,
-          "target": 203.61,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 220.73,
-          "stop": 237.84,
-          "target": 186.5,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 220.73,
-          "stop": 254.96,
-          "target": 129.45,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "WING",
-      "atr": 9.76,
-      "buckets": {
-        "intraday": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 148.83,
-          "stop": 158.59,
-          "target": 134.19,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 148.83,
-          "stop": 163.47,
-          "target": 119.55,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 148.83,
-          "stop": 178.11,
-          "target": 70.75,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "EME",
-      "atr": 32.76,
-      "buckets": {
-        "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 753.77,
-          "stop": 721.01,
-          "target": 802.91,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 753.77,
-          "stop": 704.63,
-          "target": 852.05,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 753.77,
-          "stop": 655.49,
-          "target": 1015.85,
-          "rr": 2.7
-        }
-      }
-    },
-    {
-      "ticker": "DUOL",
-      "atr": 8.17,
-      "buckets": {
-        "intraday": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 132.3,
-          "stop": 140.47,
-          "target": 120.05,
-          "rr": 1.5
-        },
-        "swing": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 132.3,
-          "stop": 144.56,
-          "target": 107.79,
-          "rr": 2.0
-        },
-        "long_term": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 132.3,
-          "stop": 156.81,
-          "target": 66.94,
+          "entry": 129.14,
+          "stop": 152.15,
+          "target": 67.78,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "PINS",
-      "atr": 0.9,
+      "atr": 0.93,
       "buckets": {
         "intraday": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 23.28,
-          "stop": 24.18,
-          "target": 21.93,
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 23.67,
+          "stop": 22.74,
+          "target": 25.07,
           "rr": 1.5
         },
         "swing": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 23.28,
-          "stop": 24.63,
-          "target": 20.58,
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 23.67,
+          "stop": 22.28,
+          "target": 26.46,
           "rr": 2.0
         },
         "long_term": {
-          "direction": "short",
-          "action": "SELL/SHORT",
-          "exit_action": "BUY/COVER",
-          "entry": 23.28,
-          "stop": 25.98,
-          "target": 16.08,
+          "direction": "long",
+          "action": "BUY",
+          "exit_action": "SELL",
+          "entry": 23.67,
+          "stop": 20.88,
+          "target": 31.11,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "BROS",
-      "atr": 3.23,
+      "atr": 3.24,
       "buckets": {
         "intraday": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 65.79,
-          "stop": 62.56,
-          "target": 70.64,
+          "entry": 64.46,
+          "stop": 61.22,
+          "target": 69.32,
           "rr": 1.5
         },
         "swing": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 65.79,
-          "stop": 60.95,
-          "target": 75.48,
+          "entry": 64.46,
+          "stop": 59.6,
+          "target": 74.18,
           "rr": 2.0
         },
         "long_term": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 65.79,
-          "stop": 56.1,
-          "target": 91.63,
+          "entry": 64.46,
+          "stop": 54.74,
+          "target": 90.38,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "ELF",
-      "atr": 4.45,
+      "atr": 4.52,
       "buckets": {
         "intraday": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 73.61,
-          "stop": 78.06,
-          "target": 66.94,
+          "entry": 74.95,
+          "stop": 79.47,
+          "target": 68.17,
           "rr": 1.5
         },
         "swing": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 73.61,
-          "stop": 80.28,
-          "target": 60.26,
+          "entry": 74.95,
+          "stop": 81.73,
+          "target": 61.39,
           "rr": 2.0
         },
         "long_term": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 73.61,
-          "stop": 86.96,
-          "target": 38.01,
+          "entry": 74.95,
+          "stop": 88.51,
+          "target": 38.79,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "FTAI",
-      "atr": 15.87,
+      "atr": 16.07,
       "buckets": {
         "intraday": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 206.45,
-          "stop": 222.32,
-          "target": 182.64,
+          "entry": 200.61,
+          "stop": 216.68,
+          "target": 176.51,
           "rr": 1.5
         },
         "swing": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 206.45,
-          "stop": 230.25,
-          "target": 158.84,
+          "entry": 200.61,
+          "stop": 224.72,
+          "target": 152.4,
           "rr": 2.0
         },
         "long_term": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 206.45,
-          "stop": 254.06,
-          "target": 79.49,
+          "entry": 200.61,
+          "stop": 248.82,
+          "target": 72.05,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "ONON",
-      "atr": 1.5,
+      "atr": 1.52,
       "buckets": {
         "intraday": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 37.91,
-          "stop": 39.41,
-          "target": 35.66,
+          "entry": 38.35,
+          "stop": 39.87,
+          "target": 36.07,
           "rr": 1.5
         },
         "swing": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 37.91,
-          "stop": 40.16,
-          "target": 33.41,
+          "entry": 38.35,
+          "stop": 40.63,
+          "target": 33.79,
           "rr": 2.0
         },
         "long_term": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 37.91,
-          "stop": 42.41,
-          "target": 25.91,
+          "entry": 38.35,
+          "stop": 42.91,
+          "target": 26.19,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "HIMS",
-      "atr": 2.52,
+      "atr": 2.58,
       "buckets": {
         "intraday": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 36.53,
-          "stop": 34.01,
-          "target": 40.31,
+          "entry": 34.66,
+          "stop": 32.08,
+          "target": 38.53,
           "rr": 1.5
         },
         "swing": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 36.53,
-          "stop": 32.75,
-          "target": 44.09,
+          "entry": 34.66,
+          "stop": 30.79,
+          "target": 42.4,
           "rr": 2.0
         },
         "long_term": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 36.53,
-          "stop": 28.97,
-          "target": 56.69,
+          "entry": 34.66,
+          "stop": 26.92,
+          "target": 55.3,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "CRDO",
-      "atr": 26.76,
+      "atr": 26.19,
       "buckets": {
         "intraday": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 221.37,
-          "stop": 194.61,
-          "target": 261.51,
+          "entry": 203.98,
+          "stop": 177.79,
+          "target": 243.26,
           "rr": 1.5
         },
         "swing": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 221.37,
-          "stop": 181.23,
-          "target": 301.65,
+          "entry": 203.98,
+          "stop": 164.69,
+          "target": 282.55,
           "rr": 2.0
         },
         "long_term": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 221.37,
-          "stop": 141.09,
-          "target": 435.45,
+          "entry": 203.98,
+          "stop": 125.41,
+          "target": 413.5,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "ASTS",
-      "atr": 6.95,
+      "atr": 7.47,
       "buckets": {
         "intraday": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 65.82,
-          "stop": 72.77,
-          "target": 55.39,
+          "entry": 54.36,
+          "stop": 61.83,
+          "target": 43.16,
           "rr": 1.5
         },
         "swing": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 65.82,
-          "stop": 76.24,
-          "target": 44.97,
+          "entry": 54.36,
+          "stop": 65.56,
+          "target": 31.95,
           "rr": 2.0
         },
         "long_term": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 65.82,
-          "stop": 86.67,
-          "target": 10.22,
+          "entry": 54.36,
+          "stop": 76.77,
+          "target": -5.4,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "NXT",
-      "atr": 8.4,
+      "atr": 8.1,
       "buckets": {
         "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 108.17,
-          "stop": 99.77,
-          "target": 120.77,
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 106.79,
+          "stop": 114.89,
+          "target": 94.64,
           "rr": 1.5
         },
         "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 108.17,
-          "stop": 95.57,
-          "target": 133.37,
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 106.79,
+          "stop": 118.94,
+          "target": 82.49,
           "rr": 2.0
         },
         "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 108.17,
-          "stop": 82.97,
-          "target": 175.37,
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 106.79,
+          "stop": 131.09,
+          "target": 41.99,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "IONQ",
-      "atr": 3.54,
+      "atr": 3.35,
       "buckets": {
         "intraday": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 37.26,
-          "stop": 40.8,
-          "target": 31.95,
+          "entry": 35.4,
+          "stop": 38.75,
+          "target": 30.38,
           "rr": 1.5
         },
         "swing": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 37.26,
-          "stop": 42.57,
-          "target": 26.64,
+          "entry": 35.4,
+          "stop": 40.42,
+          "target": 25.35,
           "rr": 2.0
         },
         "long_term": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 37.26,
-          "stop": 47.88,
-          "target": 8.94,
+          "entry": 35.4,
+          "stop": 45.45,
+          "target": 8.6,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "RGTI",
-      "atr": 1.28,
+      "atr": 1.21,
       "buckets": {
         "intraday": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 15.09,
-          "stop": 16.37,
-          "target": 13.17,
+          "entry": 14.27,
+          "stop": 15.48,
+          "target": 12.46,
           "rr": 1.5
         },
         "swing": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 15.09,
-          "stop": 17.01,
-          "target": 11.25,
+          "entry": 14.27,
+          "stop": 16.09,
+          "target": 10.64,
           "rr": 2.0
         },
         "long_term": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 15.09,
-          "stop": 18.93,
-          "target": 4.85,
+          "entry": 14.27,
+          "stop": 17.9,
+          "target": 4.59,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "QBTS",
-      "atr": 1.6,
+      "atr": 1.52,
       "buckets": {
         "intraday": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 18.11,
-          "stop": 19.71,
-          "target": 15.71,
+          "entry": 17.18,
+          "stop": 18.7,
+          "target": 14.9,
           "rr": 1.5
         },
         "swing": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 18.11,
-          "stop": 20.51,
-          "target": 13.31,
+          "entry": 17.18,
+          "stop": 19.46,
+          "target": 12.62,
           "rr": 2.0
         },
         "long_term": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 18.11,
-          "stop": 22.91,
-          "target": 5.31,
+          "entry": 17.18,
+          "stop": 21.74,
+          "target": 5.02,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "SOUN",
-      "atr": 0.42,
+      "atr": 0.41,
       "buckets": {
         "intraday": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 6.46,
-          "stop": 6.88,
-          "target": 5.83,
+          "entry": 6.28,
+          "stop": 6.69,
+          "target": 5.67,
           "rr": 1.5
         },
         "swing": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 6.46,
-          "stop": 7.09,
-          "target": 5.2,
+          "entry": 6.28,
+          "stop": 6.9,
+          "target": 5.05,
           "rr": 2.0
         },
         "long_term": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 6.46,
-          "stop": 7.72,
-          "target": 3.1,
+          "entry": 6.28,
+          "stop": 7.51,
+          "target": 3.0,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "ACHR",
-      "atr": 0.33,
+      "atr": 0.32,
       "buckets": {
         "intraday": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 4.74,
-          "stop": 5.07,
-          "target": 4.25,
+          "entry": 4.53,
+          "stop": 4.85,
+          "target": 4.05,
           "rr": 1.5
         },
         "swing": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 4.74,
-          "stop": 5.24,
-          "target": 3.75,
+          "entry": 4.53,
+          "stop": 5.01,
+          "target": 3.57,
           "rr": 2.0
         },
         "long_term": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 4.74,
-          "stop": 5.73,
-          "target": 2.1,
+          "entry": 4.53,
+          "stop": 5.49,
+          "target": 1.97,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "JOBY",
-      "atr": 0.57,
+      "atr": 0.54,
       "buckets": {
         "intraday": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 7.7,
-          "stop": 8.27,
-          "target": 6.85,
+          "entry": 7.41,
+          "stop": 7.95,
+          "target": 6.6,
           "rr": 1.5
         },
         "swing": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 7.7,
-          "stop": 8.55,
-          "target": 5.99,
+          "entry": 7.41,
+          "stop": 8.22,
+          "target": 5.79,
           "rr": 2.0
         },
         "long_term": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 7.7,
-          "stop": 9.41,
-          "target": 3.14,
+          "entry": 7.41,
+          "stop": 9.03,
+          "target": 3.09,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "LUNR",
-      "atr": 1.54,
+      "atr": 1.55,
       "buckets": {
         "intraday": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 14.92,
-          "stop": 16.46,
-          "target": 12.61,
+          "entry": 13.58,
+          "stop": 15.13,
+          "target": 11.25,
           "rr": 1.5
         },
         "swing": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 14.92,
-          "stop": 17.23,
-          "target": 10.3,
+          "entry": 13.58,
+          "stop": 15.91,
+          "target": 8.93,
           "rr": 2.0
         },
         "long_term": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 14.92,
-          "stop": 19.54,
-          "target": 2.6,
+          "entry": 13.58,
+          "stop": 18.23,
+          "target": 1.18,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "RDW",
-      "atr": 0.86,
+      "atr": 0.83,
       "buckets": {
         "intraday": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 9.44,
-          "stop": 10.3,
-          "target": 8.15,
+          "entry": 8.57,
+          "stop": 9.4,
+          "target": 7.33,
           "rr": 1.5
         },
         "swing": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 9.44,
-          "stop": 10.73,
-          "target": 6.86,
+          "entry": 8.57,
+          "stop": 9.81,
+          "target": 6.08,
           "rr": 2.0
         },
         "long_term": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 9.44,
-          "stop": 12.02,
-          "target": 2.56,
+          "entry": 8.57,
+          "stop": 11.06,
+          "target": 1.93,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "BKSY",
-      "atr": 2.11,
+      "atr": 2.2,
       "buckets": {
         "intraday": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 24.65,
-          "stop": 26.76,
-          "target": 21.48,
+          "entry": 21.42,
+          "stop": 23.62,
+          "target": 18.12,
           "rr": 1.5
         },
         "swing": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 24.65,
-          "stop": 27.81,
-          "target": 18.32,
+          "entry": 21.42,
+          "stop": 24.72,
+          "target": 14.82,
           "rr": 2.0
         },
         "long_term": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 24.65,
-          "stop": 30.98,
-          "target": 7.77,
+          "entry": 21.42,
+          "stop": 28.02,
+          "target": 3.82,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "AUR",
-      "atr": 0.44,
+      "atr": 0.43,
       "buckets": {
         "intraday": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 5.95,
-          "stop": 5.51,
-          "target": 6.61,
+          "entry": 5.88,
+          "stop": 5.45,
+          "target": 6.53,
           "rr": 1.5
         },
         "swing": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 5.95,
-          "stop": 5.29,
-          "target": 7.27,
+          "entry": 5.88,
+          "stop": 5.23,
+          "target": 7.17,
           "rr": 2.0
         },
         "long_term": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 5.95,
-          "stop": 4.63,
-          "target": 9.47,
+          "entry": 5.88,
+          "stop": 4.59,
+          "target": 9.32,
           "rr": 2.7
         }
       }
@@ -4353,429 +4353,429 @@
     },
     {
       "ticker": "AEHR",
-      "atr": 11.27,
+      "atr": 11.05,
       "buckets": {
         "intraday": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 88.09,
-          "stop": 76.82,
-          "target": 105.0,
+          "entry": 83.11,
+          "stop": 72.06,
+          "target": 99.69,
           "rr": 1.5
         },
         "swing": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 88.09,
-          "stop": 71.19,
-          "target": 121.9,
+          "entry": 83.11,
+          "stop": 66.53,
+          "target": 116.26,
           "rr": 2.0
         },
         "long_term": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 88.09,
-          "stop": 54.28,
-          "target": 178.25,
+          "entry": 83.11,
+          "stop": 49.96,
+          "target": 171.51,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "BTDR",
-      "atr": 1.6,
+      "atr": 1.51,
       "buckets": {
         "intraday": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 12.54,
-          "stop": 14.14,
-          "target": 10.14,
+          "entry": 11.56,
+          "stop": 13.07,
+          "target": 9.29,
           "rr": 1.5
         },
         "swing": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 12.54,
-          "stop": 14.94,
-          "target": 7.74,
+          "entry": 11.56,
+          "stop": 13.83,
+          "target": 7.03,
           "rr": 2.0
         },
         "long_term": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 12.54,
-          "stop": 17.34,
-          "target": -0.26,
+          "entry": 11.56,
+          "stop": 16.09,
+          "target": -0.52,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "CLSK",
-      "atr": 1.4,
+      "atr": 1.35,
       "buckets": {
         "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 13.6,
-          "stop": 12.2,
-          "target": 15.7,
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 13.15,
+          "stop": 14.5,
+          "target": 11.12,
           "rr": 1.5
         },
         "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 13.6,
-          "stop": 11.5,
-          "target": 17.8,
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 13.15,
+          "stop": 15.18,
+          "target": 9.1,
           "rr": 2.0
         },
         "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 13.6,
-          "stop": 9.4,
-          "target": 24.8,
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 13.15,
+          "stop": 17.2,
+          "target": 2.35,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "RIOT",
-      "atr": 2.1,
+      "atr": 2.02,
       "buckets": {
         "intraday": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 19.76,
-          "stop": 17.66,
-          "target": 22.91,
+          "entry": 18.51,
+          "stop": 16.49,
+          "target": 21.54,
           "rr": 1.5
         },
         "swing": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 19.76,
-          "stop": 16.61,
-          "target": 26.06,
+          "entry": 18.51,
+          "stop": 15.48,
+          "target": 24.57,
           "rr": 2.0
         },
         "long_term": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 19.76,
-          "stop": 13.46,
-          "target": 36.56,
+          "entry": 18.51,
+          "stop": 12.45,
+          "target": 34.67,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "MARA",
-      "atr": 1.29,
+      "atr": 1.23,
       "buckets": {
         "intraday": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 11.81,
-          "stop": 13.1,
-          "target": 9.88,
+          "entry": 11.48,
+          "stop": 12.71,
+          "target": 9.63,
           "rr": 1.5
         },
         "swing": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 11.81,
-          "stop": 13.75,
-          "target": 7.94,
+          "entry": 11.48,
+          "stop": 13.33,
+          "target": 7.79,
           "rr": 2.0
         },
         "long_term": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 11.81,
-          "stop": 15.68,
-          "target": 1.49,
+          "entry": 11.48,
+          "stop": 15.17,
+          "target": 1.64,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "UPWK",
-      "atr": 0.41,
+      "atr": 0.4,
       "buckets": {
         "intraday": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 9.26,
-          "stop": 9.67,
-          "target": 8.64,
+          "entry": 9.54,
+          "stop": 9.94,
+          "target": 8.94,
           "rr": 1.5
         },
         "swing": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 9.26,
-          "stop": 9.88,
-          "target": 8.03,
+          "entry": 9.54,
+          "stop": 10.14,
+          "target": 8.34,
           "rr": 2.0
         },
         "long_term": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 9.26,
-          "stop": 10.49,
-          "target": 5.98,
+          "entry": 9.54,
+          "stop": 10.74,
+          "target": 6.34,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "FVRR",
-      "atr": 0.51,
+      "atr": 0.53,
       "buckets": {
         "intraday": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 11.31,
-          "stop": 11.82,
-          "target": 10.54,
+          "entry": 11.82,
+          "stop": 12.35,
+          "target": 11.03,
           "rr": 1.5
         },
         "swing": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 11.31,
-          "stop": 12.08,
-          "target": 9.78,
+          "entry": 11.82,
+          "stop": 12.62,
+          "target": 10.23,
           "rr": 2.0
         },
         "long_term": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 11.31,
-          "stop": 12.84,
-          "target": 7.23,
+          "entry": 11.82,
+          "stop": 13.41,
+          "target": 7.58,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "COUR",
-      "atr": 0.27,
+      "atr": 0.25,
       "buckets": {
         "intraday": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 5.63,
-          "stop": 5.9,
-          "target": 5.22,
+          "entry": 5.64,
+          "stop": 5.89,
+          "target": 5.26,
           "rr": 1.5
         },
         "swing": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 5.63,
-          "stop": 6.04,
-          "target": 4.82,
+          "entry": 5.64,
+          "stop": 6.01,
+          "target": 4.89,
           "rr": 2.0
         },
         "long_term": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 5.63,
-          "stop": 6.44,
-          "target": 3.47,
+          "entry": 5.64,
+          "stop": 6.39,
+          "target": 3.64,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "DNA",
-      "atr": 0.79,
+      "atr": 0.77,
       "buckets": {
         "intraday": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 8.94,
-          "stop": 9.73,
-          "target": 7.75,
+          "entry": 8.39,
+          "stop": 9.16,
+          "target": 7.24,
           "rr": 1.5
         },
         "swing": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 8.94,
-          "stop": 10.12,
-          "target": 6.57,
+          "entry": 8.39,
+          "stop": 9.54,
+          "target": 6.08,
           "rr": 2.0
         },
         "long_term": {
           "direction": "short",
           "action": "SELL/SHORT",
           "exit_action": "BUY/COVER",
-          "entry": 8.94,
-          "stop": 11.31,
-          "target": 2.62,
+          "entry": 8.39,
+          "stop": 10.7,
+          "target": 2.23,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "OUST",
-      "atr": 6.32,
+      "atr": 6.19,
       "buckets": {
         "intraday": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 38.12,
-          "stop": 31.8,
-          "target": 47.6,
+          "entry": 35.74,
+          "stop": 29.55,
+          "target": 45.03,
           "rr": 1.5
         },
         "swing": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 38.12,
-          "stop": 28.64,
-          "target": 57.08,
+          "entry": 35.74,
+          "stop": 26.46,
+          "target": 54.31,
           "rr": 2.0
         },
         "long_term": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 38.12,
-          "stop": 19.16,
-          "target": 88.68,
+          "entry": 35.74,
+          "stop": 17.17,
+          "target": 85.26,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "BLZE",
-      "atr": 1.49,
+      "atr": 1.38,
       "buckets": {
         "intraday": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 15.13,
-          "stop": 13.64,
-          "target": 17.37,
+          "entry": 14.49,
+          "stop": 13.11,
+          "target": 16.56,
           "rr": 1.5
         },
         "swing": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 15.13,
-          "stop": 12.9,
-          "target": 19.6,
+          "entry": 14.49,
+          "stop": 12.42,
+          "target": 18.63,
           "rr": 2.0
         },
         "long_term": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 15.13,
-          "stop": 10.66,
-          "target": 27.05,
+          "entry": 14.49,
+          "stop": 10.35,
+          "target": 25.53,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "AMPL",
-      "atr": 0.64,
+      "atr": 0.63,
       "buckets": {
         "intraday": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 9.57,
-          "stop": 8.93,
-          "target": 10.53,
+          "entry": 9.72,
+          "stop": 9.09,
+          "target": 10.67,
           "rr": 1.5
         },
         "swing": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 9.57,
-          "stop": 8.61,
-          "target": 11.49,
+          "entry": 9.72,
+          "stop": 8.78,
+          "target": 11.61,
           "rr": 2.0
         },
         "long_term": {
           "direction": "long",
           "action": "BUY",
           "exit_action": "SELL",
-          "entry": 9.57,
-          "stop": 7.65,
-          "target": 14.69,
+          "entry": 9.72,
+          "stop": 7.83,
+          "target": 14.76,
           "rr": 2.7
         }
       }
     },
     {
       "ticker": "CRNC",
-      "atr": 0.66,
+      "atr": 0.7,
       "buckets": {
         "intraday": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 10.11,
-          "stop": 9.45,
-          "target": 11.1,
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 9.39,
+          "stop": 10.09,
+          "target": 8.34,
           "rr": 1.5
         },
         "swing": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 10.11,
-          "stop": 9.12,
-          "target": 12.09,
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 9.39,
+          "stop": 10.44,
+          "target": 7.29,
           "rr": 2.0
         },
         "long_term": {
-          "direction": "long",
-          "action": "BUY",
-          "exit_action": "SELL",
-          "entry": 10.11,
-          "stop": 8.13,
-          "target": 15.39,
+          "direction": "short",
+          "action": "SELL/SHORT",
+          "exit_action": "BUY/COVER",
+          "entry": 9.39,
+          "stop": 11.49,
+          "target": 3.79,
           "rr": 2.7
         }
       }
@@ -4915,15 +4915,15 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000019617&type=8-K"
     },
     {
+      "headline": "V 8-K filed 2026-07-15 (material event)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001403161&type=8-K"
+    },
+    {
       "headline": "V 8-K filed 2026-06-26 (material event)",
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001403161&type=8-K"
     },
     {
       "headline": "V 8-K filed 2026-05-12 (material event)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001403161&type=8-K"
-    },
-    {
-      "headline": "V 8-K filed 2026-05-11 (material event)",
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001403161&type=8-K"
     },
     {
@@ -5183,15 +5183,15 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000018230&type=8-K"
     },
     {
+      "headline": "GE 8-K filed 2026-07-16 (material event)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000040545&type=8-K"
+    },
+    {
       "headline": "GE 8-K filed 2026-06-25 (material event)",
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000040545&type=8-K"
     },
     {
       "headline": "GE 8-K filed 2026-06-11 (material event)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000040545&type=8-K"
-    },
-    {
-      "headline": "GE 8-K filed 2026-05-07 (material event)",
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000040545&type=8-K"
     },
     {
@@ -5279,15 +5279,15 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000773840&type=8-K"
     },
     {
+      "headline": "DE 8-K filed 2026-07-15 (material event)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000315189&type=8-K"
+    },
+    {
       "headline": "DE 8-K filed 2026-06-01 (material event)",
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000315189&type=8-K"
     },
     {
       "headline": "DE 8-K filed 2026-05-21 (material event)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000315189&type=8-K"
-    },
-    {
-      "headline": "DE 8-K filed 2026-05-01 (material event)",
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000315189&type=8-K"
     },
     {
@@ -5387,15 +5387,15 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001713445&type=8-K"
     },
     {
+      "headline": "CELH 8-K filed 2026-07-15 (material event)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001341766&type=8-K"
+    },
+    {
       "headline": "CELH 8-K filed 2026-06-01 (material event)",
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001341766&type=8-K"
     },
     {
       "headline": "CELH 8-K filed 2026-05-28 (material event)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001341766&type=8-K"
-    },
-    {
-      "headline": "CELH 8-K filed 2026-05-07 (material event)",
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001341766&type=8-K"
     },
     {
@@ -5471,15 +5471,15 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001321655&type=8-K"
     },
     {
+      "headline": "UBER 8-K filed 2026-07-16 (material event)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001543151&type=8-K"
+    },
+    {
       "headline": "UBER 8-K filed 2026-05-11 (material event)",
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001543151&type=8-K"
     },
     {
       "headline": "UBER 8-K filed 2026-05-08 (material event)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001543151&type=8-K"
-    },
-    {
-      "headline": "UBER 8-K filed 2026-05-06 (material event)",
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001543151&type=8-K"
     },
     {
@@ -5615,15 +5615,15 @@
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001807794&type=8-K"
     },
     {
+      "headline": "ASTS 8-K filed 2026-07-15 (material event)",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001780312&type=8-K"
+    },
+    {
       "headline": "ASTS 8-K filed 2026-06-15 (material event)",
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001780312&type=8-K"
     },
     {
       "headline": "ASTS 8-K filed 2026-05-11 (material event)",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001780312&type=8-K"
-    },
-    {
-      "headline": "ASTS 8-K filed 2026-04-20 (material event)",
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001780312&type=8-K"
     },
     {
@@ -5966,7 +5966,7 @@
     },
     {
       "ticker": "JNJ",
-      "date": "2026-07-15"
+      "date": "2026-10-13"
     },
     {
       "ticker": "PG",
@@ -6046,7 +6046,7 @@
     },
     {
       "ticker": "PGR",
-      "date": "2026-07-15"
+      "date": "2026-10-14"
     },
     {
       "ticker": "GILD",
@@ -6262,7 +6262,7 @@
     },
     {
       "ticker": "COUR",
-      "date": "2026-07-23"
+      "date": "2026-07-29"
     },
     {
       "ticker": "DNA",
