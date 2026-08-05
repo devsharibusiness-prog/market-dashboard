@@ -1303,5 +1303,50 @@
         "direction": "long"
       }
     ]
+  },
+  {
+    "date": "2026-08-05",
+    "signals": [
+      {
+        "ticker": "NVDA",
+        "total_score": 85.0,
+        "conviction": "Strong",
+        "price": 218.71,
+        "horizon": "swing",
+        "direction": "long"
+      },
+      {
+        "ticker": "AMZN",
+        "total_score": 83.2,
+        "conviction": "Strong",
+        "price": 277.34,
+        "horizon": "intraday",
+        "direction": "long"
+      },
+      {
+        "ticker": "MSFT",
+        "total_score": 79.4,
+        "conviction": "Strong",
+        "price": 491.0,
+        "horizon": "intraday",
+        "direction": "long"
+      },
+      {
+        "ticker": "AAPL",
+        "total_score": 76.4,
+        "conviction": "Strong",
+        "price": 310.66,
+        "horizon": "long_term",
+        "direction": "long"
+      },
+      {
+        "ticker": "GOOGL",
+        "total_score": 70.8,
+        "conviction": "Moderate",
+        "price": 381.31,
+        "horizon": "swing",
+        "direction": "long"
+      }
+    ]
   }
 ]
