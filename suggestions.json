@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T13:23:03Z",
+  "generated_at": "2026-08-18T13:25:33Z",
   "suggestions": [
     {
       "ticker": "GOOGL",
@@ -31,21 +31,15 @@
       "setup_grade": "B",
       "breakout_level": 377.65,
       "breakout_distance_pct": 9.2,
-      "rr": 1.13,
-      "position_sizing": {
-        "shares": 3,
-        "dollar_risk": 100.0,
-        "position_value": 1037.7,
-        "risk_per_share": 28.21,
-        "direction": "long"
-      },
+      "rr": null,
+      "position_sizing": null,
       "sentiment": {
         "headline": null,
         "label": "neutral",
         "method": "crude keyword heuristic, NOT AI"
       },
-      "relative_strength_1m": -5.8,
-      "relative_strength_3m": -17.7,
+      "relative_strength_1m": NaN,
+      "relative_strength_3m": NaN,
       "tech_notes": [
         "RSI 60",
         "Uptrend",
@@ -53,7 +47,7 @@
         "RelVol 0.7x (5d/20d)"
       ],
       "fund_notes": [
-        "P/E 17.36",
+        "P/E 17.27",
         "Rev +24.2%"
       ],
       "technicals": {
@@ -66,7 +60,7 @@
         "pos_52w_text": "78% of 52w range",
         "volatility": 3.03,
         "price": 345.9,
-        "atr": 11.59,
+        "atr": null,
         "sparkline": [
           357.52,
           343.8,
@@ -74,18 +68,18 @@
           346.36,
           345.9
         ],
-        "volume_ratio": 0.69,
+        "volume_ratio": 0.7,
         "volume_desc": "Relative volume = 5-day avg / 20-day avg",
-        "sector_rel": -2.0,
+        "sector_rel": NaN,
         "sector_etf": "XLC",
         "sector_name": "Communication Services",
         "support": 317.69,
         "resistance": 377.65,
-        "rs_spy_1m": -5.8,
-        "rs_spy_3m": -17.7
+        "rs_spy_1m": NaN,
+        "rs_spy_3m": NaN
       },
       "fundamentals": {
-        "pe": 17.36,
+        "pe": 17.27,
         "rev_growth": 24.2,
         "margin": 54.8,
         "roe": 48.7,
@@ -131,29 +125,23 @@
       "setup_grade": "C",
       "breakout_level": 506.06,
       "breakout_distance_pct": 2.2,
-      "rr": 0.09,
-      "position_sizing": {
-        "shares": 0,
-        "dollar_risk": 100.0,
-        "position_value": 0.0,
-        "risk_per_share": 113.82,
-        "direction": "long"
-      },
+      "rr": null,
+      "position_sizing": null,
       "sentiment": {
         "headline": null,
         "label": "neutral",
         "method": "crude keyword heuristic, NOT AI"
       },
-      "relative_strength_1m": 20.1,
-      "relative_strength_3m": 17.2,
+      "relative_strength_1m": NaN,
+      "relative_strength_3m": NaN,
       "tech_notes": [
         "RSI 85",
         "Uptrend",
         "1M +23.5%",
-        "RelVol 0.7x (5d/20d)"
+        "RelVol 0.6x (5d/20d)"
       ],
       "fund_notes": [
-        "P/E 27.63",
+        "P/E 26.73",
         "Rev +17.7%"
       ],
       "technicals": {
@@ -166,7 +154,7 @@
         "pos_52w_text": "77% of 52w range",
         "volatility": 3.84,
         "price": 495.4,
-        "atr": 16.95,
+        "atr": null,
         "sparkline": [
           506.06,
           503.81,
@@ -174,18 +162,18 @@
           496.88,
           495.4
         ],
-        "volume_ratio": 0.65,
+        "volume_ratio": 0.63,
         "volume_desc": "Relative volume = 5-day avg / 20-day avg",
-        "sector_rel": 16.5,
+        "sector_rel": NaN,
         "sector_etf": "XLK",
         "sector_name": "Technology",
         "support": 381.58,
         "resistance": 506.06,
-        "rs_spy_1m": 20.1,
-        "rs_spy_3m": 17.2
+        "rs_spy_1m": NaN,
+        "rs_spy_3m": NaN
       },
       "fundamentals": {
-        "pe": 27.63,
+        "pe": 26.73,
         "rev_growth": 17.7,
         "margin": 40.3,
         "roe": 34.0,
@@ -221,31 +209,25 @@
       "trend": "uptrend",
       "trend_aligned": true,
       "trade_direction": "long",
-      "backtest_winrate": 48.5,
-      "backtest_sample": 169,
-      "backtest_note": "price>50MA & above 200MA -> 5d fwd, 169 samples",
+      "backtest_winrate": 47.9,
+      "backtest_sample": 167,
+      "backtest_note": "price>50MA & above 200MA -> 5d fwd, 167 samples",
       "backtest_low_sample": false,
-      "avg_win_pct": 2.66,
+      "avg_win_pct": 2.62,
       "avg_loss_pct": -3.64,
-      "ev_pct": -0.58,
+      "ev_pct": -0.64,
       "setup_grade": "C",
       "breakout_level": 284.02,
       "breakout_distance_pct": 8.1,
-      "rr": 0.59,
-      "position_sizing": {
-        "shares": 2,
-        "dollar_risk": 100.0,
-        "position_value": 525.3,
-        "risk_per_share": 36.0,
-        "direction": "long"
-      },
+      "rr": null,
+      "position_sizing": null,
       "sentiment": {
         "headline": null,
         "label": "neutral",
         "method": "crude keyword heuristic, NOT AI"
       },
-      "relative_strength_1m": 1.7,
-      "relative_strength_3m": -5.7,
+      "relative_strength_1m": NaN,
+      "relative_strength_3m": NaN,
       "tech_notes": [
         "RSI 66",
         "Uptrend",
@@ -253,7 +235,7 @@
         "RelVol 0.7x (5d/20d)"
       ],
       "fund_notes": [
-        "P/E 21.15",
+        "P/E 21.14",
         "Rev +19.6%"
       ],
       "technicals": {
@@ -266,7 +248,7 @@
         "pos_52w_text": "82% of 52w range",
         "volatility": 4.08,
         "price": 262.65,
-        "atr": 9.83,
+        "atr": null,
         "sparkline": [
           278.09,
           272.27,
@@ -274,18 +256,18 @@
           265.13,
           262.65
         ],
-        "volume_ratio": 0.65,
+        "volume_ratio": 0.67,
         "volume_desc": "Relative volume = 5-day avg / 20-day avg",
-        "sector_rel": 4.4,
+        "sector_rel": NaN,
         "sector_etf": "XLY",
         "sector_name": "Consumer Cyclical",
         "support": 226.65,
         "resistance": 284.02,
-        "rs_spy_1m": 1.7,
-        "rs_spy_3m": -5.7
+        "rs_spy_1m": NaN,
+        "rs_spy_3m": NaN
       },
       "fundamentals": {
-        "pe": 21.15,
+        "pe": 21.14,
         "rev_growth": 19.6,
         "margin": 17.4,
         "roe": 30.6,
@@ -299,106 +281,6 @@
           "beat"
         ],
         "avg_post_earnings_move_pct": 6.2
-      }
-    },
-    {
-      "ticker": "NVDA",
-      "total_score": 62.0,
-      "score_formula": "60% technical + 40% fundamental",
-      "technical_score": 21.7,
-      "fundamental_score": 45.0,
-      "rsi_score": 25.0,
-      "momentum_score": 60.0,
-      "fundamental_subscore": 90.0,
-      "volume_score": 45.0,
-      "confidence_pct": 60.0,
-      "horizon": "long_term",
-      "expected_window": "6-18+ months",
-      "horizon_reason": "Established uptrend, suited to holding",
-      "conviction": "Moderate",
-      "conviction_emoji": "\ud83d\udfe1",
-      "trigger": "Reclaimed 50-day MA",
-      "trend": "uptrend",
-      "trend_aligned": true,
-      "trade_direction": "long",
-      "backtest_winrate": 70.5,
-      "backtest_sample": 44,
-      "backtest_note": "RSI>70 & above 200MA -> 5d fwd, 44 samples",
-      "backtest_low_sample": false,
-      "avg_win_pct": 2.96,
-      "avg_loss_pct": -3.81,
-      "ev_pct": 0.96,
-      "setup_grade": "B",
-      "breakout_level": 225.3,
-      "breakout_distance_pct": 0.1,
-      "rr": 0.0,
-      "position_sizing": {
-        "shares": 2,
-        "dollar_risk": 100.0,
-        "position_value": 450.32,
-        "risk_per_share": 35.15,
-        "direction": "long"
-      },
-      "sentiment": {
-        "headline": null,
-        "label": "neutral",
-        "method": "crude keyword heuristic, NOT AI"
-      },
-      "relative_strength_1m": 5.2,
-      "relative_strength_3m": -8.4,
-      "tech_notes": [
-        "RSI 75",
-        "Uptrend",
-        "1M +8.6%",
-        "RelVol 0.8x (5d/20d)"
-      ],
-      "fund_notes": [
-        "P/E 34.48",
-        "Rev +85.2%"
-      ],
-      "technicals": {
-        "rsi": 75.44,
-        "ma50": 206.52,
-        "ma200": 194.75,
-        "mom_1m": 8.6,
-        "mom_3m": -4.4,
-        "pos_52w": 92.7,
-        "pos_52w_text": "93% of 52w range",
-        "volatility": 2.4,
-        "price": 225.16,
-        "atr": 6.84,
-        "sparkline": [
-          217.55,
-          217.5,
-          224.09,
-          225.3,
-          225.16
-        ],
-        "volume_ratio": 0.83,
-        "volume_desc": "Relative volume = 5-day avg / 20-day avg",
-        "sector_rel": 1.5,
-        "sector_etf": "XLK",
-        "sector_name": "Technology",
-        "support": 190.01,
-        "resistance": 225.3,
-        "rs_spy_1m": 5.2,
-        "rs_spy_3m": -8.4
-      },
-      "fundamentals": {
-        "pe": 34.48,
-        "rev_growth": 85.2,
-        "margin": 63.0,
-        "roe": 114.3,
-        "debt_to_equity": 6.55,
-        "sector": "Technology",
-        "eps_estimate": 12.8,
-        "earnings_streak": [
-          "beat",
-          "beat",
-          "beat",
-          "beat"
-        ],
-        "avg_post_earnings_move_pct": 3.7
       }
     },
     {
@@ -428,24 +310,18 @@
       "avg_win_pct": 3.55,
       "avg_loss_pct": -2.11,
       "ev_pct": 0.64,
-      "setup_grade": "A",
+      "setup_grade": "B",
       "breakout_level": 339.79,
       "breakout_distance_pct": 11.1,
-      "rr": 9.2,
-      "position_sizing": {
-        "shares": 27,
-        "dollar_risk": 100.0,
-        "position_value": 8260.11,
-        "risk_per_share": 3.68,
-        "direction": "long"
-      },
+      "rr": null,
+      "position_sizing": null,
       "sentiment": {
         "headline": null,
         "label": "neutral",
         "method": "crude keyword heuristic, NOT AI"
       },
-      "relative_strength_1m": -11.5,
-      "relative_strength_3m": -1.4,
+      "relative_strength_1m": NaN,
+      "relative_strength_3m": NaN,
       "tech_notes": [
         "RSI 26",
         "Uptrend",
@@ -466,7 +342,7 @@
         "pos_52w_text": "80% of 52w range",
         "volatility": 2.14,
         "price": 305.93,
-        "atr": 8.56,
+        "atr": null,
         "sparkline": [
           308.26,
           304.91,
@@ -474,15 +350,15 @@
           305.26,
           305.93
         ],
-        "volume_ratio": 0.73,
+        "volume_ratio": 0.7,
         "volume_desc": "Relative volume = 5-day avg / 20-day avg",
-        "sector_rel": -15.2,
+        "sector_rel": NaN,
         "sector_etf": "XLK",
         "sector_name": "Technology",
         "support": 302.25,
         "resistance": 339.79,
-        "rs_spy_1m": -11.5,
-        "rs_spy_3m": -1.4
+        "rs_spy_1m": NaN,
+        "rs_spy_3m": NaN
       },
       "fundamentals": {
         "pe": 35.08,
@@ -499,6 +375,100 @@
           "beat"
         ],
         "avg_post_earnings_move_pct": 2.5
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "total_score": 59.0,
+      "score_formula": "60% technical + 40% fundamental",
+      "technical_score": 19.2,
+      "fundamental_score": 45.0,
+      "rsi_score": 25.0,
+      "momentum_score": 60.0,
+      "fundamental_subscore": 90.0,
+      "volume_score": 30.0,
+      "confidence_pct": 60.0,
+      "horizon": "long_term",
+      "expected_window": "6-18+ months",
+      "horizon_reason": "Established uptrend, suited to holding",
+      "conviction": "Moderate",
+      "conviction_emoji": "\ud83d\udfe1",
+      "trigger": "Reclaimed 50-day MA",
+      "trend": "uptrend",
+      "trend_aligned": true,
+      "trade_direction": "long",
+      "backtest_winrate": 70.5,
+      "backtest_sample": 44,
+      "backtest_note": "RSI>70 & above 200MA -> 5d fwd, 44 samples",
+      "backtest_low_sample": false,
+      "avg_win_pct": 2.96,
+      "avg_loss_pct": -3.81,
+      "ev_pct": 0.96,
+      "setup_grade": "B",
+      "breakout_level": 225.3,
+      "breakout_distance_pct": 0.1,
+      "rr": null,
+      "position_sizing": null,
+      "sentiment": {
+        "headline": null,
+        "label": "neutral",
+        "method": "crude keyword heuristic, NOT AI"
+      },
+      "relative_strength_1m": NaN,
+      "relative_strength_3m": NaN,
+      "tech_notes": [
+        "RSI 75",
+        "Uptrend",
+        "1M +8.6%",
+        "RelVol 0.8x (5d/20d)"
+      ],
+      "fund_notes": [
+        "P/E 34.46",
+        "Rev +85.2%"
+      ],
+      "technicals": {
+        "rsi": 75.44,
+        "ma50": 206.52,
+        "ma200": 194.75,
+        "mom_1m": 8.6,
+        "mom_3m": -4.4,
+        "pos_52w": 92.7,
+        "pos_52w_text": "93% of 52w range",
+        "volatility": 2.4,
+        "price": 225.16,
+        "atr": null,
+        "sparkline": [
+          217.55,
+          217.5,
+          224.09,
+          225.3,
+          225.16
+        ],
+        "volume_ratio": 0.78,
+        "volume_desc": "Relative volume = 5-day avg / 20-day avg",
+        "sector_rel": NaN,
+        "sector_etf": "XLK",
+        "sector_name": "Technology",
+        "support": 190.01,
+        "resistance": 225.3,
+        "rs_spy_1m": NaN,
+        "rs_spy_3m": NaN
+      },
+      "fundamentals": {
+        "pe": 34.46,
+        "rev_growth": 85.2,
+        "margin": 63.0,
+        "roe": 114.3,
+        "debt_to_equity": 6.55,
+        "sector": "Technology",
+        "eps_estimate": 12.83,
+        "earnings_streak": [
+          "beat",
+          "beat",
+          "beat",
+          "beat"
+        ],
+        "avg_post_earnings_move_pct": 3.7
       }
     }
   ],
@@ -534,29 +504,23 @@
         "setup_grade": "C",
         "breakout_level": 506.06,
         "breakout_distance_pct": 2.2,
-        "rr": 0.09,
-        "position_sizing": {
-          "shares": 0,
-          "dollar_risk": 100.0,
-          "position_value": 0.0,
-          "risk_per_share": 113.82,
-          "direction": "long"
-        },
+        "rr": null,
+        "position_sizing": null,
         "sentiment": {
           "headline": null,
           "label": "neutral",
           "method": "crude keyword heuristic, NOT AI"
         },
-        "relative_strength_1m": 20.1,
-        "relative_strength_3m": 17.2,
+        "relative_strength_1m": NaN,
+        "relative_strength_3m": NaN,
         "tech_notes": [
           "RSI 85",
           "Uptrend",
           "1M +23.5%",
-          "RelVol 0.7x (5d/20d)"
+          "RelVol 0.6x (5d/20d)"
         ],
         "fund_notes": [
-          "P/E 27.63",
+          "P/E 26.73",
           "Rev +17.7%"
         ],
         "technicals": {
@@ -569,7 +533,7 @@
           "pos_52w_text": "77% of 52w range",
           "volatility": 3.84,
           "price": 495.4,
-          "atr": 16.95,
+          "atr": null,
           "sparkline": [
             506.06,
             503.81,
@@ -577,18 +541,18 @@
             496.88,
             495.4
           ],
-          "volume_ratio": 0.65,
+          "volume_ratio": 0.63,
           "volume_desc": "Relative volume = 5-day avg / 20-day avg",
-          "sector_rel": 16.5,
+          "sector_rel": NaN,
           "sector_etf": "XLK",
           "sector_name": "Technology",
           "support": 381.58,
           "resistance": 506.06,
-          "rs_spy_1m": 20.1,
-          "rs_spy_3m": 17.2
+          "rs_spy_1m": NaN,
+          "rs_spy_3m": NaN
         },
         "fundamentals": {
-          "pe": 27.63,
+          "pe": 26.73,
           "rev_growth": 17.7,
           "margin": 40.3,
           "roe": 34.0,
@@ -624,31 +588,25 @@
         "trend": "uptrend",
         "trend_aligned": true,
         "trade_direction": "long",
-        "backtest_winrate": 48.5,
-        "backtest_sample": 169,
-        "backtest_note": "price>50MA & above 200MA -> 5d fwd, 169 samples",
+        "backtest_winrate": 47.9,
+        "backtest_sample": 167,
+        "backtest_note": "price>50MA & above 200MA -> 5d fwd, 167 samples",
         "backtest_low_sample": false,
-        "avg_win_pct": 2.66,
+        "avg_win_pct": 2.62,
         "avg_loss_pct": -3.64,
-        "ev_pct": -0.58,
+        "ev_pct": -0.64,
         "setup_grade": "C",
         "breakout_level": 284.02,
         "breakout_distance_pct": 8.1,
-        "rr": 0.59,
-        "position_sizing": {
-          "shares": 2,
-          "dollar_risk": 100.0,
-          "position_value": 525.3,
-          "risk_per_share": 36.0,
-          "direction": "long"
-        },
+        "rr": null,
+        "position_sizing": null,
         "sentiment": {
           "headline": null,
           "label": "neutral",
           "method": "crude keyword heuristic, NOT AI"
         },
-        "relative_strength_1m": 1.7,
-        "relative_strength_3m": -5.7,
+        "relative_strength_1m": NaN,
+        "relative_strength_3m": NaN,
         "tech_notes": [
           "RSI 66",
           "Uptrend",
@@ -656,7 +614,7 @@
           "RelVol 0.7x (5d/20d)"
         ],
         "fund_notes": [
-          "P/E 21.15",
+          "P/E 21.14",
           "Rev +19.6%"
         ],
         "technicals": {
@@ -669,7 +627,7 @@
           "pos_52w_text": "82% of 52w range",
           "volatility": 4.08,
           "price": 262.65,
-          "atr": 9.83,
+          "atr": null,
           "sparkline": [
             278.09,
             272.27,
@@ -677,18 +635,18 @@
             265.13,
             262.65
           ],
-          "volume_ratio": 0.65,
+          "volume_ratio": 0.67,
           "volume_desc": "Relative volume = 5-day avg / 20-day avg",
-          "sector_rel": 4.4,
+          "sector_rel": NaN,
           "sector_etf": "XLY",
           "sector_name": "Consumer Cyclical",
           "support": 226.65,
           "resistance": 284.02,
-          "rs_spy_1m": 1.7,
-          "rs_spy_3m": -5.7
+          "rs_spy_1m": NaN,
+          "rs_spy_3m": NaN
         },
         "fundamentals": {
-          "pe": 21.15,
+          "pe": 21.14,
           "rev_growth": 19.6,
           "margin": 17.4,
           "roe": 30.6,
@@ -737,21 +695,15 @@
         "setup_grade": "B",
         "breakout_level": 377.65,
         "breakout_distance_pct": 9.2,
-        "rr": 1.13,
-        "position_sizing": {
-          "shares": 3,
-          "dollar_risk": 100.0,
-          "position_value": 1037.7,
-          "risk_per_share": 28.21,
-          "direction": "long"
-        },
+        "rr": null,
+        "position_sizing": null,
         "sentiment": {
           "headline": null,
           "label": "neutral",
           "method": "crude keyword heuristic, NOT AI"
         },
-        "relative_strength_1m": -5.8,
-        "relative_strength_3m": -17.7,
+        "relative_strength_1m": NaN,
+        "relative_strength_3m": NaN,
         "tech_notes": [
           "RSI 60",
           "Uptrend",
@@ -759,7 +711,7 @@
           "RelVol 0.7x (5d/20d)"
         ],
         "fund_notes": [
-          "P/E 17.36",
+          "P/E 17.27",
           "Rev +24.2%"
         ],
         "technicals": {
@@ -772,7 +724,7 @@
           "pos_52w_text": "78% of 52w range",
           "volatility": 3.03,
           "price": 345.9,
-          "atr": 11.59,
+          "atr": null,
           "sparkline": [
             357.52,
             343.8,
@@ -780,18 +732,18 @@
             346.36,
             345.9
           ],
-          "volume_ratio": 0.69,
+          "volume_ratio": 0.7,
           "volume_desc": "Relative volume = 5-day avg / 20-day avg",
-          "sector_rel": -2.0,
+          "sector_rel": NaN,
           "sector_etf": "XLC",
           "sector_name": "Communication Services",
           "support": 317.69,
           "resistance": 377.65,
-          "rs_spy_1m": -5.8,
-          "rs_spy_3m": -17.7
+          "rs_spy_1m": NaN,
+          "rs_spy_3m": NaN
         },
         "fundamentals": {
-          "pe": 17.36,
+          "pe": 17.27,
           "rev_growth": 24.2,
           "margin": 54.8,
           "roe": 48.7,
@@ -805,106 +757,6 @@
             "beat"
           ],
           "avg_post_earnings_move_pct": 4.1
-        }
-      },
-      {
-        "ticker": "NVDA",
-        "total_score": 62.0,
-        "score_formula": "60% technical + 40% fundamental",
-        "technical_score": 21.7,
-        "fundamental_score": 45.0,
-        "rsi_score": 25.0,
-        "momentum_score": 60.0,
-        "fundamental_subscore": 90.0,
-        "volume_score": 45.0,
-        "confidence_pct": 60.0,
-        "horizon": "long_term",
-        "expected_window": "6-18+ months",
-        "horizon_reason": "Established uptrend, suited to holding",
-        "conviction": "Moderate",
-        "conviction_emoji": "\ud83d\udfe1",
-        "trigger": "Reclaimed 50-day MA",
-        "trend": "uptrend",
-        "trend_aligned": true,
-        "trade_direction": "long",
-        "backtest_winrate": 70.5,
-        "backtest_sample": 44,
-        "backtest_note": "RSI>70 & above 200MA -> 5d fwd, 44 samples",
-        "backtest_low_sample": false,
-        "avg_win_pct": 2.96,
-        "avg_loss_pct": -3.81,
-        "ev_pct": 0.96,
-        "setup_grade": "B",
-        "breakout_level": 225.3,
-        "breakout_distance_pct": 0.1,
-        "rr": 0.0,
-        "position_sizing": {
-          "shares": 2,
-          "dollar_risk": 100.0,
-          "position_value": 450.32,
-          "risk_per_share": 35.15,
-          "direction": "long"
-        },
-        "sentiment": {
-          "headline": null,
-          "label": "neutral",
-          "method": "crude keyword heuristic, NOT AI"
-        },
-        "relative_strength_1m": 5.2,
-        "relative_strength_3m": -8.4,
-        "tech_notes": [
-          "RSI 75",
-          "Uptrend",
-          "1M +8.6%",
-          "RelVol 0.8x (5d/20d)"
-        ],
-        "fund_notes": [
-          "P/E 34.48",
-          "Rev +85.2%"
-        ],
-        "technicals": {
-          "rsi": 75.44,
-          "ma50": 206.52,
-          "ma200": 194.75,
-          "mom_1m": 8.6,
-          "mom_3m": -4.4,
-          "pos_52w": 92.7,
-          "pos_52w_text": "93% of 52w range",
-          "volatility": 2.4,
-          "price": 225.16,
-          "atr": 6.84,
-          "sparkline": [
-            217.55,
-            217.5,
-            224.09,
-            225.3,
-            225.16
-          ],
-          "volume_ratio": 0.83,
-          "volume_desc": "Relative volume = 5-day avg / 20-day avg",
-          "sector_rel": 1.5,
-          "sector_etf": "XLK",
-          "sector_name": "Technology",
-          "support": 190.01,
-          "resistance": 225.3,
-          "rs_spy_1m": 5.2,
-          "rs_spy_3m": -8.4
-        },
-        "fundamentals": {
-          "pe": 34.48,
-          "rev_growth": 85.2,
-          "margin": 63.0,
-          "roe": 114.3,
-          "debt_to_equity": 6.55,
-          "sector": "Technology",
-          "eps_estimate": 12.8,
-          "earnings_streak": [
-            "beat",
-            "beat",
-            "beat",
-            "beat"
-          ],
-          "avg_post_earnings_move_pct": 3.7
         }
       },
       {
@@ -934,24 +786,18 @@
         "avg_win_pct": 3.55,
         "avg_loss_pct": -2.11,
         "ev_pct": 0.64,
-        "setup_grade": "A",
+        "setup_grade": "B",
         "breakout_level": 339.79,
         "breakout_distance_pct": 11.1,
-        "rr": 9.2,
-        "position_sizing": {
-          "shares": 27,
-          "dollar_risk": 100.0,
-          "position_value": 8260.11,
-          "risk_per_share": 3.68,
-          "direction": "long"
-        },
+        "rr": null,
+        "position_sizing": null,
         "sentiment": {
           "headline": null,
           "label": "neutral",
           "method": "crude keyword heuristic, NOT AI"
         },
-        "relative_strength_1m": -11.5,
-        "relative_strength_3m": -1.4,
+        "relative_strength_1m": NaN,
+        "relative_strength_3m": NaN,
         "tech_notes": [
           "RSI 26",
           "Uptrend",
@@ -972,7 +818,7 @@
           "pos_52w_text": "80% of 52w range",
           "volatility": 2.14,
           "price": 305.93,
-          "atr": 8.56,
+          "atr": null,
           "sparkline": [
             308.26,
             304.91,
@@ -980,15 +826,15 @@
             305.26,
             305.93
           ],
-          "volume_ratio": 0.73,
+          "volume_ratio": 0.7,
           "volume_desc": "Relative volume = 5-day avg / 20-day avg",
-          "sector_rel": -15.2,
+          "sector_rel": NaN,
           "sector_etf": "XLK",
           "sector_name": "Technology",
           "support": 302.25,
           "resistance": 339.79,
-          "rs_spy_1m": -11.5,
-          "rs_spy_3m": -1.4
+          "rs_spy_1m": NaN,
+          "rs_spy_3m": NaN
         },
         "fundamentals": {
           "pe": 35.08,
@@ -1005,6 +851,100 @@
             "beat"
           ],
           "avg_post_earnings_move_pct": 2.5
+        }
+      },
+      {
+        "ticker": "NVDA",
+        "total_score": 59.0,
+        "score_formula": "60% technical + 40% fundamental",
+        "technical_score": 19.2,
+        "fundamental_score": 45.0,
+        "rsi_score": 25.0,
+        "momentum_score": 60.0,
+        "fundamental_subscore": 90.0,
+        "volume_score": 30.0,
+        "confidence_pct": 60.0,
+        "horizon": "long_term",
+        "expected_window": "6-18+ months",
+        "horizon_reason": "Established uptrend, suited to holding",
+        "conviction": "Moderate",
+        "conviction_emoji": "\ud83d\udfe1",
+        "trigger": "Reclaimed 50-day MA",
+        "trend": "uptrend",
+        "trend_aligned": true,
+        "trade_direction": "long",
+        "backtest_winrate": 70.5,
+        "backtest_sample": 44,
+        "backtest_note": "RSI>70 & above 200MA -> 5d fwd, 44 samples",
+        "backtest_low_sample": false,
+        "avg_win_pct": 2.96,
+        "avg_loss_pct": -3.81,
+        "ev_pct": 0.96,
+        "setup_grade": "B",
+        "breakout_level": 225.3,
+        "breakout_distance_pct": 0.1,
+        "rr": null,
+        "position_sizing": null,
+        "sentiment": {
+          "headline": null,
+          "label": "neutral",
+          "method": "crude keyword heuristic, NOT AI"
+        },
+        "relative_strength_1m": NaN,
+        "relative_strength_3m": NaN,
+        "tech_notes": [
+          "RSI 75",
+          "Uptrend",
+          "1M +8.6%",
+          "RelVol 0.8x (5d/20d)"
+        ],
+        "fund_notes": [
+          "P/E 34.46",
+          "Rev +85.2%"
+        ],
+        "technicals": {
+          "rsi": 75.44,
+          "ma50": 206.52,
+          "ma200": 194.75,
+          "mom_1m": 8.6,
+          "mom_3m": -4.4,
+          "pos_52w": 92.7,
+          "pos_52w_text": "93% of 52w range",
+          "volatility": 2.4,
+          "price": 225.16,
+          "atr": null,
+          "sparkline": [
+            217.55,
+            217.5,
+            224.09,
+            225.3,
+            225.16
+          ],
+          "volume_ratio": 0.78,
+          "volume_desc": "Relative volume = 5-day avg / 20-day avg",
+          "sector_rel": NaN,
+          "sector_etf": "XLK",
+          "sector_name": "Technology",
+          "support": 190.01,
+          "resistance": 225.3,
+          "rs_spy_1m": NaN,
+          "rs_spy_3m": NaN
+        },
+        "fundamentals": {
+          "pe": 34.46,
+          "rev_growth": 85.2,
+          "margin": 63.0,
+          "roe": 114.3,
+          "debt_to_equity": 6.55,
+          "sector": "Technology",
+          "eps_estimate": 12.83,
+          "earnings_streak": [
+            "beat",
+            "beat",
+            "beat",
+            "beat"
+          ],
+          "avg_post_earnings_move_pct": 3.7
         }
       }
     ]
@@ -1040,21 +980,15 @@
       "setup_grade": "B",
       "breakout_level": 377.65,
       "breakout_distance_pct": 9.2,
-      "rr": 1.13,
-      "position_sizing": {
-        "shares": 3,
-        "dollar_risk": 100.0,
-        "position_value": 1037.7,
-        "risk_per_share": 28.21,
-        "direction": "long"
-      },
+      "rr": null,
+      "position_sizing": null,
       "sentiment": {
         "headline": null,
         "label": "neutral",
         "method": "crude keyword heuristic, NOT AI"
       },
-      "relative_strength_1m": -5.8,
-      "relative_strength_3m": -17.7,
+      "relative_strength_1m": NaN,
+      "relative_strength_3m": NaN,
       "tech_notes": [
         "RSI 60",
         "Uptrend",
@@ -1062,7 +996,7 @@
         "RelVol 0.7x (5d/20d)"
       ],
       "fund_notes": [
-        "P/E 17.36",
+        "P/E 17.27",
         "Rev +24.2%"
       ],
       "technicals": {
@@ -1075,7 +1009,7 @@
         "pos_52w_text": "78% of 52w range",
         "volatility": 3.03,
         "price": 345.9,
-        "atr": 11.59,
+        "atr": null,
         "sparkline": [
           357.52,
           343.8,
@@ -1083,18 +1017,18 @@
           346.36,
           345.9
         ],
-        "volume_ratio": 0.69,
+        "volume_ratio": 0.7,
         "volume_desc": "Relative volume = 5-day avg / 20-day avg",
-        "sector_rel": -2.0,
+        "sector_rel": NaN,
         "sector_etf": "XLC",
         "sector_name": "Communication Services",
         "support": 317.69,
         "resistance": 377.65,
-        "rs_spy_1m": -5.8,
-        "rs_spy_3m": -17.7
+        "rs_spy_1m": NaN,
+        "rs_spy_3m": NaN
       },
       "fundamentals": {
-        "pe": 17.36,
+        "pe": 17.27,
         "rev_growth": 24.2,
         "margin": 54.8,
         "roe": 48.7,
@@ -1140,29 +1074,23 @@
       "setup_grade": "C",
       "breakout_level": 506.06,
       "breakout_distance_pct": 2.2,
-      "rr": 0.09,
-      "position_sizing": {
-        "shares": 0,
-        "dollar_risk": 100.0,
-        "position_value": 0.0,
-        "risk_per_share": 113.82,
-        "direction": "long"
-      },
+      "rr": null,
+      "position_sizing": null,
       "sentiment": {
         "headline": null,
         "label": "neutral",
         "method": "crude keyword heuristic, NOT AI"
       },
-      "relative_strength_1m": 20.1,
-      "relative_strength_3m": 17.2,
+      "relative_strength_1m": NaN,
+      "relative_strength_3m": NaN,
       "tech_notes": [
         "RSI 85",
         "Uptrend",
         "1M +23.5%",
-        "RelVol 0.7x (5d/20d)"
+        "RelVol 0.6x (5d/20d)"
       ],
       "fund_notes": [
-        "P/E 27.63",
+        "P/E 26.73",
         "Rev +17.7%"
       ],
       "technicals": {
@@ -1175,7 +1103,7 @@
         "pos_52w_text": "77% of 52w range",
         "volatility": 3.84,
         "price": 495.4,
-        "atr": 16.95,
+        "atr": null,
         "sparkline": [
           506.06,
           503.81,
@@ -1183,18 +1111,18 @@
           496.88,
           495.4
         ],
-        "volume_ratio": 0.65,
+        "volume_ratio": 0.63,
         "volume_desc": "Relative volume = 5-day avg / 20-day avg",
-        "sector_rel": 16.5,
+        "sector_rel": NaN,
         "sector_etf": "XLK",
         "sector_name": "Technology",
         "support": 381.58,
         "resistance": 506.06,
-        "rs_spy_1m": 20.1,
-        "rs_spy_3m": 17.2
+        "rs_spy_1m": NaN,
+        "rs_spy_3m": NaN
       },
       "fundamentals": {
-        "pe": 27.63,
+        "pe": 26.73,
         "rev_growth": 17.7,
         "margin": 40.3,
         "roe": 34.0,
@@ -1230,31 +1158,25 @@
       "trend": "uptrend",
       "trend_aligned": true,
       "trade_direction": "long",
-      "backtest_winrate": 48.5,
-      "backtest_sample": 169,
-      "backtest_note": "price>50MA & above 200MA -> 5d fwd, 169 samples",
+      "backtest_winrate": 47.9,
+      "backtest_sample": 167,
+      "backtest_note": "price>50MA & above 200MA -> 5d fwd, 167 samples",
       "backtest_low_sample": false,
-      "avg_win_pct": 2.66,
+      "avg_win_pct": 2.62,
       "avg_loss_pct": -3.64,
-      "ev_pct": -0.58,
+      "ev_pct": -0.64,
       "setup_grade": "C",
       "breakout_level": 284.02,
       "breakout_distance_pct": 8.1,
-      "rr": 0.59,
-      "position_sizing": {
-        "shares": 2,
-        "dollar_risk": 100.0,
-        "position_value": 525.3,
-        "risk_per_share": 36.0,
-        "direction": "long"
-      },
+      "rr": null,
+      "position_sizing": null,
       "sentiment": {
         "headline": null,
         "label": "neutral",
         "method": "crude keyword heuristic, NOT AI"
       },
-      "relative_strength_1m": 1.7,
-      "relative_strength_3m": -5.7,
+      "relative_strength_1m": NaN,
+      "relative_strength_3m": NaN,
       "tech_notes": [
         "RSI 66",
         "Uptrend",
@@ -1262,7 +1184,7 @@
         "RelVol 0.7x (5d/20d)"
       ],
       "fund_notes": [
-        "P/E 21.15",
+        "P/E 21.14",
         "Rev +19.6%"
       ],
       "technicals": {
@@ -1275,7 +1197,7 @@
         "pos_52w_text": "82% of 52w range",
         "volatility": 4.08,
         "price": 262.65,
-        "atr": 9.83,
+        "atr": null,
         "sparkline": [
           278.09,
           272.27,
@@ -1283,18 +1205,18 @@
           265.13,
           262.65
         ],
-        "volume_ratio": 0.65,
+        "volume_ratio": 0.67,
         "volume_desc": "Relative volume = 5-day avg / 20-day avg",
-        "sector_rel": 4.4,
+        "sector_rel": NaN,
         "sector_etf": "XLY",
         "sector_name": "Consumer Cyclical",
         "support": 226.65,
         "resistance": 284.02,
-        "rs_spy_1m": 1.7,
-        "rs_spy_3m": -5.7
+        "rs_spy_1m": NaN,
+        "rs_spy_3m": NaN
       },
       "fundamentals": {
-        "pe": 21.15,
+        "pe": 21.14,
         "rev_growth": 19.6,
         "margin": 17.4,
         "roe": 30.6,
@@ -1308,106 +1230,6 @@
           "beat"
         ],
         "avg_post_earnings_move_pct": 6.2
-      }
-    },
-    {
-      "ticker": "NVDA",
-      "total_score": 62.0,
-      "score_formula": "60% technical + 40% fundamental",
-      "technical_score": 21.7,
-      "fundamental_score": 45.0,
-      "rsi_score": 25.0,
-      "momentum_score": 60.0,
-      "fundamental_subscore": 90.0,
-      "volume_score": 45.0,
-      "confidence_pct": 60.0,
-      "horizon": "long_term",
-      "expected_window": "6-18+ months",
-      "horizon_reason": "Established uptrend, suited to holding",
-      "conviction": "Moderate",
-      "conviction_emoji": "\ud83d\udfe1",
-      "trigger": "Reclaimed 50-day MA",
-      "trend": "uptrend",
-      "trend_aligned": true,
-      "trade_direction": "long",
-      "backtest_winrate": 70.5,
-      "backtest_sample": 44,
-      "backtest_note": "RSI>70 & above 200MA -> 5d fwd, 44 samples",
-      "backtest_low_sample": false,
-      "avg_win_pct": 2.96,
-      "avg_loss_pct": -3.81,
-      "ev_pct": 0.96,
-      "setup_grade": "B",
-      "breakout_level": 225.3,
-      "breakout_distance_pct": 0.1,
-      "rr": 0.0,
-      "position_sizing": {
-        "shares": 2,
-        "dollar_risk": 100.0,
-        "position_value": 450.32,
-        "risk_per_share": 35.15,
-        "direction": "long"
-      },
-      "sentiment": {
-        "headline": null,
-        "label": "neutral",
-        "method": "crude keyword heuristic, NOT AI"
-      },
-      "relative_strength_1m": 5.2,
-      "relative_strength_3m": -8.4,
-      "tech_notes": [
-        "RSI 75",
-        "Uptrend",
-        "1M +8.6%",
-        "RelVol 0.8x (5d/20d)"
-      ],
-      "fund_notes": [
-        "P/E 34.48",
-        "Rev +85.2%"
-      ],
-      "technicals": {
-        "rsi": 75.44,
-        "ma50": 206.52,
-        "ma200": 194.75,
-        "mom_1m": 8.6,
-        "mom_3m": -4.4,
-        "pos_52w": 92.7,
-        "pos_52w_text": "93% of 52w range",
-        "volatility": 2.4,
-        "price": 225.16,
-        "atr": 6.84,
-        "sparkline": [
-          217.55,
-          217.5,
-          224.09,
-          225.3,
-          225.16
-        ],
-        "volume_ratio": 0.83,
-        "volume_desc": "Relative volume = 5-day avg / 20-day avg",
-        "sector_rel": 1.5,
-        "sector_etf": "XLK",
-        "sector_name": "Technology",
-        "support": 190.01,
-        "resistance": 225.3,
-        "rs_spy_1m": 5.2,
-        "rs_spy_3m": -8.4
-      },
-      "fundamentals": {
-        "pe": 34.48,
-        "rev_growth": 85.2,
-        "margin": 63.0,
-        "roe": 114.3,
-        "debt_to_equity": 6.55,
-        "sector": "Technology",
-        "eps_estimate": 12.8,
-        "earnings_streak": [
-          "beat",
-          "beat",
-          "beat",
-          "beat"
-        ],
-        "avg_post_earnings_move_pct": 3.7
       }
     },
     {
@@ -1437,24 +1259,18 @@
       "avg_win_pct": 3.55,
       "avg_loss_pct": -2.11,
       "ev_pct": 0.64,
-      "setup_grade": "A",
+      "setup_grade": "B",
       "breakout_level": 339.79,
       "breakout_distance_pct": 11.1,
-      "rr": 9.2,
-      "position_sizing": {
-        "shares": 27,
-        "dollar_risk": 100.0,
-        "position_value": 8260.11,
-        "risk_per_share": 3.68,
-        "direction": "long"
-      },
+      "rr": null,
+      "position_sizing": null,
       "sentiment": {
         "headline": null,
         "label": "neutral",
         "method": "crude keyword heuristic, NOT AI"
       },
-      "relative_strength_1m": -11.5,
-      "relative_strength_3m": -1.4,
+      "relative_strength_1m": NaN,
+      "relative_strength_3m": NaN,
       "tech_notes": [
         "RSI 26",
         "Uptrend",
@@ -1475,7 +1291,7 @@
         "pos_52w_text": "80% of 52w range",
         "volatility": 2.14,
         "price": 305.93,
-        "atr": 8.56,
+        "atr": null,
         "sparkline": [
           308.26,
           304.91,
@@ -1483,15 +1299,15 @@
           305.26,
           305.93
         ],
-        "volume_ratio": 0.73,
+        "volume_ratio": 0.7,
         "volume_desc": "Relative volume = 5-day avg / 20-day avg",
-        "sector_rel": -15.2,
+        "sector_rel": NaN,
         "sector_etf": "XLK",
         "sector_name": "Technology",
         "support": 302.25,
         "resistance": 339.79,
-        "rs_spy_1m": -11.5,
-        "rs_spy_3m": -1.4
+        "rs_spy_1m": NaN,
+        "rs_spy_3m": NaN
       },
       "fundamentals": {
         "pe": 35.08,
@@ -1508,6 +1324,100 @@
           "beat"
         ],
         "avg_post_earnings_move_pct": 2.5
+      }
+    },
+    {
+      "ticker": "NVDA",
+      "total_score": 59.0,
+      "score_formula": "60% technical + 40% fundamental",
+      "technical_score": 19.2,
+      "fundamental_score": 45.0,
+      "rsi_score": 25.0,
+      "momentum_score": 60.0,
+      "fundamental_subscore": 90.0,
+      "volume_score": 30.0,
+      "confidence_pct": 60.0,
+      "horizon": "long_term",
+      "expected_window": "6-18+ months",
+      "horizon_reason": "Established uptrend, suited to holding",
+      "conviction": "Moderate",
+      "conviction_emoji": "\ud83d\udfe1",
+      "trigger": "Reclaimed 50-day MA",
+      "trend": "uptrend",
+      "trend_aligned": true,
+      "trade_direction": "long",
+      "backtest_winrate": 70.5,
+      "backtest_sample": 44,
+      "backtest_note": "RSI>70 & above 200MA -> 5d fwd, 44 samples",
+      "backtest_low_sample": false,
+      "avg_win_pct": 2.96,
+      "avg_loss_pct": -3.81,
+      "ev_pct": 0.96,
+      "setup_grade": "B",
+      "breakout_level": 225.3,
+      "breakout_distance_pct": 0.1,
+      "rr": null,
+      "position_sizing": null,
+      "sentiment": {
+        "headline": null,
+        "label": "neutral",
+        "method": "crude keyword heuristic, NOT AI"
+      },
+      "relative_strength_1m": NaN,
+      "relative_strength_3m": NaN,
+      "tech_notes": [
+        "RSI 75",
+        "Uptrend",
+        "1M +8.6%",
+        "RelVol 0.8x (5d/20d)"
+      ],
+      "fund_notes": [
+        "P/E 34.46",
+        "Rev +85.2%"
+      ],
+      "technicals": {
+        "rsi": 75.44,
+        "ma50": 206.52,
+        "ma200": 194.75,
+        "mom_1m": 8.6,
+        "mom_3m": -4.4,
+        "pos_52w": 92.7,
+        "pos_52w_text": "93% of 52w range",
+        "volatility": 2.4,
+        "price": 225.16,
+        "atr": null,
+        "sparkline": [
+          217.55,
+          217.5,
+          224.09,
+          225.3,
+          225.16
+        ],
+        "volume_ratio": 0.78,
+        "volume_desc": "Relative volume = 5-day avg / 20-day avg",
+        "sector_rel": NaN,
+        "sector_etf": "XLK",
+        "sector_name": "Technology",
+        "support": 190.01,
+        "resistance": 225.3,
+        "rs_spy_1m": NaN,
+        "rs_spy_3m": NaN
+      },
+      "fundamentals": {
+        "pe": 34.46,
+        "rev_growth": 85.2,
+        "margin": 63.0,
+        "roe": 114.3,
+        "debt_to_equity": 6.55,
+        "sector": "Technology",
+        "eps_estimate": 12.83,
+        "earnings_streak": [
+          "beat",
+          "beat",
+          "beat",
+          "beat"
+        ],
+        "avg_post_earnings_move_pct": 3.7
       }
     }
   ],
