@@ -1,89 +1,89 @@
 {
-  "generated_at": "2026-11-09T22:39:11Z",
+  "generated_at": "2026-11-10T19:56:46Z",
   "regime": "range",
   "regime_reason": "SPY drifting, low directional momentum",
   "sectors": [
     {
       "etf": "XLK",
-      "ret_1d": 3.7,
-      "ret_1m": -14.0
+      "ret_1d": -1.6,
+      "ret_1m": -14.3
     },
     {
       "etf": "XLE",
-      "ret_1d": 0.5,
-      "ret_1m": -4.8
+      "ret_1d": 0.6,
+      "ret_1m": -5.6
     },
     {
       "etf": "XLF",
-      "ret_1d": 1.5,
-      "ret_1m": 6.0
+      "ret_1d": 0.7,
+      "ret_1m": 6.1
     },
     {
       "etf": "XLV",
-      "ret_1d": 1.9,
-      "ret_1m": 10.3
+      "ret_1d": 0.1,
+      "ret_1m": 9.6
     },
     {
       "etf": "XLI",
-      "ret_1d": 3.8,
-      "ret_1m": -0.2
+      "ret_1d": -0.3,
+      "ret_1m": -0.4
     },
     {
       "etf": "XLY",
-      "ret_1d": 2.9,
-      "ret_1m": 7.2
+      "ret_1d": 0.0,
+      "ret_1m": 7.8
     },
     {
       "etf": "XLP",
-      "ret_1d": 0.9,
-      "ret_1m": 8.9
+      "ret_1d": 0.3,
+      "ret_1m": 8.0
     },
     {
       "etf": "XLU",
-      "ret_1d": 1.5,
-      "ret_1m": 5.7
+      "ret_1d": -0.2,
+      "ret_1m": 4.9
     },
     {
       "etf": "XLB",
-      "ret_1d": 1.9,
-      "ret_1m": 7.1
+      "ret_1d": -0.3,
+      "ret_1m": 6.8
     },
     {
       "etf": "XLRE",
-      "ret_1d": 1.5,
-      "ret_1m": 7.3
+      "ret_1d": -0.1,
+      "ret_1m": 6.4
     },
     {
       "etf": "XLC",
-      "ret_1d": 2.5,
-      "ret_1m": -2.7
+      "ret_1d": 0.2,
+      "ret_1m": -3.5
     }
   ],
   "top2_leading": [
     {
       "etf": "XLV",
-      "ret_1d": 1.9,
-      "ret_1m": 10.3
+      "ret_1d": 0.1,
+      "ret_1m": 9.6
     },
     {
       "etf": "XLP",
-      "ret_1d": 0.9,
-      "ret_1m": 8.9
+      "ret_1d": 0.3,
+      "ret_1m": 8.0
     }
   ],
   "top2_lagging": [
     {
       "etf": "XLK",
-      "ret_1d": 3.7,
-      "ret_1m": -14.0
+      "ret_1d": -1.6,
+      "ret_1m": -14.3
     },
     {
       "etf": "XLE",
-      "ret_1d": 0.5,
-      "ret_1m": -4.8
+      "ret_1d": 0.6,
+      "ret_1m": -5.6
     }
   ],
-  "vix": 19.92,
+  "vix": 19.99,
   "vix_label": "normal",
   "vix_sentiment": 60,
   "vix_sentiment_label": "Calm",
@@ -91,7 +91,7 @@
   "key_spy_level": {
     "level": 733.0,
     "kind": "support",
-    "spy_price": 752.69,
-    "distance_pct": -2.6
+    "spy_price": 748.97,
+    "distance_pct": -2.1
   }
 }
