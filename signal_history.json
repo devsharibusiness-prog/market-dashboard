@@ -4732,26 +4732,26 @@
     "date": "2026-11-24",
     "signals": [
       {
-        "ticker": "NVDA",
-        "total_score": 78.4,
+        "ticker": "AAPL",
+        "total_score": 81.4,
         "conviction": "Strong",
-        "price": 165.05,
-        "horizon": "intraday",
-        "direction": "short"
+        "price": 354.07,
+        "horizon": "swing",
+        "direction": "long"
       },
       {
-        "ticker": "MSFT",
-        "total_score": 74.8,
+        "ticker": "NVDA",
+        "total_score": 74.4,
         "conviction": "Moderate",
-        "price": 492.5,
-        "horizon": "long_term",
-        "direction": "long"
+        "price": 155.38,
+        "horizon": "intraday",
+        "direction": "short"
       },
       {
         "ticker": "AMZN",
         "total_score": 73.2,
         "conviction": "Moderate",
-        "price": 255.39,
+        "price": 252.29,
         "horizon": "swing",
         "direction": "long"
       },
@@ -4759,16 +4759,16 @@
         "ticker": "GOOGL",
         "total_score": 72.0,
         "conviction": "Moderate",
-        "price": 282.1,
+        "price": 279.05,
         "horizon": "intraday",
         "direction": "short"
       },
       {
-        "ticker": "AAPL",
-        "total_score": 69.4,
+        "ticker": "MSFT",
+        "total_score": 64.8,
         "conviction": "Moderate",
-        "price": 349.08,
-        "horizon": "swing",
+        "price": 496.13,
+        "horizon": "long_term",
         "direction": "long"
       }
     ]
