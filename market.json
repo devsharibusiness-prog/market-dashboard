@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T21:56:19Z",
+  "generated_at": "2026-11-26T21:51:00Z",
   "regime": "volatile",
   "regime_reason": "SPY 20d daily vol 2.0% (elevated)",
   "sectors": [
@@ -83,9 +83,9 @@
       "ret_1m": -10.7
     }
   ],
-  "vix": 28.29,
-  "vix_label": "high",
-  "vix_sentiment": 27,
+  "vix": 26.8,
+  "vix_label": "elevated",
+  "vix_sentiment": 33,
   "vix_sentiment_label": "Fear",
   "vix_sentiment_inputs": "Derived from VIX only (inverted). Not CNN's Fear&Greed (which adds put/call, breadth, junk-bond demand).",
   "key_spy_level": {
