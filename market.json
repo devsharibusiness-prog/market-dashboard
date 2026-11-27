@@ -1,97 +1,97 @@
 {
-  "generated_at": "2026-11-26T21:51:00Z",
+  "generated_at": "2026-11-27T21:33:51Z",
   "regime": "volatile",
   "regime_reason": "SPY 20d daily vol 2.0% (elevated)",
   "sectors": [
     {
       "etf": "XLK",
-      "ret_1d": -0.8,
-      "ret_1m": -17.8
+      "ret_1d": 2.8,
+      "ret_1m": -16.2
     },
     {
       "etf": "XLE",
-      "ret_1d": 0.7,
-      "ret_1m": -10.7
+      "ret_1d": 1.3,
+      "ret_1m": -9.9
     },
     {
       "etf": "XLF",
-      "ret_1d": 0.7,
-      "ret_1m": 1.1
+      "ret_1d": 1.2,
+      "ret_1m": 1.8
     },
     {
       "etf": "XLV",
-      "ret_1d": -0.6,
+      "ret_1d": 0.3,
       "ret_1m": 2.5
     },
     {
       "etf": "XLI",
-      "ret_1d": 0.8,
-      "ret_1m": -3.0
+      "ret_1d": 1.6,
+      "ret_1m": -1.7
     },
     {
       "etf": "XLY",
-      "ret_1d": -0.2,
-      "ret_1m": 1.8
+      "ret_1d": 2.1,
+      "ret_1m": 4.0
     },
     {
       "etf": "XLP",
-      "ret_1d": 0.5,
-      "ret_1m": 5.9
+      "ret_1d": 0.4,
+      "ret_1m": 6.7
     },
     {
       "etf": "XLU",
-      "ret_1d": 0.5,
-      "ret_1m": 1.8
+      "ret_1d": 0.3,
+      "ret_1m": 2.9
     },
     {
       "etf": "XLB",
-      "ret_1d": 2.1,
-      "ret_1m": -1.1
+      "ret_1d": 1.8,
+      "ret_1m": 0.6
     },
     {
       "etf": "XLRE",
-      "ret_1d": 0.9,
-      "ret_1m": 3.3
+      "ret_1d": 0.6,
+      "ret_1m": 4.8
     },
     {
       "etf": "XLC",
-      "ret_1d": 0.9,
-      "ret_1m": 1.7
+      "ret_1d": 2.0,
+      "ret_1m": 4.2
     }
   ],
   "top2_leading": [
     {
       "etf": "XLP",
-      "ret_1d": 0.5,
-      "ret_1m": 5.9
+      "ret_1d": 0.4,
+      "ret_1m": 6.7
     },
     {
       "etf": "XLRE",
-      "ret_1d": 0.9,
-      "ret_1m": 3.3
+      "ret_1d": 0.6,
+      "ret_1m": 4.8
     }
   ],
   "top2_lagging": [
     {
       "etf": "XLK",
-      "ret_1d": -0.8,
-      "ret_1m": -17.8
+      "ret_1d": 2.8,
+      "ret_1m": -16.2
     },
     {
       "etf": "XLE",
-      "ret_1d": 0.7,
-      "ret_1m": -10.7
+      "ret_1d": 1.3,
+      "ret_1m": -9.9
     }
   ],
-  "vix": 26.8,
+  "vix": 23.81,
   "vix_label": "elevated",
-  "vix_sentiment": 33,
+  "vix_sentiment": 45,
   "vix_sentiment_label": "Fear",
   "vix_sentiment_inputs": "Derived from VIX only (inverted). Not CNN's Fear&Greed (which adds put/call, breadth, junk-bond demand).",
   "key_spy_level": {
-    "level": 689.81,
-    "kind": "support",
-    "spy_price": 716.7,
-    "distance_pct": -3.8
+    "level": 766.81,
+    "kind": "resistance",
+    "spy_price": 728.32,
+    "distance_pct": 5.3
   }
 }
